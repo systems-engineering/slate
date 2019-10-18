@@ -1,239 +1,124 @@
 ---
-title: API Reference
-
-language_tabs: # must be one of https://git.io/vQNgJ
-  - shell
-  - ruby
-  - python
-  - javascript
-
-toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
-  - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
-
-includes:
-  - errors
-
-search: true
+title: SEC Hub Consumer API
+language_tabs:
+  - json: JSON
+  - shell: cURL
 ---
 
-# Introduction
+This API exposes information that allowes an authenticated client to manipulate the CORE, SIMO, DOCU, DOMA, and STEM concepts.
+# Account
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+The Account is the first entrypoint into the API. This represents the company (the account) that ultimately owns all the data. There is only a single account object.
 
-We have language bindings in Shell, Ruby, Python, and JavaScript! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
+## Show account information
 
-This example API documentation page was created with [Slate](https://github.com/lord/slate). Feel free to edit it and use it as a base for your own API's documentation.
 
-# Authentication
+### Request
 
-> To authorize, use this code:
+#### Endpoint
 
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
+```plaintext
+GET /account
+Content-Type: application/vnd.api+json
 ```
 
-```python
-import kittn
+`GET /account`
 
-api = kittn.authorize('meowmeowmeow')
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: 45c0c072-9e61-4d95-ac7e-349d5661ebfa
+200 OK
 ```
 
-```shell
-# With shell, you can just pass the correct header with each request
-curl "api_endpoint_here"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-```
-
-> Make sure to replace `meowmeowmeow` with your API key.
-
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
-
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
-
-`Authorization: meowmeowmeow`
-
-<aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
-</aside>
-
-# Kittens
-
-## Get All Kittens
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get()
-```
-
-```shell
-curl "http://example.com/api/kittens"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-let kittens = api.kittens.get();
-```
-
-> The above command returns JSON structured like this:
 
 ```json
-[
-  {
-    "id": 1,
-    "name": "Fluffums",
-    "breed": "calico",
-    "fluffiness": 6,
-    "cuteness": 7
+{
+  "data": {
+    "id": "269e2268-892e-48a7-be67-af701352d59d",
+    "type": "account",
+    "attributes": {
+      "name": "Account 5ccd07b2a9b2"
+    },
+    "links": {
+      "self": "/account"
+    }
   },
-  {
-    "id": 2,
-    "name": "Max",
-    "breed": "unknown",
-    "fluffiness": 5,
-    "cuteness": 10
+  "jsonapi": {
+    "version": "1.0"
   }
-]
-```
-
-This endpoint retrieves all kittens.
-
-### HTTP Request
-
-`GET http://example.com/api/kittens`
-
-### Query Parameters
-
-Parameter | Default | Description
---------- | ------- | -----------
-include_cats | false | If set to true, the result will also include cats.
-available | true | If set to false, the result will include kittens that have already been adopted.
-
-<aside class="success">
-Remember — a happy kitten is an authenticated kitten!
-</aside>
-
-## Get a Specific Kitten
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get(2)
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get(2)
-```
-
-```shell
-curl "http://example.com/api/kittens/2"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-let max = api.kittens.get(2);
-```
-
-> The above command returns JSON structured like this:
-
-```json
-{
-  "id": 2,
-  "name": "Max",
-  "breed": "unknown",
-  "fluffiness": 5,
-  "cuteness": 10
 }
 ```
 
-This endpoint retrieves a specific kitten.
 
-<aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
 
-### HTTP Request
+## Update account information
 
-`GET http://example.com/kittens/<ID>`
 
-### URL Parameters
+### Request
 
-Parameter | Description
---------- | -----------
-ID | The ID of the kitten to retrieve
+#### Endpoint
 
-## Delete a Specific Kitten
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.delete(2)
+```plaintext
+PATCH /account
+Content-Type: application/vnd.api+json
 ```
 
-```python
-import kittn
+`PATCH /account`
 
-api = kittn.authorize('meowmeowmeow')
-api.kittens.delete(2)
-```
+#### Parameters
 
-```shell
-curl "http://example.com/api/kittens/2"
-  -X DELETE
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-let max = api.kittens.delete(2);
-```
-
-> The above command returns JSON structured like this:
 
 ```json
 {
-  "id": 2,
-  "deleted" : ":("
+  "data": {
+    "id": "80c51562-132b-4046-adf3-5525a9bb076b",
+    "type": "account",
+    "attributes": {
+      "name": "New Account Name"
+    }
+  }
 }
 ```
 
-This endpoint deletes a specific kitten.
 
-### HTTP Request
+| Name | Description |
+|:-----|:------------|
+| attributes[name] *required* | Account name |
 
-`DELETE http://example.com/kittens/<ID>`
 
-### URL Parameters
 
-Parameter | Description
---------- | -----------
-ID | The ID of the kitten to delete
+### Response
+
+```plaintext
+X-Request-Id: 71d0d6be-4bd6-49ec-9f4a-f09fbe960443
+200 OK
+```
+
+
+```json
+{
+  "data": {
+    "id": "80c51562-132b-4046-adf3-5525a9bb076b",
+    "type": "account",
+    "attributes": {
+      "name": "New Account Name"
+    },
+    "links": {
+      "self": "/account"
+    }
+  },
+  "jsonapi": {
+    "version": "1.0"
+  }
+}
+```
+
+
 
