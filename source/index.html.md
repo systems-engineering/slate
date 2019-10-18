@@ -33,7 +33,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 45c0c072-9e61-4d95-ac7e-349d5661ebfa
+X-Request-Id: 96f00d9a-520a-4707-bf5e-6cfe7693a954
 200 OK
 ```
 
@@ -41,10 +41,10 @@ X-Request-Id: 45c0c072-9e61-4d95-ac7e-349d5661ebfa
 ```json
 {
   "data": {
-    "id": "269e2268-892e-48a7-be67-af701352d59d",
+    "id": "80e3a6b3-bff9-4fac-9ccf-91a9abc450f0",
     "type": "account",
     "attributes": {
-      "name": "Account 5ccd07b2a9b2"
+      "name": "Account 8065002f29f8"
     },
     "links": {
       "self": "/account"
@@ -78,7 +78,7 @@ Content-Type: application/vnd.api+json
 ```json
 {
   "data": {
-    "id": "80c51562-132b-4046-adf3-5525a9bb076b",
+    "id": "3018a427-060d-449a-aca9-f5ab794c0cfc",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
@@ -87,17 +87,13 @@ Content-Type: application/vnd.api+json
 }
 ```
 
-
-| Name | Description |
-|:-----|:------------|
-| attributes[name] *required* | Account name |
-
+None known.
 
 
 ### Response
 
 ```plaintext
-X-Request-Id: 71d0d6be-4bd6-49ec-9f4a-f09fbe960443
+X-Request-Id: 92afc819-1a37-4e87-a5d3-9f01bee6adfa
 200 OK
 ```
 
@@ -105,7 +101,7 @@ X-Request-Id: 71d0d6be-4bd6-49ec-9f4a-f09fbe960443
 ```json
 {
   "data": {
-    "id": "80c51562-132b-4046-adf3-5525a9bb076b",
+    "id": "3018a427-060d-449a-aca9-f5ab794c0cfc",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
