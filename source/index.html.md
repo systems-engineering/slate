@@ -1,220 +1,53 @@
----
-title: SEC Hub Consumer API
-language_tabs:
-  - json: JSON
-  - shell: cURL
----
+# SEC Hub - Consumer API
 
-# SEC-Hub Consumer API
+This API is the main API for the consumer (primary user) facing applications.
 
-This API exposes information that allowes an authenticated client to manipulate the CORE, SIMO,
-DOCU, DOMA, and STEM concepts.
+[Documentation lives in Confluence](https://syseng.atlassian.net/wiki/spaces/VCA/overview), and a
+[Systems Engineering Concept (SEC) guide for developers](https://syseng.atlassian.net/wiki/spaces/SFD/overview) also exists.
 
-This documentation's permalink is: [https://sec-hub.com/docs/consumer/api](https://sec-hub.com/docs/consumer/api)
+## Development
 
-## Client authentication
+We use Docker to containerize the application. This means that starting the API locally is as easy
+as running `docker-compose up` and the API is available at http://localhost:3000.
 
-```ruby
-require "net/http"
-require "openssl"
-require "base64"
+You can [download docker here](https://www.docker.com/products/docker-desktop).
 
-uri = URI "https://subdomain.sec-hub.com"
-http = Net::HTTP.new uri.host, uri.port
-request = Net::HTTP::Get.new uri.request_uri
-hashed_client_id = Base64.encode64 "client-id"
-hashed_client_secret = Base64.encode64 "client-secret"
-proxy_header = "Basic #{hashed_client_id}:#{hashed_client_secret}"
-request["HTTP_PROXY_AUTHORIZATION"] = proxy_header
-response = http.request request
-```
+### Remote dev AWS environment
 
-The client application must authenticate it self in addition to the actual user access token.
-This is because accounts can determine the level of authentication needed, and this can preclude
-some clients.
+For some of the resources, such as the Neptune database, which are very specialized and doesn't run
+well on local machines, we offer a direct connection to the spawned development environment.
 
-A simple example of the client authenticating it self using the Proxy-Authorization header.
+When you push your changes to git, the system automatically run all the tests (including performance
+tests). In development CI/CD _will_ deploy your code to your remote dev environment regardless of
+the pass/fail of the tests. When your branch has been processed  by the CI/CD it will be available
+at: `<branchname>`.dev.sec-hub.com.
 
-<aside class="notice">
-  The client <strong>MUST</strong> replace <code>subdomain</code>, <code>client-id</code>, and
-  <code>client-secret</code> with the actual, preshared values.
-</aside>
+## Testing
 
-## User authentication
+Execute `bundle exec rspec` to run the test suite locally.
 
-```ruby
-require "net/http"
-require "openssl"
-require "base64"
+By default tests with the `performance` tag isn't run. To explicitly call these run
+`bundle exec rspec --tag performance`
 
-uri = URI "https://subdomain.sec-hub.com"
-http = Net::HTTP.new uri.host, uri.port
-request = Net::HTTP::Get.new uri.request_uri
-bearer_token = retrieve_bearer_token
-auth_header = "Bearer #{bearer_token}"
-request["HTTP_AUTHORIZATION"] = auth_header
-response = http.request request
-```
+## Documentation
 
-Based on the settings for the account, the client can either use username/password (with 2FA) or
-OAuth for authentication.
+Documentation is generated and deployed by the CI/CD pipeline, but to make sure that the
+documentation for your feature looks good, please run `bundle exec docs:generate`. This will
+generate `tmp/doc/index.html.md`, which is a Slate style document, which can then be viewed in the
+[Consumer API Documentation](https://github.com/systems-engineering/sec-hub-consumer-api-documentation) project.
 
-In either case, the Client will end up with an AccessToken, which it must send with each request
-using the `Authorization` header.
+## Good reads
 
-## RESTful and JSON formatting
+* [JSON API implementation guides](https://jsonapi-resources.com/v0.10/guide) (see also `config/initializers/jsonapi_resources.rb`)
 
-```ruby
-require "net/http"
-require "openssl"
-require "base64"
+## ENV variables
 
-uri = URI "https://subdomain.sec-hub.com"
-http = Net::HTTP.new uri.host, uri.port
-request = Net::HTTP::Get.new uri.request_uri
-request["HTTP_CONTENT_TYPE"] = "application/vnd.api+json"
-request["HTTP_ACCEPT"] = "application/vnd.api+json"
-response = http.request request
-```
-
-This API uses [JSON:API](https://jsonapi.org) to format the JSON.
-
-<aside class="notice">
-  The client <strong>MUST</strong> send "application/vnd.api+json" in the <code>Content-Type</code> and
-  <code>Accept</code> headers.
-</aside>
-
-# Account
-
-The Account is the first entrypoint into the API. This represents the company (the account)
-that ultimately owns all the data.
-
-There is only a single account resource per subdomain.
-
-
-## Show account information
-
-
-### Request
-
-#### Endpoint
-
-```plaintext
-GET /account
-Content-Type: application/vnd.api+json
-Accept: application/vnd.api+json
-Proxy-Authorization: Basic Y2xpZW50X2lk:Y2xpZW50X3NlY3JldA==
-Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
-```
-
-`GET /account`
-
-#### Parameters
-
-
-None known.
-
-
-### Response
-
-```plaintext
-X-Request-Id: f6ebb113-4bcb-4009-a439-8c50ba6de41d
-200 OK
-```
-
-
-```json
-{
-  "data": {
-    "id": "193cf1e3-095f-4587-84e8-14e1660bce65",
-    "type": "accounts",
-    "links": {
-      "self": "http://example.org/account"
-    },
-    "attributes": {
-      "name": "Account df0e31b1d67b"
-    }
-  }
-}
-```
-
-
-
-#### Fields
-
-| Name       | Description         |
-|:-----------|:--------------------|
-| data[attributes][name] | Account name |
-
-
-## Update account information
-
-
-### Request
-
-#### Endpoint
-
-```plaintext
-PATCH /account
-Content-Type: application/vnd.api+json
-Accept: application/vnd.api+json
-Proxy-Authorization: Basic Y2xpZW50X2lk:Y2xpZW50X3NlY3JldA==
-Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
-```
-
-`PATCH /account`
-
-#### Parameters
-
-
-```json
-{
-  "data": {
-    "id": "1c936a2e-014f-49f8-ba86-0df1c9be0a2c",
-    "type": "accounts",
-    "attributes": {
-      "name": "New Account Name"
-    }
-  }
-}
-```
-
+This table enumerates the environment variables available to the application.
 
 | Name | Description |
-|:-----|:------------|
-| data[attributes][name]  | New account name |
-
-
-
-### Response
-
-```plaintext
-X-Request-Id: 5a5e4591-ed15-4d5e-aa9d-e2d4e9e05b23
-200 OK
-```
-
-
-```json
-{
-  "data": {
-    "id": "1c936a2e-014f-49f8-ba86-0df1c9be0a2c",
-    "type": "accounts",
-    "links": {
-      "self": "http://example.org/account"
-    },
-    "attributes": {
-      "name": "New Account Name"
-    }
-  }
-}
-```
-
-
-
-#### Fields
-
-| Name       | Description         |
-|:-----------|:--------------------|
-| data[attributes][name] | Account name |
-
-
+| ---- | ----------- |
+| SENTRY_DSN | Sentry identifier for exception logging |
+| PRIVATE_REDIS_URL | Private Redis DB connection URL |
+| PUBLIC_REDIS_URL | Public Redis DB connection URL |
+| DATABASE_URL | Postgres connection URL |
+| NEPTUNE_URL | Neptune connection URL |
