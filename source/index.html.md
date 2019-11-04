@@ -2,7 +2,9 @@
 title: SEC Hub Consumer API
 language_tabs:
   - json: JSON
-  - shell: cURL
+includes:
+  - errors
+search: true
 ---
 
 # SEC-Hub Consumer API
@@ -177,7 +179,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 35814ada-1afd-4489-8560-c99182a92b4e
+X-Request-Id: f9242d46-b3f9-41c6-8b5d-f25f3d83c8e0
 200 OK
 ```
 
@@ -185,10 +187,10 @@ X-Request-Id: 35814ada-1afd-4489-8560-c99182a92b4e
 ```json
 {
   "data": {
-    "id": "64d1059a-39d2-4451-8861-d4e9a1c63295",
+    "id": "d2641cc5-7644-4641-a26c-c5f920f2cfbe",
     "type": "account",
     "attributes": {
-      "name": "Account 46343cab2c57"
+      "name": "Account a202656bd637"
     },
     "relationships": {
       "projects": {
@@ -233,7 +235,7 @@ Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ```json
 {
   "data": {
-    "id": "b8b2e7e1-1b99-4885-bd8e-a622b8469bf5",
+    "id": "6d3e5cfc-3e7a-47fb-b1cf-63483ae59c17",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
@@ -252,7 +254,7 @@ Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ### Response
 
 ```plaintext
-X-Request-Id: b610b1bc-b036-40c0-affa-73789d47792b
+X-Request-Id: 30f99279-f352-4c7d-8eb4-1eacff3cb49c
 200 OK
 ```
 
@@ -260,7 +262,7 @@ X-Request-Id: b610b1bc-b036-40c0-affa-73789d47792b
 ```json
 {
   "data": {
-    "id": "b8b2e7e1-1b99-4885-bd8e-a622b8469bf5",
+    "id": "6d3e5cfc-3e7a-47fb-b1cf-63483ae59c17",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
@@ -320,7 +322,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 9abedee3-2dda-4ba8-bd6a-6b167781592f
+X-Request-Id: 574b1756-720e-45c2-b7d4-60cef6618d15
 200 OK
 ```
 
@@ -329,7 +331,7 @@ X-Request-Id: 9abedee3-2dda-4ba8-bd6a-6b167781592f
 {
   "data": [
     {
-      "id": "7d29caad-f9d3-449c-9b4c-1d80f14cc7e4",
+      "id": "9f7df0a8-9631-4e6d-b2d2-581061dd7771",
       "type": "project",
       "attributes": {
         "archived_at": null,
@@ -344,13 +346,13 @@ X-Request-Id: 9abedee3-2dda-4ba8-bd6a-6b167781592f
         },
         "contexts": {
           "links": {
-            "self": "/contexts?filter[project_id_eq]=7d29caad-f9d3-449c-9b4c-1d80f14cc7e4"
+            "self": "/contexts?filter[project_id_eq]=9f7df0a8-9631-4e6d-b2d2-581061dd7771"
           }
         }
       }
     },
     {
-      "id": "d382b479-3483-474f-8741-e586daadec7d",
+      "id": "3664276c-3865-43ef-b7c0-5f7ef56a4e57",
       "type": "project",
       "attributes": {
         "archived_at": null,
@@ -365,13 +367,13 @@ X-Request-Id: 9abedee3-2dda-4ba8-bd6a-6b167781592f
         },
         "contexts": {
           "links": {
-            "self": "/contexts?filter[project_id_eq]=d382b479-3483-474f-8741-e586daadec7d"
+            "self": "/contexts?filter[project_id_eq]=3664276c-3865-43ef-b7c0-5f7ef56a4e57"
           }
         }
       }
     },
     {
-      "id": "f64ffd00-f872-4f4f-ad6b-fc84d97deaf2",
+      "id": "04b32f28-bbd7-4c23-8a78-3c652e58bc3e",
       "type": "project",
       "attributes": {
         "archived_at": null,
@@ -386,7 +388,7 @@ X-Request-Id: 9abedee3-2dda-4ba8-bd6a-6b167781592f
         },
         "contexts": {
           "links": {
-            "self": "/contexts?filter[project_id_eq]=f64ffd00-f872-4f4f-ad6b-fc84d97deaf2"
+            "self": "/contexts?filter[project_id_eq]=04b32f28-bbd7-4c23-8a78-3c652e58bc3e"
           }
         }
       }
@@ -416,7 +418,7 @@ X-Request-Id: 9abedee3-2dda-4ba8-bd6a-6b167781592f
 #### Endpoint
 
 ```plaintext
-GET /projects/3603836a-c24f-4315-94b2-ee2e6ee03c86
+GET /projects/ad74da37-d6ca-4c59-8a47-ba2693a21ce6
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Proxy-Authorization: Basic Y2xpZW50X2lk:Y2xpZW50X3NlY3JldA==
@@ -434,7 +436,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 4367eeea-4e31-483b-8f82-67de1a8a2c1f
+X-Request-Id: a5fc38de-d04e-4662-955d-7d792b2adb29
 200 OK
 ```
 
@@ -442,7 +444,7 @@ X-Request-Id: 4367eeea-4e31-483b-8f82-67de1a8a2c1f
 ```json
 {
   "data": {
-    "id": "3603836a-c24f-4315-94b2-ee2e6ee03c86",
+    "id": "ad74da37-d6ca-4c59-8a47-ba2693a21ce6",
     "type": "project",
     "attributes": {
       "archived_at": null,
@@ -457,13 +459,13 @@ X-Request-Id: 4367eeea-4e31-483b-8f82-67de1a8a2c1f
       },
       "contexts": {
         "links": {
-          "self": "/contexts?filter[project_id_eq]=3603836a-c24f-4315-94b2-ee2e6ee03c86"
+          "self": "/contexts?filter[project_id_eq]=ad74da37-d6ca-4c59-8a47-ba2693a21ce6"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/3603836a-c24f-4315-94b2-ee2e6ee03c86"
+    "self": "http://example.org/projects/ad74da37-d6ca-4c59-8a47-ba2693a21ce6"
   }
 }
 ```
@@ -485,7 +487,7 @@ X-Request-Id: 4367eeea-4e31-483b-8f82-67de1a8a2c1f
 #### Endpoint
 
 ```plaintext
-PATCH /projects/24e73663-c148-4627-b137-ca5eecb02199
+PATCH /projects/2d001be7-2200-4502-8ee3-02d55d903977
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Proxy-Authorization: Basic Y2xpZW50X2lk:Y2xpZW50X3NlY3JldA==
@@ -500,7 +502,7 @@ Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ```json
 {
   "data": {
-    "id": "24e73663-c148-4627-b137-ca5eecb02199",
+    "id": "2d001be7-2200-4502-8ee3-02d55d903977",
     "type": "projects",
     "attributes": {
       "name": "New project name"
@@ -519,7 +521,7 @@ Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ### Response
 
 ```plaintext
-X-Request-Id: 1842d532-d7cc-4219-b9d0-f7cf5b2bbf2b
+X-Request-Id: ec9ce66b-95e9-4bc2-8c1c-8cb849acda3c
 200 OK
 ```
 
@@ -527,7 +529,7 @@ X-Request-Id: 1842d532-d7cc-4219-b9d0-f7cf5b2bbf2b
 ```json
 {
   "data": {
-    "id": "24e73663-c148-4627-b137-ca5eecb02199",
+    "id": "2d001be7-2200-4502-8ee3-02d55d903977",
     "type": "project",
     "attributes": {
       "archived_at": null,
@@ -542,13 +544,13 @@ X-Request-Id: 1842d532-d7cc-4219-b9d0-f7cf5b2bbf2b
       },
       "contexts": {
         "links": {
-          "self": "/contexts?filter[project_id_eq]=24e73663-c148-4627-b137-ca5eecb02199"
+          "self": "/contexts?filter[project_id_eq]=2d001be7-2200-4502-8ee3-02d55d903977"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/24e73663-c148-4627-b137-ca5eecb02199"
+    "self": "http://example.org/projects/2d001be7-2200-4502-8ee3-02d55d903977"
   }
 }
 ```
@@ -596,7 +598,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 309a0f51-9812-4a41-9f24-a86423eb57bd
+X-Request-Id: 42a24348-25d6-46d9-8716-73b6f80ce58d
 200 OK
 ```
 
@@ -605,73 +607,73 @@ X-Request-Id: 309a0f51-9812-4a41-9f24-a86423eb57bd
 {
   "data": [
     {
-      "id": "07a2be90-c8a0-41f1-97a4-6af6255e1b89",
+      "id": "d6805fb6-b446-4c5f-b019-8a9a8f3a589b",
       "type": "context",
       "attributes": {
         "archived": false,
         "archived_at": null,
         "description": null,
         "name": "Context 1",
-        "project_id": "bc3d69aa-3982-43b7-b83d-ef939081bc5c",
+        "project_id": "b88eb357-5d58-405d-a8ad-4b9ac785a2f6",
         "published_at": null
       },
       "relationships": {
         "project": {
           "links": {
-            "self": "/projects/bc3d69aa-3982-43b7-b83d-ef939081bc5c"
+            "self": "/projects/b88eb357-5d58-405d-a8ad-4b9ac785a2f6"
           }
         },
         "object_occurrences": {
           "links": {
-            "self": "/object_occurrences?filter[context_id_eq]=07a2be90-c8a0-41f1-97a4-6af6255e1b89"
+            "self": "/object_occurrences?filter[context_id_eq]=d6805fb6-b446-4c5f-b019-8a9a8f3a589b"
           }
         }
       }
     },
     {
-      "id": "0a7dab1a-6b06-4476-8218-4688cd1a2041",
+      "id": "30b223a4-73b8-4e98-a2c9-72b0d1a46e9b",
       "type": "context",
       "attributes": {
         "archived": false,
         "archived_at": null,
         "description": null,
         "name": "Context 2",
-        "project_id": "bc3d69aa-3982-43b7-b83d-ef939081bc5c",
+        "project_id": "b88eb357-5d58-405d-a8ad-4b9ac785a2f6",
         "published_at": null
       },
       "relationships": {
         "project": {
           "links": {
-            "self": "/projects/bc3d69aa-3982-43b7-b83d-ef939081bc5c"
+            "self": "/projects/b88eb357-5d58-405d-a8ad-4b9ac785a2f6"
           }
         },
         "object_occurrences": {
           "links": {
-            "self": "/object_occurrences?filter[context_id_eq]=0a7dab1a-6b06-4476-8218-4688cd1a2041"
+            "self": "/object_occurrences?filter[context_id_eq]=30b223a4-73b8-4e98-a2c9-72b0d1a46e9b"
           }
         }
       }
     },
     {
-      "id": "540eb9c6-5ffd-46e0-b036-dd8784850168",
+      "id": "b094b8c5-8a68-402a-b691-3724bcacf38d",
       "type": "context",
       "attributes": {
         "archived": false,
         "archived_at": null,
         "description": null,
         "name": "Context 3",
-        "project_id": "c235a4f9-0fb3-4589-bcca-bb2e66e8fe8b",
+        "project_id": "98777675-6e96-4809-8be6-c36d1d8716e5",
         "published_at": null
       },
       "relationships": {
         "project": {
           "links": {
-            "self": "/projects/c235a4f9-0fb3-4589-bcca-bb2e66e8fe8b"
+            "self": "/projects/98777675-6e96-4809-8be6-c36d1d8716e5"
           }
         },
         "object_occurrences": {
           "links": {
-            "self": "/object_occurrences?filter[context_id_eq]=540eb9c6-5ffd-46e0-b036-dd8784850168"
+            "self": "/object_occurrences?filter[context_id_eq]=b094b8c5-8a68-402a-b691-3724bcacf38d"
           }
         }
       }
@@ -735,7 +737,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 55c5317f-b100-4196-a13b-2ce2b90e5c76
+X-Request-Id: e607d979-c0a8-4133-befc-748e0b752d10
 200 OK
 ```
 
@@ -744,11 +746,11 @@ X-Request-Id: 55c5317f-b100-4196-a13b-2ce2b90e5c76
 {
   "data": [
     {
-      "id": "26da8b59-bbc9-490b-bc6c-1eb947e6e831",
+      "id": "4f489dff-31d4-4d8f-a92d-b2fbc03ac371",
       "type": "object_occurrence",
       "attributes": {
         "classification_code": null,
-        "context_id": "5b413417-3c5b-45c6-90f4-b45cd40736bd",
+        "context_id": "de73f36a-c47b-4219-be09-acac17847351",
         "description": null,
         "hex_color": null,
         "name": "OOC 1",
@@ -760,17 +762,17 @@ X-Request-Id: 55c5317f-b100-4196-a13b-2ce2b90e5c76
       "relationships": {
         "context": {
           "links": {
-            "related": "/contexts/5b413417-3c5b-45c6-90f4-b45cd40736bd"
+            "related": "/contexts/de73f36a-c47b-4219-be09-acac17847351"
           }
         }
       }
     },
     {
-      "id": "9cd1413e-d404-46fe-96c5-714488f276c6",
+      "id": "2933466c-1afe-41ab-b1ab-5e38322868e6",
       "type": "object_occurrence",
       "attributes": {
         "classification_code": null,
-        "context_id": "5b413417-3c5b-45c6-90f4-b45cd40736bd",
+        "context_id": "de73f36a-c47b-4219-be09-acac17847351",
         "description": null,
         "hex_color": null,
         "name": "OOC 2",
@@ -782,17 +784,17 @@ X-Request-Id: 55c5317f-b100-4196-a13b-2ce2b90e5c76
       "relationships": {
         "context": {
           "links": {
-            "related": "/contexts/5b413417-3c5b-45c6-90f4-b45cd40736bd"
+            "related": "/contexts/de73f36a-c47b-4219-be09-acac17847351"
           }
         }
       }
     },
     {
-      "id": "fc3c9882-69b6-4b85-b730-42e157580485",
+      "id": "387ae8f5-10d7-4237-b7c5-4b14b44ee84c",
       "type": "object_occurrence",
       "attributes": {
         "classification_code": null,
-        "context_id": "5b413417-3c5b-45c6-90f4-b45cd40736bd",
+        "context_id": "de73f36a-c47b-4219-be09-acac17847351",
         "description": null,
         "hex_color": null,
         "name": "OOC 3",
@@ -804,7 +806,7 @@ X-Request-Id: 55c5317f-b100-4196-a13b-2ce2b90e5c76
       "relationships": {
         "context": {
           "links": {
-            "related": "/contexts/5b413417-3c5b-45c6-90f4-b45cd40736bd"
+            "related": "/contexts/de73f36a-c47b-4219-be09-acac17847351"
           }
         }
       }
