@@ -15,3 +15,11 @@ bundle exec middleman server
 
 Copy the Consumer API's `tmp/doc/index.html.rb` file into this projects `source/index.html.rb` file
 to update the documentation.
+
+## Generating static files
+
+To generate a set of static HTML, CSS, and JS files for production deployment:
+
+```bash
+bundle exec middleman build
+```

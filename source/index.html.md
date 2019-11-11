@@ -145,6 +145,38 @@ The `number` indicates the page number, and `size` indicates the number of items
   be indicated in the specific documentation.
 </aside>
 
+## Multi-language support
+
+```
+GET /resources
+Accept-Language: da-DK
+
+200 OK
+{
+  "data": {
+    "id": "12e17944-c3ac-4488-a930-8a00f237c759"
+  },
+
+  "meta": {
+    "locales": [
+      "en",
+      "da",
+      "fr",
+      "de"
+    ],
+    "current_locale": "da"
+  }
+}
+```
+
+Changing the `Accept-Language` header will prompt the API to attempt to serve or manipulate the
+resource in the specified language. If the API doesn't have the resource in a localized form it
+will be returned in English.
+
+Information about the current locale is present in the meta block for the resource. This will
+contain all the locales that the resource is available in, and the current locale that it's
+being served in.
+
 # Account
 
 The Account is the first entrypoint into the API. This represents the company (the account)
@@ -164,7 +196,8 @@ There is only a single account resource per subdomain.
 GET /
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Proxy-Authorization: Basic Y2xpZW50X2lk:Y2xpZW50X3NlY3JldA==
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi
+:Y2xpZW50X3NlY3JldA==
 Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ```
 
@@ -179,7 +212,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: f9242d46-b3f9-41c6-8b5d-f25f3d83c8e0
+X-Request-Id: 5b093f84-a7f8-4ce8-8786-16f3c63651a4
 200 OK
 ```
 
@@ -187,10 +220,10 @@ X-Request-Id: f9242d46-b3f9-41c6-8b5d-f25f3d83c8e0
 ```json
 {
   "data": {
-    "id": "d2641cc5-7644-4641-a26c-c5f920f2cfbe",
+    "id": "3a2358fa-57c5-413f-9489-36e75363f96f",
     "type": "account",
     "attributes": {
-      "name": "Account a202656bd637"
+      "name": "Account 4c811eacfe5a"
     },
     "relationships": {
       "projects": {
@@ -223,7 +256,8 @@ X-Request-Id: f9242d46-b3f9-41c6-8b5d-f25f3d83c8e0
 PATCH /
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Proxy-Authorization: Basic Y2xpZW50X2lk:Y2xpZW50X3NlY3JldA==
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi
+:Y2xpZW50X3NlY3JldA==
 Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ```
 
@@ -235,7 +269,7 @@ Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ```json
 {
   "data": {
-    "id": "6d3e5cfc-3e7a-47fb-b1cf-63483ae59c17",
+    "id": "3385b8d0-90d5-48a7-a88f-77ebf9992ef8",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
@@ -254,7 +288,7 @@ Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ### Response
 
 ```plaintext
-X-Request-Id: 30f99279-f352-4c7d-8eb4-1eacff3cb49c
+X-Request-Id: 55c815d3-c161-4415-8200-e1cc3ee15ad0
 200 OK
 ```
 
@@ -262,7 +296,7 @@ X-Request-Id: 30f99279-f352-4c7d-8eb4-1eacff3cb49c
 ```json
 {
   "data": {
-    "id": "6d3e5cfc-3e7a-47fb-b1cf-63483ae59c17",
+    "id": "3385b8d0-90d5-48a7-a88f-77ebf9992ef8",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
@@ -307,7 +341,7 @@ This allows the project's manager to indepedenly indicate the progress of the pr
 GET /projects
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Proxy-Authorization: Basic Y2xpZW50X2lk:Y2xpZW50X3NlY3JldA==
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi:Y2xpZW50X3NlY3JldA==
 Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ```
 
@@ -322,7 +356,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 574b1756-720e-45c2-b7d4-60cef6618d15
+X-Request-Id: 4e17cdd0-469a-45b3-b360-9a0bed1ca188
 200 OK
 ```
 
@@ -331,7 +365,7 @@ X-Request-Id: 574b1756-720e-45c2-b7d4-60cef6618d15
 {
   "data": [
     {
-      "id": "9f7df0a8-9631-4e6d-b2d2-581061dd7771",
+      "id": "4f3e4c52-1617-40f6-b36f-fd874cfdd548",
       "type": "project",
       "attributes": {
         "archived_at": null,
@@ -346,13 +380,13 @@ X-Request-Id: 574b1756-720e-45c2-b7d4-60cef6618d15
         },
         "contexts": {
           "links": {
-            "self": "/contexts?filter[project_id_eq]=9f7df0a8-9631-4e6d-b2d2-581061dd7771"
+            "self": "/contexts?filter[project_id_eq]=4f3e4c52-1617-40f6-b36f-fd874cfdd548"
           }
         }
       }
     },
     {
-      "id": "3664276c-3865-43ef-b7c0-5f7ef56a4e57",
+      "id": "96d309a9-e632-440c-8f55-5206367b8956",
       "type": "project",
       "attributes": {
         "archived_at": null,
@@ -367,13 +401,13 @@ X-Request-Id: 574b1756-720e-45c2-b7d4-60cef6618d15
         },
         "contexts": {
           "links": {
-            "self": "/contexts?filter[project_id_eq]=3664276c-3865-43ef-b7c0-5f7ef56a4e57"
+            "self": "/contexts?filter[project_id_eq]=96d309a9-e632-440c-8f55-5206367b8956"
           }
         }
       }
     },
     {
-      "id": "04b32f28-bbd7-4c23-8a78-3c652e58bc3e",
+      "id": "313f9ed8-63f6-4384-9d55-038f7381369f",
       "type": "project",
       "attributes": {
         "archived_at": null,
@@ -388,7 +422,7 @@ X-Request-Id: 574b1756-720e-45c2-b7d4-60cef6618d15
         },
         "contexts": {
           "links": {
-            "self": "/contexts?filter[project_id_eq]=04b32f28-bbd7-4c23-8a78-3c652e58bc3e"
+            "self": "/contexts?filter[project_id_eq]=313f9ed8-63f6-4384-9d55-038f7381369f"
           }
         }
       }
@@ -418,10 +452,10 @@ X-Request-Id: 574b1756-720e-45c2-b7d4-60cef6618d15
 #### Endpoint
 
 ```plaintext
-GET /projects/ad74da37-d6ca-4c59-8a47-ba2693a21ce6
+GET /projects/30d1cf08-9772-440e-a2aa-c02dd65368e1
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Proxy-Authorization: Basic Y2xpZW50X2lk:Y2xpZW50X3NlY3JldA==
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi:Y2xpZW50X3NlY3JldA==
 Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ```
 
@@ -436,7 +470,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: a5fc38de-d04e-4662-955d-7d792b2adb29
+X-Request-Id: 6da51597-95f7-4ec1-b08f-bfbb70d15d0c
 200 OK
 ```
 
@@ -444,7 +478,7 @@ X-Request-Id: a5fc38de-d04e-4662-955d-7d792b2adb29
 ```json
 {
   "data": {
-    "id": "ad74da37-d6ca-4c59-8a47-ba2693a21ce6",
+    "id": "30d1cf08-9772-440e-a2aa-c02dd65368e1",
     "type": "project",
     "attributes": {
       "archived_at": null,
@@ -459,13 +493,13 @@ X-Request-Id: a5fc38de-d04e-4662-955d-7d792b2adb29
       },
       "contexts": {
         "links": {
-          "self": "/contexts?filter[project_id_eq]=ad74da37-d6ca-4c59-8a47-ba2693a21ce6"
+          "self": "/contexts?filter[project_id_eq]=30d1cf08-9772-440e-a2aa-c02dd65368e1"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/ad74da37-d6ca-4c59-8a47-ba2693a21ce6"
+    "self": "http://example.org/projects/30d1cf08-9772-440e-a2aa-c02dd65368e1"
   }
 }
 ```
@@ -487,10 +521,10 @@ X-Request-Id: a5fc38de-d04e-4662-955d-7d792b2adb29
 #### Endpoint
 
 ```plaintext
-PATCH /projects/2d001be7-2200-4502-8ee3-02d55d903977
+PATCH /projects/c4d2924f-2769-48cc-9d55-ddeef3b58527
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Proxy-Authorization: Basic Y2xpZW50X2lk:Y2xpZW50X3NlY3JldA==
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi:Y2xpZW50X3NlY3JldA==
 Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ```
 
@@ -502,7 +536,7 @@ Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ```json
 {
   "data": {
-    "id": "2d001be7-2200-4502-8ee3-02d55d903977",
+    "id": "c4d2924f-2769-48cc-9d55-ddeef3b58527",
     "type": "projects",
     "attributes": {
       "name": "New project name"
@@ -521,7 +555,7 @@ Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ### Response
 
 ```plaintext
-X-Request-Id: ec9ce66b-95e9-4bc2-8c1c-8cb849acda3c
+X-Request-Id: ed825581-2771-4c74-9b5e-3802b0152f20
 200 OK
 ```
 
@@ -529,7 +563,7 @@ X-Request-Id: ec9ce66b-95e9-4bc2-8c1c-8cb849acda3c
 ```json
 {
   "data": {
-    "id": "2d001be7-2200-4502-8ee3-02d55d903977",
+    "id": "c4d2924f-2769-48cc-9d55-ddeef3b58527",
     "type": "project",
     "attributes": {
       "archived_at": null,
@@ -544,13 +578,13 @@ X-Request-Id: ec9ce66b-95e9-4bc2-8c1c-8cb849acda3c
       },
       "contexts": {
         "links": {
-          "self": "/contexts?filter[project_id_eq]=2d001be7-2200-4502-8ee3-02d55d903977"
+          "self": "/contexts?filter[project_id_eq]=c4d2924f-2769-48cc-9d55-ddeef3b58527"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/2d001be7-2200-4502-8ee3-02d55d903977"
+    "self": "http://example.org/projects/c4d2924f-2769-48cc-9d55-ddeef3b58527"
   }
 }
 ```
@@ -583,7 +617,7 @@ switches in a Context's Object Occurrences.
 GET /contexts
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Proxy-Authorization: Basic Y2xpZW50X2lk:Y2xpZW50X3NlY3JldA==
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi:Y2xpZW50X3NlY3JldA==
 Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ```
 
@@ -598,7 +632,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 42a24348-25d6-46d9-8716-73b6f80ce58d
+X-Request-Id: 98ce7e36-e85a-41e4-ad53-07e1b5c8f0b7
 200 OK
 ```
 
@@ -607,73 +641,73 @@ X-Request-Id: 42a24348-25d6-46d9-8716-73b6f80ce58d
 {
   "data": [
     {
-      "id": "d6805fb6-b446-4c5f-b019-8a9a8f3a589b",
+      "id": "773f73b3-0602-46b3-b628-388012d169d3",
       "type": "context",
       "attributes": {
         "archived": false,
         "archived_at": null,
         "description": null,
         "name": "Context 1",
-        "project_id": "b88eb357-5d58-405d-a8ad-4b9ac785a2f6",
+        "project_id": "45dfb9a4-9c35-4f3a-b79d-a556f7a2044d",
         "published_at": null
       },
       "relationships": {
         "project": {
           "links": {
-            "self": "/projects/b88eb357-5d58-405d-a8ad-4b9ac785a2f6"
+            "self": "/projects/45dfb9a4-9c35-4f3a-b79d-a556f7a2044d"
           }
         },
         "object_occurrences": {
           "links": {
-            "self": "/object_occurrences?filter[context_id_eq]=d6805fb6-b446-4c5f-b019-8a9a8f3a589b"
+            "self": "/object_occurrences?filter[context_id_eq]=773f73b3-0602-46b3-b628-388012d169d3"
           }
         }
       }
     },
     {
-      "id": "30b223a4-73b8-4e98-a2c9-72b0d1a46e9b",
+      "id": "a91fe996-8983-4b86-9ae0-b5b36939b032",
       "type": "context",
       "attributes": {
         "archived": false,
         "archived_at": null,
         "description": null,
         "name": "Context 2",
-        "project_id": "b88eb357-5d58-405d-a8ad-4b9ac785a2f6",
+        "project_id": "45dfb9a4-9c35-4f3a-b79d-a556f7a2044d",
         "published_at": null
       },
       "relationships": {
         "project": {
           "links": {
-            "self": "/projects/b88eb357-5d58-405d-a8ad-4b9ac785a2f6"
+            "self": "/projects/45dfb9a4-9c35-4f3a-b79d-a556f7a2044d"
           }
         },
         "object_occurrences": {
           "links": {
-            "self": "/object_occurrences?filter[context_id_eq]=30b223a4-73b8-4e98-a2c9-72b0d1a46e9b"
+            "self": "/object_occurrences?filter[context_id_eq]=a91fe996-8983-4b86-9ae0-b5b36939b032"
           }
         }
       }
     },
     {
-      "id": "b094b8c5-8a68-402a-b691-3724bcacf38d",
+      "id": "1d5f165e-f9eb-4ea6-b9c5-1535f122e414",
       "type": "context",
       "attributes": {
         "archived": false,
         "archived_at": null,
         "description": null,
         "name": "Context 3",
-        "project_id": "98777675-6e96-4809-8be6-c36d1d8716e5",
+        "project_id": "6dd02fd9-2e5f-4fcb-8065-154cde19f7c2",
         "published_at": null
       },
       "relationships": {
         "project": {
           "links": {
-            "self": "/projects/98777675-6e96-4809-8be6-c36d1d8716e5"
+            "self": "/projects/6dd02fd9-2e5f-4fcb-8065-154cde19f7c2"
           }
         },
         "object_occurrences": {
           "links": {
-            "self": "/object_occurrences?filter[context_id_eq]=b094b8c5-8a68-402a-b691-3724bcacf38d"
+            "self": "/object_occurrences?filter[context_id_eq]=1d5f165e-f9eb-4ea6-b9c5-1535f122e414"
           }
         }
       }
@@ -722,7 +756,7 @@ List all Object Occurrences. This list will quickly grow quite large, so it's ad
 GET /object_occurrences
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
-Proxy-Authorization: Basic Y2xpZW50X2lk:Y2xpZW50X3NlY3JldA==
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi:Y2xpZW50X3NlY3JldA==
 Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
 ```
 
@@ -737,7 +771,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: e607d979-c0a8-4133-befc-748e0b752d10
+X-Request-Id: e23a303e-9723-490e-b99f-23c5470d0b5b
 200 OK
 ```
 
@@ -746,11 +780,11 @@ X-Request-Id: e607d979-c0a8-4133-befc-748e0b752d10
 {
   "data": [
     {
-      "id": "4f489dff-31d4-4d8f-a92d-b2fbc03ac371",
+      "id": "d1c184af-d385-48b0-ad8e-64cca04d2794",
       "type": "object_occurrence",
       "attributes": {
         "classification_code": null,
-        "context_id": "de73f36a-c47b-4219-be09-acac17847351",
+        "context_id": "fa107aeb-e045-48ce-b681-d9452f58c9c4",
         "description": null,
         "hex_color": null,
         "name": "OOC 1",
@@ -762,17 +796,17 @@ X-Request-Id: e607d979-c0a8-4133-befc-748e0b752d10
       "relationships": {
         "context": {
           "links": {
-            "related": "/contexts/de73f36a-c47b-4219-be09-acac17847351"
+            "related": "/contexts/fa107aeb-e045-48ce-b681-d9452f58c9c4"
           }
         }
       }
     },
     {
-      "id": "2933466c-1afe-41ab-b1ab-5e38322868e6",
+      "id": "f70123bd-ecb2-44dd-a3c2-8c9d467d80de",
       "type": "object_occurrence",
       "attributes": {
         "classification_code": null,
-        "context_id": "de73f36a-c47b-4219-be09-acac17847351",
+        "context_id": "fa107aeb-e045-48ce-b681-d9452f58c9c4",
         "description": null,
         "hex_color": null,
         "name": "OOC 2",
@@ -784,17 +818,17 @@ X-Request-Id: e607d979-c0a8-4133-befc-748e0b752d10
       "relationships": {
         "context": {
           "links": {
-            "related": "/contexts/de73f36a-c47b-4219-be09-acac17847351"
+            "related": "/contexts/fa107aeb-e045-48ce-b681-d9452f58c9c4"
           }
         }
       }
     },
     {
-      "id": "387ae8f5-10d7-4237-b7c5-4b14b44ee84c",
+      "id": "f714dfee-8821-45db-85a9-6a113dc946b3",
       "type": "object_occurrence",
       "attributes": {
         "classification_code": null,
-        "context_id": "de73f36a-c47b-4219-be09-acac17847351",
+        "context_id": "fa107aeb-e045-48ce-b681-d9452f58c9c4",
         "description": null,
         "hex_color": null,
         "name": "OOC 3",
@@ -806,7 +840,7 @@ X-Request-Id: e607d979-c0a8-4133-befc-748e0b752d10
       "relationships": {
         "context": {
           "links": {
-            "related": "/contexts/de73f36a-c47b-4219-be09-acac17847351"
+            "related": "/contexts/fa107aeb-e045-48ce-b681-d9452f58c9c4"
           }
         }
       }
@@ -826,5 +860,474 @@ X-Request-Id: e607d979-c0a8-4133-befc-748e0b752d10
 | Name       | Description         |
 |:-----------|:--------------------|
 | data[attributes][name] | Object Occurrence name |
+
+
+# Classification Tables
+
+Classification tables represent a strategic breakdown of the company product(s) into a nuanced
+and logically separated classification table structure.
+
+Each classification table has multiple classification entries.
+
+
+## List
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+GET /classification_tables
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi:Y2xpZW50X3NlY3JldA==
+Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
+```
+
+`GET /classification_tables`
+
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: f895efdc-2399-4399-81f9-821392b20512
+200 OK
+```
+
+
+```json
+{
+  "data": [
+    {
+      "id": "7da3559b-2228-468f-b578-873f1c96a124",
+      "type": "classification_table",
+      "attributes": {
+        "archived": false,
+        "archived_at": null,
+        "description": null,
+        "name": "CT 1",
+        "published": false,
+        "published_at": null,
+        "type": "core"
+      },
+      "relationships": {
+        "account": {
+          "links": {
+            "self": "/"
+          }
+        }
+      }
+    },
+    {
+      "id": "a200fb93-ad3b-4a08-afa4-e3bcf7196b68",
+      "type": "classification_table",
+      "attributes": {
+        "archived": false,
+        "archived_at": null,
+        "description": null,
+        "name": "CT 2",
+        "published": false,
+        "published_at": null,
+        "type": "core"
+      },
+      "relationships": {
+        "account": {
+          "links": {
+            "self": "/"
+          }
+        }
+      }
+    }
+  ],
+  "links": {
+    "self": "http://example.org/classification_tables",
+    "current": "http://example.org/classification_tables?page[number]=1"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Common name |
+| data[attributes][archived_at] | Archived date |
+| data[attributes][archived] | Archived |
+| data[attributes][published_at] | Publication date |
+| data[attributes][published] | Published |
+| data[attributes][type] | Type |
+
+
+## Get details
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+GET /classification_tables/a58ca7f7-8e18-4d7d-ac94-28c1f765f552
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi:Y2xpZW50X3NlY3JldA==
+Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
+```
+
+`GET /classification_tables/:id`
+
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: fbeac84b-5905-4459-becc-3fa8d6e56063
+200 OK
+```
+
+
+```json
+{
+  "data": {
+    "id": "a58ca7f7-8e18-4d7d-ac94-28c1f765f552",
+    "type": "classification_table",
+    "attributes": {
+      "archived": false,
+      "archived_at": null,
+      "description": null,
+      "name": "CT 1",
+      "published": false,
+      "published_at": null,
+      "type": "core"
+    },
+    "relationships": {
+      "account": {
+        "links": {
+          "self": "/"
+        }
+      }
+    }
+  },
+  "links": {
+    "self": "http://example.org/classification_tables/a58ca7f7-8e18-4d7d-ac94-28c1f765f552"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Common name |
+| data[attributes][archived_at] | Archived date |
+| data[attributes][archived] | Archived |
+| data[attributes][published_at] | Publication date |
+| data[attributes][published] | Published |
+| data[attributes][type] | Type |
+
+
+## Update details
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+PATCH /classification_tables/2a517ba9-9d2c-4d54-ae9d-24cbc3e48b79
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi:Y2xpZW50X3NlY3JldA==
+Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
+```
+
+`PATCH /classification_tables/:id`
+
+#### Parameters
+
+
+```json
+{
+  "data": {
+    "id": "2a517ba9-9d2c-4d54-ae9d-24cbc3e48b79",
+    "type": "classification_table",
+    "attributes": {
+      "name": "New classification table name"
+    }
+  }
+}
+```
+
+
+| Name | Description |
+|:-----|:------------|
+| data[attributes][name]  | New Classification Table name |
+
+
+
+### Response
+
+```plaintext
+X-Request-Id: af8e4282-e64a-4894-bcb3-3f1fc395b23c
+200 OK
+```
+
+
+```json
+{
+  "data": {
+    "id": "2a517ba9-9d2c-4d54-ae9d-24cbc3e48b79",
+    "type": "classification_table",
+    "attributes": {
+      "archived": false,
+      "archived_at": null,
+      "description": null,
+      "name": "New classification table name",
+      "published": false,
+      "published_at": null,
+      "type": "core"
+    },
+    "relationships": {
+      "account": {
+        "links": {
+          "self": "/"
+        }
+      }
+    }
+  },
+  "links": {
+    "self": "http://example.org/classification_tables/2a517ba9-9d2c-4d54-ae9d-24cbc3e48b79"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Common name |
+| data[attributes][archived_at] | Archived date |
+| data[attributes][archived] | Archived |
+| data[attributes][published_at] | Publication date |
+| data[attributes][published] | Published |
+| data[attributes][type] | Type |
+
+
+## Delete
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+DELETE /classification_tables/a6970ced-0d9c-4574-9de8-0ba3b5a48ce2
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi:Y2xpZW50X3NlY3JldA==
+Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
+```
+
+`DELETE /classification_tables/:id`
+
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: 427829f6-b4e7-4265-9a3c-2b7f04e43f15
+204 No Content
+```
+
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Common name |
+| data[attributes][archived_at] | Archived date |
+| data[attributes][archived] | Archived |
+| data[attributes][published_at] | Publication date |
+| data[attributes][published] | Published |
+| data[attributes][type] | Type |
+
+
+## Publish
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+POST /classification_tables/60ba1feb-c893-4563-8e6f-c62a178093b2/publish
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi:Y2xpZW50X3NlY3JldA==
+Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
+```
+
+`POST /classification_tables/:id/publish`
+
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: 955d65b5-2a8b-4380-82a1-79b9a4c0fc45
+200 OK
+```
+
+
+```json
+{
+  "data": {
+    "id": "60ba1feb-c893-4563-8e6f-c62a178093b2",
+    "type": "classification_table",
+    "attributes": {
+      "archived": false,
+      "archived_at": null,
+      "description": null,
+      "name": "CT 1",
+      "published": true,
+      "published_at": "2019-11-07T18:25:44.785Z",
+      "type": "core"
+    },
+    "relationships": {
+      "account": {
+        "links": {
+          "self": "/"
+        }
+      }
+    }
+  },
+  "links": {
+    "self": "http://example.org/classification_tables/60ba1feb-c893-4563-8e6f-c62a178093b2/publish"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Common name |
+| data[attributes][archived_at] | Archived date |
+| data[attributes][archived] | Archived |
+| data[attributes][published_at] | Publication date |
+| data[attributes][published] | Published |
+| data[attributes][type] | Type |
+
+
+## Create
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+POST /classification_tables
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Proxy-Authorization: Basic YjI2ZTJhNWYtNTM0MC00ZTM1LWI4MGUtZWVmNzkxZmE4ZjZi:Y2xpZW50X3NlY3JldA==
+Authorization: Bearer 1/mZ1edKKACtPAb7zGlwSzvs72PvhAbGmB8K1ZrGxpcNM
+```
+
+`POST /classification_tables`
+
+#### Parameters
+
+
+```json
+{
+  "data": {
+    "type": "classification_table",
+    "attributes": {
+      "name": "New classification table name",
+      "description": "New description"
+    }
+  }
+}
+```
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: 47abc319-806e-4440-b96b-2f33f5f6255d
+201 Created
+```
+
+
+```json
+{
+  "data": {
+    "id": "04f76948-b1a1-4135-b2e6-5debbe951436",
+    "type": "classification_table",
+    "attributes": {
+      "archived": false,
+      "archived_at": null,
+      "description": "New description",
+      "name": "New classification table name",
+      "published": false,
+      "published_at": null,
+      "type": "core"
+    },
+    "relationships": {
+      "account": {
+        "links": {
+          "self": "/"
+        }
+      }
+    }
+  },
+  "links": {
+    "self": "http://example.org/classification_tables"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Common name |
+| data[attributes][archived_at] | Archived date |
+| data[attributes][archived] | Archived |
+| data[attributes][published_at] | Publication date |
+| data[attributes][published] | Published |
+| data[attributes][type] | Type |
 
 
