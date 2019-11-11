@@ -23,3 +23,5 @@ To generate a set of static HTML, CSS, and JS files for production deployment:
 ```bash
 bundle exec middleman build
 ```
+
+This will create a bunch of files in the `build` folder, which can then be deployed to a static file server.
