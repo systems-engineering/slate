@@ -13,8 +13,8 @@ bundle exec middleman server
 
 ## How to update the documentation
 
-Copy the Consumer API's `tmp/doc/index.html.rb` file into this projects `source/index.html.rb` file
-to update the documentation.
+Copy the contents (**_WITHOUT_** frontmatter) of the Consumer API's `tmp/doc/index.html.md` file
+into this projects `source/includes/_consumer_api.md` file to update the documentation.
 
 ## Generating static files
 
