@@ -1,10 +1,3 @@
----
-title: SEC Hub Consumer API
-language_tabs:
-  - json: JSON
-  - shell: cURL
----
-
 # SEC-Hub Consumer API
 
 This API exposes information that allowes an authenticated client to manipulate the CORE, SIMO,
@@ -231,7 +224,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 18db86af-c5d9-4d8e-bccd-17b601ac5967
+X-Request-Id: 71a3e78e-6306-4fb7-a430-826869178090
 200 OK
 ```
 
@@ -239,10 +232,10 @@ X-Request-Id: 18db86af-c5d9-4d8e-bccd-17b601ac5967
 ```json
 {
   "data": {
-    "id": "7674df0f-1e5d-419d-bdd6-385a5574d0fc",
+    "id": "58693ab2-6270-46c1-b800-ed08cea4d426",
     "type": "account",
     "attributes": {
-      "name": "Account 5b4941ead682"
+      "name": "Account 081d7d8ffad8"
     },
     "relationships": {
       "projects": {
@@ -286,7 +279,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "090e895f-2dc2-4168-848a-cf09f69f58cb",
+    "id": "1d901c3a-0261-4901-b645-7460a35c3f93",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
@@ -305,7 +298,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: e7eae04d-3eb2-4ba8-9866-f220bb1aad80
+X-Request-Id: eba50f09-80c6-46c5-b719-ac0d7e155ecb
 200 OK
 ```
 
@@ -313,7 +306,7 @@ X-Request-Id: e7eae04d-3eb2-4ba8-9866-f220bb1aad80
 ```json
 {
   "data": {
-    "id": "090e895f-2dc2-4168-848a-cf09f69f58cb",
+    "id": "1d901c3a-0261-4901-b645-7460a35c3f93",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
@@ -372,7 +365,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 92b27f4d-4ba5-435c-b327-bb66af9a126f
+X-Request-Id: 8b457a9f-0cb8-4c25-9137-9d3cbf14f951
 200 OK
 ```
 
@@ -381,7 +374,7 @@ X-Request-Id: 92b27f4d-4ba5-435c-b327-bb66af9a126f
 {
   "data": [
     {
-      "id": "98cf0890-c32b-4c68-82bf-7d716c124f0e",
+      "id": "e0e257db-16bb-4bbb-81b2-9907af3864a2",
       "type": "project",
       "attributes": {
         "archived": false,
@@ -397,51 +390,7 @@ X-Request-Id: 92b27f4d-4ba5-435c-b327-bb66af9a126f
         },
         "contexts": {
           "links": {
-            "related": "/contexts?filter[project_id_eq]=98cf0890-c32b-4c68-82bf-7d716c124f0e"
-          }
-        }
-      }
-    },
-    {
-      "id": "ccd312a4-dd94-44b4-b9da-ab6d4ecbc613",
-      "type": "project",
-      "attributes": {
-        "archived": false,
-        "archived_at": null,
-        "description": "Project description",
-        "name": "project 2"
-      },
-      "relationships": {
-        "account": {
-          "links": {
-            "related": "/"
-          }
-        },
-        "contexts": {
-          "links": {
-            "related": "/contexts?filter[project_id_eq]=ccd312a4-dd94-44b4-b9da-ab6d4ecbc613"
-          }
-        }
-      }
-    },
-    {
-      "id": "c4008e08-d32f-4c1b-9225-b3b984a21e2b",
-      "type": "project",
-      "attributes": {
-        "archived": false,
-        "archived_at": null,
-        "description": "Project description",
-        "name": "project 3"
-      },
-      "relationships": {
-        "account": {
-          "links": {
-            "related": "/"
-          }
-        },
-        "contexts": {
-          "links": {
-            "related": "/contexts?filter[project_id_eq]=c4008e08-d32f-4c1b-9225-b3b984a21e2b"
+            "related": "/contexts?filter[project_id_eq]=e0e257db-16bb-4bbb-81b2-9907af3864a2"
           }
         }
       }
@@ -471,7 +420,7 @@ X-Request-Id: 92b27f4d-4ba5-435c-b327-bb66af9a126f
 #### Endpoint
 
 ```plaintext
-GET /projects/98c26716-bab4-4064-953e-b6959c130387
+GET /projects/b68f263a-e6fd-49eb-bdf3-a6cea419d30a
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -488,7 +437,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: c36f90d2-e075-4072-b7b9-eadceef1be7d
+X-Request-Id: db351cd2-ef4c-4496-afa2-1f290bf159fa
 200 OK
 ```
 
@@ -496,7 +445,7 @@ X-Request-Id: c36f90d2-e075-4072-b7b9-eadceef1be7d
 ```json
 {
   "data": {
-    "id": "98c26716-bab4-4064-953e-b6959c130387",
+    "id": "b68f263a-e6fd-49eb-bdf3-a6cea419d30a",
     "type": "project",
     "attributes": {
       "archived": false,
@@ -512,13 +461,13 @@ X-Request-Id: c36f90d2-e075-4072-b7b9-eadceef1be7d
       },
       "contexts": {
         "links": {
-          "related": "/contexts?filter[project_id_eq]=98c26716-bab4-4064-953e-b6959c130387"
+          "related": "/contexts?filter[project_id_eq]=b68f263a-e6fd-49eb-bdf3-a6cea419d30a"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/98c26716-bab4-4064-953e-b6959c130387"
+    "self": "http://example.org/projects/b68f263a-e6fd-49eb-bdf3-a6cea419d30a"
   }
 }
 ```
@@ -540,7 +489,7 @@ X-Request-Id: c36f90d2-e075-4072-b7b9-eadceef1be7d
 #### Endpoint
 
 ```plaintext
-PATCH /projects/b2d545df-9bee-48a7-b67d-0b37ccac3346
+PATCH /projects/3ab18f36-f408-46ca-bdd8-4a0ccf05dd85
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -554,7 +503,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "b2d545df-9bee-48a7-b67d-0b37ccac3346",
+    "id": "3ab18f36-f408-46ca-bdd8-4a0ccf05dd85",
     "type": "projects",
     "attributes": {
       "name": "New project name"
@@ -573,7 +522,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 52c610a8-09cf-4309-a58e-680330e4fa91
+X-Request-Id: b1745a0a-50ef-4cfc-826b-b40a980e9010
 200 OK
 ```
 
@@ -581,7 +530,7 @@ X-Request-Id: 52c610a8-09cf-4309-a58e-680330e4fa91
 ```json
 {
   "data": {
-    "id": "b2d545df-9bee-48a7-b67d-0b37ccac3346",
+    "id": "3ab18f36-f408-46ca-bdd8-4a0ccf05dd85",
     "type": "project",
     "attributes": {
       "archived": false,
@@ -597,13 +546,13 @@ X-Request-Id: 52c610a8-09cf-4309-a58e-680330e4fa91
       },
       "contexts": {
         "links": {
-          "related": "/contexts?filter[project_id_eq]=b2d545df-9bee-48a7-b67d-0b37ccac3346"
+          "related": "/contexts?filter[project_id_eq]=3ab18f36-f408-46ca-bdd8-4a0ccf05dd85"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/b2d545df-9bee-48a7-b67d-0b37ccac3346"
+    "self": "http://example.org/projects/3ab18f36-f408-46ca-bdd8-4a0ccf05dd85"
   }
 }
 ```
@@ -625,7 +574,7 @@ X-Request-Id: 52c610a8-09cf-4309-a58e-680330e4fa91
 #### Endpoint
 
 ```plaintext
-POST /projects/80d0aed2-febc-4f03-a9a8-1f200c345616/archive
+POST /projects/746793d0-4358-4a2f-a76c-776f2c354e9a/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -642,7 +591,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 5ebec1cb-3fe2-47a1-adbd-fc9acb5a6e67
+X-Request-Id: 03bbd0c8-1501-4f91-95e5-fda423557e0e
 200 OK
 ```
 
@@ -650,11 +599,11 @@ X-Request-Id: 5ebec1cb-3fe2-47a1-adbd-fc9acb5a6e67
 ```json
 {
   "data": {
-    "id": "80d0aed2-febc-4f03-a9a8-1f200c345616",
+    "id": "746793d0-4358-4a2f-a76c-776f2c354e9a",
     "type": "project",
     "attributes": {
       "archived": true,
-      "archived_at": "2019-12-05T12:01:35.052Z",
+      "archived_at": "2019-12-11T06:32:17.354Z",
       "description": "Project description",
       "name": "project 1"
     },
@@ -666,13 +615,13 @@ X-Request-Id: 5ebec1cb-3fe2-47a1-adbd-fc9acb5a6e67
       },
       "contexts": {
         "links": {
-          "related": "/contexts?filter[project_id_eq]=80d0aed2-febc-4f03-a9a8-1f200c345616"
+          "related": "/contexts?filter[project_id_eq]=746793d0-4358-4a2f-a76c-776f2c354e9a"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/80d0aed2-febc-4f03-a9a8-1f200c345616/archive"
+    "self": "http://example.org/projects/746793d0-4358-4a2f-a76c-776f2c354e9a/archive"
   }
 }
 ```
@@ -694,7 +643,7 @@ X-Request-Id: 5ebec1cb-3fe2-47a1-adbd-fc9acb5a6e67
 #### Endpoint
 
 ```plaintext
-DELETE /projects/d1f78355-cec7-411e-8772-410200c25b7f
+DELETE /projects/128c3e47-f668-44de-8a1d-b09af05c1f80
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -711,7 +660,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 72cd62dd-ce00-4315-9bf4-af89afe15482
+X-Request-Id: 531790d5-5290-46fe-8511-f966d29147d1
 204 No Content
 ```
 
@@ -758,7 +707,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 26531a97-d8dc-46c9-bb0c-9d000d0f2aa5
+X-Request-Id: a30c7cb7-b291-4864-8d28-029c83085df9
 200 OK
 ```
 
@@ -767,58 +716,39 @@ X-Request-Id: 26531a97-d8dc-46c9-bb0c-9d000d0f2aa5
 {
   "data": [
     {
-      "id": "23ea7295-c6d0-4845-a29a-7bac53a1fd7c",
+      "id": "e857f22f-64b2-42ad-94a9-db9d6eb30cb7",
       "type": "context",
       "attributes": {
         "archived": false,
         "archived_at": null,
         "description": null,
         "name": "Context 1",
-        "project_id": "d577441e-3be8-4cb8-ab0e-a516eba47cb0",
+        "project_id": "5af746a9-e0a9-4eb4-b237-cf0131a554d9",
         "published_at": null
       },
       "relationships": {
         "project": {
           "links": {
-            "related": "/projects/d577441e-3be8-4cb8-ab0e-a516eba47cb0"
+            "related": "/projects/5af746a9-e0a9-4eb4-b237-cf0131a554d9"
           }
         }
       }
     },
     {
-      "id": "bfd2c0fa-ef23-47ab-8baf-c14fa07cbd48",
+      "id": "2166ade0-60f4-411b-a3c5-ca5174d795c4",
       "type": "context",
       "attributes": {
         "archived": false,
         "archived_at": null,
         "description": null,
         "name": "Context 2",
-        "project_id": "d577441e-3be8-4cb8-ab0e-a516eba47cb0",
+        "project_id": "5af746a9-e0a9-4eb4-b237-cf0131a554d9",
         "published_at": null
       },
       "relationships": {
         "project": {
           "links": {
-            "related": "/projects/d577441e-3be8-4cb8-ab0e-a516eba47cb0"
-          }
-        }
-      }
-    },
-    {
-      "id": "c8397ac4-bd0f-4317-9d78-17e2cf00ebfb",
-      "type": "context",
-      "attributes": {
-        "archived": false,
-        "archived_at": null,
-        "description": null,
-        "name": "Context 3",
-        "project_id": "febda159-f0e5-4894-9df7-c7069e8f88df",
-        "published_at": null
-      },
-      "relationships": {
-        "project": {
-          "links": {
-            "related": "/projects/febda159-f0e5-4894-9df7-c7069e8f88df"
+            "related": "/projects/5af746a9-e0a9-4eb4-b237-cf0131a554d9"
           }
         }
       }
@@ -830,6 +760,297 @@ X-Request-Id: 26531a97-d8dc-46c9-bb0c-9d000d0f2aa5
   }
 }
 ```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Context name |
+| data[attributes][description] | Context description |
+| data[attributes][project_id] | Project ID |
+| data[attributes][archived_at] | Archived date |
+| data[attributes][published_at] | Publishing date |
+
+
+## Show
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+GET /contexts/3d39a353-6f3f-4741-a991-e994eb4de6ca
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`GET /contexts/:id`
+
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: 5b9dd048-78ba-4485-8a77-09bd0bb98a70
+200 OK
+```
+
+
+```json
+{
+  "data": {
+    "id": "3d39a353-6f3f-4741-a991-e994eb4de6ca",
+    "type": "context",
+    "attributes": {
+      "archived": false,
+      "archived_at": null,
+      "description": null,
+      "name": "Context 1",
+      "project_id": "e9005b82-4c0e-4f09-832b-5ac8302a699c",
+      "published_at": null
+    },
+    "relationships": {
+      "project": {
+        "links": {
+          "related": "/projects/e9005b82-4c0e-4f09-832b-5ac8302a699c"
+        }
+      }
+    }
+  },
+  "links": {
+    "self": "http://example.org/contexts/3d39a353-6f3f-4741-a991-e994eb4de6ca"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Context name |
+| data[attributes][description] | Context description |
+| data[attributes][project_id] | Project ID |
+| data[attributes][archived_at] | Archived date |
+| data[attributes][published_at] | Publishing date |
+
+
+## Update
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+PATCH /contexts/627021fb-d0ec-439c-999b-b31dfba27da9
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`PATCH /contexts/:id`
+
+#### Parameters
+
+
+```json
+{
+  "data": {
+    "id": "627021fb-d0ec-439c-999b-b31dfba27da9",
+    "type": "contexts",
+    "attributes": {
+      "name": "New context name"
+    }
+  }
+}
+```
+
+
+| Name | Description |
+|:-----|:------------|
+| data[attributes][name]  | New context name |
+
+
+
+### Response
+
+```plaintext
+X-Request-Id: ed4bb41d-f1ca-4b74-b9cf-e54ef1183f47
+200 OK
+```
+
+
+```json
+{
+  "data": {
+    "id": "627021fb-d0ec-439c-999b-b31dfba27da9",
+    "type": "context",
+    "attributes": {
+      "archived": false,
+      "archived_at": null,
+      "description": null,
+      "name": "New context name",
+      "project_id": "8347d04e-38d4-4ca7-b45a-ceccbf83ad28",
+      "published_at": null
+    },
+    "relationships": {
+      "project": {
+        "links": {
+          "related": "/projects/8347d04e-38d4-4ca7-b45a-ceccbf83ad28"
+        }
+      },
+      "root_object_occurrence": {
+        "links": {
+          "related": "/object_occurrences/5be170cb-017f-46b4-aff5-96dc5f9e9ad8"
+        }
+      }
+    }
+  },
+  "links": {
+    "self": "http://example.org/contexts/627021fb-d0ec-439c-999b-b31dfba27da9"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Context name |
+| data[attributes][description] | Context description |
+| data[attributes][project_id] | Project ID |
+| data[attributes][archived_at] | Archived date |
+| data[attributes][published_at] | Publishing date |
+
+
+## Create
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+POST /contexts
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`POST /contexts`
+
+#### Parameters
+
+
+```json
+{
+  "data": {
+    "type": "context",
+    "attributes": {
+      "name": "Context",
+      "project_id": "f2486d14-8393-4233-a12e-2a8f676df8b3"
+    }
+  }
+}
+```
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: 225dc33d-be41-45ef-99a6-d7fe4165e718
+201 Created
+```
+
+
+```json
+{
+  "data": {
+    "id": "641e382b-1bd5-4a19-8fc2-6dfd6912e3ec",
+    "type": "context",
+    "attributes": {
+      "archived": false,
+      "archived_at": null,
+      "description": null,
+      "name": "Context",
+      "project_id": "f2486d14-8393-4233-a12e-2a8f676df8b3",
+      "published_at": null
+    },
+    "relationships": {
+      "project": {
+        "links": {
+          "related": "/projects/f2486d14-8393-4233-a12e-2a8f676df8b3"
+        }
+      },
+      "root_object_occurrence": {
+        "links": {
+          "related": "/object_occurrences/89f4a860-7ed8-44ec-9403-377e8ad16978"
+        }
+      }
+    }
+  },
+  "links": {
+    "self": "http://example.org/contexts"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Context name |
+| data[attributes][description] | Context description |
+| data[attributes][project_id] | Project ID |
+| data[attributes][archived_at] | Archived date |
+| data[attributes][published_at] | Publishing date |
+
+
+## Delete
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+DELETE /contexts/5638ec29-67b7-4b54-acd9-620c774eff5a
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`DELETE /contexts/:id`
+
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: ca03955c-1abb-452a-b905-9f9c1cdba160
+204 No Content
+```
+
 
 
 
@@ -861,7 +1082,7 @@ To include additional, nested object occurrences, supply the <code>depth</code> 
 #### Endpoint
 
 ```plaintext
-GET /object_occurrences/d741c7bc-3e93-491b-9909-715bc19c9844
+GET /object_occurrences/89d350df-1298-4105-90a5-a4f0421eff6c
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -882,7 +1103,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 52aaf00a-b0be-4b87-99ed-ee1bc251ee63
+X-Request-Id: 9a1003e9-dd08-42bb-9808-d2c929958161
 200 OK
 ```
 
@@ -890,11 +1111,11 @@ X-Request-Id: 52aaf00a-b0be-4b87-99ed-ee1bc251ee63
 ```json
 {
   "data": {
-    "id": "d741c7bc-3e93-491b-9909-715bc19c9844",
+    "id": "89d350df-1298-4105-90a5-a4f0421eff6c",
     "type": "object_occurrence",
     "attributes": {
       "classification_code": null,
-      "context_id": "6dc3114d-3458-4c26-aa01-1a3ea2da72fc",
+      "context_id": "cab9ba79-37ee-43ca-a6ca-4096a5c7da26",
       "description": null,
       "hex_color": null,
       "name": "OOC 1",
@@ -907,13 +1128,13 @@ X-Request-Id: 52aaf00a-b0be-4b87-99ed-ee1bc251ee63
     "relationships": {
       "context": {
         "links": {
-          "related": "/contexts/6dc3114d-3458-4c26-aa01-1a3ea2da72fc"
+          "related": "/contexts/cab9ba79-37ee-43ca-a6ca-4096a5c7da26"
         }
       },
       "components": {
         "data": [
           {
-            "id": "86fcf618-fc09-40e2-a83a-86a4a019c19d",
+            "id": "e5503123-ae98-4d65-8418-0b128969f97f",
             "type": "object_occurrence"
           }
         ]
@@ -921,10 +1142,232 @@ X-Request-Id: 52aaf00a-b0be-4b87-99ed-ee1bc251ee63
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/d741c7bc-3e93-491b-9909-715bc19c9844"
+    "self": "http://example.org/object_occurrences/89d350df-1298-4105-90a5-a4f0421eff6c"
   }
 }
 ```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Object Occurrence name |
+
+
+## Create
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+POST /object_occurrences
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`POST /object_occurrences`
+
+#### Parameters
+
+
+```json
+{
+  "data": {
+    "type": "object_occurrence",
+    "attributes": {
+      "name": "ooc",
+      "context_id": "e55b9e84-cd7e-45e9-859a-9ba37f1b76e8"
+    }
+  }
+}
+```
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: 41dc1a53-ed4c-4c1f-baaf-4b1df9c0015e
+201 Created
+```
+
+
+```json
+{
+  "data": {
+    "id": "23aec673-d6b5-437e-9e24-04d60f83133e",
+    "type": "object_occurrence",
+    "attributes": {
+      "classification_code": null,
+      "context_id": "e55b9e84-cd7e-45e9-859a-9ba37f1b76e8",
+      "description": null,
+      "hex_color": null,
+      "name": "ooc",
+      "position": null,
+      "prefix": null,
+      "system_element_relation_id": null,
+      "type": "regular",
+      "number": ""
+    },
+    "relationships": {
+      "context": {
+        "links": {
+          "related": "/contexts/e55b9e84-cd7e-45e9-859a-9ba37f1b76e8"
+        }
+      },
+      "components": {
+        "data": [
+
+        ]
+      }
+    }
+  },
+  "links": {
+    "self": "http://example.org/object_occurrences"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Object Occurrence name |
+
+
+## Update
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+PATCH /object_occurrences/dc377146-a763-48a3-9b07-413c8c3a82c5
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`PATCH /object_occurrences/:id`
+
+#### Parameters
+
+
+```json
+{
+  "data": {
+    "id": "dc377146-a763-48a3-9b07-413c8c3a82c5",
+    "type": "object_occurrence",
+    "attributes": {
+      "name": "New name"
+    }
+  }
+}
+```
+
+
+| Name | Description |
+|:-----|:------------|
+| data[attributes][name]  | New name |
+
+
+
+### Response
+
+```plaintext
+X-Request-Id: ddb567c8-fb25-4e26-8729-e4fb2e8fc0db
+200 OK
+```
+
+
+```json
+{
+  "data": {
+    "id": "dc377146-a763-48a3-9b07-413c8c3a82c5",
+    "type": "object_occurrence",
+    "attributes": {
+      "classification_code": null,
+      "context_id": "2261ea3b-1010-46e2-a6c1-db186b8e7819",
+      "description": null,
+      "hex_color": null,
+      "name": "New name",
+      "position": null,
+      "prefix": null,
+      "system_element_relation_id": null,
+      "type": "regular",
+      "number": "0"
+    },
+    "relationships": {
+      "context": {
+        "links": {
+          "related": "/contexts/2261ea3b-1010-46e2-a6c1-db186b8e7819"
+        }
+      },
+      "part_of": {
+        "links": {
+          "related": "/object_occurrences/a58907bf-e71c-4c9e-9ab4-12a0f958a57e"
+        }
+      },
+      "components": {
+        "data": [
+
+        ]
+      }
+    }
+  },
+  "links": {
+    "self": "http://example.org/object_occurrences/dc377146-a763-48a3-9b07-413c8c3a82c5"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Object Occurrence name |
+
+
+## Delete
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+DELETE /object_occurrences/055b03d2-4f18-4377-8a4e-49802b6deea5
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`DELETE /object_occurrences/:id`
+
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: 398c85bc-7cac-44dc-884d-47d1b71bca75
+204 No Content
+```
+
 
 
 
@@ -968,7 +1411,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 89595af0-4b4a-4bea-9322-70f3c21c74b5
+X-Request-Id: e1557079-bdc4-47e0-b26b-61bf67b34f46
 200 OK
 ```
 
@@ -977,7 +1420,7 @@ X-Request-Id: 89595af0-4b4a-4bea-9322-70f3c21c74b5
 {
   "data": [
     {
-      "id": "6f587ff0-39f2-4405-8050-b5b76d2b2b15",
+      "id": "a8cb3abb-9285-4954-b0a0-3edbc8dde767",
       "type": "classification_table",
       "attributes": {
         "archived": false,
@@ -997,13 +1440,13 @@ X-Request-Id: 89595af0-4b4a-4bea-9322-70f3c21c74b5
         },
         "classification_entries": {
           "links": {
-            "related": "/classification_entries?filter[classification_table_id_eq]=6f587ff0-39f2-4405-8050-b5b76d2b2b15"
+            "related": "/classification_entries?filter[classification_table_id_eq]=a8cb3abb-9285-4954-b0a0-3edbc8dde767"
           }
         }
       }
     },
     {
-      "id": "063456da-d14b-4e01-bf41-384ed8da7a75",
+      "id": "7744f2d8-3c25-4c4b-944a-aa3bd4fb292c",
       "type": "classification_table",
       "attributes": {
         "archived": false,
@@ -1023,7 +1466,7 @@ X-Request-Id: 89595af0-4b4a-4bea-9322-70f3c21c74b5
         },
         "classification_entries": {
           "links": {
-            "related": "/classification_entries?filter[classification_table_id_eq]=063456da-d14b-4e01-bf41-384ed8da7a75"
+            "related": "/classification_entries?filter[classification_table_id_eq]=7744f2d8-3c25-4c4b-944a-aa3bd4fb292c"
           }
         }
       }
@@ -1058,7 +1501,7 @@ X-Request-Id: 89595af0-4b4a-4bea-9322-70f3c21c74b5
 #### Endpoint
 
 ```plaintext
-GET /classification_tables/0cec2cdc-6e4e-4a26-9c0c-8f10a20f7396
+GET /classification_tables/64d23be0-9e5c-4d8e-9e5a-079e211a6d4e
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1075,7 +1518,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 008c1004-87fa-41af-b8e5-f80bf7da3706
+X-Request-Id: cc0a3263-78f2-48e6-9ff5-1b05cb748be4
 200 OK
 ```
 
@@ -1083,7 +1526,7 @@ X-Request-Id: 008c1004-87fa-41af-b8e5-f80bf7da3706
 ```json
 {
   "data": {
-    "id": "0cec2cdc-6e4e-4a26-9c0c-8f10a20f7396",
+    "id": "64d23be0-9e5c-4d8e-9e5a-079e211a6d4e",
     "type": "classification_table",
     "attributes": {
       "archived": false,
@@ -1103,13 +1546,13 @@ X-Request-Id: 008c1004-87fa-41af-b8e5-f80bf7da3706
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=0cec2cdc-6e4e-4a26-9c0c-8f10a20f7396"
+          "related": "/classification_entries?filter[classification_table_id_eq]=64d23be0-9e5c-4d8e-9e5a-079e211a6d4e"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/0cec2cdc-6e4e-4a26-9c0c-8f10a20f7396"
+    "self": "http://example.org/classification_tables/64d23be0-9e5c-4d8e-9e5a-079e211a6d4e"
   }
 }
 ```
@@ -1136,7 +1579,7 @@ X-Request-Id: 008c1004-87fa-41af-b8e5-f80bf7da3706
 #### Endpoint
 
 ```plaintext
-PATCH /classification_tables/8fb63739-b438-4e76-9d28-fa7e0326ac42
+PATCH /classification_tables/2a6822b1-bbec-4893-ad4e-d244910c4ce5
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1150,7 +1593,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "8fb63739-b438-4e76-9d28-fa7e0326ac42",
+    "id": "2a6822b1-bbec-4893-ad4e-d244910c4ce5",
     "type": "classification_table",
     "attributes": {
       "name": "New classification table name"
@@ -1169,7 +1612,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 0377a33e-2607-41d6-8c8b-b98c77f77fa0
+X-Request-Id: 42c19b0d-eac4-4cd1-afea-fa1bfb1bb498
 200 OK
 ```
 
@@ -1177,7 +1620,7 @@ X-Request-Id: 0377a33e-2607-41d6-8c8b-b98c77f77fa0
 ```json
 {
   "data": {
-    "id": "8fb63739-b438-4e76-9d28-fa7e0326ac42",
+    "id": "2a6822b1-bbec-4893-ad4e-d244910c4ce5",
     "type": "classification_table",
     "attributes": {
       "archived": false,
@@ -1197,13 +1640,13 @@ X-Request-Id: 0377a33e-2607-41d6-8c8b-b98c77f77fa0
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=8fb63739-b438-4e76-9d28-fa7e0326ac42"
+          "related": "/classification_entries?filter[classification_table_id_eq]=2a6822b1-bbec-4893-ad4e-d244910c4ce5"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/8fb63739-b438-4e76-9d28-fa7e0326ac42"
+    "self": "http://example.org/classification_tables/2a6822b1-bbec-4893-ad4e-d244910c4ce5"
   }
 }
 ```
@@ -1230,7 +1673,7 @@ X-Request-Id: 0377a33e-2607-41d6-8c8b-b98c77f77fa0
 #### Endpoint
 
 ```plaintext
-DELETE /classification_tables/feacdb89-fdb7-4b3b-a853-22e2f9dd890f
+DELETE /classification_tables/56c08d78-a218-46ab-ba7d-470c2da75ac1
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1247,7 +1690,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 3fb1b126-0444-475e-8edd-d9e7015d43ca
+X-Request-Id: e923cc1c-3650-4e36-80ef-ce4f576150ec
 204 No Content
 ```
 
@@ -1274,7 +1717,7 @@ X-Request-Id: 3fb1b126-0444-475e-8edd-d9e7015d43ca
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/afd3dbdd-b328-472b-adee-2b3627bd91b2/publish
+POST /classification_tables/0486bfff-539c-469f-8ac5-46a5a245ad21/publish
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1291,7 +1734,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 1856bfae-df0a-4d8d-8f2b-d35023923b11
+X-Request-Id: f55019a9-8811-4e9b-adef-715a1f5c281d
 200 OK
 ```
 
@@ -1299,7 +1742,7 @@ X-Request-Id: 1856bfae-df0a-4d8d-8f2b-d35023923b11
 ```json
 {
   "data": {
-    "id": "afd3dbdd-b328-472b-adee-2b3627bd91b2",
+    "id": "0486bfff-539c-469f-8ac5-46a5a245ad21",
     "type": "classification_table",
     "attributes": {
       "archived": false,
@@ -1307,7 +1750,7 @@ X-Request-Id: 1856bfae-df0a-4d8d-8f2b-d35023923b11
       "description": null,
       "name": "CT 1",
       "published": true,
-      "published_at": "2019-12-05T12:01:38.011Z",
+      "published_at": "2019-12-11T06:32:23.988Z",
       "type": "core",
       "max_classification_entries_depth": 3
     },
@@ -1319,13 +1762,13 @@ X-Request-Id: 1856bfae-df0a-4d8d-8f2b-d35023923b11
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=afd3dbdd-b328-472b-adee-2b3627bd91b2"
+          "related": "/classification_entries?filter[classification_table_id_eq]=0486bfff-539c-469f-8ac5-46a5a245ad21"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/afd3dbdd-b328-472b-adee-2b3627bd91b2/publish"
+    "self": "http://example.org/classification_tables/0486bfff-539c-469f-8ac5-46a5a245ad21/publish"
   }
 }
 ```
@@ -1352,7 +1795,7 @@ X-Request-Id: 1856bfae-df0a-4d8d-8f2b-d35023923b11
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/3dfdf1b8-8c64-40b2-9419-96a86d6da364/archive
+POST /classification_tables/874453a5-fdb2-4ebd-a897-55c5880b0d8b/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1369,7 +1812,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: f17108cd-712d-431b-a111-f00737ca658c
+X-Request-Id: bc54aa77-ccbb-4243-b4cf-7dc78a61b667
 200 OK
 ```
 
@@ -1377,11 +1820,11 @@ X-Request-Id: f17108cd-712d-431b-a111-f00737ca658c
 ```json
 {
   "data": {
-    "id": "3dfdf1b8-8c64-40b2-9419-96a86d6da364",
+    "id": "874453a5-fdb2-4ebd-a897-55c5880b0d8b",
     "type": "classification_table",
     "attributes": {
       "archived": true,
-      "archived_at": "2019-12-05T12:01:38.279Z",
+      "archived_at": "2019-12-11T06:32:24.246Z",
       "description": null,
       "name": "CT 1",
       "published": false,
@@ -1397,13 +1840,13 @@ X-Request-Id: f17108cd-712d-431b-a111-f00737ca658c
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=3dfdf1b8-8c64-40b2-9419-96a86d6da364"
+          "related": "/classification_entries?filter[classification_table_id_eq]=874453a5-fdb2-4ebd-a897-55c5880b0d8b"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/3dfdf1b8-8c64-40b2-9419-96a86d6da364/archive"
+    "self": "http://example.org/classification_tables/874453a5-fdb2-4ebd-a897-55c5880b0d8b/archive"
   }
 }
 ```
@@ -1459,7 +1902,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: e5b2aa75-cd17-4f6c-9361-c728ee1db315
+X-Request-Id: 49f70859-84de-44e5-aa2b-bc89ea7e419b
 201 Created
 ```
 
@@ -1467,7 +1910,7 @@ X-Request-Id: e5b2aa75-cd17-4f6c-9361-c728ee1db315
 ```json
 {
   "data": {
-    "id": "f2f00510-d7e7-4fed-8a93-ac603975e1f1",
+    "id": "e41012f3-d1ad-47ab-a88d-43e6aa731f15",
     "type": "classification_table",
     "attributes": {
       "archived": false,
@@ -1487,7 +1930,7 @@ X-Request-Id: e5b2aa75-cd17-4f6c-9361-c728ee1db315
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=f2f00510-d7e7-4fed-8a93-ac603975e1f1"
+          "related": "/classification_entries?filter[classification_table_id_eq]=e41012f3-d1ad-47ab-a88d-43e6aa731f15"
         }
       }
     }
@@ -1547,7 +1990,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 86661dbd-1e34-4b0a-b118-b168fbb463ad
+X-Request-Id: 4a68b4ce-92a0-42da-b966-6edb2f741728
 200 OK
 ```
 
@@ -1556,14 +1999,14 @@ X-Request-Id: 86661dbd-1e34-4b0a-b118-b168fbb463ad
 {
   "data": [
     {
-      "id": "e03fc852-2d6c-4a58-aff8-aa857944a305",
+      "id": "2ec810c0-c3cf-4310-8ceb-c3b32b2be328",
       "type": "syntax",
       "attributes": {
-        "account_id": "bb270e9c-038b-4d1c-ac8b-f22487cc4c76",
+        "account_id": "7d251bdc-5e8b-4977-a2b1-ba116c700731",
         "archived": false,
         "archived_at": null,
         "description": "Description",
-        "name": "Syntax 40c1b45a0e43",
+        "name": "Syntax 66f531b76cbc",
         "published": false,
         "published_at": null
       },
@@ -1604,7 +2047,7 @@ X-Request-Id: 86661dbd-1e34-4b0a-b118-b168fbb463ad
 #### Endpoint
 
 ```plaintext
-GET /syntaxes/7392a1c6-58e4-429b-ade5-058e158c237f
+GET /syntaxes/1639fd05-8033-42e4-a462-e6623bb6da45
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1621,7 +2064,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 7948cd09-2cfa-4928-80dd-7f8951734649
+X-Request-Id: 84862ae5-88d5-472e-9782-868f597be805
 200 OK
 ```
 
@@ -1629,14 +2072,14 @@ X-Request-Id: 7948cd09-2cfa-4928-80dd-7f8951734649
 ```json
 {
   "data": {
-    "id": "7392a1c6-58e4-429b-ade5-058e158c237f",
+    "id": "1639fd05-8033-42e4-a462-e6623bb6da45",
     "type": "syntax",
     "attributes": {
-      "account_id": "1ee7fcbe-ec3c-4783-8d75-bffb5d2687f6",
+      "account_id": "43efe517-c4be-4af0-b172-c8c141549a67",
       "archived": false,
       "archived_at": null,
       "description": "Description",
-      "name": "Syntax b7b6633b3214",
+      "name": "Syntax 48ef53df78d9",
       "published": false,
       "published_at": null
     },
@@ -1649,7 +2092,7 @@ X-Request-Id: 7948cd09-2cfa-4928-80dd-7f8951734649
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/7392a1c6-58e4-429b-ade5-058e158c237f"
+    "self": "http://example.org/syntaxes/1639fd05-8033-42e4-a462-e6623bb6da45"
   }
 }
 ```
@@ -1704,7 +2147,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 8a7596b2-b3a7-4c10-9a29-8f9b39fc66ee
+X-Request-Id: 2b44ae9e-d94f-4694-ae81-db1933c7cf9f
 201 Created
 ```
 
@@ -1712,10 +2155,10 @@ X-Request-Id: 8a7596b2-b3a7-4c10-9a29-8f9b39fc66ee
 ```json
 {
   "data": {
-    "id": "d001528e-a439-406c-8f1f-6598b9ea2506",
+    "id": "4446f913-244b-4df8-b908-d5a71b98eddf",
     "type": "syntax",
     "attributes": {
-      "account_id": "22d42434-4f55-4d9c-ac0c-c54d867c4861",
+      "account_id": "ee5e799e-f0ca-41ce-af41-191c21822940",
       "archived": false,
       "archived_at": null,
       "description": "Description",
@@ -1758,7 +2201,7 @@ X-Request-Id: 8a7596b2-b3a7-4c10-9a29-8f9b39fc66ee
 #### Endpoint
 
 ```plaintext
-PATCH /syntaxes/c85f08c3-54a2-45f7-929a-33cf080dfffd
+PATCH /syntaxes/f839e2ea-b52b-40c6-984a-eedf723967f5
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1772,7 +2215,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "c85f08c3-54a2-45f7-929a-33cf080dfffd",
+    "id": "f839e2ea-b52b-40c6-984a-eedf723967f5",
     "type": "syntaxes",
     "attributes": {
       "name": "New name"
@@ -1791,7 +2234,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: b5762555-ad65-413c-bbaf-013b45772194
+X-Request-Id: 59f88230-d715-4fdf-9151-39d4c1fd9d39
 200 OK
 ```
 
@@ -1799,10 +2242,10 @@ X-Request-Id: b5762555-ad65-413c-bbaf-013b45772194
 ```json
 {
   "data": {
-    "id": "c85f08c3-54a2-45f7-929a-33cf080dfffd",
+    "id": "f839e2ea-b52b-40c6-984a-eedf723967f5",
     "type": "syntax",
     "attributes": {
-      "account_id": "2745c5e5-1020-4dc3-b033-2de1cb470663",
+      "account_id": "7279912b-3cbd-45ef-9b0e-b7e57d4b4ccb",
       "archived": false,
       "archived_at": null,
       "description": "Description",
@@ -1819,7 +2262,7 @@ X-Request-Id: b5762555-ad65-413c-bbaf-013b45772194
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/c85f08c3-54a2-45f7-929a-33cf080dfffd"
+    "self": "http://example.org/syntaxes/f839e2ea-b52b-40c6-984a-eedf723967f5"
   }
 }
 ```
@@ -1845,7 +2288,7 @@ X-Request-Id: b5762555-ad65-413c-bbaf-013b45772194
 #### Endpoint
 
 ```plaintext
-DELETE /syntaxes/585e501a-e970-42d1-81bc-13bb9ecc199d
+DELETE /syntaxes/814a8b46-7ddf-49a4-94be-1632ff8207c8
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1862,7 +2305,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 4adb7985-43bc-4c9b-aad0-d9c55ac63e01
+X-Request-Id: d50df98a-5408-47d0-a609-ccd39cfabc47
 204 No Content
 ```
 
@@ -1888,7 +2331,7 @@ X-Request-Id: 4adb7985-43bc-4c9b-aad0-d9c55ac63e01
 #### Endpoint
 
 ```plaintext
-POST /syntaxes/4f81bbd0-a5f1-460d-be12-0f675412e3d9/publish
+POST /syntaxes/34e728eb-e778-4f27-9716-b8844d00e854/publish
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1905,7 +2348,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 186b2ba4-e6fe-4c0d-9264-0bfa31f2ea99
+X-Request-Id: 3e4beb17-f41b-4dd2-832d-ac3906ecc63b
 200 OK
 ```
 
@@ -1913,16 +2356,16 @@ X-Request-Id: 186b2ba4-e6fe-4c0d-9264-0bfa31f2ea99
 ```json
 {
   "data": {
-    "id": "4f81bbd0-a5f1-460d-be12-0f675412e3d9",
+    "id": "34e728eb-e778-4f27-9716-b8844d00e854",
     "type": "syntax",
     "attributes": {
-      "account_id": "45472451-41ae-478c-9791-0b855b1c63cf",
+      "account_id": "a1f2d2a7-6d02-4830-9c51-44bbb05577b9",
       "archived": false,
       "archived_at": null,
       "description": "Description",
-      "name": "Syntax 652b738282ae",
+      "name": "Syntax debbeba8bbd6",
       "published": true,
-      "published_at": "2019-12-05T12:01:40.086Z"
+      "published_at": "2019-12-11T06:32:26.247Z"
     },
     "relationships": {
       "account": {
@@ -1933,7 +2376,7 @@ X-Request-Id: 186b2ba4-e6fe-4c0d-9264-0bfa31f2ea99
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/4f81bbd0-a5f1-460d-be12-0f675412e3d9/publish"
+    "self": "http://example.org/syntaxes/34e728eb-e778-4f27-9716-b8844d00e854/publish"
   }
 }
 ```
@@ -1959,7 +2402,7 @@ X-Request-Id: 186b2ba4-e6fe-4c0d-9264-0bfa31f2ea99
 #### Endpoint
 
 ```plaintext
-POST /syntaxes/255c7065-5958-492a-9ecb-c05a210ba49f/archive
+POST /syntaxes/305e4f46-d763-43a5-b01f-5399e056078b/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1976,7 +2419,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: e5e034ca-6cc5-4e7f-bd7f-de86f065c44e
+X-Request-Id: fb208144-0407-457b-bdbe-77550290997a
 200 OK
 ```
 
@@ -1984,14 +2427,14 @@ X-Request-Id: e5e034ca-6cc5-4e7f-bd7f-de86f065c44e
 ```json
 {
   "data": {
-    "id": "255c7065-5958-492a-9ecb-c05a210ba49f",
+    "id": "305e4f46-d763-43a5-b01f-5399e056078b",
     "type": "syntax",
     "attributes": {
-      "account_id": "5d1d9565-5fbc-4fae-95e7-af6475632072",
+      "account_id": "bfd7c3d0-548e-440f-b76c-f9d2c755d784",
       "archived": true,
-      "archived_at": "2019-12-05T12:01:40.351Z",
+      "archived_at": "2019-12-11T06:32:26.558Z",
       "description": "Description",
-      "name": "Syntax 623139fbeeb2",
+      "name": "Syntax 88b2aac48813",
       "published": false,
       "published_at": null
     },
@@ -2004,7 +2447,7 @@ X-Request-Id: e5e034ca-6cc5-4e7f-bd7f-de86f065c44e
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/255c7065-5958-492a-9ecb-c05a210ba49f/archive"
+    "self": "http://example.org/syntaxes/305e4f46-d763-43a5-b01f-5399e056078b/archive"
   }
 }
 ```
@@ -2052,7 +2495,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 3adc17de-9a5d-470d-967a-4f26d20012d7
+X-Request-Id: a4e569d7-d0ce-45ef-8dbf-83e7afb528f0
 200 OK
 ```
 
@@ -2061,26 +2504,26 @@ X-Request-Id: 3adc17de-9a5d-470d-967a-4f26d20012d7
 {
   "data": [
     {
-      "id": "8eab66eb-919a-425d-96fc-5c0592227228",
+      "id": "8a4950dc-57d7-4f99-95c5-44804189606e",
       "type": "syntax_element",
       "attributes": {
         "aspect": "=",
-        "classification_table_id": "811b6683-9810-43cf-b1a2-29cd6f17bb1c",
-        "hex_color": "7ea449",
+        "classification_table_id": "e72cd02b-1c55-4944-af6e-cb22d0f34d01",
+        "hex_color": "27622c",
         "max_number": 9,
         "min_number": 1,
-        "name": "Syntax element 8324f2112347",
-        "syntax_id": "0d76649a-c6d2-491d-932e-38a2fc1dd361"
+        "name": "Syntax element 43b49e046d34",
+        "syntax_id": "02dbed68-f1b2-459e-864e-00c73a89bbe5"
       },
       "relationships": {
         "syntax": {
           "links": {
-            "related": "/syntaxes/0d76649a-c6d2-491d-932e-38a2fc1dd361"
+            "related": "/syntaxes/02dbed68-f1b2-459e-864e-00c73a89bbe5"
           }
         },
         "classification_table": {
           "links": {
-            "related": "/classification_tables/811b6683-9810-43cf-b1a2-29cd6f17bb1c"
+            "related": "/classification_tables/e72cd02b-1c55-4944-af6e-cb22d0f34d01"
           }
         }
       }
@@ -2116,7 +2559,7 @@ X-Request-Id: 3adc17de-9a5d-470d-967a-4f26d20012d7
 #### Endpoint
 
 ```plaintext
-GET /syntax_elements/edb9d9d6-1e6c-47a9-8dbd-66d7f4411c39
+GET /syntax_elements/2ee8a213-2c65-4c3b-87ab-71b9cc5ad5cf
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2133,7 +2576,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: a1f89d6a-892b-4b78-bc7d-baa40db9b6cc
+X-Request-Id: 47c61583-e987-48d9-ab45-c5bca3510c70
 200 OK
 ```
 
@@ -2141,32 +2584,32 @@ X-Request-Id: a1f89d6a-892b-4b78-bc7d-baa40db9b6cc
 ```json
 {
   "data": {
-    "id": "edb9d9d6-1e6c-47a9-8dbd-66d7f4411c39",
+    "id": "2ee8a213-2c65-4c3b-87ab-71b9cc5ad5cf",
     "type": "syntax_element",
     "attributes": {
       "aspect": "=",
-      "classification_table_id": "33daeb35-fd62-4793-ad72-e9a99f4fce29",
-      "hex_color": "87538f",
+      "classification_table_id": "97a2b116-eac3-40cb-8d0d-a849086d4bbc",
+      "hex_color": "4a5eac",
       "max_number": 9,
       "min_number": 1,
-      "name": "Syntax element d3a994346307",
-      "syntax_id": "acc0bfea-328d-4668-b9d9-c43dceba0dc0"
+      "name": "Syntax element 5a1f8439d90f",
+      "syntax_id": "cf0ab9ef-8c72-4350-9486-b028679863d9"
     },
     "relationships": {
       "syntax": {
         "links": {
-          "related": "/syntaxes/acc0bfea-328d-4668-b9d9-c43dceba0dc0"
+          "related": "/syntaxes/cf0ab9ef-8c72-4350-9486-b028679863d9"
         }
       },
       "classification_table": {
         "links": {
-          "related": "/classification_tables/33daeb35-fd62-4793-ad72-e9a99f4fce29"
+          "related": "/classification_tables/97a2b116-eac3-40cb-8d0d-a849086d4bbc"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntax_elements/edb9d9d6-1e6c-47a9-8dbd-66d7f4411c39"
+    "self": "http://example.org/syntax_elements/2ee8a213-2c65-4c3b-87ab-71b9cc5ad5cf"
   }
 }
 ```
@@ -2215,8 +2658,8 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "max_number": 5,
       "hex_color": "001122",
       "aspect": "#",
-      "syntax_id": "7925b605-22e1-4663-8f8d-74cbdbd88e2d",
-      "classification_table_id": "669fb6c5-3b0d-442b-bb2c-358e25fb2240"
+      "syntax_id": "255aa72e-97b1-4b85-a646-bd139f1e750e",
+      "classification_table_id": "3048d17d-627a-461c-8d10-d9c5c9df253c"
     }
   }
 }
@@ -2228,7 +2671,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 609efce4-3a4b-4e4f-83bd-e167cfe63cea
+X-Request-Id: 32333ead-8aa5-4837-a9ff-87293c09cc19
 201 Created
 ```
 
@@ -2236,26 +2679,26 @@ X-Request-Id: 609efce4-3a4b-4e4f-83bd-e167cfe63cea
 ```json
 {
   "data": {
-    "id": "a4dfd498-f3d1-4e97-a292-05ddcfd8c398",
+    "id": "5ddd1921-b6b0-47c9-969d-8ead575e7270",
     "type": "syntax_element",
     "attributes": {
       "aspect": "#",
-      "classification_table_id": "669fb6c5-3b0d-442b-bb2c-358e25fb2240",
+      "classification_table_id": "3048d17d-627a-461c-8d10-d9c5c9df253c",
       "hex_color": "001122",
       "max_number": 5,
       "min_number": 1,
       "name": "Element",
-      "syntax_id": "7925b605-22e1-4663-8f8d-74cbdbd88e2d"
+      "syntax_id": "255aa72e-97b1-4b85-a646-bd139f1e750e"
     },
     "relationships": {
       "syntax": {
         "links": {
-          "related": "/syntaxes/7925b605-22e1-4663-8f8d-74cbdbd88e2d"
+          "related": "/syntaxes/255aa72e-97b1-4b85-a646-bd139f1e750e"
         }
       },
       "classification_table": {
         "links": {
-          "related": "/classification_tables/669fb6c5-3b0d-442b-bb2c-358e25fb2240"
+          "related": "/classification_tables/3048d17d-627a-461c-8d10-d9c5c9df253c"
         }
       }
     }
@@ -2289,7 +2732,7 @@ X-Request-Id: 609efce4-3a4b-4e4f-83bd-e167cfe63cea
 #### Endpoint
 
 ```plaintext
-PATCH /syntax_elements/28714239-6316-4f45-8fae-751948cbc351
+PATCH /syntax_elements/cee0222a-8439-4a13-830b-7eb2e9b6f2c6
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2303,7 +2746,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "28714239-6316-4f45-8fae-751948cbc351",
+    "id": "cee0222a-8439-4a13-830b-7eb2e9b6f2c6",
     "type": "syntax_element",
     "attributes": {
       "name": "New element"
@@ -2322,7 +2765,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: ad4f3bb5-d6bd-4663-9b48-3f2ddf7ee671
+X-Request-Id: 5ccb4cab-b8df-4ef1-91b0-733d3cf01f21
 200 OK
 ```
 
@@ -2330,32 +2773,32 @@ X-Request-Id: ad4f3bb5-d6bd-4663-9b48-3f2ddf7ee671
 ```json
 {
   "data": {
-    "id": "28714239-6316-4f45-8fae-751948cbc351",
+    "id": "cee0222a-8439-4a13-830b-7eb2e9b6f2c6",
     "type": "syntax_element",
     "attributes": {
       "aspect": "=",
-      "classification_table_id": "ee4ba0e4-894a-4e82-ae41-e870f5de9d6d",
-      "hex_color": "deb349",
+      "classification_table_id": "7f183203-72a4-4bd0-83f7-51870dcce471",
+      "hex_color": "4e7253",
       "max_number": 9,
       "min_number": 1,
       "name": "New element",
-      "syntax_id": "7e498dfa-2884-4601-a53e-cac472eeff59"
+      "syntax_id": "e17c59e1-75ef-467c-bec3-4269e46172d8"
     },
     "relationships": {
       "syntax": {
         "links": {
-          "related": "/syntaxes/7e498dfa-2884-4601-a53e-cac472eeff59"
+          "related": "/syntaxes/e17c59e1-75ef-467c-bec3-4269e46172d8"
         }
       },
       "classification_table": {
         "links": {
-          "related": "/classification_tables/ee4ba0e4-894a-4e82-ae41-e870f5de9d6d"
+          "related": "/classification_tables/7f183203-72a4-4bd0-83f7-51870dcce471"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntax_elements/28714239-6316-4f45-8fae-751948cbc351"
+    "self": "http://example.org/syntax_elements/cee0222a-8439-4a13-830b-7eb2e9b6f2c6"
   }
 }
 ```
@@ -2383,7 +2826,7 @@ X-Request-Id: ad4f3bb5-d6bd-4663-9b48-3f2ddf7ee671
 #### Endpoint
 
 ```plaintext
-DELETE /syntax_elements/6daf6e86-07bd-4e3a-84e7-1e985cf0c6f4
+DELETE /syntax_elements/98507985-16c4-4a62-84d5-3d01ac46a399
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2400,7 +2843,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 67de1434-9a21-491e-b843-ee13439c2d14
+X-Request-Id: 6fcca1ab-11b4-4641-a3f0-d3f88f2d0278
 204 No Content
 ```
 
@@ -2433,7 +2876,7 @@ Syntax Nodes is the structure, in which Contexts are allowed to represent Syntax
 #### Endpoint
 
 ```plaintext
-GET /syntax_nodes/9b632589-e756-49d4-96cb-0b830d4e2e49
+GET /syntax_nodes/08f3c71d-3e83-47fb-9ddb-04e5f1b57cd0
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2454,7 +2897,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 3d88ba11-6459-4801-9047-c6ba563d0b82
+X-Request-Id: fe25c88f-eee8-4347-9387-db07f423979b
 200 OK
 ```
 
@@ -2462,18 +2905,18 @@ X-Request-Id: 3d88ba11-6459-4801-9047-c6ba563d0b82
 ```json
 {
   "data": {
-    "id": "9b632589-e756-49d4-96cb-0b830d4e2e49",
+    "id": "08f3c71d-3e83-47fb-9ddb-04e5f1b57cd0",
     "type": "syntax_node",
     "attributes": {
       "max_depth": 9,
       "min_depth": 1,
       "position": 1,
-      "syntax_element_id": "9f76b589-99bd-4822-9971-d24470325310"
+      "syntax_element_id": "621a51f6-4a6f-4356-8ebf-d678da2e4100"
     },
     "relationships": {
       "syntax_element": {
         "links": {
-          "related": "/syntax_elements/9f76b589-99bd-4822-9971-d24470325310"
+          "related": "/syntax_elements/621a51f6-4a6f-4356-8ebf-d678da2e4100"
         }
       },
       "components": {
@@ -2484,7 +2927,7 @@ X-Request-Id: 3d88ba11-6459-4801-9047-c6ba563d0b82
     }
   },
   "links": {
-    "self": "http://example.org/syntax_nodes/9b632589-e756-49d4-96cb-0b830d4e2e49"
+    "self": "http://example.org/syntax_nodes/08f3c71d-3e83-47fb-9ddb-04e5f1b57cd0"
   }
 }
 ```
@@ -2528,7 +2971,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "position": 9,
       "min_depth": 1,
       "max_depth": 5,
-      "syntax_element_id": "6cc07c8c-1c65-4fb9-9883-b54696271ce8"
+      "syntax_element_id": "ff25ed50-b980-45b5-bcd7-ae40f75e3541"
     }
   }
 }
@@ -2540,7 +2983,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: a3cdc08f-7420-4889-a5d7-bc12d2dc9fc2
+X-Request-Id: a0680315-da89-4685-8298-498e52cc0ca4
 201 Created
 ```
 
@@ -2548,18 +2991,18 @@ X-Request-Id: a3cdc08f-7420-4889-a5d7-bc12d2dc9fc2
 ```json
 {
   "data": {
-    "id": "82d2fe00-8dca-42c7-a5d3-daba3ba3a690",
+    "id": "cdd9df64-7b8c-40f3-a28e-0d94abb840f5",
     "type": "syntax_node",
     "attributes": {
       "max_depth": 5,
       "min_depth": 1,
       "position": 9,
-      "syntax_element_id": "6cc07c8c-1c65-4fb9-9883-b54696271ce8"
+      "syntax_element_id": "ff25ed50-b980-45b5-bcd7-ae40f75e3541"
     },
     "relationships": {
       "syntax_element": {
         "links": {
-          "related": "/syntax_elements/6cc07c8c-1c65-4fb9-9883-b54696271ce8"
+          "related": "/syntax_elements/ff25ed50-b980-45b5-bcd7-ae40f75e3541"
         }
       },
       "components": {
@@ -2595,7 +3038,7 @@ X-Request-Id: a3cdc08f-7420-4889-a5d7-bc12d2dc9fc2
 #### Endpoint
 
 ```plaintext
-PATCH /syntax_nodes/ce095abe-f726-4652-a804-9e8afb9b49ef
+PATCH /syntax_nodes/78757a96-406e-44b0-91e8-de1d0216f04f
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2609,7 +3052,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "ce095abe-f726-4652-a804-9e8afb9b49ef",
+    "id": "78757a96-406e-44b0-91e8-de1d0216f04f",
     "type": "syntax_node",
     "attributes": {
       "position": 5
@@ -2628,7 +3071,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 299b6aa1-8513-4d8e-8f78-9ad04dc54786
+X-Request-Id: d260e5fd-1a5a-4ed8-8188-4a5bf48f1a55
 200 OK
 ```
 
@@ -2636,18 +3079,18 @@ X-Request-Id: 299b6aa1-8513-4d8e-8f78-9ad04dc54786
 ```json
 {
   "data": {
-    "id": "ce095abe-f726-4652-a804-9e8afb9b49ef",
+    "id": "78757a96-406e-44b0-91e8-de1d0216f04f",
     "type": "syntax_node",
     "attributes": {
       "max_depth": 9,
       "min_depth": 1,
       "position": 5,
-      "syntax_element_id": "ba660738-3506-4e7a-8a1d-27106f579edf"
+      "syntax_element_id": "1ad75926-49d6-4e88-a8ff-f498f2659ea4"
     },
     "relationships": {
       "syntax_element": {
         "links": {
-          "related": "/syntax_elements/ba660738-3506-4e7a-8a1d-27106f579edf"
+          "related": "/syntax_elements/1ad75926-49d6-4e88-a8ff-f498f2659ea4"
         }
       },
       "components": {
@@ -2658,7 +3101,7 @@ X-Request-Id: 299b6aa1-8513-4d8e-8f78-9ad04dc54786
     }
   },
   "links": {
-    "self": "http://example.org/syntax_nodes/ce095abe-f726-4652-a804-9e8afb9b49ef"
+    "self": "http://example.org/syntax_nodes/78757a96-406e-44b0-91e8-de1d0216f04f"
   }
 }
 ```
@@ -2683,7 +3126,7 @@ X-Request-Id: 299b6aa1-8513-4d8e-8f78-9ad04dc54786
 #### Endpoint
 
 ```plaintext
-DELETE /syntax_nodes/9365f904-595f-4d33-8c08-fe4cce5e86c0
+DELETE /syntax_nodes/7ff9a24d-4068-4e12-a607-0e1b80856d87
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2700,7 +3143,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: a86cf778-08da-476f-bbab-317c23c1ad4b
+X-Request-Id: 961c2d13-9c68-4768-8efe-ff41b515a51f
 204 No Content
 ```
 
@@ -2745,7 +3188,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 569d774c-7aa9-4507-9650-7a49c3998d4f
+X-Request-Id: aa6038f7-457c-4bea-ba85-a0daebcb1989
 200 OK
 ```
 
@@ -2786,7 +3229,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 1f6be2f3-0fb9-4866-99c3-911ac08e8875
+X-Request-Id: 73c226f8-1b20-4781-a319-b9298d70b389
 200 OK
 ```
 
@@ -2795,7 +3238,7 @@ X-Request-Id: 1f6be2f3-0fb9-4866-99c3-911ac08e8875
 {
   "data": [
     {
-      "id": "dd1cc491-da06-4bb8-b9e9-9d1ea34e68bd",
+      "id": "d88f385b-20d9-4a63-9d8e-8d10eddb98d9",
       "type": "event",
       "attributes": {
         "event": "create"
@@ -2803,12 +3246,12 @@ X-Request-Id: 1f6be2f3-0fb9-4866-99c3-911ac08e8875
       "relationships": {
         "user": {
           "links": {
-            "related": "/users/bf6edac1-9697-41a1-b913-3cd6dedb061d"
+            "related": "/users/1697adf5-19d8-4922-ab1f-d94cf0804f9c"
           }
         },
         "item": {
           "links": {
-            "related": "/contexts/717d5d3c-868e-47ee-9b75-2d786d64113a"
+            "related": "/contexts/05a70b46-f5c8-40a1-a1d2-915a5d8ab5af"
           }
         }
       }
