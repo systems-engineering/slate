@@ -224,7 +224,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 71a3e78e-6306-4fb7-a430-826869178090
+X-Request-Id: ba666129-aa56-480e-a372-28ba08f9abbf
 200 OK
 ```
 
@@ -232,10 +232,10 @@ X-Request-Id: 71a3e78e-6306-4fb7-a430-826869178090
 ```json
 {
   "data": {
-    "id": "58693ab2-6270-46c1-b800-ed08cea4d426",
+    "id": "e049b5bd-a2c5-4e01-97ff-4a10b93f1cc6",
     "type": "account",
     "attributes": {
-      "name": "Account 081d7d8ffad8"
+      "name": "Account ffed4e22af94"
     },
     "relationships": {
       "projects": {
@@ -279,7 +279,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "1d901c3a-0261-4901-b645-7460a35c3f93",
+    "id": "e2b04b4d-c432-489f-8f26-82b1c878459d",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
@@ -298,7 +298,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: eba50f09-80c6-46c5-b719-ac0d7e155ecb
+X-Request-Id: 3219797e-0411-46e8-bcdd-62bcf303ede4
 200 OK
 ```
 
@@ -306,7 +306,7 @@ X-Request-Id: eba50f09-80c6-46c5-b719-ac0d7e155ecb
 ```json
 {
   "data": {
-    "id": "1d901c3a-0261-4901-b645-7460a35c3f93",
+    "id": "e2b04b4d-c432-489f-8f26-82b1c878459d",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
@@ -365,7 +365,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 8b457a9f-0cb8-4c25-9137-9d3cbf14f951
+X-Request-Id: 78560853-a075-495b-a1e0-9ebd7db4a056
 200 OK
 ```
 
@@ -374,7 +374,7 @@ X-Request-Id: 8b457a9f-0cb8-4c25-9137-9d3cbf14f951
 {
   "data": [
     {
-      "id": "e0e257db-16bb-4bbb-81b2-9907af3864a2",
+      "id": "94669c10-1b82-4ca1-b19e-9ec6eec02077",
       "type": "project",
       "attributes": {
         "archived": false,
@@ -390,7 +390,7 @@ X-Request-Id: 8b457a9f-0cb8-4c25-9137-9d3cbf14f951
         },
         "contexts": {
           "links": {
-            "related": "/contexts?filter[project_id_eq]=e0e257db-16bb-4bbb-81b2-9907af3864a2"
+            "related": "/contexts?filter[project_id_eq]=94669c10-1b82-4ca1-b19e-9ec6eec02077"
           }
         }
       }
@@ -420,7 +420,7 @@ X-Request-Id: 8b457a9f-0cb8-4c25-9137-9d3cbf14f951
 #### Endpoint
 
 ```plaintext
-GET /projects/b68f263a-e6fd-49eb-bdf3-a6cea419d30a
+GET /projects/284ae399-e8d2-40a0-a6aa-692488909b65
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -437,7 +437,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: db351cd2-ef4c-4496-afa2-1f290bf159fa
+X-Request-Id: b12c6e14-9c14-4298-bddf-09d66a0e5aa0
 200 OK
 ```
 
@@ -445,7 +445,7 @@ X-Request-Id: db351cd2-ef4c-4496-afa2-1f290bf159fa
 ```json
 {
   "data": {
-    "id": "b68f263a-e6fd-49eb-bdf3-a6cea419d30a",
+    "id": "284ae399-e8d2-40a0-a6aa-692488909b65",
     "type": "project",
     "attributes": {
       "archived": false,
@@ -461,13 +461,13 @@ X-Request-Id: db351cd2-ef4c-4496-afa2-1f290bf159fa
       },
       "contexts": {
         "links": {
-          "related": "/contexts?filter[project_id_eq]=b68f263a-e6fd-49eb-bdf3-a6cea419d30a"
+          "related": "/contexts?filter[project_id_eq]=284ae399-e8d2-40a0-a6aa-692488909b65"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/b68f263a-e6fd-49eb-bdf3-a6cea419d30a"
+    "self": "http://example.org/projects/284ae399-e8d2-40a0-a6aa-692488909b65"
   }
 }
 ```
@@ -489,7 +489,7 @@ X-Request-Id: db351cd2-ef4c-4496-afa2-1f290bf159fa
 #### Endpoint
 
 ```plaintext
-PATCH /projects/3ab18f36-f408-46ca-bdd8-4a0ccf05dd85
+PATCH /projects/d6b55847-1d90-48e0-92f9-06b98667cace
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -503,7 +503,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "3ab18f36-f408-46ca-bdd8-4a0ccf05dd85",
+    "id": "d6b55847-1d90-48e0-92f9-06b98667cace",
     "type": "projects",
     "attributes": {
       "name": "New project name"
@@ -522,7 +522,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: b1745a0a-50ef-4cfc-826b-b40a980e9010
+X-Request-Id: 58e3944c-9d32-48e3-bfbf-c2d14d530f4a
 200 OK
 ```
 
@@ -530,7 +530,7 @@ X-Request-Id: b1745a0a-50ef-4cfc-826b-b40a980e9010
 ```json
 {
   "data": {
-    "id": "3ab18f36-f408-46ca-bdd8-4a0ccf05dd85",
+    "id": "d6b55847-1d90-48e0-92f9-06b98667cace",
     "type": "project",
     "attributes": {
       "archived": false,
@@ -546,13 +546,13 @@ X-Request-Id: b1745a0a-50ef-4cfc-826b-b40a980e9010
       },
       "contexts": {
         "links": {
-          "related": "/contexts?filter[project_id_eq]=3ab18f36-f408-46ca-bdd8-4a0ccf05dd85"
+          "related": "/contexts?filter[project_id_eq]=d6b55847-1d90-48e0-92f9-06b98667cace"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/3ab18f36-f408-46ca-bdd8-4a0ccf05dd85"
+    "self": "http://example.org/projects/d6b55847-1d90-48e0-92f9-06b98667cace"
   }
 }
 ```
@@ -574,7 +574,7 @@ X-Request-Id: b1745a0a-50ef-4cfc-826b-b40a980e9010
 #### Endpoint
 
 ```plaintext
-POST /projects/746793d0-4358-4a2f-a76c-776f2c354e9a/archive
+POST /projects/ebbdb61f-a64c-444c-9d73-bfb3a5425cf1/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -591,7 +591,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 03bbd0c8-1501-4f91-95e5-fda423557e0e
+X-Request-Id: a0754fde-ed09-478a-8a96-dcf9d8e31224
 200 OK
 ```
 
@@ -599,11 +599,11 @@ X-Request-Id: 03bbd0c8-1501-4f91-95e5-fda423557e0e
 ```json
 {
   "data": {
-    "id": "746793d0-4358-4a2f-a76c-776f2c354e9a",
+    "id": "ebbdb61f-a64c-444c-9d73-bfb3a5425cf1",
     "type": "project",
     "attributes": {
       "archived": true,
-      "archived_at": "2019-12-11T06:32:17.354Z",
+      "archived_at": "2019-12-13T07:13:50.422Z",
       "description": "Project description",
       "name": "project 1"
     },
@@ -615,13 +615,13 @@ X-Request-Id: 03bbd0c8-1501-4f91-95e5-fda423557e0e
       },
       "contexts": {
         "links": {
-          "related": "/contexts?filter[project_id_eq]=746793d0-4358-4a2f-a76c-776f2c354e9a"
+          "related": "/contexts?filter[project_id_eq]=ebbdb61f-a64c-444c-9d73-bfb3a5425cf1"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/746793d0-4358-4a2f-a76c-776f2c354e9a/archive"
+    "self": "http://example.org/projects/ebbdb61f-a64c-444c-9d73-bfb3a5425cf1/archive"
   }
 }
 ```
@@ -643,7 +643,7 @@ X-Request-Id: 03bbd0c8-1501-4f91-95e5-fda423557e0e
 #### Endpoint
 
 ```plaintext
-DELETE /projects/128c3e47-f668-44de-8a1d-b09af05c1f80
+DELETE /projects/469eadbf-f3d4-4ddf-87bc-e133ffff21b3
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -660,7 +660,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 531790d5-5290-46fe-8511-f966d29147d1
+X-Request-Id: ee82ea36-9e0d-4de4-8f03-48ea8032fb78
 204 No Content
 ```
 
@@ -707,7 +707,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: a30c7cb7-b291-4864-8d28-029c83085df9
+X-Request-Id: c64d4d0d-c9ef-48ee-8d61-42ef7a1158af
 200 OK
 ```
 
@@ -716,39 +716,46 @@ X-Request-Id: a30c7cb7-b291-4864-8d28-029c83085df9
 {
   "data": [
     {
-      "id": "e857f22f-64b2-42ad-94a9-db9d6eb30cb7",
+      "id": "cafdfc9b-54ef-4dc6-a775-6cc1a5f38e4c",
       "type": "context",
       "attributes": {
         "archived": false,
         "archived_at": null,
         "description": null,
         "name": "Context 1",
-        "project_id": "5af746a9-e0a9-4eb4-b237-cf0131a554d9",
-        "published_at": null
+        "project_id": "8b3e658b-be22-497b-aae0-070d0233df64",
+        "published_at": null,
+        "revision": 0
       },
       "relationships": {
         "project": {
           "links": {
-            "related": "/projects/5af746a9-e0a9-4eb4-b237-cf0131a554d9"
+            "related": "/projects/8b3e658b-be22-497b-aae0-070d0233df64"
+          }
+        },
+        "root_object_occurrence": {
+          "links": {
+            "related": "/object_occurrences/e72675a1-a1a1-4ade-8a63-bfe9ecf6c077"
           }
         }
       }
     },
     {
-      "id": "2166ade0-60f4-411b-a3c5-ca5174d795c4",
+      "id": "c85ff751-45ee-4c9b-95d6-dcad8c3e0daa",
       "type": "context",
       "attributes": {
         "archived": false,
         "archived_at": null,
         "description": null,
         "name": "Context 2",
-        "project_id": "5af746a9-e0a9-4eb4-b237-cf0131a554d9",
-        "published_at": null
+        "project_id": "8b3e658b-be22-497b-aae0-070d0233df64",
+        "published_at": null,
+        "revision": 0
       },
       "relationships": {
         "project": {
           "links": {
-            "related": "/projects/5af746a9-e0a9-4eb4-b237-cf0131a554d9"
+            "related": "/projects/8b3e658b-be22-497b-aae0-070d0233df64"
           }
         }
       }
@@ -782,7 +789,7 @@ X-Request-Id: a30c7cb7-b291-4864-8d28-029c83085df9
 #### Endpoint
 
 ```plaintext
-GET /contexts/3d39a353-6f3f-4741-a991-e994eb4de6ca
+GET /contexts/888d4ce7-72df-4a2a-9bfb-ca8973cf5947
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -799,7 +806,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 5b9dd048-78ba-4485-8a77-09bd0bb98a70
+X-Request-Id: 62194b1b-7e41-4e5c-8c36-b7e791f341c3
 200 OK
 ```
 
@@ -807,26 +814,32 @@ X-Request-Id: 5b9dd048-78ba-4485-8a77-09bd0bb98a70
 ```json
 {
   "data": {
-    "id": "3d39a353-6f3f-4741-a991-e994eb4de6ca",
+    "id": "888d4ce7-72df-4a2a-9bfb-ca8973cf5947",
     "type": "context",
     "attributes": {
       "archived": false,
       "archived_at": null,
       "description": null,
       "name": "Context 1",
-      "project_id": "e9005b82-4c0e-4f09-832b-5ac8302a699c",
-      "published_at": null
+      "project_id": "fd504510-8978-4d3f-89b5-7cd1119800c3",
+      "published_at": null,
+      "revision": 0
     },
     "relationships": {
       "project": {
         "links": {
-          "related": "/projects/e9005b82-4c0e-4f09-832b-5ac8302a699c"
+          "related": "/projects/fd504510-8978-4d3f-89b5-7cd1119800c3"
+        }
+      },
+      "root_object_occurrence": {
+        "links": {
+          "related": "/object_occurrences/0c7111c4-69b5-4b3c-8173-8a1612a9ee34"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/contexts/3d39a353-6f3f-4741-a991-e994eb4de6ca"
+    "self": "http://example.org/contexts/888d4ce7-72df-4a2a-9bfb-ca8973cf5947"
   }
 }
 ```
@@ -852,7 +865,7 @@ X-Request-Id: 5b9dd048-78ba-4485-8a77-09bd0bb98a70
 #### Endpoint
 
 ```plaintext
-PATCH /contexts/627021fb-d0ec-439c-999b-b31dfba27da9
+PATCH /contexts/701419dc-ae75-467a-b996-4e04d2f94886
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -866,7 +879,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "627021fb-d0ec-439c-999b-b31dfba27da9",
+    "id": "701419dc-ae75-467a-b996-4e04d2f94886",
     "type": "contexts",
     "attributes": {
       "name": "New context name"
@@ -885,7 +898,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: ed4bb41d-f1ca-4b74-b9cf-e54ef1183f47
+X-Request-Id: 34d1f2dd-fcc6-4fd1-8464-a36204d4c86f
 200 OK
 ```
 
@@ -893,31 +906,32 @@ X-Request-Id: ed4bb41d-f1ca-4b74-b9cf-e54ef1183f47
 ```json
 {
   "data": {
-    "id": "627021fb-d0ec-439c-999b-b31dfba27da9",
+    "id": "701419dc-ae75-467a-b996-4e04d2f94886",
     "type": "context",
     "attributes": {
       "archived": false,
       "archived_at": null,
       "description": null,
       "name": "New context name",
-      "project_id": "8347d04e-38d4-4ca7-b45a-ceccbf83ad28",
-      "published_at": null
+      "project_id": "f5b94c3c-5de1-4d90-9876-71e25ec001c5",
+      "published_at": null,
+      "revision": 0
     },
     "relationships": {
       "project": {
         "links": {
-          "related": "/projects/8347d04e-38d4-4ca7-b45a-ceccbf83ad28"
+          "related": "/projects/f5b94c3c-5de1-4d90-9876-71e25ec001c5"
         }
       },
       "root_object_occurrence": {
         "links": {
-          "related": "/object_occurrences/5be170cb-017f-46b4-aff5-96dc5f9e9ad8"
+          "related": "/object_occurrences/1072028c-a8f1-4e0f-af7c-a7bce7836ff1"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/contexts/627021fb-d0ec-439c-999b-b31dfba27da9"
+    "self": "http://example.org/contexts/701419dc-ae75-467a-b996-4e04d2f94886"
   }
 }
 ```
@@ -960,7 +974,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
     "type": "context",
     "attributes": {
       "name": "Context",
-      "project_id": "f2486d14-8393-4233-a12e-2a8f676df8b3"
+      "project_id": "cde6163b-8b33-4042-bbc5-75fcfaa19ba0"
     }
   }
 }
@@ -972,7 +986,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 225dc33d-be41-45ef-99a6-d7fe4165e718
+X-Request-Id: 15d9ad5a-05b1-45e3-9e3c-e1605e159e90
 201 Created
 ```
 
@@ -980,31 +994,114 @@ X-Request-Id: 225dc33d-be41-45ef-99a6-d7fe4165e718
 ```json
 {
   "data": {
-    "id": "641e382b-1bd5-4a19-8fc2-6dfd6912e3ec",
+    "id": "d4e3334e-c6e8-4f6c-95a6-a8948ee4c5a4",
     "type": "context",
     "attributes": {
       "archived": false,
       "archived_at": null,
       "description": null,
       "name": "Context",
-      "project_id": "f2486d14-8393-4233-a12e-2a8f676df8b3",
-      "published_at": null
+      "project_id": "cde6163b-8b33-4042-bbc5-75fcfaa19ba0",
+      "published_at": null,
+      "revision": 0
     },
     "relationships": {
       "project": {
         "links": {
-          "related": "/projects/f2486d14-8393-4233-a12e-2a8f676df8b3"
+          "related": "/projects/cde6163b-8b33-4042-bbc5-75fcfaa19ba0"
         }
       },
       "root_object_occurrence": {
         "links": {
-          "related": "/object_occurrences/89f4a860-7ed8-44ec-9403-377e8ad16978"
+          "related": "/object_occurrences/078954e5-e5c5-4d59-b36d-df5c08b945ec"
         }
       }
     }
   },
   "links": {
     "self": "http://example.org/contexts"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Context name |
+| data[attributes][description] | Context description |
+| data[attributes][project_id] | Project ID |
+| data[attributes][archived_at] | Archived date |
+| data[attributes][published_at] | Publishing date |
+
+
+## Create revision
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+POST /contexts/21f88985-59ff-4839-8278-2eb50e218dc6/revision
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`POST /contexts/:id/revision`
+
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: fed0a391-98af-4c6f-86eb-e03a5804c5f0
+201 Created
+```
+
+
+```json
+{
+  "data": {
+    "id": "cfd21510-48de-4ca2-b8bf-02465c68c785",
+    "type": "context",
+    "attributes": {
+      "archived": false,
+      "archived_at": null,
+      "description": null,
+      "name": "Context 1",
+      "project_id": "7a1290a5-edd4-4f51-a535-71fe9013af89",
+      "published_at": null,
+      "revision": 1
+    },
+    "relationships": {
+      "project": {
+        "links": {
+          "related": "/projects/7a1290a5-edd4-4f51-a535-71fe9013af89"
+        }
+      },
+      "root_object_occurrence": {
+        "links": {
+          "related": "/object_occurrences/3cdddd24-c2e4-4185-8004-9757fe0da2de"
+        }
+      },
+      "prev_revision": {
+        "data": {
+          "id": "21f88985-59ff-4839-8278-2eb50e218dc6",
+          "type": "context"
+        }
+      }
+    }
+  },
+  "links": {
+    "self": "http://example.org/contexts/21f88985-59ff-4839-8278-2eb50e218dc6/revision"
   }
 }
 ```
@@ -1030,7 +1127,7 @@ X-Request-Id: 225dc33d-be41-45ef-99a6-d7fe4165e718
 #### Endpoint
 
 ```plaintext
-DELETE /contexts/5638ec29-67b7-4b54-acd9-620c774eff5a
+DELETE /contexts/a986dd2d-6d85-4819-8f33-d1cc728e279e
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1047,7 +1144,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: ca03955c-1abb-452a-b905-9f9c1cdba160
+X-Request-Id: 1e6749ab-14ef-4bb9-a7be-35fbebe59da7
 204 No Content
 ```
 
@@ -1082,7 +1179,7 @@ To include additional, nested object occurrences, supply the <code>depth</code> 
 #### Endpoint
 
 ```plaintext
-GET /object_occurrences/89d350df-1298-4105-90a5-a4f0421eff6c
+GET /object_occurrences/e9d75dcd-141d-4105-9c59-5f219a96e67a
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1103,7 +1200,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 9a1003e9-dd08-42bb-9808-d2c929958161
+X-Request-Id: 43f50f23-ebd7-4f50-942c-a8bd660b549e
 200 OK
 ```
 
@@ -1111,11 +1208,11 @@ X-Request-Id: 9a1003e9-dd08-42bb-9808-d2c929958161
 ```json
 {
   "data": {
-    "id": "89d350df-1298-4105-90a5-a4f0421eff6c",
+    "id": "e9d75dcd-141d-4105-9c59-5f219a96e67a",
     "type": "object_occurrence",
     "attributes": {
       "classification_code": null,
-      "context_id": "cab9ba79-37ee-43ca-a6ca-4096a5c7da26",
+      "context_id": "10118fcd-2a2e-4458-b88e-850f482d989c",
       "description": null,
       "hex_color": null,
       "name": "OOC 1",
@@ -1128,21 +1225,27 @@ X-Request-Id: 9a1003e9-dd08-42bb-9808-d2c929958161
     "relationships": {
       "context": {
         "links": {
-          "related": "/contexts/cab9ba79-37ee-43ca-a6ca-4096a5c7da26"
+          "related": "/contexts/10118fcd-2a2e-4458-b88e-850f482d989c"
         }
       },
       "components": {
         "data": [
           {
-            "id": "e5503123-ae98-4d65-8418-0b128969f97f",
+            "id": "bf8871f0-56e2-4b35-9ff9-626a38ba828f",
             "type": "object_occurrence"
           }
         ]
+      },
+      "next_revision": {
+        "data": null
+      },
+      "prev_revision": {
+        "data": null
       }
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/89d350df-1298-4105-90a5-a4f0421eff6c"
+    "self": "http://example.org/object_occurrences/e9d75dcd-141d-4105-9c59-5f219a96e67a"
   }
 }
 ```
@@ -1181,7 +1284,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
     "type": "object_occurrence",
     "attributes": {
       "name": "ooc",
-      "context_id": "e55b9e84-cd7e-45e9-859a-9ba37f1b76e8"
+      "context_id": "9ea731af-17a1-45f8-9229-5c268039e140"
     }
   }
 }
@@ -1193,7 +1296,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 41dc1a53-ed4c-4c1f-baaf-4b1df9c0015e
+X-Request-Id: 5ef7b048-04f5-43db-9389-dfa81bd1005a
 201 Created
 ```
 
@@ -1201,11 +1304,11 @@ X-Request-Id: 41dc1a53-ed4c-4c1f-baaf-4b1df9c0015e
 ```json
 {
   "data": {
-    "id": "23aec673-d6b5-437e-9e24-04d60f83133e",
+    "id": "7554a445-acf4-4d59-bb89-84f9549c815f",
     "type": "object_occurrence",
     "attributes": {
       "classification_code": null,
-      "context_id": "e55b9e84-cd7e-45e9-859a-9ba37f1b76e8",
+      "context_id": "9ea731af-17a1-45f8-9229-5c268039e140",
       "description": null,
       "hex_color": null,
       "name": "ooc",
@@ -1218,13 +1321,19 @@ X-Request-Id: 41dc1a53-ed4c-4c1f-baaf-4b1df9c0015e
     "relationships": {
       "context": {
         "links": {
-          "related": "/contexts/e55b9e84-cd7e-45e9-859a-9ba37f1b76e8"
+          "related": "/contexts/9ea731af-17a1-45f8-9229-5c268039e140"
         }
       },
       "components": {
         "data": [
 
         ]
+      },
+      "next_revision": {
+        "data": null
+      },
+      "prev_revision": {
+        "data": null
       }
     }
   },
@@ -1251,7 +1360,7 @@ X-Request-Id: 41dc1a53-ed4c-4c1f-baaf-4b1df9c0015e
 #### Endpoint
 
 ```plaintext
-PATCH /object_occurrences/dc377146-a763-48a3-9b07-413c8c3a82c5
+PATCH /object_occurrences/f3ef3932-405e-40d8-a511-021275152e1c
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1265,7 +1374,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "dc377146-a763-48a3-9b07-413c8c3a82c5",
+    "id": "f3ef3932-405e-40d8-a511-021275152e1c",
     "type": "object_occurrence",
     "attributes": {
       "name": "New name"
@@ -1284,7 +1393,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: ddb567c8-fb25-4e26-8729-e4fb2e8fc0db
+X-Request-Id: 1ba66462-ef0c-4609-ad4f-2f496458c2fd
 200 OK
 ```
 
@@ -1292,11 +1401,11 @@ X-Request-Id: ddb567c8-fb25-4e26-8729-e4fb2e8fc0db
 ```json
 {
   "data": {
-    "id": "dc377146-a763-48a3-9b07-413c8c3a82c5",
+    "id": "f3ef3932-405e-40d8-a511-021275152e1c",
     "type": "object_occurrence",
     "attributes": {
       "classification_code": null,
-      "context_id": "2261ea3b-1010-46e2-a6c1-db186b8e7819",
+      "context_id": "bcceef13-2176-4c1b-a2f0-8a6ea75288f9",
       "description": null,
       "hex_color": null,
       "name": "New name",
@@ -1309,23 +1418,29 @@ X-Request-Id: ddb567c8-fb25-4e26-8729-e4fb2e8fc0db
     "relationships": {
       "context": {
         "links": {
-          "related": "/contexts/2261ea3b-1010-46e2-a6c1-db186b8e7819"
+          "related": "/contexts/bcceef13-2176-4c1b-a2f0-8a6ea75288f9"
         }
       },
       "part_of": {
         "links": {
-          "related": "/object_occurrences/a58907bf-e71c-4c9e-9ab4-12a0f958a57e"
+          "related": "/object_occurrences/7b7f5597-e57e-42c2-b461-ec3638cefd5f"
         }
       },
       "components": {
         "data": [
 
         ]
+      },
+      "next_revision": {
+        "data": null
+      },
+      "prev_revision": {
+        "data": null
       }
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/dc377146-a763-48a3-9b07-413c8c3a82c5"
+    "self": "http://example.org/object_occurrences/f3ef3932-405e-40d8-a511-021275152e1c"
   }
 }
 ```
@@ -1347,7 +1462,7 @@ X-Request-Id: ddb567c8-fb25-4e26-8729-e4fb2e8fc0db
 #### Endpoint
 
 ```plaintext
-DELETE /object_occurrences/055b03d2-4f18-4377-8a4e-49802b6deea5
+DELETE /object_occurrences/70fac073-2aeb-4b55-8540-878ff63cdda0
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1364,7 +1479,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 398c85bc-7cac-44dc-884d-47d1b71bca75
+X-Request-Id: 2966617e-a53e-472a-921b-105fc4bc12eb
 204 No Content
 ```
 
@@ -1411,7 +1526,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: e1557079-bdc4-47e0-b26b-61bf67b34f46
+X-Request-Id: efa32476-5b89-42e1-a3c8-c703cd53b855
 200 OK
 ```
 
@@ -1420,7 +1535,7 @@ X-Request-Id: e1557079-bdc4-47e0-b26b-61bf67b34f46
 {
   "data": [
     {
-      "id": "a8cb3abb-9285-4954-b0a0-3edbc8dde767",
+      "id": "db975799-3ec8-4882-9d51-0060b0049f97",
       "type": "classification_table",
       "attributes": {
         "archived": false,
@@ -1440,13 +1555,13 @@ X-Request-Id: e1557079-bdc4-47e0-b26b-61bf67b34f46
         },
         "classification_entries": {
           "links": {
-            "related": "/classification_entries?filter[classification_table_id_eq]=a8cb3abb-9285-4954-b0a0-3edbc8dde767"
+            "related": "/classification_entries?filter[classification_table_id_eq]=db975799-3ec8-4882-9d51-0060b0049f97"
           }
         }
       }
     },
     {
-      "id": "7744f2d8-3c25-4c4b-944a-aa3bd4fb292c",
+      "id": "6ee7b324-d001-47c7-9e82-ef41f2a2d37d",
       "type": "classification_table",
       "attributes": {
         "archived": false,
@@ -1466,7 +1581,7 @@ X-Request-Id: e1557079-bdc4-47e0-b26b-61bf67b34f46
         },
         "classification_entries": {
           "links": {
-            "related": "/classification_entries?filter[classification_table_id_eq]=7744f2d8-3c25-4c4b-944a-aa3bd4fb292c"
+            "related": "/classification_entries?filter[classification_table_id_eq]=6ee7b324-d001-47c7-9e82-ef41f2a2d37d"
           }
         }
       }
@@ -1501,7 +1616,7 @@ X-Request-Id: e1557079-bdc4-47e0-b26b-61bf67b34f46
 #### Endpoint
 
 ```plaintext
-GET /classification_tables/64d23be0-9e5c-4d8e-9e5a-079e211a6d4e
+GET /classification_tables/b1d9dc7c-65dc-4980-9e57-8dc15e7fe3c3
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1518,7 +1633,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: cc0a3263-78f2-48e6-9ff5-1b05cb748be4
+X-Request-Id: f3599f66-bd67-4d6c-8825-06843b9e4ec6
 200 OK
 ```
 
@@ -1526,7 +1641,7 @@ X-Request-Id: cc0a3263-78f2-48e6-9ff5-1b05cb748be4
 ```json
 {
   "data": {
-    "id": "64d23be0-9e5c-4d8e-9e5a-079e211a6d4e",
+    "id": "b1d9dc7c-65dc-4980-9e57-8dc15e7fe3c3",
     "type": "classification_table",
     "attributes": {
       "archived": false,
@@ -1546,13 +1661,13 @@ X-Request-Id: cc0a3263-78f2-48e6-9ff5-1b05cb748be4
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=64d23be0-9e5c-4d8e-9e5a-079e211a6d4e"
+          "related": "/classification_entries?filter[classification_table_id_eq]=b1d9dc7c-65dc-4980-9e57-8dc15e7fe3c3"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/64d23be0-9e5c-4d8e-9e5a-079e211a6d4e"
+    "self": "http://example.org/classification_tables/b1d9dc7c-65dc-4980-9e57-8dc15e7fe3c3"
   }
 }
 ```
@@ -1579,7 +1694,7 @@ X-Request-Id: cc0a3263-78f2-48e6-9ff5-1b05cb748be4
 #### Endpoint
 
 ```plaintext
-PATCH /classification_tables/2a6822b1-bbec-4893-ad4e-d244910c4ce5
+PATCH /classification_tables/57eb51d1-fcac-47a5-bd10-4893a5a8bf28
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1593,7 +1708,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "2a6822b1-bbec-4893-ad4e-d244910c4ce5",
+    "id": "57eb51d1-fcac-47a5-bd10-4893a5a8bf28",
     "type": "classification_table",
     "attributes": {
       "name": "New classification table name"
@@ -1612,7 +1727,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 42c19b0d-eac4-4cd1-afea-fa1bfb1bb498
+X-Request-Id: 7978a1fd-a40b-44de-ad0a-14da05e2f748
 200 OK
 ```
 
@@ -1620,7 +1735,7 @@ X-Request-Id: 42c19b0d-eac4-4cd1-afea-fa1bfb1bb498
 ```json
 {
   "data": {
-    "id": "2a6822b1-bbec-4893-ad4e-d244910c4ce5",
+    "id": "57eb51d1-fcac-47a5-bd10-4893a5a8bf28",
     "type": "classification_table",
     "attributes": {
       "archived": false,
@@ -1640,13 +1755,13 @@ X-Request-Id: 42c19b0d-eac4-4cd1-afea-fa1bfb1bb498
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=2a6822b1-bbec-4893-ad4e-d244910c4ce5"
+          "related": "/classification_entries?filter[classification_table_id_eq]=57eb51d1-fcac-47a5-bd10-4893a5a8bf28"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/2a6822b1-bbec-4893-ad4e-d244910c4ce5"
+    "self": "http://example.org/classification_tables/57eb51d1-fcac-47a5-bd10-4893a5a8bf28"
   }
 }
 ```
@@ -1673,7 +1788,7 @@ X-Request-Id: 42c19b0d-eac4-4cd1-afea-fa1bfb1bb498
 #### Endpoint
 
 ```plaintext
-DELETE /classification_tables/56c08d78-a218-46ab-ba7d-470c2da75ac1
+DELETE /classification_tables/c3d01d24-73c9-4d9f-aae2-38a6cede6603
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1690,7 +1805,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: e923cc1c-3650-4e36-80ef-ce4f576150ec
+X-Request-Id: f8446077-a98b-4c6f-89a8-5f48f02e583a
 204 No Content
 ```
 
@@ -1717,7 +1832,7 @@ X-Request-Id: e923cc1c-3650-4e36-80ef-ce4f576150ec
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/0486bfff-539c-469f-8ac5-46a5a245ad21/publish
+POST /classification_tables/d7e03810-a0df-40bd-82d1-1e22695edfc1/publish
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1734,7 +1849,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: f55019a9-8811-4e9b-adef-715a1f5c281d
+X-Request-Id: d14ee261-47d3-4d19-9e51-208cdaab243e
 200 OK
 ```
 
@@ -1742,7 +1857,7 @@ X-Request-Id: f55019a9-8811-4e9b-adef-715a1f5c281d
 ```json
 {
   "data": {
-    "id": "0486bfff-539c-469f-8ac5-46a5a245ad21",
+    "id": "d7e03810-a0df-40bd-82d1-1e22695edfc1",
     "type": "classification_table",
     "attributes": {
       "archived": false,
@@ -1750,7 +1865,7 @@ X-Request-Id: f55019a9-8811-4e9b-adef-715a1f5c281d
       "description": null,
       "name": "CT 1",
       "published": true,
-      "published_at": "2019-12-11T06:32:23.988Z",
+      "published_at": "2019-12-13T07:13:58.174Z",
       "type": "core",
       "max_classification_entries_depth": 3
     },
@@ -1762,13 +1877,13 @@ X-Request-Id: f55019a9-8811-4e9b-adef-715a1f5c281d
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=0486bfff-539c-469f-8ac5-46a5a245ad21"
+          "related": "/classification_entries?filter[classification_table_id_eq]=d7e03810-a0df-40bd-82d1-1e22695edfc1"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/0486bfff-539c-469f-8ac5-46a5a245ad21/publish"
+    "self": "http://example.org/classification_tables/d7e03810-a0df-40bd-82d1-1e22695edfc1/publish"
   }
 }
 ```
@@ -1795,7 +1910,7 @@ X-Request-Id: f55019a9-8811-4e9b-adef-715a1f5c281d
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/874453a5-fdb2-4ebd-a897-55c5880b0d8b/archive
+POST /classification_tables/8bff926e-4176-456e-9809-a1c8d55104a5/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1812,7 +1927,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: bc54aa77-ccbb-4243-b4cf-7dc78a61b667
+X-Request-Id: a7abc7d0-aaed-4ba7-9248-6fe7a372e2d8
 200 OK
 ```
 
@@ -1820,11 +1935,11 @@ X-Request-Id: bc54aa77-ccbb-4243-b4cf-7dc78a61b667
 ```json
 {
   "data": {
-    "id": "874453a5-fdb2-4ebd-a897-55c5880b0d8b",
+    "id": "8bff926e-4176-456e-9809-a1c8d55104a5",
     "type": "classification_table",
     "attributes": {
       "archived": true,
-      "archived_at": "2019-12-11T06:32:24.246Z",
+      "archived_at": "2019-12-13T07:13:58.512Z",
       "description": null,
       "name": "CT 1",
       "published": false,
@@ -1840,13 +1955,13 @@ X-Request-Id: bc54aa77-ccbb-4243-b4cf-7dc78a61b667
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=874453a5-fdb2-4ebd-a897-55c5880b0d8b"
+          "related": "/classification_entries?filter[classification_table_id_eq]=8bff926e-4176-456e-9809-a1c8d55104a5"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/874453a5-fdb2-4ebd-a897-55c5880b0d8b/archive"
+    "self": "http://example.org/classification_tables/8bff926e-4176-456e-9809-a1c8d55104a5/archive"
   }
 }
 ```
@@ -1902,7 +2017,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 49f70859-84de-44e5-aa2b-bc89ea7e419b
+X-Request-Id: 03b8f11e-6dcf-4314-ac4e-0dfeaa166b80
 201 Created
 ```
 
@@ -1910,7 +2025,7 @@ X-Request-Id: 49f70859-84de-44e5-aa2b-bc89ea7e419b
 ```json
 {
   "data": {
-    "id": "e41012f3-d1ad-47ab-a88d-43e6aa731f15",
+    "id": "4304aec6-cdf9-494c-aea8-7b8b650f37c4",
     "type": "classification_table",
     "attributes": {
       "archived": false,
@@ -1930,7 +2045,7 @@ X-Request-Id: 49f70859-84de-44e5-aa2b-bc89ea7e419b
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=e41012f3-d1ad-47ab-a88d-43e6aa731f15"
+          "related": "/classification_entries?filter[classification_table_id_eq]=4304aec6-cdf9-494c-aea8-7b8b650f37c4"
         }
       }
     }
@@ -1990,7 +2105,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 4a68b4ce-92a0-42da-b966-6edb2f741728
+X-Request-Id: af57bf35-92c8-413a-ad1b-a5a200151c82
 200 OK
 ```
 
@@ -1999,14 +2114,14 @@ X-Request-Id: 4a68b4ce-92a0-42da-b966-6edb2f741728
 {
   "data": [
     {
-      "id": "2ec810c0-c3cf-4310-8ceb-c3b32b2be328",
+      "id": "9cd9e27b-afe9-4d4d-9dd6-8214e6fb7cdf",
       "type": "syntax",
       "attributes": {
-        "account_id": "7d251bdc-5e8b-4977-a2b1-ba116c700731",
+        "account_id": "38917d0b-bcdd-4357-872d-2d3304b37305",
         "archived": false,
         "archived_at": null,
         "description": "Description",
-        "name": "Syntax 66f531b76cbc",
+        "name": "Syntax fe195f14aa03",
         "published": false,
         "published_at": null
       },
@@ -2047,7 +2162,7 @@ X-Request-Id: 4a68b4ce-92a0-42da-b966-6edb2f741728
 #### Endpoint
 
 ```plaintext
-GET /syntaxes/1639fd05-8033-42e4-a462-e6623bb6da45
+GET /syntaxes/37643563-9779-4fa9-871f-384f304d7aed
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2064,7 +2179,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 84862ae5-88d5-472e-9782-868f597be805
+X-Request-Id: e5f54e1c-87f8-4f85-a202-4492e2325e96
 200 OK
 ```
 
@@ -2072,14 +2187,14 @@ X-Request-Id: 84862ae5-88d5-472e-9782-868f597be805
 ```json
 {
   "data": {
-    "id": "1639fd05-8033-42e4-a462-e6623bb6da45",
+    "id": "37643563-9779-4fa9-871f-384f304d7aed",
     "type": "syntax",
     "attributes": {
-      "account_id": "43efe517-c4be-4af0-b172-c8c141549a67",
+      "account_id": "cdd7f6b5-328b-4f4a-acc8-4d55018025a4",
       "archived": false,
       "archived_at": null,
       "description": "Description",
-      "name": "Syntax 48ef53df78d9",
+      "name": "Syntax 53a50ae44692",
       "published": false,
       "published_at": null
     },
@@ -2092,7 +2207,7 @@ X-Request-Id: 84862ae5-88d5-472e-9782-868f597be805
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/1639fd05-8033-42e4-a462-e6623bb6da45"
+    "self": "http://example.org/syntaxes/37643563-9779-4fa9-871f-384f304d7aed"
   }
 }
 ```
@@ -2147,7 +2262,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 2b44ae9e-d94f-4694-ae81-db1933c7cf9f
+X-Request-Id: 94d89b33-f6be-42e6-9da1-71a2f38f5473
 201 Created
 ```
 
@@ -2155,10 +2270,10 @@ X-Request-Id: 2b44ae9e-d94f-4694-ae81-db1933c7cf9f
 ```json
 {
   "data": {
-    "id": "4446f913-244b-4df8-b908-d5a71b98eddf",
+    "id": "4296380d-78fa-4803-8289-82c605d92163",
     "type": "syntax",
     "attributes": {
-      "account_id": "ee5e799e-f0ca-41ce-af41-191c21822940",
+      "account_id": "c8b07730-25cf-4f91-aa01-b25480f772f4",
       "archived": false,
       "archived_at": null,
       "description": "Description",
@@ -2201,7 +2316,7 @@ X-Request-Id: 2b44ae9e-d94f-4694-ae81-db1933c7cf9f
 #### Endpoint
 
 ```plaintext
-PATCH /syntaxes/f839e2ea-b52b-40c6-984a-eedf723967f5
+PATCH /syntaxes/16cff30b-4532-4275-834d-a0d52b6c25d6
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2215,7 +2330,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "f839e2ea-b52b-40c6-984a-eedf723967f5",
+    "id": "16cff30b-4532-4275-834d-a0d52b6c25d6",
     "type": "syntaxes",
     "attributes": {
       "name": "New name"
@@ -2234,7 +2349,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 59f88230-d715-4fdf-9151-39d4c1fd9d39
+X-Request-Id: 6d28090c-5ea1-4647-bff9-792f25c44a13
 200 OK
 ```
 
@@ -2242,10 +2357,10 @@ X-Request-Id: 59f88230-d715-4fdf-9151-39d4c1fd9d39
 ```json
 {
   "data": {
-    "id": "f839e2ea-b52b-40c6-984a-eedf723967f5",
+    "id": "16cff30b-4532-4275-834d-a0d52b6c25d6",
     "type": "syntax",
     "attributes": {
-      "account_id": "7279912b-3cbd-45ef-9b0e-b7e57d4b4ccb",
+      "account_id": "253933e2-a148-49d4-b54e-d956448c0075",
       "archived": false,
       "archived_at": null,
       "description": "Description",
@@ -2262,7 +2377,7 @@ X-Request-Id: 59f88230-d715-4fdf-9151-39d4c1fd9d39
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/f839e2ea-b52b-40c6-984a-eedf723967f5"
+    "self": "http://example.org/syntaxes/16cff30b-4532-4275-834d-a0d52b6c25d6"
   }
 }
 ```
@@ -2288,7 +2403,7 @@ X-Request-Id: 59f88230-d715-4fdf-9151-39d4c1fd9d39
 #### Endpoint
 
 ```plaintext
-DELETE /syntaxes/814a8b46-7ddf-49a4-94be-1632ff8207c8
+DELETE /syntaxes/1b0af291-4654-4f3a-8652-66033d46c884
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2305,7 +2420,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: d50df98a-5408-47d0-a609-ccd39cfabc47
+X-Request-Id: 855fa405-d4fa-4885-bf88-f0c6ca936f8a
 204 No Content
 ```
 
@@ -2331,7 +2446,7 @@ X-Request-Id: d50df98a-5408-47d0-a609-ccd39cfabc47
 #### Endpoint
 
 ```plaintext
-POST /syntaxes/34e728eb-e778-4f27-9716-b8844d00e854/publish
+POST /syntaxes/805f477a-bf94-4b5d-bd97-9c83272d9654/publish
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2348,7 +2463,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 3e4beb17-f41b-4dd2-832d-ac3906ecc63b
+X-Request-Id: 39d5cb25-dc5e-4e40-9623-6f8d79e0d8bd
 200 OK
 ```
 
@@ -2356,16 +2471,16 @@ X-Request-Id: 3e4beb17-f41b-4dd2-832d-ac3906ecc63b
 ```json
 {
   "data": {
-    "id": "34e728eb-e778-4f27-9716-b8844d00e854",
+    "id": "805f477a-bf94-4b5d-bd97-9c83272d9654",
     "type": "syntax",
     "attributes": {
-      "account_id": "a1f2d2a7-6d02-4830-9c51-44bbb05577b9",
+      "account_id": "a3f772af-020e-4a47-8851-b7af22c5c8aa",
       "archived": false,
       "archived_at": null,
       "description": "Description",
-      "name": "Syntax debbeba8bbd6",
+      "name": "Syntax 30c7e7517c5f",
       "published": true,
-      "published_at": "2019-12-11T06:32:26.247Z"
+      "published_at": "2019-12-13T07:14:00.748Z"
     },
     "relationships": {
       "account": {
@@ -2376,7 +2491,7 @@ X-Request-Id: 3e4beb17-f41b-4dd2-832d-ac3906ecc63b
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/34e728eb-e778-4f27-9716-b8844d00e854/publish"
+    "self": "http://example.org/syntaxes/805f477a-bf94-4b5d-bd97-9c83272d9654/publish"
   }
 }
 ```
@@ -2402,7 +2517,7 @@ X-Request-Id: 3e4beb17-f41b-4dd2-832d-ac3906ecc63b
 #### Endpoint
 
 ```plaintext
-POST /syntaxes/305e4f46-d763-43a5-b01f-5399e056078b/archive
+POST /syntaxes/2242278b-80a0-4476-8ce4-28cd8f5ac1b1/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2419,7 +2534,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: fb208144-0407-457b-bdbe-77550290997a
+X-Request-Id: 272574cb-4db0-4cf9-ab3d-164f5cf8ffa8
 200 OK
 ```
 
@@ -2427,14 +2542,14 @@ X-Request-Id: fb208144-0407-457b-bdbe-77550290997a
 ```json
 {
   "data": {
-    "id": "305e4f46-d763-43a5-b01f-5399e056078b",
+    "id": "2242278b-80a0-4476-8ce4-28cd8f5ac1b1",
     "type": "syntax",
     "attributes": {
-      "account_id": "bfd7c3d0-548e-440f-b76c-f9d2c755d784",
+      "account_id": "238bbd7f-fc98-4e3e-a24f-11fd1a335ce3",
       "archived": true,
-      "archived_at": "2019-12-11T06:32:26.558Z",
+      "archived_at": "2019-12-13T07:14:00.999Z",
       "description": "Description",
-      "name": "Syntax 88b2aac48813",
+      "name": "Syntax 476a4be93851",
       "published": false,
       "published_at": null
     },
@@ -2447,7 +2562,7 @@ X-Request-Id: fb208144-0407-457b-bdbe-77550290997a
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/305e4f46-d763-43a5-b01f-5399e056078b/archive"
+    "self": "http://example.org/syntaxes/2242278b-80a0-4476-8ce4-28cd8f5ac1b1/archive"
   }
 }
 ```
@@ -2495,7 +2610,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: a4e569d7-d0ce-45ef-8dbf-83e7afb528f0
+X-Request-Id: 6997942c-79e0-4afb-8cee-990cb6931ba9
 200 OK
 ```
 
@@ -2504,26 +2619,26 @@ X-Request-Id: a4e569d7-d0ce-45ef-8dbf-83e7afb528f0
 {
   "data": [
     {
-      "id": "8a4950dc-57d7-4f99-95c5-44804189606e",
+      "id": "09d7e8a5-67fc-4b5f-b9bd-8032e6eeb33f",
       "type": "syntax_element",
       "attributes": {
         "aspect": "=",
-        "classification_table_id": "e72cd02b-1c55-4944-af6e-cb22d0f34d01",
-        "hex_color": "27622c",
+        "classification_table_id": "b927fd62-5513-4e0b-a5b0-9b0661b1436b",
+        "hex_color": "0018c8",
         "max_number": 9,
         "min_number": 1,
-        "name": "Syntax element 43b49e046d34",
-        "syntax_id": "02dbed68-f1b2-459e-864e-00c73a89bbe5"
+        "name": "Syntax element 85d96286e99b",
+        "syntax_id": "3d2595f4-9760-43b6-bcfc-8d788aefe2b1"
       },
       "relationships": {
         "syntax": {
           "links": {
-            "related": "/syntaxes/02dbed68-f1b2-459e-864e-00c73a89bbe5"
+            "related": "/syntaxes/3d2595f4-9760-43b6-bcfc-8d788aefe2b1"
           }
         },
         "classification_table": {
           "links": {
-            "related": "/classification_tables/e72cd02b-1c55-4944-af6e-cb22d0f34d01"
+            "related": "/classification_tables/b927fd62-5513-4e0b-a5b0-9b0661b1436b"
           }
         }
       }
@@ -2559,7 +2674,7 @@ X-Request-Id: a4e569d7-d0ce-45ef-8dbf-83e7afb528f0
 #### Endpoint
 
 ```plaintext
-GET /syntax_elements/2ee8a213-2c65-4c3b-87ab-71b9cc5ad5cf
+GET /syntax_elements/17930a46-b411-437b-81a3-11d584fbb2b4
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2576,7 +2691,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 47c61583-e987-48d9-ab45-c5bca3510c70
+X-Request-Id: 181bace5-5ba3-4bf1-90fe-3dc63a4de192
 200 OK
 ```
 
@@ -2584,32 +2699,32 @@ X-Request-Id: 47c61583-e987-48d9-ab45-c5bca3510c70
 ```json
 {
   "data": {
-    "id": "2ee8a213-2c65-4c3b-87ab-71b9cc5ad5cf",
+    "id": "17930a46-b411-437b-81a3-11d584fbb2b4",
     "type": "syntax_element",
     "attributes": {
       "aspect": "=",
-      "classification_table_id": "97a2b116-eac3-40cb-8d0d-a849086d4bbc",
-      "hex_color": "4a5eac",
+      "classification_table_id": "19508a90-fb5e-4533-a32f-1eb4b3a1d9bf",
+      "hex_color": "fb759e",
       "max_number": 9,
       "min_number": 1,
-      "name": "Syntax element 5a1f8439d90f",
-      "syntax_id": "cf0ab9ef-8c72-4350-9486-b028679863d9"
+      "name": "Syntax element add85308b13e",
+      "syntax_id": "bb472e5b-6ecd-441d-870d-5e3f12a70dae"
     },
     "relationships": {
       "syntax": {
         "links": {
-          "related": "/syntaxes/cf0ab9ef-8c72-4350-9486-b028679863d9"
+          "related": "/syntaxes/bb472e5b-6ecd-441d-870d-5e3f12a70dae"
         }
       },
       "classification_table": {
         "links": {
-          "related": "/classification_tables/97a2b116-eac3-40cb-8d0d-a849086d4bbc"
+          "related": "/classification_tables/19508a90-fb5e-4533-a32f-1eb4b3a1d9bf"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntax_elements/2ee8a213-2c65-4c3b-87ab-71b9cc5ad5cf"
+    "self": "http://example.org/syntax_elements/17930a46-b411-437b-81a3-11d584fbb2b4"
   }
 }
 ```
@@ -2658,8 +2773,8 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "max_number": 5,
       "hex_color": "001122",
       "aspect": "#",
-      "syntax_id": "255aa72e-97b1-4b85-a646-bd139f1e750e",
-      "classification_table_id": "3048d17d-627a-461c-8d10-d9c5c9df253c"
+      "syntax_id": "3aafa3d4-2165-4cb3-824e-3e755a98bd43",
+      "classification_table_id": "b6671367-a082-46ff-8a32-c658e85a9c38"
     }
   }
 }
@@ -2671,7 +2786,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 32333ead-8aa5-4837-a9ff-87293c09cc19
+X-Request-Id: 0eadb5f7-1daa-4ad3-a622-82c210977ce6
 201 Created
 ```
 
@@ -2679,26 +2794,26 @@ X-Request-Id: 32333ead-8aa5-4837-a9ff-87293c09cc19
 ```json
 {
   "data": {
-    "id": "5ddd1921-b6b0-47c9-969d-8ead575e7270",
+    "id": "cfef9d59-49b9-4a0e-97cc-86200901a81b",
     "type": "syntax_element",
     "attributes": {
       "aspect": "#",
-      "classification_table_id": "3048d17d-627a-461c-8d10-d9c5c9df253c",
+      "classification_table_id": "b6671367-a082-46ff-8a32-c658e85a9c38",
       "hex_color": "001122",
       "max_number": 5,
       "min_number": 1,
       "name": "Element",
-      "syntax_id": "255aa72e-97b1-4b85-a646-bd139f1e750e"
+      "syntax_id": "3aafa3d4-2165-4cb3-824e-3e755a98bd43"
     },
     "relationships": {
       "syntax": {
         "links": {
-          "related": "/syntaxes/255aa72e-97b1-4b85-a646-bd139f1e750e"
+          "related": "/syntaxes/3aafa3d4-2165-4cb3-824e-3e755a98bd43"
         }
       },
       "classification_table": {
         "links": {
-          "related": "/classification_tables/3048d17d-627a-461c-8d10-d9c5c9df253c"
+          "related": "/classification_tables/b6671367-a082-46ff-8a32-c658e85a9c38"
         }
       }
     }
@@ -2732,7 +2847,7 @@ X-Request-Id: 32333ead-8aa5-4837-a9ff-87293c09cc19
 #### Endpoint
 
 ```plaintext
-PATCH /syntax_elements/cee0222a-8439-4a13-830b-7eb2e9b6f2c6
+PATCH /syntax_elements/ae1ebc48-cd0f-4d4f-8c2a-cc6808930360
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2746,7 +2861,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "cee0222a-8439-4a13-830b-7eb2e9b6f2c6",
+    "id": "ae1ebc48-cd0f-4d4f-8c2a-cc6808930360",
     "type": "syntax_element",
     "attributes": {
       "name": "New element"
@@ -2765,7 +2880,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 5ccb4cab-b8df-4ef1-91b0-733d3cf01f21
+X-Request-Id: b41f6be7-8e69-458e-ace8-83c636e81c0a
 200 OK
 ```
 
@@ -2773,32 +2888,32 @@ X-Request-Id: 5ccb4cab-b8df-4ef1-91b0-733d3cf01f21
 ```json
 {
   "data": {
-    "id": "cee0222a-8439-4a13-830b-7eb2e9b6f2c6",
+    "id": "ae1ebc48-cd0f-4d4f-8c2a-cc6808930360",
     "type": "syntax_element",
     "attributes": {
       "aspect": "=",
-      "classification_table_id": "7f183203-72a4-4bd0-83f7-51870dcce471",
-      "hex_color": "4e7253",
+      "classification_table_id": "2c76c3ad-9f7e-40ee-84bf-c0298181770c",
+      "hex_color": "996e72",
       "max_number": 9,
       "min_number": 1,
       "name": "New element",
-      "syntax_id": "e17c59e1-75ef-467c-bec3-4269e46172d8"
+      "syntax_id": "af634c5d-3c45-43ec-9ce3-4da23f8348b5"
     },
     "relationships": {
       "syntax": {
         "links": {
-          "related": "/syntaxes/e17c59e1-75ef-467c-bec3-4269e46172d8"
+          "related": "/syntaxes/af634c5d-3c45-43ec-9ce3-4da23f8348b5"
         }
       },
       "classification_table": {
         "links": {
-          "related": "/classification_tables/7f183203-72a4-4bd0-83f7-51870dcce471"
+          "related": "/classification_tables/2c76c3ad-9f7e-40ee-84bf-c0298181770c"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntax_elements/cee0222a-8439-4a13-830b-7eb2e9b6f2c6"
+    "self": "http://example.org/syntax_elements/ae1ebc48-cd0f-4d4f-8c2a-cc6808930360"
   }
 }
 ```
@@ -2826,7 +2941,7 @@ X-Request-Id: 5ccb4cab-b8df-4ef1-91b0-733d3cf01f21
 #### Endpoint
 
 ```plaintext
-DELETE /syntax_elements/98507985-16c4-4a62-84d5-3d01ac46a399
+DELETE /syntax_elements/78eaf129-b332-4eff-b264-25990f056437
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2843,7 +2958,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 6fcca1ab-11b4-4641-a3f0-d3f88f2d0278
+X-Request-Id: e6d4832b-6445-4a8f-a9e2-7eee885177db
 204 No Content
 ```
 
@@ -2876,7 +2991,7 @@ Syntax Nodes is the structure, in which Contexts are allowed to represent Syntax
 #### Endpoint
 
 ```plaintext
-GET /syntax_nodes/08f3c71d-3e83-47fb-9ddb-04e5f1b57cd0
+GET /syntax_nodes/fa23e0b0-70c9-4687-8bd1-c59c06f30e20
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2897,7 +3012,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: fe25c88f-eee8-4347-9387-db07f423979b
+X-Request-Id: 45d0e8a5-d8aa-49c1-9cc1-aa839bd3562e
 200 OK
 ```
 
@@ -2905,18 +3020,18 @@ X-Request-Id: fe25c88f-eee8-4347-9387-db07f423979b
 ```json
 {
   "data": {
-    "id": "08f3c71d-3e83-47fb-9ddb-04e5f1b57cd0",
+    "id": "fa23e0b0-70c9-4687-8bd1-c59c06f30e20",
     "type": "syntax_node",
     "attributes": {
       "max_depth": 9,
       "min_depth": 1,
       "position": 1,
-      "syntax_element_id": "621a51f6-4a6f-4356-8ebf-d678da2e4100"
+      "syntax_element_id": "56089803-97b2-4f79-8516-b362bad5caba"
     },
     "relationships": {
       "syntax_element": {
         "links": {
-          "related": "/syntax_elements/621a51f6-4a6f-4356-8ebf-d678da2e4100"
+          "related": "/syntax_elements/56089803-97b2-4f79-8516-b362bad5caba"
         }
       },
       "components": {
@@ -2927,7 +3042,7 @@ X-Request-Id: fe25c88f-eee8-4347-9387-db07f423979b
     }
   },
   "links": {
-    "self": "http://example.org/syntax_nodes/08f3c71d-3e83-47fb-9ddb-04e5f1b57cd0"
+    "self": "http://example.org/syntax_nodes/fa23e0b0-70c9-4687-8bd1-c59c06f30e20"
   }
 }
 ```
@@ -2971,7 +3086,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "position": 9,
       "min_depth": 1,
       "max_depth": 5,
-      "syntax_element_id": "ff25ed50-b980-45b5-bcd7-ae40f75e3541"
+      "syntax_element_id": "085c7a46-81a7-4c78-8a91-7c236de37615"
     }
   }
 }
@@ -2983,7 +3098,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: a0680315-da89-4685-8298-498e52cc0ca4
+X-Request-Id: 4e24eb63-eb52-4bbe-9e7a-06e541d63733
 201 Created
 ```
 
@@ -2991,18 +3106,18 @@ X-Request-Id: a0680315-da89-4685-8298-498e52cc0ca4
 ```json
 {
   "data": {
-    "id": "cdd9df64-7b8c-40f3-a28e-0d94abb840f5",
+    "id": "7b59543a-6e28-428a-82e9-ef021d4dff49",
     "type": "syntax_node",
     "attributes": {
       "max_depth": 5,
       "min_depth": 1,
       "position": 9,
-      "syntax_element_id": "ff25ed50-b980-45b5-bcd7-ae40f75e3541"
+      "syntax_element_id": "085c7a46-81a7-4c78-8a91-7c236de37615"
     },
     "relationships": {
       "syntax_element": {
         "links": {
-          "related": "/syntax_elements/ff25ed50-b980-45b5-bcd7-ae40f75e3541"
+          "related": "/syntax_elements/085c7a46-81a7-4c78-8a91-7c236de37615"
         }
       },
       "components": {
@@ -3038,7 +3153,7 @@ X-Request-Id: a0680315-da89-4685-8298-498e52cc0ca4
 #### Endpoint
 
 ```plaintext
-PATCH /syntax_nodes/78757a96-406e-44b0-91e8-de1d0216f04f
+PATCH /syntax_nodes/28dd598d-87d9-4dcb-98f2-cfe081d6a4e9
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3052,7 +3167,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "78757a96-406e-44b0-91e8-de1d0216f04f",
+    "id": "28dd598d-87d9-4dcb-98f2-cfe081d6a4e9",
     "type": "syntax_node",
     "attributes": {
       "position": 5
@@ -3071,7 +3186,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: d260e5fd-1a5a-4ed8-8188-4a5bf48f1a55
+X-Request-Id: 2cbcb586-dbe9-465f-977c-21ef0df510b2
 200 OK
 ```
 
@@ -3079,18 +3194,18 @@ X-Request-Id: d260e5fd-1a5a-4ed8-8188-4a5bf48f1a55
 ```json
 {
   "data": {
-    "id": "78757a96-406e-44b0-91e8-de1d0216f04f",
+    "id": "28dd598d-87d9-4dcb-98f2-cfe081d6a4e9",
     "type": "syntax_node",
     "attributes": {
       "max_depth": 9,
       "min_depth": 1,
       "position": 5,
-      "syntax_element_id": "1ad75926-49d6-4e88-a8ff-f498f2659ea4"
+      "syntax_element_id": "ff417cf9-1798-477f-b944-002177d6d4d1"
     },
     "relationships": {
       "syntax_element": {
         "links": {
-          "related": "/syntax_elements/1ad75926-49d6-4e88-a8ff-f498f2659ea4"
+          "related": "/syntax_elements/ff417cf9-1798-477f-b944-002177d6d4d1"
         }
       },
       "components": {
@@ -3101,7 +3216,7 @@ X-Request-Id: d260e5fd-1a5a-4ed8-8188-4a5bf48f1a55
     }
   },
   "links": {
-    "self": "http://example.org/syntax_nodes/78757a96-406e-44b0-91e8-de1d0216f04f"
+    "self": "http://example.org/syntax_nodes/28dd598d-87d9-4dcb-98f2-cfe081d6a4e9"
   }
 }
 ```
@@ -3126,7 +3241,7 @@ X-Request-Id: d260e5fd-1a5a-4ed8-8188-4a5bf48f1a55
 #### Endpoint
 
 ```plaintext
-DELETE /syntax_nodes/7ff9a24d-4068-4e12-a607-0e1b80856d87
+DELETE /syntax_nodes/2c1f30ea-7f36-4fee-97b4-208e05b648ec
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3143,7 +3258,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 961c2d13-9c68-4768-8efe-ff41b515a51f
+X-Request-Id: 9650c71e-cf75-4c45-b010-92d6716f622c
 204 No Content
 ```
 
@@ -3160,12 +3275,12 @@ X-Request-Id: 961c2d13-9c68-4768-8efe-ff41b515a51f
 | data[attributes][syntax_element_id] | Syntax element ID |
 
 
-# Heartbeat
+# Permissions
 
-Check the runtime health of the application.
+A Permission represents a single permission which can be assigned to a User.
 
 
-## OK
+## List
 
 
 ### Request
@@ -3173,11 +3288,13 @@ Check the runtime health of the application.
 #### Endpoint
 
 ```plaintext
-GET /heartbeat
-
+GET /permissions
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
 ```
 
-`GET /heartbeat`
+`GET /permissions`
 
 #### Parameters
 
@@ -3188,15 +3305,31 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: aa6038f7-457c-4bea-ba85-a0daebcb1989
+X-Request-Id: adfd4e0b-7840-4260-b149-f741464081e0
 200 OK
 ```
 
 
 ```json
-default: PASSED Application is running (0.000s)
+{
+  "links": {
+    "self": "http://example.org/permissions",
+    "current": "http://example.org/permissions?page[number]=1"
+  },
+  "data": [
+
+  ]
+}
 ```
 
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][event] | Permission name |
+| data[attributes][event] | Permission description |
 
 
 # Events
@@ -3229,7 +3362,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 73c226f8-1b20-4781-a319-b9298d70b389
+X-Request-Id: 68f91eb4-6a68-4d1f-a0b9-ef7db9beb7eb
 200 OK
 ```
 
@@ -3238,7 +3371,7 @@ X-Request-Id: 73c226f8-1b20-4781-a319-b9298d70b389
 {
   "data": [
     {
-      "id": "d88f385b-20d9-4a63-9d8e-8d10eddb98d9",
+      "id": "31bff722-8ac5-4789-b602-eaf07956b79d",
       "type": "event",
       "attributes": {
         "event": "create"
@@ -3246,12 +3379,12 @@ X-Request-Id: 73c226f8-1b20-4781-a319-b9298d70b389
       "relationships": {
         "user": {
           "links": {
-            "related": "/users/1697adf5-19d8-4922-ab1f-d94cf0804f9c"
+            "related": "/users/71ba6df0-1a86-4ab9-85dd-717ae7ffeeed"
           }
         },
         "item": {
           "links": {
-            "related": "/contexts/05a70b46-f5c8-40a1-a1d2-915a5d8ab5af"
+            "related": "/contexts/ec1557a2-d24e-42e6-8735-56bfdcc5a247"
           }
         }
       }
@@ -3271,5 +3404,44 @@ X-Request-Id: 73c226f8-1b20-4781-a319-b9298d70b389
 | Name       | Description         |
 |:-----------|:--------------------|
 | data[attributes][event] | Event name |
+
+
+# Heartbeat
+
+Check the runtime health of the application.
+
+
+## OK
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+GET /heartbeat
+
+```
+
+`GET /heartbeat`
+
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: 9a76b5d9-18e4-4d37-8c39-5bb5456d0f00
+200 OK
+```
+
+
+```json
+default: PASSED Application is running (0.000s)
+```
+
 
 
