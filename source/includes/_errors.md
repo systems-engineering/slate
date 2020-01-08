@@ -1,5 +1,38 @@
 # Errors
 
+```json
+{
+  "code": "1003.missing_name",
+  "id": "59ac2363-a05b-423c-a71c-2622626d3116",
+  "links": {
+    "about": "https://docs.sec-hub.com/#1003-bad-request",
+  },
+  "status": 400,
+  "title": "Name is missing"
+}
+
+[
+  {
+    "code": "1003.invalid_name",
+    "id": "09b15736-759c-4369-83a5-9a97b2e41982",
+    "links": {
+      "about": "https://docs.sec-hub.com/#1003-bad-request",
+    },
+    "status": 400,
+    "title": "Invalid name"
+  },
+  {
+    "code": "1003.missing_description",
+    "id": "420fd8dd-ed6e-42cc-b81c-45f3450ecf6b",
+    "links": {
+      "about": "https://docs.sec-hub.com/#1003-bad-request",
+    },
+    "status": 400,
+    "title": "Description is missing"
+  }
+]
+```
+
 The Consumer API attemps to be JSON:API complient in regards to errors' HTTP statuses. You can read
 more details about the individual HTTP status codes on the
 [httpstatuses.com](https://httpstatuses.com) page.
@@ -7,26 +40,14 @@ more details about the individual HTTP status codes on the
 As seen in the [JSON:API Errors specification](https://jsonapi.org/format/#errors) we make use of
 the `code` property of an error response object.
 
-Codes will only be removed or added. Once an error has been assigned a code, that will not change,
-and no other error will reuse that code. This makes codes a great way for clients to programatically
-identify and localize errors.
-
-Code | Status | Short description
----------------------------------
-1001 | 500 | Internal Server Error
-1002 | 404 | Not found
-1003 | 403 | Parent resource published
-1005 | 401 | Invalid authentication
-1008 | 403 | Invalid permissions
-1009 | 403 | Not archived
-1010 | 403 | Already published
-1011 | 403 | Parent resource already archived
-1012 | 401 | Invaild JWT token
-1013 | 401 | Malformatted JWT token
-
 If you want to raise a support ticket, because you believe that you're getting an error response
 incorrectly, please include the `X-Request-Id` response header from the erroneous response in the
 error report.
+
+Some errors have an additional part to the error code separated by a full stop.
+This could look something like this: `1003.missing_name`.
+
+
 
 ## (1001) Internal Server Error
 
@@ -37,11 +58,94 @@ This happens when we encounter an unresolvable and unhandles error.
 Please wait a little while and then retry the request. We suggest building a progressive backoff
 model into your retry strategy.
 
+
+
 ## (1002) Not Found
+
+HTTP Status: 404
 
 This occurs when the resource you're trying to access doesn't exist.
 
 You should re-parse the API from the initial endpoint `/`.
+
+
+
+## (1003) Bad Request
+
+HTTP Status: 400
+
+This occurs when the client sends an invalid or insuffient request, which the API expects that the
+client can and should correct.
+
+Once corrected the client should resend the request.
+
+
+
+## (1004) Unauthorized
+
+HTTP Status: 401
+
+This occurs when the `Authentication` header is missing or invalid.
+
+| Code | Description |
+| ---- | ----------- |
+| no_current_user | Unable to determine the user |
+| no_current_account | Unable to determine the account |
+| no_local_user | Unable to retrieve the user from the authentication provider |
+
+
+
+## (1005) Forbidden
+
+HTTP Status: 403
+
+This occurs when the `Authentication` header is correct, but the client or user isn't allowed to
+perform the action on the resource.
+
+
+
+## (1101) Published, immutable resource
+
+HTTP Status: 403
+
+This occurs because published resources are immutable.
+
+If you want a copy of the resource, which isn't published, and therefor is mutable, please see the
+specific resource's endpoints and look for a copy option.
+
+
+
+## (1103) Not Archived
+
+HTTP Status: 403
+
+This occurs when the client attempts to directly delete an archivable (but unarchived) resource.
+
+A resource that can be archived must be archived before it can be deleted.
+
+
+
+## (1104) Already published
+
+HTTP Status: 403
+
+This occurs when the client attempts to update a published resource.
+
+Once a resource is published it becomes immutable in terms of directly updating first-class
+properties on the resource. It is still possible to fx. archive a published resource.
+
+
+
+## (1105) Archived resource unavailable
+
+HTTP Status: 403
+
+This occurs when a client attempts to associate or otherwise _use_ an archived resource.
+
+Archived resources are only available to resources that assigned the archived resource prior to the
+archiving date.
+
+<!--
 
 ## (1003)  Parent resource published
 
@@ -101,3 +205,4 @@ The JWT token in the `Authorization` header is malformatted.
 Please read through the [authentication section of the
 documentation](https://docs.sec-hub.com/#authentication) on how to correctly obtain a valid JWT
 token.
+ -->
