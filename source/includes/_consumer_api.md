@@ -231,7 +231,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 64dec094-c057-40e8-b79b-90c8a4a5fc75
+X-Request-Id: 170c0637-7232-4459-b0c3-a68ba425be58
 200 OK
 ```
 
@@ -271,7 +271,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "6779fa64-607d-4a66-8608-485c5b4890a0",
+    "id": "0b8121cc-682c-4af4-9bab-2ac3b172d6f3",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
@@ -290,7 +290,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: e0dbba2a-c3ab-4377-a497-e4e982b99cf7
+X-Request-Id: 4be526f1-e783-412f-838a-c5cfc07951e9
 200 OK
 ```
 
@@ -325,7 +325,7 @@ This allows the project's manager to indepedenly indicate the progress of the pr
 #### Endpoint
 
 ```plaintext
-POST /projects/1babb4e9-00a2-438e-a22b-1e235c9d2df2/relationships/tags
+POST /projects/e5ccc5ef-1895-443a-967a-82d2f8c9e0dd/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -353,7 +353,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: b823488e-d431-443d-88fc-8a3f4f19b7d4
+X-Request-Id: e7376d31-f6bf-4d5e-8599-821e16c96afe
 201 Created
 ```
 
@@ -379,7 +379,7 @@ X-Request-Id: b823488e-d431-443d-88fc-8a3f4f19b7d4
 #### Endpoint
 
 ```plaintext
-POST /projects/16fd3f95-19ba-4b5d-91b9-3501b33fcccc/relationships/tags
+POST /projects/81e6fca7-10e2-4754-ae85-8249ae40a860/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -394,7 +394,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 {
   "data": {
     "type": "tags",
-    "id": "2b8da572-ca05-40ba-92b9-685dbac9fbfd"
+    "id": "570def60-e7e9-4510-8e85-a66f111dda31"
   }
 }
 ```
@@ -405,7 +405,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 8f67d73d-7aae-4ccd-831b-3e745122c2c9
+X-Request-Id: e597d62b-c6dc-4240-a3b8-45b205b77a73
 201 Created
 ```
 
@@ -431,7 +431,7 @@ X-Request-Id: 8f67d73d-7aae-4ccd-831b-3e745122c2c9
 #### Endpoint
 
 ```plaintext
-DELETE /projects/a3217622-ea57-4bc9-96fd-cb1acac3781e/relationships/tags/5c197446-7451-4602-9b41-c01d3c684848
+DELETE /projects/687353d2-3e1e-4dc0-b033-00884290b0f3/relationships/tags/bd214fbf-1548-4846-94e9-168136085f19
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -448,7 +448,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: f93f487f-7cc3-4547-9d1b-d230dfd05436
+X-Request-Id: 9f38f82d-083b-4ed1-a043-f282bad47c8d
 204 No Content
 ```
 
@@ -484,6 +484,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 | Name | Description |
 |:-----|:------------|
+| sort  | available sort fields: name |
 | query  | search query |
 | filter[archived]  | filter by archived flag |
 
@@ -492,7 +493,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 5200689d-bd51-4c0f-80e5-51bdb82cb56b
+X-Request-Id: 7765ec73-0599-44da-b1f1-88b7326ef9a5
 200 OK
 ```
 
@@ -518,7 +519,7 @@ X-Request-Id: 5200689d-bd51-4c0f-80e5-51bdb82cb56b
 #### Endpoint
 
 ```plaintext
-GET /projects/7f30a430-1ba8-4b99-be16-88c088015787
+GET /projects/eec06df0-094a-4c1f-8590-2c829bfb5bfb
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -535,7 +536,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 21d45980-65ea-47ba-9eb4-a5fdc48f3ee7
+X-Request-Id: bc930058-6f31-4ff5-844b-628caf785196
 200 OK
 ```
 
@@ -561,7 +562,7 @@ X-Request-Id: 21d45980-65ea-47ba-9eb4-a5fdc48f3ee7
 #### Endpoint
 
 ```plaintext
-PATCH /projects/7b1a5372-36ac-4243-902a-b36b87a20015
+PATCH /projects/dfceef65-0370-4be3-be46-8a7bc52b9761
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -575,7 +576,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "7b1a5372-36ac-4243-902a-b36b87a20015",
+    "id": "dfceef65-0370-4be3-be46-8a7bc52b9761",
     "type": "projects",
     "attributes": {
       "name": "New project name"
@@ -594,7 +595,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 7a850bcd-af02-4daa-8f4f-a8f875f1c900
+X-Request-Id: 14c9326c-248c-4841-aa53-b4fbac1097f2
 200 OK
 ```
 
@@ -620,7 +621,7 @@ X-Request-Id: 7a850bcd-af02-4daa-8f4f-a8f875f1c900
 #### Endpoint
 
 ```plaintext
-POST /projects/3581f345-5df6-456a-8668-e9042dcc04ea/archive
+POST /projects/790d6d24-ff0d-4d9e-b508-5e3da2d03f82/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -637,7 +638,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 534d3a36-4eee-4350-8deb-f0f629487bbd
+X-Request-Id: 726436f8-60ba-4ce9-9c10-b802a82dcbfd
 200 OK
 ```
 
@@ -663,7 +664,7 @@ X-Request-Id: 534d3a36-4eee-4350-8deb-f0f629487bbd
 #### Endpoint
 
 ```plaintext
-DELETE /projects/e00ce3d0-a22a-4ba4-9080-ac0b9d0e413f
+DELETE /projects/5fdb1cd1-334d-4288-9a1b-b45cd67d3d85
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -680,7 +681,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 0a31926f-ef0c-4d95-b600-4b0a308a9b40
+X-Request-Id: 687d1995-ea55-4c57-aebd-5744176f9f93
 204 No Content
 ```
 
@@ -710,7 +711,7 @@ switches in a Context's Object Occurrences.
 #### Endpoint
 
 ```plaintext
-POST /contexts/bc700036-45fe-4f41-a51a-5a5d2e339e54/relationships/tags
+POST /contexts/81032372-55c4-40c8-8e56-230f5cc0c88e/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -738,7 +739,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: d5e43fef-06a5-4491-b48a-6cd49a58548d
+X-Request-Id: a22bea2c-e66d-4148-aa9c-c154eb5a64b5
 201 Created
 ```
 
@@ -768,7 +769,7 @@ X-Request-Id: d5e43fef-06a5-4491-b48a-6cd49a58548d
 #### Endpoint
 
 ```plaintext
-POST /contexts/431d8abd-ff03-4094-af39-432763579540/relationships/tags
+POST /contexts/4df28374-a886-464c-87eb-64f77c377854/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -783,7 +784,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 {
   "data": {
     "type": "tags",
-    "id": "114d82dc-41a3-47ea-937f-f58670c46d8a"
+    "id": "6f4f9bd3-9b84-4604-a574-d39226116838"
   }
 }
 ```
@@ -794,7 +795,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: c107013e-1e7c-4e0a-92ed-d746443dfc56
+X-Request-Id: 0c64e747-74fe-4a1d-b277-d5a6948187e1
 201 Created
 ```
 
@@ -824,7 +825,7 @@ X-Request-Id: c107013e-1e7c-4e0a-92ed-d746443dfc56
 #### Endpoint
 
 ```plaintext
-DELETE /contexts/4644762e-61ce-4725-8479-43dcf015fe6a/relationships/tags/c33b638a-f46c-418b-acc5-acba4629967c
+DELETE /contexts/dff670c6-eaf7-405f-a0fa-4fa650a47634/relationships/tags/eb1822cb-532e-4370-b9c4-16c63864d4fa
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -841,7 +842,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 96761f19-7604-41d1-9950-a7f99b52094a
+X-Request-Id: 1cc4a9f0-0d1d-477a-beb6-c961e7f319f6
 204 No Content
 ```
 
@@ -881,6 +882,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 | Name | Description |
 |:-----|:------------|
+| sort  | available sort fields: name, object_occurrences_count |
 | query  | search query |
 | filter[archived]  | filter by archived flag |
 | filter[project_id_eq]  | filter by project_id |
@@ -890,7 +892,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: fcf5e98f-1834-4324-bd33-56905f416bcd
+X-Request-Id: d35a2eb2-828a-450c-8fc2-f4f9c71f1bf7
 200 OK
 ```
 
@@ -920,7 +922,7 @@ X-Request-Id: fcf5e98f-1834-4324-bd33-56905f416bcd
 #### Endpoint
 
 ```plaintext
-GET /contexts/2dfb3777-a084-4e61-9b37-7115767cca56
+GET /contexts/28632d10-5c71-4c78-bda2-8d507b1c65d2
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -937,7 +939,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 5fe677cd-e219-4f5a-ae22-b3713180cc2f
+X-Request-Id: ef03678e-eae0-46be-b756-ba750ce4759c
 200 OK
 ```
 
@@ -967,7 +969,7 @@ X-Request-Id: 5fe677cd-e219-4f5a-ae22-b3713180cc2f
 #### Endpoint
 
 ```plaintext
-PATCH /contexts/2de73b9f-43f8-41f2-ae3f-6841a15f9a97
+PATCH /contexts/dc950684-ddd7-46e4-b014-ef6a65bbb32b
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -981,7 +983,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "2de73b9f-43f8-41f2-ae3f-6841a15f9a97",
+    "id": "dc950684-ddd7-46e4-b014-ef6a65bbb32b",
     "type": "contexts",
     "attributes": {
       "name": "New context name"
@@ -1000,7 +1002,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 7313454a-159f-4d6c-af28-94344cb93394
+X-Request-Id: e886ee46-21a3-47fa-ac82-44e620babf4e
 200 OK
 ```
 
@@ -1030,7 +1032,7 @@ X-Request-Id: 7313454a-159f-4d6c-af28-94344cb93394
 #### Endpoint
 
 ```plaintext
-POST /projects/ec3d37ed-1cc4-477b-8a0b-d293257fa3d5/relationships/contexts
+POST /projects/ec95cf7e-10ed-4ff2-a224-addf1bdb59d7/relationships/contexts
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1058,7 +1060,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: d7d72f66-7dc7-4975-99e9-0a82b7792d85
+X-Request-Id: 69f5460b-6a41-42cd-8337-70f6806eac34
 201 Created
 ```
 
@@ -1088,7 +1090,7 @@ X-Request-Id: d7d72f66-7dc7-4975-99e9-0a82b7792d85
 #### Endpoint
 
 ```plaintext
-POST /contexts/9049ff49-927e-4fa6-ad45-b2c295e636a2/revision
+POST /contexts/3c85795e-29e8-4174-a55b-11fe2a4fa80b/revision
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1105,7 +1107,8 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: eb20f219-bef3-4466-8108-01696d30486f
+Location: http://example.org/polling/c3664af2fe2a198b622f05ed
+X-Request-Id: 58203b02-adb0-4f1e-b19f-c6cb6fae76ff
 303 See Other
 ```
 
@@ -1135,7 +1138,7 @@ X-Request-Id: eb20f219-bef3-4466-8108-01696d30486f
 #### Endpoint
 
 ```plaintext
-DELETE /contexts/879cd504-75c2-4e8c-a7ef-5606d4d658e7
+DELETE /contexts/9f3791b8-c633-4c32-9c90-2fe8edbb38f8
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1152,7 +1155,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 2ecd7b71-8fc2-4798-9870-a98f445042bf
+X-Request-Id: e5f5bebf-1278-405e-874f-cb7d2ab45744
 204 No Content
 ```
 
@@ -1183,7 +1186,7 @@ Object Occurrences represent the occurrence of a System Element in a given Conte
 #### Endpoint
 
 ```plaintext
-POST /object_occurrences/39435e59-38e9-422b-8392-9e126d6a8d7a/relationships/tags
+POST /object_occurrences/5e3db867-e4d4-4df6-ad10-52fbc482ea12/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1211,7 +1214,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 593f3733-48c0-4f32-b136-441a57bbd11c
+X-Request-Id: d198197a-c39e-4714-95ac-3bf6a665b8e9
 201 Created
 ```
 
@@ -1237,7 +1240,7 @@ X-Request-Id: 593f3733-48c0-4f32-b136-441a57bbd11c
 #### Endpoint
 
 ```plaintext
-POST /object_occurrences/669fb03e-d829-4f8e-a175-952f012144d8/relationships/tags
+POST /object_occurrences/401592d5-2905-47eb-a473-55a75f2bcdf8/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1252,7 +1255,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 {
   "data": {
     "type": "tags",
-    "id": "c8d5b254-3597-4f11-9a76-86f599a9a65d"
+    "id": "c2c573cd-5d4c-4b28-96b4-54656e3d6071"
   }
 }
 ```
@@ -1263,7 +1266,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: e8eadd90-578f-49d0-941e-5e4857f66771
+X-Request-Id: a6d0e872-71f7-437f-a5e9-a399768886ae
 201 Created
 ```
 
@@ -1289,7 +1292,7 @@ X-Request-Id: e8eadd90-578f-49d0-941e-5e4857f66771
 #### Endpoint
 
 ```plaintext
-DELETE /object_occurrences/755c730c-6b7d-4ee9-9b12-9d2227e12f38/relationships/tags/4222f89f-3590-4c56-a9e3-9c9a7631a273
+DELETE /object_occurrences/3a4bfe0c-6959-4502-8c9e-bc2815921708/relationships/tags/dd228a8b-38e5-4756-95ea-228cc1509bec
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1306,7 +1309,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: ac83c2f6-484a-496a-a4fa-a2ca79d9491d
+X-Request-Id: 32438723-a888-4410-be80-d82dd8ebcd26
 204 No Content
 ```
 
@@ -1332,7 +1335,7 @@ To include additional, nested object occurrences, supply the <code>depth</code> 
 #### Endpoint
 
 ```plaintext
-GET /object_occurrences/167034ea-e2d1-47fc-8a82-fd34a933a89e
+GET /object_occurrences/3acd9c97-c893-4cb5-9fe8-48750553edf7
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1353,7 +1356,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 9a9af358-8fba-4a92-9a5e-36efc38ec911
+X-Request-Id: 84513f41-790a-4d8f-9ee6-0b7746a6c45b
 200 OK
 ```
 
@@ -1379,7 +1382,7 @@ X-Request-Id: 9a9af358-8fba-4a92-9a5e-36efc38ec911
 #### Endpoint
 
 ```plaintext
-POST /object_occurrences/758e0625-f9b2-43d9-9991-281035c7d17a/relationships/components
+POST /object_occurrences/f00155b0-e465-4ec7-9b82-689d102a0fdf/relationships/components
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1409,7 +1412,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: a5a06ec2-268c-4a58-bd45-8fc8ef2b38db
+X-Request-Id: dc948c8e-3a85-43e1-bf4e-0576ef943570
 201 Created
 ```
 
@@ -1435,7 +1438,7 @@ X-Request-Id: a5a06ec2-268c-4a58-bd45-8fc8ef2b38db
 #### Endpoint
 
 ```plaintext
-PATCH /object_occurrences/6d78234a-27d3-4348-ae6c-094f2691f583
+PATCH /object_occurrences/aac1d6fe-2a80-4d94-943b-696a2e67faef
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1449,7 +1452,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "6d78234a-27d3-4348-ae6c-094f2691f583",
+    "id": "aac1d6fe-2a80-4d94-943b-696a2e67faef",
     "type": "object_occurrence",
     "attributes": {
       "name": "New name"
@@ -1458,7 +1461,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "part_of": {
         "data": {
           "type": "object_occurrence",
-          "id": "08b75b0e-28ce-413b-a497-2712ba6f5383"
+          "id": "071a7f2f-1f7c-445d-897e-49c7d58a46cf"
         }
       }
     }
@@ -1476,8 +1479,89 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: f049df75-94bc-43ef-8d94-a5ff16ff89a6
+X-Request-Id: 07f61d34-8fda-4a59-973e-24b335024224
 200 OK
+```
+
+
+```json
+[binary data]
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][name] | Object Occurrence name |
+
+
+## Copy
+
+Copy the (target) Object Occurrence resource (indicated by POST data) and all descendants as
+components of the (source)Object Occurrence resource (indicated in URL parameter).
+
+```
+A (id 1)
+  B (id 2)
+C (id 3)
+
+POST /object_occurrences/3/copy
+{
+  data: {
+    "id": 3,
+    "type": "object_occurrences"
+  }
+}
+
+Results in:
+A (id 1)
+  B (id 2)
+C (id 3)
+  A (id 4)
+    B (id 5)
+```
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+POST /object_occurrences/b289cbb4-69ee-4f7a-aa90-250f15626a4a/copy
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`POST /object_occurrences/:id/copy`
+
+#### Parameters
+
+
+```json
+{
+  "data": {
+    "id": "8702af77-3cfa-4f2d-ab35-d9d88f579bee",
+    "type": "object_occurrence"
+  }
+}
+```
+
+
+| Name | Description |
+|:-----|:------------|
+| data[id]  | ID of copied OOC |
+
+
+
+### Response
+
+```plaintext
+Location: http://example.org/polling/a721fad9ff2565d8b130244e
+X-Request-Id: d6b8a4b6-d528-4a7b-9b4f-f9e6768d3145
+303 See Other
 ```
 
 
@@ -1502,7 +1586,7 @@ X-Request-Id: f049df75-94bc-43ef-8d94-a5ff16ff89a6
 #### Endpoint
 
 ```plaintext
-DELETE /object_occurrences/fcbb6944-6cc8-4d70-8ee0-7ba642810581
+DELETE /object_occurrences/fddd9dfe-5191-45c0-9546-dd5e4c099630
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1519,7 +1603,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 08e870d3-6633-46c6-8b7a-feb8e311e2be
+X-Request-Id: 85aab1c1-c0fa-4662-87d2-b2b28c2cbfc4
 204 No Content
 ```
 
@@ -1541,7 +1625,7 @@ X-Request-Id: 08e870d3-6633-46c6-8b7a-feb8e311e2be
 #### Endpoint
 
 ```plaintext
-PATCH /object_occurrences/34e5e6fa-fbb6-4a36-b88a-03c4e7745b53/relationships/part_of
+PATCH /object_occurrences/c4e9c687-a460-4c97-bd3f-90ad5ebfe529/relationships/part_of
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1555,7 +1639,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "845185ed-6100-4b43-a39e-63a9a58a3b83",
+    "id": "5ab7dc41-bbc4-4158-b527-13337181e6db",
     "type": "object_occurrence"
   }
 }
@@ -1567,7 +1651,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: cf87372c-9a5b-4b2d-ba91-27b796918c75
+X-Request-Id: 5a406877-570a-4647-a52f-1899ca83575a
 200 OK
 ```
 
@@ -1601,7 +1685,7 @@ Each classification table has multiple classification entries.
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/f51902cd-9d79-4fe8-a406-364687026476/relationships/tags
+POST /classification_tables/052c4add-d5ac-4f95-b5f1-18d346405f54/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1629,7 +1713,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: b3926c9a-c9d1-4965-9715-a1665cddfa08
+X-Request-Id: 5d5b88dd-1c72-4024-a1d5-68ab3ded9a12
 201 Created
 ```
 
@@ -1660,7 +1744,7 @@ X-Request-Id: b3926c9a-c9d1-4965-9715-a1665cddfa08
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/7be4e1be-7541-4cb3-8e0a-52d49f2c8dee/relationships/tags
+POST /classification_tables/77cd963f-d512-4ad6-8f2d-d68a9ddef7a6/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1675,7 +1759,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 {
   "data": {
     "type": "tags",
-    "id": "bc8d9780-1800-4bb4-8df1-7de46f353e94"
+    "id": "bf66ba15-f834-43e1-9378-135b944db201"
   }
 }
 ```
@@ -1686,7 +1770,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: bb43ca98-6501-4321-8d0f-d3d2e0ed48eb
+X-Request-Id: c2182a36-95b9-4488-8b53-49bbc5a12571
 201 Created
 ```
 
@@ -1717,7 +1801,7 @@ X-Request-Id: bb43ca98-6501-4321-8d0f-d3d2e0ed48eb
 #### Endpoint
 
 ```plaintext
-DELETE /classification_tables/047bba34-258e-47b8-9139-6aad49f8ba94/relationships/tags/f4aba3a4-4605-4564-a2e4-b26e9b595e73
+DELETE /classification_tables/37ddb2e6-a1b8-4342-ac6e-7444bcf2f483/relationships/tags/9004dc90-b1b5-4b03-ada4-6877c108016a
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1734,7 +1818,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 1136b56a-16a2-4981-93c4-0ebc677d1da8
+X-Request-Id: ae6ec3a5-27e3-4551-b3e7-d88d26d8e1f2
 204 No Content
 ```
 
@@ -1775,6 +1859,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 | Name | Description |
 |:-----|:------------|
+| sort  | available sort fields: name |
 | query  | search query |
 | filter[archived]  | filter by archived flag |
 | filter[published]  | filter by published flag |
@@ -1785,7 +1870,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 2ec19c5a-29c4-4397-bff3-ff1339e97271
+X-Request-Id: 5c49d728-a0c4-4f7e-b2df-9d0cf0e29c92
 200 OK
 ```
 
@@ -1816,7 +1901,7 @@ X-Request-Id: 2ec19c5a-29c4-4397-bff3-ff1339e97271
 #### Endpoint
 
 ```plaintext
-GET /classification_tables/f46b5adb-98c3-491d-961a-7d14d8637127
+GET /classification_tables/10874442-f3f8-45df-aad8-153abb233191
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1833,7 +1918,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 655a3a1d-cb59-4fa3-9615-34477f27cafa
+X-Request-Id: 8e7eda9c-c416-42e7-9130-d8e5458c08b7
 200 OK
 ```
 
@@ -1864,7 +1949,7 @@ X-Request-Id: 655a3a1d-cb59-4fa3-9615-34477f27cafa
 #### Endpoint
 
 ```plaintext
-PATCH /classification_tables/07049fe4-4e57-4eaf-8b26-fd97c1583b21
+PATCH /classification_tables/67707e5a-af16-4a2f-b511-419cb40286ad
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1878,7 +1963,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "07049fe4-4e57-4eaf-8b26-fd97c1583b21",
+    "id": "67707e5a-af16-4a2f-b511-419cb40286ad",
     "type": "classification_table",
     "attributes": {
       "name": "New classification table name"
@@ -1897,7 +1982,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 2558033c-9850-4f03-a2a8-e6b88fcf0347
+X-Request-Id: 1f267b3f-fd0e-495b-b913-2602385fe350
 200 OK
 ```
 
@@ -1928,7 +2013,7 @@ X-Request-Id: 2558033c-9850-4f03-a2a8-e6b88fcf0347
 #### Endpoint
 
 ```plaintext
-DELETE /classification_tables/81396c1b-d576-4bc2-90f7-7123cbf33a4b
+DELETE /classification_tables/ca3da914-792f-4b7b-8dba-94523adc2d00
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1945,7 +2030,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 35b29498-8038-4977-b876-05b687d8811c
+X-Request-Id: a133a203-8f5e-4a48-b10d-1ceae52783ab
 204 No Content
 ```
 
@@ -1972,7 +2057,7 @@ X-Request-Id: 35b29498-8038-4977-b876-05b687d8811c
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/5a6b6cfd-f304-4796-a31f-c0bc1cdfcf12/publish
+POST /classification_tables/c9dc876a-4601-4c9d-8211-cbaa2a42638c/publish
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1989,7 +2074,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 34dd4e16-39c5-4530-a611-b726cb66356f
+X-Request-Id: 7b98b483-cbcd-455d-9a83-b9e9812b615f
 200 OK
 ```
 
@@ -2020,7 +2105,7 @@ X-Request-Id: 34dd4e16-39c5-4530-a611-b726cb66356f
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/9aa5ea91-b143-412a-b3ea-835209e8d538/archive
+POST /classification_tables/e06eb4a5-647f-432b-a6cf-0c3614755bc9/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2037,7 +2122,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 2bcfecbf-a6d5-4058-9f29-129813ac6282
+X-Request-Id: b63d5576-2efb-4334-9b6b-b5c9b3a7b112
 200 OK
 ```
 
@@ -2097,7 +2182,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 5db81b87-e1f8-4663-bc04-9d74754ee8d5
+X-Request-Id: cee885b1-dce7-4149-9133-2a358f69bec6
 201 Created
 ```
 
@@ -2133,7 +2218,7 @@ Classification entries represent a single classification entry in a Classificati
 #### Endpoint
 
 ```plaintext
-POST /classification_entries/33f0c18f-f5f5-409e-9ca1-aba0085d7bfa/relationships/tags
+POST /classification_entries/8bc662f0-b135-4a3e-bd2c-a1fd6f18157f/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2161,7 +2246,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 1784cbd0-dfca-4061-b0c0-ec6be72b35c5
+X-Request-Id: 828a483a-9841-43c9-a0d4-c57d1a606405
 201 Created
 ```
 
@@ -2190,7 +2275,7 @@ X-Request-Id: 1784cbd0-dfca-4061-b0c0-ec6be72b35c5
 #### Endpoint
 
 ```plaintext
-POST /classification_entries/e4239e90-8708-431c-92bf-86f59bb04ef7/relationships/tags
+POST /classification_entries/3b19aa9d-ab36-4e67-aab1-95ee376f5600/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2205,7 +2290,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 {
   "data": {
     "type": "tags",
-    "id": "c67fdd2c-0ecb-48b9-b987-cc15cc6496d1"
+    "id": "6dcf3c36-5671-4ea7-8936-98aece847096"
   }
 }
 ```
@@ -2216,7 +2301,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 9b027f99-3bda-477b-87c0-b03c6c2c347c
+X-Request-Id: a882c3a3-87b6-45ad-b1cb-08dcba94bda3
 201 Created
 ```
 
@@ -2245,7 +2330,7 @@ X-Request-Id: 9b027f99-3bda-477b-87c0-b03c6c2c347c
 #### Endpoint
 
 ```plaintext
-DELETE /classification_entries/13c3d97a-6b5f-42b9-a703-040331b81f7b/relationships/tags/2a6e5fe8-b7c8-41b0-8da9-607aa2dc76ec
+DELETE /classification_entries/1dd592a3-7eb0-49a0-a4fb-2eb9af27a3a0/relationships/tags/c91eb951-9c9d-4f7f-896d-fa4de1bb3021
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2262,7 +2347,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 70bfaa5e-a4ff-43e1-8d55-d61bcbfa3a97
+X-Request-Id: 3802d4d4-bae0-43b1-bfc3-ac488ad5f194
 204 No Content
 ```
 
@@ -2292,12 +2377,6 @@ Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
 ```
-```plaintext
-GET /classification_entries
-Content-Type: application/vnd.api+json
-Accept: application/vnd.api+json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
-```
 
 `GET /classification_entries`
 
@@ -2317,42 +2396,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: a810a169-1959-4d7b-bf2e-cb9374e1f826
-200 OK
-```
-
-
-```json
-[binary data]
-```
-
-
-
-#### Fields
-
-| Name       | Description         |
-|:-----------|:--------------------|
-| data[attributes][code] | Classification code |
-| data[attributes][definition] | Definition |
-| data[attributes][name] | Common name |
-| data[attributes][reciprocal_name] | Reciprocal name |
-
-
-
-
-| Name | Description |
-|:-----|:------------|
-| query  | search query |
-| filter[classification_entry_id_eq]  | filter by classification_entry_id |
-| filter[classification_table_id_eq]  | filter by classification_table_id |
-| filter[classification_entry_id_blank]  | filter by blank classification_entry_id |
-
-
-
-### Response
-
-```plaintext
-X-Request-Id: 1d349151-1fd1-47a3-9c4d-fd2f497be1f0
+X-Request-Id: d209783d-1a90-4f55-83cc-bd9186f13a5a
 200 OK
 ```
 
@@ -2381,7 +2425,7 @@ X-Request-Id: 1d349151-1fd1-47a3-9c4d-fd2f497be1f0
 #### Endpoint
 
 ```plaintext
-GET /classification_entries/1d872941-f7fa-4231-aee3-51b006433ae9
+GET /classification_entries/3f5b5cde-ef9b-4cad-a483-12615dc61743
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2398,7 +2442,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 15234d7c-0c18-4ef8-97cf-b03ba8941d91
+X-Request-Id: b7e2a7d2-e893-4b45-8a67-99d5b8ff1d04
 200 OK
 ```
 
@@ -2427,7 +2471,7 @@ X-Request-Id: 15234d7c-0c18-4ef8-97cf-b03ba8941d91
 #### Endpoint
 
 ```plaintext
-PATCH /classification_entries/91fe33af-0bb1-4bce-9eb7-5dc9612ad203
+PATCH /classification_entries/952d3d94-c724-4f5b-b685-005f11ed2ecf
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2441,7 +2485,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "91fe33af-0bb1-4bce-9eb7-5dc9612ad203",
+    "id": "952d3d94-c724-4f5b-b685-005f11ed2ecf",
     "type": "classification_entry",
     "attributes": {
       "name": "New classification entry name"
@@ -2460,7 +2504,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 2ad9a8a1-d987-4d45-854b-f67917efc1cc
+X-Request-Id: 46b97d79-58f8-41e1-b60c-83a8887608d9
 200 OK
 ```
 
@@ -2489,7 +2533,7 @@ X-Request-Id: 2ad9a8a1-d987-4d45-854b-f67917efc1cc
 #### Endpoint
 
 ```plaintext
-DELETE /classification_entries/36c23c24-cfa5-45be-81a8-1d07f73a793e
+DELETE /classification_entries/896ece10-3a00-42ef-9c51-3710edda71fa
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2506,7 +2550,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: a83cb34f-b1ec-4821-add1-ec247d383b8d
+X-Request-Id: 085bcc96-7cfb-4eac-aada-d9bdc1ebe7ee
 204 No Content
 ```
 
@@ -2531,7 +2575,7 @@ X-Request-Id: a83cb34f-b1ec-4821-add1-ec247d383b8d
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/1fdc5723-cb4a-4743-bc7f-935e08029dd1/relationships/classification_entries
+POST /classification_tables/140d4db4-0c9b-4473-afe7-bccd663f584c/relationships/classification_entries
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2561,7 +2605,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 1ed86eb7-1d6c-4a2e-8ab8-c3f15bbdd7f9
+X-Request-Id: 87d74efc-20e2-4877-aa57-1af700f24b50
 201 Created
 ```
 
@@ -2614,6 +2658,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 | Name | Description |
 |:-----|:------------|
+| sort  | available sort fields: name |
 | query  | search query |
 | filter[archived]  | filter by archived flag |
 | filter[published]  | filter by published flag |
@@ -2623,7 +2668,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 14506b3a-b4dc-4d9e-9a59-3e594578a261
+X-Request-Id: 5003a6e8-3adb-449c-b19a-c9492fa020dc
 200 OK
 ```
 
@@ -2653,7 +2698,7 @@ X-Request-Id: 14506b3a-b4dc-4d9e-9a59-3e594578a261
 #### Endpoint
 
 ```plaintext
-GET /syntaxes/2e03a76f-e044-4a7c-9564-e4897d90c143
+GET /syntaxes/74496736-1dd8-4f75-a4bb-43762fda77b9
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2670,7 +2715,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: b818594e-3a06-46f3-a86f-f78ca2b521a5
+X-Request-Id: cf79c477-3680-4a83-839e-49f64634d2e5
 200 OK
 ```
 
@@ -2729,7 +2774,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 0649a9fb-3ad2-412a-9914-c7db0e935f3a
+X-Request-Id: 5f8863b7-975c-4b85-bf0c-4b71335d3337
 201 Created
 ```
 
@@ -2759,7 +2804,7 @@ X-Request-Id: 0649a9fb-3ad2-412a-9914-c7db0e935f3a
 #### Endpoint
 
 ```plaintext
-PATCH /syntaxes/ceb2d96e-0094-428e-b2f9-8d70952ef05f
+PATCH /syntaxes/67f477e1-2189-40ee-a278-adb5d8ea46e9
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2773,7 +2818,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "ceb2d96e-0094-428e-b2f9-8d70952ef05f",
+    "id": "67f477e1-2189-40ee-a278-adb5d8ea46e9",
     "type": "syntax",
     "attributes": {
       "name": "New name"
@@ -2792,7 +2837,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 15818f22-ac93-45c0-b6be-e06777c0a106
+X-Request-Id: 6b741817-a478-4461-8c69-ac01ab4a1747
 200 OK
 ```
 
@@ -2822,7 +2867,7 @@ X-Request-Id: 15818f22-ac93-45c0-b6be-e06777c0a106
 #### Endpoint
 
 ```plaintext
-DELETE /syntaxes/d38e5ca4-fdb7-4691-b293-846c848dd4a0
+DELETE /syntaxes/f2427264-ff0f-414b-ae38-525ce28ca02a
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2839,7 +2884,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: d0fad3be-911d-4c1b-bd44-7dde683df033
+X-Request-Id: 24982c2b-3172-4827-b3a1-fb1796101d5b
 204 No Content
 ```
 
@@ -2865,7 +2910,7 @@ X-Request-Id: d0fad3be-911d-4c1b-bd44-7dde683df033
 #### Endpoint
 
 ```plaintext
-POST /syntaxes/a6456160-8f0e-4a1e-828b-aa9347a22ceb/publish
+POST /syntaxes/822b9b4d-a278-4f52-9cfc-d5ad4d61bd6c/publish
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2882,7 +2927,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: e6a09b42-8b05-4242-8b23-2110150e1080
+X-Request-Id: 62622d49-07eb-4b82-83df-89cd16666fec
 200 OK
 ```
 
@@ -2912,7 +2957,7 @@ X-Request-Id: e6a09b42-8b05-4242-8b23-2110150e1080
 #### Endpoint
 
 ```plaintext
-POST /syntaxes/29c901c4-db0f-4db3-9397-78d3c034f5d6/archive
+POST /syntaxes/eed31006-8d94-469e-986a-51c77aab5801/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2929,7 +2974,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 87afbe21-c463-459b-b564-f171fa0f77ca
+X-Request-Id: a949c716-a37c-4845-a9f5-721dd64ad939
 200 OK
 ```
 
@@ -2978,6 +3023,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 | Name | Description |
 |:-----|:------------|
+| sort  | available sort fields: name |
 | query  | search query |
 | filter[syntax_id_eq]  | filter by syntax_id |
 
@@ -2986,7 +3032,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 8a5f6732-0d34-4042-932b-4fc9799c6634
+X-Request-Id: 8ffb67af-22a0-4cdf-b3da-1cbc79f6bc64
 200 OK
 ```
 
@@ -3018,7 +3064,7 @@ X-Request-Id: 8a5f6732-0d34-4042-932b-4fc9799c6634
 #### Endpoint
 
 ```plaintext
-GET /syntax_elements/fc3313fe-9eb3-4835-8afe-82d50f393092
+GET /syntax_elements/eb84ff4e-d090-4d3e-bd47-c68e499ee367
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3035,7 +3081,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 201c577a-9623-4fd2-b53c-2439dc2ab7b3
+X-Request-Id: 10c71ac9-0dd8-450a-98b0-d921d6de277c
 200 OK
 ```
 
@@ -3067,7 +3113,7 @@ X-Request-Id: 201c577a-9623-4fd2-b53c-2439dc2ab7b3
 #### Endpoint
 
 ```plaintext
-POST /syntaxes/416d4d92-dbca-46d2-86dc-9dba1c64d36e/relationships/syntax_elements
+POST /syntaxes/aed11534-88b1-43f2-9f65-9697eea7e008/relationships/syntax_elements
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3093,7 +3139,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "classification_table": {
         "data": {
           "type": "classification_table",
-          "id": "47af670c-72f7-4c0b-8e30-4bd861e86168"
+          "id": "82959801-08d7-4d37-aea3-8db497e90ae8"
         }
       }
     }
@@ -3107,7 +3153,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: d8bb9ed4-c5ee-41af-a2d7-b1b938bf34d0
+X-Request-Id: 844e19d0-29fd-47c3-b236-65bbf047e09f
 201 Created
 ```
 
@@ -3139,7 +3185,7 @@ X-Request-Id: d8bb9ed4-c5ee-41af-a2d7-b1b938bf34d0
 #### Endpoint
 
 ```plaintext
-PATCH /syntax_elements/5a885f23-094c-49d7-9fa5-e88288a405cf
+PATCH /syntax_elements/60b2596e-985a-4e38-a498-d78663ce2204
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3153,7 +3199,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "5a885f23-094c-49d7-9fa5-e88288a405cf",
+    "id": "60b2596e-985a-4e38-a498-d78663ce2204",
     "type": "syntax_element",
     "attributes": {
       "name": "New element"
@@ -3162,7 +3208,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "classification_table": {
         "data": {
           "type": "classification_table",
-          "id": "22be5a0e-861d-4f1c-82de-09ee451cc53c"
+          "id": "2c179d02-2701-45b6-b668-359f66f9af44"
         }
       }
     }
@@ -3180,7 +3226,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 8734c675-b821-4161-aa0b-4cd9630d3479
+X-Request-Id: 4e9c7b35-4ca2-4046-abe8-c1e263c88561
 200 OK
 ```
 
@@ -3212,7 +3258,7 @@ X-Request-Id: 8734c675-b821-4161-aa0b-4cd9630d3479
 #### Endpoint
 
 ```plaintext
-DELETE /syntax_elements/d787b5d4-f894-4246-95c4-6ac3711d10c0
+DELETE /syntax_elements/09ec90b5-0181-49a0-8639-521a14e9cab2
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3229,7 +3275,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 0608c5c1-a598-4288-8790-cb8d6ebda224
+X-Request-Id: 3d5a881f-8e1b-4955-8f1a-04fc2a5fb9ff
 204 No Content
 ```
 
@@ -3257,7 +3303,7 @@ X-Request-Id: 0608c5c1-a598-4288-8790-cb8d6ebda224
 #### Endpoint
 
 ```plaintext
-PATCH /syntax_elements/9c94dcbe-6817-48d2-a7dd-2b6ff6355d89/relationships/classification_table
+PATCH /syntax_elements/97e2dab0-fa20-4a5d-adf5-2457f2462750/relationships/classification_table
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3271,7 +3317,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "e2c65a94-dc73-4936-bd99-4f7ae504913e",
+    "id": "de220694-abe8-46db-9e7e-97d5758cf1fc",
     "type": "classification_table"
   }
 }
@@ -3283,7 +3329,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 5a6dadf4-1fdb-467f-a7fa-354ff34cfb1b
+X-Request-Id: cd2fcdde-ff49-4aad-a079-3dfd4689485e
 200 OK
 ```
 
@@ -3315,7 +3361,7 @@ X-Request-Id: 5a6dadf4-1fdb-467f-a7fa-354ff34cfb1b
 #### Endpoint
 
 ```plaintext
-DELETE /syntax_elements/852544ed-fbcc-424d-bef8-fcc1c380a9a2/relationships/classification_table
+DELETE /syntax_elements/e94f26da-78cb-4145-bbc2-3e43e53cc1eb/relationships/classification_table
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3332,7 +3378,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: a020fe23-b9ba-40b6-859e-51ee50881535
+X-Request-Id: 92db3393-a8f8-4c2e-bd4b-1584214e5e4d
 204 No Content
 ```
 
@@ -3365,7 +3411,7 @@ Syntax Nodes is the structure, in which Contexts are allowed to represent Syntax
 #### Endpoint
 
 ```plaintext
-GET /syntax_nodes/17746c1f-85c1-4071-ab6d-101f0cc432e0
+GET /syntax_nodes/cb42f3d8-8cac-4f9c-a570-8984447c702e
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3386,7 +3432,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 76d5601b-75ff-4d28-8c92-1292053c1563
+X-Request-Id: ff7398b3-df14-4cf2-983d-bd8a0d20aa0a
 200 OK
 ```
 
@@ -3415,7 +3461,7 @@ X-Request-Id: 76d5601b-75ff-4d28-8c92-1292053c1563
 #### Endpoint
 
 ```plaintext
-POST /syntax_nodes/f1a55fd5-2a32-46d1-a3c5-ea0da0d9589d/relationships/components
+POST /syntax_nodes/129c0a2f-e888-4601-b7f1-23d410e3e518/relationships/components
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3445,7 +3491,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 7fab88f6-6e2b-4eae-965e-4706248e9778
+X-Request-Id: d566f36f-07d9-4d6a-9967-18e09e21bfbf
 201 Created
 ```
 
@@ -3474,7 +3520,7 @@ X-Request-Id: 7fab88f6-6e2b-4eae-965e-4706248e9778
 #### Endpoint
 
 ```plaintext
-PATCH /syntax_nodes/f8f2e527-5196-4993-b165-e4b0d0e288c3
+PATCH /syntax_nodes/1383be70-5e1a-405f-b025-b1f826f1cfb5
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3488,7 +3534,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "f8f2e527-5196-4993-b165-e4b0d0e288c3",
+    "id": "1383be70-5e1a-405f-b025-b1f826f1cfb5",
     "type": "syntax_node",
     "attributes": {
       "position": 5
@@ -3507,7 +3553,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: a289a7ac-3dd8-4f4e-aedb-a16947167c63
+X-Request-Id: 39c41bd8-6921-49ed-a84d-89a4bbe49622
 200 OK
 ```
 
@@ -3536,7 +3582,7 @@ X-Request-Id: a289a7ac-3dd8-4f4e-aedb-a16947167c63
 #### Endpoint
 
 ```plaintext
-DELETE /syntax_nodes/9d4efe57-336f-4894-a9f2-e6bc13551154
+DELETE /syntax_nodes/c4fdd02c-eeff-4e21-bfcf-b9a5f1b42d14
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3553,7 +3599,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: a706977d-7490-48a8-b3a0-8b36826b904c
+X-Request-Id: 356db73b-5d8a-411d-9d03-30d05e8ac313
 204 No Content
 ```
 
@@ -3568,59 +3614,6 @@ X-Request-Id: a706977d-7490-48a8-b3a0-8b36826b904c
 | data[attributes][min_depth] | Min depth |
 | data[attributes][max_depth] | Max depth |
 | data[attributes][syntax_element_id] | Syntax element ID |
-
-
-# Permissions
-
-A Permission represents a single permission which can be assigned to a User.
-
-
-## List
-
-
-### Request
-
-#### Endpoint
-
-```plaintext
-GET /permissions
-Content-Type: application/vnd.api+json
-Accept: application/vnd.api+json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
-```
-
-`GET /permissions`
-
-#### Parameters
-
-
-
-| Name | Description |
-|:-----|:------------|
-| query  | search query |
-
-
-
-### Response
-
-```plaintext
-X-Request-Id: e7663de4-911c-4857-b0ca-c4e253b71a7f
-200 OK
-```
-
-
-```json
-[binary data]
-```
-
-
-
-#### Fields
-
-| Name       | Description         |
-|:-----------|:--------------------|
-| data[attributes][event] | Permission name |
-| data[attributes][event] | Permission description |
 
 
 # Progress Models
@@ -3650,6 +3643,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 | Name | Description |
 |:-----|:------------|
+| sort  | available sort fields: name |
 | query  | search query |
 | filter[published]  | filter by published flag |
 
@@ -3658,7 +3652,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 2b3931ac-c91b-4bbc-8bd0-599b958afcf8
+X-Request-Id: 607e8006-d0bc-49b3-ba73-64fe19a81d9e
 200 OK
 ```
 
@@ -3687,7 +3681,7 @@ X-Request-Id: 2b3931ac-c91b-4bbc-8bd0-599b958afcf8
 #### Endpoint
 
 ```plaintext
-GET /progress_models/3efc4cfb-42a3-4825-bde5-159fc433d0bb
+GET /progress_models/58baacea-f5c9-40a2-b3ae-23b621e101fb
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3704,7 +3698,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 9a777f54-0283-45b4-8de3-7516d01f3407
+X-Request-Id: f38e6dd6-7ed4-428b-b2f7-92835150c5ae
 200 OK
 ```
 
@@ -3733,7 +3727,7 @@ X-Request-Id: 9a777f54-0283-45b4-8de3-7516d01f3407
 #### Endpoint
 
 ```plaintext
-PATCH /progress_models/7f730136-7b56-40c8-ae74-218b46b9d533
+PATCH /progress_models/8c3382c5-660c-4eef-90b7-5f0edf3b71f6
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3747,7 +3741,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "7f730136-7b56-40c8-ae74-218b46b9d533",
+    "id": "8c3382c5-660c-4eef-90b7-5f0edf3b71f6",
     "type": "progress_model",
     "attributes": {
       "name": "New progress model name"
@@ -3766,7 +3760,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: eea85db3-2ced-4c0e-b1a8-176a5009886f
+X-Request-Id: 5d3f18ec-a7e6-4296-be56-429a09aa013e
 200 OK
 ```
 
@@ -3795,7 +3789,7 @@ X-Request-Id: eea85db3-2ced-4c0e-b1a8-176a5009886f
 #### Endpoint
 
 ```plaintext
-DELETE /progress_models/0a701056-bb5d-4e4f-8100-9805f2d4785f
+DELETE /progress_models/9a7caba5-d158-49d2-b357-973e3b9f0ba4
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3812,7 +3806,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 284d3179-c0e6-4112-b60a-e9af39fff1c3
+X-Request-Id: 7405eea5-a5a2-41cb-8250-324bac6bb73d
 204 No Content
 ```
 
@@ -3837,7 +3831,7 @@ X-Request-Id: 284d3179-c0e6-4112-b60a-e9af39fff1c3
 #### Endpoint
 
 ```plaintext
-POST /progress_models/ae5cd2fa-8e3f-4b9a-a0bd-bcc852c14cdb/publish
+POST /progress_models/81ae41be-ff84-4a11-b50d-9dfc1306de36/publish
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3854,7 +3848,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 0823bc60-eb1b-4c64-aa73-906c95310f4c
+X-Request-Id: a9253fbb-1a9e-4dd5-adff-5577e508cf00
 200 OK
 ```
 
@@ -3912,7 +3906,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 3d535692-abee-4023-a6da-8d60f068be72
+X-Request-Id: 62431419-27d6-41f0-b775-763b3c1b6634
 201 Created
 ```
 
@@ -3960,6 +3954,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 | Name | Description |
 |:-----|:------------|
+| sort  | available sort fields: name |
 | query  | search query |
 | filter[progress_model_id_eq]  | filter by progress_model_id |
 
@@ -3968,7 +3963,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: a0f8c2e5-13f9-40b2-b557-43b079361f7f
+X-Request-Id: 7292e620-afff-417f-846f-1b76fae607b6
 200 OK
 ```
 
@@ -3995,7 +3990,7 @@ X-Request-Id: a0f8c2e5-13f9-40b2-b557-43b079361f7f
 #### Endpoint
 
 ```plaintext
-GET /progress_steps/5ebe52a4-3cad-40ff-a00b-bc9dbad678e4
+GET /progress_steps/7711915c-bc53-4636-b295-f4c8301202be
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4012,7 +4007,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: d0ce9c04-8b71-42ba-8558-1779d383ca44
+X-Request-Id: dc6752ed-c71a-479d-a10b-9ca16369d4fc
 200 OK
 ```
 
@@ -4039,7 +4034,7 @@ X-Request-Id: d0ce9c04-8b71-42ba-8558-1779d383ca44
 #### Endpoint
 
 ```plaintext
-PATCH /progress_steps/268af566-0c30-4cc8-b7e7-2bf41839a7f4
+PATCH /progress_steps/66f75cb5-1330-43eb-9885-7b885316dde9
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4053,7 +4048,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "268af566-0c30-4cc8-b7e7-2bf41839a7f4",
+    "id": "66f75cb5-1330-43eb-9885-7b885316dde9",
     "type": "progress_step",
     "attributes": {
       "name": "New progress step name"
@@ -4072,7 +4067,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 10791d13-a6de-42a6-ba9a-63689f19264f
+X-Request-Id: e3efea16-d002-4359-8ef6-971ab0d82331
 200 OK
 ```
 
@@ -4099,7 +4094,7 @@ X-Request-Id: 10791d13-a6de-42a6-ba9a-63689f19264f
 #### Endpoint
 
 ```plaintext
-DELETE /progress_steps/f42eb06a-4c06-4f77-a731-9041edc2e4a2
+DELETE /progress_steps/a0685d46-2da6-40d0-b5ce-18799dde2c01
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4116,7 +4111,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: c7ad2951-866b-4383-b227-95fce392dd9a
+X-Request-Id: 851b59b0-d737-417d-ab71-ac2b751311c0
 204 No Content
 ```
 
@@ -4139,7 +4134,7 @@ X-Request-Id: c7ad2951-866b-4383-b227-95fce392dd9a
 #### Endpoint
 
 ```plaintext
-POST /progress_models/8f90ece3-63ef-4cd6-b56a-2b21e0a3dcef/relationships/progress_steps
+POST /progress_models/02c602b8-e918-4824-b8e0-ecf9a392815c/relationships/progress_steps
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4168,7 +4163,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: ca3a89fa-8de7-4841-8bbd-3e7eeb734ef3
+X-Request-Id: a4ce1fd4-2f6c-4e18-9159-c3c68bd86bec
 201 Created
 ```
 
@@ -4222,7 +4217,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 3f8e9609-e212-469e-8781-6bd6cd616033
+X-Request-Id: fce2b454-fa12-4d3c-b013-6c215404cf39
 200 OK
 ```
 
@@ -4249,7 +4244,7 @@ X-Request-Id: 3f8e9609-e212-469e-8781-6bd6cd616033
 #### Endpoint
 
 ```plaintext
-GET /progress/a9401172-7059-4b08-9547-c968d92d48ef
+GET /progress/72d1f7a0-ce9c-47a3-addb-44a0767d1a89
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4266,7 +4261,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: d5a1278e-2013-41cc-83b4-e9f418c4e10d
+X-Request-Id: 79e3a220-8984-4c9e-b189-31fa3410256a
 200 OK
 ```
 
@@ -4293,7 +4288,7 @@ X-Request-Id: d5a1278e-2013-41cc-83b4-e9f418c4e10d
 #### Endpoint
 
 ```plaintext
-DELETE /progress/84397728-5d7d-415c-bea2-758415b4253b
+DELETE /progress/6a8f03e3-46c5-4373-bfee-7382eec73f83
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4310,7 +4305,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: bc80a745-d002-4545-b57a-f401965fcf59
+X-Request-Id: 2625c777-80fd-4ac8-b518-24fb00c5a803
 204 No Content
 ```
 
@@ -4352,13 +4347,13 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "progress_step": {
         "data": {
           "type": "progress_step",
-          "id": "1b5510a9-c920-47a2-b7f5-3c353901c714"
+          "id": "e119abb9-5f89-4d1e-addd-5d4ebcd4e496"
         }
       },
       "target": {
         "data": {
           "type": "object_occurrence",
-          "id": "4ce2cdcd-fda3-4bdb-ab16-325a60405b27"
+          "id": "6a25b472-83d8-4304-9228-8a65d8050704"
         }
       }
     }
@@ -4372,7 +4367,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: e6348617-668d-40c6-8690-3d7d62eb4a01
+X-Request-Id: b2cbbc6e-e7c1-418e-b215-2702b0fe92f7
 201 Created
 ```
 
@@ -4421,7 +4416,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: c22c6ad1-31fa-47fa-a78e-bee49eb18800
+X-Request-Id: 85416487-fc6b-4938-841a-df857444616f
 200 OK
 ```
 
@@ -4448,7 +4443,7 @@ X-Request-Id: c22c6ad1-31fa-47fa-a78e-bee49eb18800
 #### Endpoint
 
 ```plaintext
-GET /projects/7e647080-f7dd-4e16-8e97-b8613838fd52/relationships/project_setting
+GET /projects/cb296278-6e74-487d-82ea-b0833c2fe30f/relationships/project_setting
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4465,7 +4460,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 10c9b118-3f55-4487-9210-c095be568956
+X-Request-Id: 491d04b5-44bc-4fa9-9995-658d009c95f0
 200 OK
 ```
 
@@ -4492,7 +4487,7 @@ X-Request-Id: 10c9b118-3f55-4487-9210-c095be568956
 #### Endpoint
 
 ```plaintext
-PATCH /projects/b0706229-8433-4ccd-81da-c5afb64508ee/relationships/project_setting
+PATCH /projects/a4eb546b-a9e9-4ed1-8a44-72ca093b29b6/relationships/project_setting
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4506,7 +4501,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "project_id": "b0706229-8433-4ccd-81da-c5afb64508ee",
+    "project_id": "a4eb546b-a9e9-4ed1-8a44-72ca093b29b6",
     "type": "project_settings",
     "attributes": {
       "contexts_limit": 2,
@@ -4527,7 +4522,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: 455d6f46-6834-4885-a8f8-55c32274fc7b
+X-Request-Id: fba5d44b-3e97-4bd8-a1b8-6aacc2b6fcf5
 200 OK
 ```
 
@@ -4544,6 +4539,60 @@ X-Request-Id: 455d6f46-6834-4885-a8f8-55c32274fc7b
 |:-----------|:--------------------|
 | data[attributes][contexts_limit] | The limit of active (none archived and current revision) contexts within the project. |
 | data[attributes][context_revisions_to_keep] | Limits the number of revisions kept of each context. While the system will keep all of the revisions of all of the contexts, only the latest n will be available to the user limited by this number. |
+
+
+# Permissions
+
+A Permission represents a single permission which can be assigned to a User.
+
+
+## List
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+GET /permissions
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`GET /permissions`
+
+#### Parameters
+
+
+
+| Name | Description |
+|:-----|:------------|
+| sort  | available sort fields: name |
+| query  | search query |
+
+
+
+### Response
+
+```plaintext
+X-Request-Id: fe5ccdfb-7491-4d06-b198-969d738cacff
+200 OK
+```
+
+
+```json
+[binary data]
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[attributes][event] | Permission name |
+| data[attributes][event] | Permission description |
 
 
 # User settings
@@ -4576,7 +4625,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: ebe3d38b-66b1-4570-a778-6bc5c18e9eb1
+X-Request-Id: 3e55a4e6-9e8d-4475-a359-fa44dd636957
 200 OK
 ```
 
@@ -4634,7 +4683,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: d7c4cd23-c257-47e0-9e07-c13f7eb5e863
+X-Request-Id: 7cef8930-20d4-409e-bf97-f83452ad609b
 200 OK
 ```
 
@@ -4679,6 +4728,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 | Name | Description |
 |:-----|:------------|
+| sort  | available sort fields: created_at |
 | filter[item_id_eq]  | filter by item_id |
 | filter[item_type_eq]  | filter by item_type |
 | filter[user_id_eq]  | filter by user_id |
@@ -4688,7 +4738,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-X-Request-Id: e2e08398-c89d-437f-af3f-872d2cdac240
+X-Request-Id: 18299021-d60b-4f92-a2f6-e0af45c32102
 200 OK
 ```
 
@@ -4734,7 +4784,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 890fa32b-5e89-40eb-a86c-397ff1028935
+X-Request-Id: 257a7ba9-f329-4f41-a748-1ed1467baab8
 200 OK
 ```
 
