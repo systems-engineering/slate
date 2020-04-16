@@ -224,7 +224,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 8b8e99eb-ee10-4ff3-a32e-acab56f58681
+X-Request-Id: 1629f3bd-bbaa-480a-a1c5-87461dfbfee5
 200 OK
 ```
 
@@ -232,10 +232,10 @@ X-Request-Id: 8b8e99eb-ee10-4ff3-a32e-acab56f58681
 ```json
 {
   "data": {
-    "id": "01b32c4b-c01e-4a7d-b703-401b2f8b976e",
+    "id": "d0d79726-5e5f-4204-8512-59356b20f726",
     "type": "account",
     "attributes": {
-      "name": "Account 9157b5d421ad"
+      "name": "Account 400bba0b1f31"
     },
     "relationships": {
       "projects": {
@@ -285,7 +285,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 8e817a41-e8e6-4bf3-87b8-cb2953a4b10c
+X-Request-Id: b6e274de-06ed-42d8-bbc0-dd9bae854d24
 200 OK
 ```
 
@@ -293,10 +293,10 @@ X-Request-Id: 8e817a41-e8e6-4bf3-87b8-cb2953a4b10c
 ```json
 {
   "data": {
-    "id": "5a9bc3d5-912f-4db0-86ee-2e79f1e63a3c",
+    "id": "fb9b3114-9294-4d8d-93b1-519521895244",
     "type": "account",
     "attributes": {
-      "name": "Account d89de6ce58eb"
+      "name": "Account da361279a73d"
     },
     "relationships": {
       "projects": {
@@ -346,7 +346,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "14c10a2b-da06-4b48-9c8b-6bd0ba1894ae",
+    "id": "bdbd4b2f-4cb3-4fb5-92f7-cc59fc4a3a38",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
@@ -366,7 +366,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 3616c2e7-1a6a-4c2c-a27a-2823d8f3395a
+X-Request-Id: 5a9dccdd-bc50-4ca3-a0ba-023c99ebc3c4
 200 OK
 ```
 
@@ -374,7 +374,7 @@ X-Request-Id: 3616c2e7-1a6a-4c2c-a27a-2823d8f3395a
 ```json
 {
   "data": {
-    "id": "14c10a2b-da06-4b48-9c8b-6bd0ba1894ae",
+    "id": "bdbd4b2f-4cb3-4fb5-92f7-cc59fc4a3a38",
     "type": "account",
     "attributes": {
       "name": "New Account Name"
@@ -446,7 +446,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 7e6f7a21-7153-4ee3-a5ca-efcda9c612ec
+X-Request-Id: 61219bac-a532-4d67-bb21-13888cde6008
 200 OK
 ```
 
@@ -455,7 +455,7 @@ X-Request-Id: 7e6f7a21-7153-4ee3-a5ca-efcda9c612ec
 {
   "data": [
     {
-      "id": "7b8ebaad-f81c-43ca-83fb-7b1f980d7c63",
+      "id": "207bb85e-4b18-4ecd-8107-eedcd69ed193",
       "type": "project",
       "attributes": {
         "archived": false,
@@ -471,8 +471,8 @@ X-Request-Id: 7e6f7a21-7153-4ee3-a5ca-efcda9c612ec
         },
         "contexts": {
           "links": {
-            "related": "/contexts?filter[project_id_eq]=7b8ebaad-f81c-43ca-83fb-7b1f980d7c63",
-            "self": "/projects/7b8ebaad-f81c-43ca-83fb-7b1f980d7c63/relationships/contexts"
+            "related": "/contexts?filter[project_id_eq]=207bb85e-4b18-4ecd-8107-eedcd69ed193",
+            "self": "/projects/207bb85e-4b18-4ecd-8107-eedcd69ed193/relationships/contexts"
           }
         }
       }
@@ -505,7 +505,7 @@ X-Request-Id: 7e6f7a21-7153-4ee3-a5ca-efcda9c612ec
 #### Endpoint
 
 ```plaintext
-GET /projects/0aba85b4-adff-4109-b6fd-d160cba45713
+GET /projects/a49bbe75-e2bb-4fc2-8b9b-1a17a249e6a0
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -523,7 +523,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 453ad647-9e10-4694-aae3-2355d632a48e
+X-Request-Id: af3ef87a-af37-48c8-9ec5-08e6e9bfb161
 200 OK
 ```
 
@@ -531,7 +531,7 @@ X-Request-Id: 453ad647-9e10-4694-aae3-2355d632a48e
 ```json
 {
   "data": {
-    "id": "0aba85b4-adff-4109-b6fd-d160cba45713",
+    "id": "a49bbe75-e2bb-4fc2-8b9b-1a17a249e6a0",
     "type": "project",
     "attributes": {
       "archived": false,
@@ -547,14 +547,14 @@ X-Request-Id: 453ad647-9e10-4694-aae3-2355d632a48e
       },
       "contexts": {
         "links": {
-          "related": "/contexts?filter[project_id_eq]=0aba85b4-adff-4109-b6fd-d160cba45713",
-          "self": "/projects/0aba85b4-adff-4109-b6fd-d160cba45713/relationships/contexts"
+          "related": "/contexts?filter[project_id_eq]=a49bbe75-e2bb-4fc2-8b9b-1a17a249e6a0",
+          "self": "/projects/a49bbe75-e2bb-4fc2-8b9b-1a17a249e6a0/relationships/contexts"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/0aba85b4-adff-4109-b6fd-d160cba45713"
+    "self": "http://example.org/projects/a49bbe75-e2bb-4fc2-8b9b-1a17a249e6a0"
   }
 }
 ```
@@ -576,7 +576,7 @@ X-Request-Id: 453ad647-9e10-4694-aae3-2355d632a48e
 #### Endpoint
 
 ```plaintext
-PATCH /projects/22042f8b-c691-4873-ab7d-8b5fd9399e6d
+PATCH /projects/b89bd004-7b77-44d9-8dc7-a91fb2931cff
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -590,7 +590,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "22042f8b-c691-4873-ab7d-8b5fd9399e6d",
+    "id": "b89bd004-7b77-44d9-8dc7-a91fb2931cff",
     "type": "projects",
     "attributes": {
       "name": "New project name"
@@ -610,7 +610,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 43306372-39ff-4179-92fd-56684a88bbfb
+X-Request-Id: eae12b8b-b69c-453c-997f-bce61253cb65
 200 OK
 ```
 
@@ -618,7 +618,7 @@ X-Request-Id: 43306372-39ff-4179-92fd-56684a88bbfb
 ```json
 {
   "data": {
-    "id": "22042f8b-c691-4873-ab7d-8b5fd9399e6d",
+    "id": "b89bd004-7b77-44d9-8dc7-a91fb2931cff",
     "type": "project",
     "attributes": {
       "archived": false,
@@ -634,14 +634,14 @@ X-Request-Id: 43306372-39ff-4179-92fd-56684a88bbfb
       },
       "contexts": {
         "links": {
-          "related": "/contexts?filter[project_id_eq]=22042f8b-c691-4873-ab7d-8b5fd9399e6d",
-          "self": "/projects/22042f8b-c691-4873-ab7d-8b5fd9399e6d/relationships/contexts"
+          "related": "/contexts?filter[project_id_eq]=b89bd004-7b77-44d9-8dc7-a91fb2931cff",
+          "self": "/projects/b89bd004-7b77-44d9-8dc7-a91fb2931cff/relationships/contexts"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/22042f8b-c691-4873-ab7d-8b5fd9399e6d"
+    "self": "http://example.org/projects/b89bd004-7b77-44d9-8dc7-a91fb2931cff"
   }
 }
 ```
@@ -663,7 +663,7 @@ X-Request-Id: 43306372-39ff-4179-92fd-56684a88bbfb
 #### Endpoint
 
 ```plaintext
-POST /projects/5fe50268-3374-45d1-ab23-eae29df7bbe8/archive
+POST /projects/7e2a3aa7-e0b8-4dd7-a990-88dbcb084f9d/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -681,7 +681,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 887babdd-8d83-4bf8-9545-1d0c1479c126
+X-Request-Id: a2359baf-d44f-444f-a917-fa7041cf82ab
 200 OK
 ```
 
@@ -689,11 +689,11 @@ X-Request-Id: 887babdd-8d83-4bf8-9545-1d0c1479c126
 ```json
 {
   "data": {
-    "id": "5fe50268-3374-45d1-ab23-eae29df7bbe8",
+    "id": "7e2a3aa7-e0b8-4dd7-a990-88dbcb084f9d",
     "type": "project",
     "attributes": {
       "archived": true,
-      "archived_at": "2020-04-05T09:37:37.877Z",
+      "archived_at": "2020-04-16T19:35:02.811Z",
       "description": "Project description",
       "name": "project 1"
     },
@@ -705,14 +705,14 @@ X-Request-Id: 887babdd-8d83-4bf8-9545-1d0c1479c126
       },
       "contexts": {
         "links": {
-          "related": "/contexts?filter[project_id_eq]=5fe50268-3374-45d1-ab23-eae29df7bbe8",
-          "self": "/projects/5fe50268-3374-45d1-ab23-eae29df7bbe8/relationships/contexts"
+          "related": "/contexts?filter[project_id_eq]=7e2a3aa7-e0b8-4dd7-a990-88dbcb084f9d",
+          "self": "/projects/7e2a3aa7-e0b8-4dd7-a990-88dbcb084f9d/relationships/contexts"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/5fe50268-3374-45d1-ab23-eae29df7bbe8/archive"
+    "self": "http://example.org/projects/7e2a3aa7-e0b8-4dd7-a990-88dbcb084f9d/archive"
   }
 }
 ```
@@ -734,7 +734,7 @@ X-Request-Id: 887babdd-8d83-4bf8-9545-1d0c1479c126
 #### Endpoint
 
 ```plaintext
-DELETE /projects/a5a68d28-6db3-467d-8727-91b559ae5865
+DELETE /projects/34b145f6-0276-463e-b575-16e73693fa81
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -751,7 +751,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 2827991d-5d56-4d24-83a9-cd9a75e8aee1
+X-Request-Id: d7a67cfd-3e4f-496d-9276-bc37a14a22ee
 204 No Content
 ```
 
@@ -806,7 +806,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 855065e7-c796-4c5d-b096-9d8433ee708e
+X-Request-Id: c079fb98-933c-494e-9bbd-21b1dc300fd6
 200 OK
 ```
 
@@ -815,7 +815,7 @@ X-Request-Id: 855065e7-c796-4c5d-b096-9d8433ee708e
 {
   "data": [
     {
-      "id": "4647bbd3-241c-4a68-a6ee-5d6f4ea972ea",
+      "id": "86098fb3-eebe-4c81-b261-79ea0dde8531",
       "type": "context",
       "attributes": {
         "archived": false,
@@ -829,23 +829,23 @@ X-Request-Id: 855065e7-c796-4c5d-b096-9d8433ee708e
       "relationships": {
         "project": {
           "links": {
-            "related": "/projects/1fd36c02-ed5e-4328-b071-1df09d5bbf7f"
+            "related": "/projects/a7dc09c9-561b-4dc4-b5bf-b3d5a901be42"
           }
         },
         "root_object_occurrence": {
           "links": {
-            "related": "/object_occurrences/8f6ce926-6da5-4eae-b457-db0c6f4b71a5"
+            "related": "/object_occurrences/95029bef-e14c-48ab-818a-d85b6a551bd3"
           }
         },
         "syntax": {
           "links": {
-            "related": "/syntaxes/7e7231b0-662b-4bb4-ad81-85b7dcb8d80c"
+            "related": "/syntaxes/f01e9afe-a824-4838-9797-13eb9f7d43bd"
           }
         }
       }
     },
     {
-      "id": "da89368e-ae6c-41cc-b0fb-e4d0ad4b6a15",
+      "id": "d4851884-30ec-4821-9b67-a64404cda540",
       "type": "context",
       "attributes": {
         "archived": false,
@@ -859,17 +859,17 @@ X-Request-Id: 855065e7-c796-4c5d-b096-9d8433ee708e
       "relationships": {
         "project": {
           "links": {
-            "related": "/projects/1fd36c02-ed5e-4328-b071-1df09d5bbf7f"
+            "related": "/projects/a7dc09c9-561b-4dc4-b5bf-b3d5a901be42"
           }
         },
         "root_object_occurrence": {
           "links": {
-            "related": "/object_occurrences/046a2403-8864-41fb-8ae2-b9be484f63db"
+            "related": "/object_occurrences/600f9156-7a45-4d1f-af35-e81fedd262c0"
           }
         },
         "syntax": {
           "links": {
-            "related": "/syntaxes/7e7231b0-662b-4bb4-ad81-85b7dcb8d80c"
+            "related": "/syntaxes/f01e9afe-a824-4838-9797-13eb9f7d43bd"
           }
         }
       }
@@ -907,7 +907,7 @@ X-Request-Id: 855065e7-c796-4c5d-b096-9d8433ee708e
 #### Endpoint
 
 ```plaintext
-GET /contexts/3909594c-d4af-4af9-936f-659f7b2cbf1f
+GET /contexts/40b8daa6-e93c-4c14-9886-b3dd981c9c1b
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -925,7 +925,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 7413a161-b9d2-4c07-8d27-860fcead9cd6
+X-Request-Id: 85cc1ee4-b0c1-4695-aa0b-5f2e4745e3da
 200 OK
 ```
 
@@ -933,7 +933,7 @@ X-Request-Id: 7413a161-b9d2-4c07-8d27-860fcead9cd6
 ```json
 {
   "data": {
-    "id": "3909594c-d4af-4af9-936f-659f7b2cbf1f",
+    "id": "40b8daa6-e93c-4c14-9886-b3dd981c9c1b",
     "type": "context",
     "attributes": {
       "archived": false,
@@ -947,23 +947,23 @@ X-Request-Id: 7413a161-b9d2-4c07-8d27-860fcead9cd6
     "relationships": {
       "project": {
         "links": {
-          "related": "/projects/623e75a4-cc4e-4da6-a5e2-1cbbddce6cb2"
+          "related": "/projects/dcc211e3-7f88-462a-b493-953e8aa632f1"
         }
       },
       "root_object_occurrence": {
         "links": {
-          "related": "/object_occurrences/52f89ed8-150b-4e89-a436-7f2c8e75a286"
+          "related": "/object_occurrences/7860bdb0-1b54-4f40-a0e3-18317368aab4"
         }
       },
       "syntax": {
         "links": {
-          "related": "/syntaxes/1a17ed1f-8901-4d1e-878b-25c283e9a2de"
+          "related": "/syntaxes/60ec877e-e457-4467-87d3-d146aaf05378"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/contexts/3909594c-d4af-4af9-936f-659f7b2cbf1f"
+    "self": "http://example.org/contexts/40b8daa6-e93c-4c14-9886-b3dd981c9c1b"
   }
 }
 ```
@@ -990,7 +990,7 @@ X-Request-Id: 7413a161-b9d2-4c07-8d27-860fcead9cd6
 #### Endpoint
 
 ```plaintext
-PATCH /contexts/f0035072-6feb-425d-a2fa-d4e2eeabed5a
+PATCH /contexts/1016ea84-2c99-42bd-b4aa-aee0d0658dfe
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1004,7 +1004,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "f0035072-6feb-425d-a2fa-d4e2eeabed5a",
+    "id": "1016ea84-2c99-42bd-b4aa-aee0d0658dfe",
     "type": "contexts",
     "attributes": {
       "name": "New context name"
@@ -1024,7 +1024,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: ab5247c9-9fb5-4456-84ce-75b9502ad18f
+X-Request-Id: 794cf6ad-f6ad-4284-bcc3-e9a1dd3dff03
 200 OK
 ```
 
@@ -1032,7 +1032,7 @@ X-Request-Id: ab5247c9-9fb5-4456-84ce-75b9502ad18f
 ```json
 {
   "data": {
-    "id": "f0035072-6feb-425d-a2fa-d4e2eeabed5a",
+    "id": "1016ea84-2c99-42bd-b4aa-aee0d0658dfe",
     "type": "context",
     "attributes": {
       "archived": false,
@@ -1046,23 +1046,23 @@ X-Request-Id: ab5247c9-9fb5-4456-84ce-75b9502ad18f
     "relationships": {
       "project": {
         "links": {
-          "related": "/projects/514ae7a1-5e69-491b-a8d0-d7373f22137b"
+          "related": "/projects/7f1dd72e-9717-4071-be9b-159965d06496"
         }
       },
       "root_object_occurrence": {
         "links": {
-          "related": "/object_occurrences/aba120e0-d71c-433b-ab3f-857f0d8f6fe6"
+          "related": "/object_occurrences/7c2d3288-101f-4cf5-895a-09290fdf5055"
         }
       },
       "syntax": {
         "links": {
-          "related": "/syntaxes/14e85703-a603-4fb7-8824-a9a29485ad11"
+          "related": "/syntaxes/674c41e4-4f0a-42b0-9565-d870b4d750ad"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/contexts/f0035072-6feb-425d-a2fa-d4e2eeabed5a"
+    "self": "http://example.org/contexts/1016ea84-2c99-42bd-b4aa-aee0d0658dfe"
   }
 }
 ```
@@ -1089,7 +1089,7 @@ X-Request-Id: ab5247c9-9fb5-4456-84ce-75b9502ad18f
 #### Endpoint
 
 ```plaintext
-POST /projects/d1b6e29c-f10c-4a9c-aacf-bab168acb3ec/relationships/contexts
+POST /projects/f12d93a5-a4c5-4d92-9965-293a1b865c18/relationships/contexts
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1111,7 +1111,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "syntax": {
         "data": {
           "type": "syntax",
-          "id": "8c0bc53d-7519-4980-bb92-718fb5806c61"
+          "id": "3c9e31f4-3f5c-4a8b-b6b4-523e6f49bc15"
         }
       }
     }
@@ -1126,7 +1126,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 763e3c32-6630-48fe-ab0a-03b1e69eb586
+X-Request-Id: afd03d6b-087b-4d22-9945-ab5c217df1fd
 201 Created
 ```
 
@@ -1134,7 +1134,7 @@ X-Request-Id: 763e3c32-6630-48fe-ab0a-03b1e69eb586
 ```json
 {
   "data": {
-    "id": "77151fd4-d17a-4e56-b78e-952b6d57b971",
+    "id": "8c86e8f3-4fe9-491a-9102-b492acabc415",
     "type": "context",
     "attributes": {
       "archived": false,
@@ -1148,23 +1148,23 @@ X-Request-Id: 763e3c32-6630-48fe-ab0a-03b1e69eb586
     "relationships": {
       "project": {
         "links": {
-          "related": "/projects/d1b6e29c-f10c-4a9c-aacf-bab168acb3ec"
+          "related": "/projects/f12d93a5-a4c5-4d92-9965-293a1b865c18"
         }
       },
       "root_object_occurrence": {
         "links": {
-          "related": "/object_occurrences/c2fc70b5-e37c-452c-af87-e23bc895c568"
+          "related": "/object_occurrences/8089670a-5200-4ab9-a1ee-e7a416fb1b63"
         }
       },
       "syntax": {
         "links": {
-          "related": "/syntaxes/8c0bc53d-7519-4980-bb92-718fb5806c61"
+          "related": "/syntaxes/3c9e31f4-3f5c-4a8b-b6b4-523e6f49bc15"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/d1b6e29c-f10c-4a9c-aacf-bab168acb3ec/relationships/contexts"
+    "self": "http://example.org/projects/f12d93a5-a4c5-4d92-9965-293a1b865c18/relationships/contexts"
   }
 }
 ```
@@ -1191,7 +1191,7 @@ X-Request-Id: 763e3c32-6630-48fe-ab0a-03b1e69eb586
 #### Endpoint
 
 ```plaintext
-POST /contexts/7bebfd6d-c0d7-4e17-84b7-94416bc173bb/revision
+POST /contexts/cec66f41-72d5-4e56-8a87-19307a328b6b/revision
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1208,15 +1208,15 @@ None known.
 ### Response
 
 ```plaintext
-Location: http://example.org/polling/19047704f59edd9c31848a2f
+Location: http://example.org/polling/83a00e13725de158b16aa7bc
 Content-Type: text/html; charset=utf-8
-X-Request-Id: 03140e22-0a82-46f7-9ef1-ef9d4557f411
+X-Request-Id: 5c8dd46f-cea8-4d07-853f-a4e37cde13ad
 202 Accepted
 ```
 
 
 ```json
-<html><body>You are being <a href="http://example.org/polling/19047704f59edd9c31848a2f">redirected</a>.</body></html>
+<html><body>You are being <a href="http://example.org/polling/83a00e13725de158b16aa7bc">redirected</a>.</body></html>
 ```
 
 
@@ -1241,7 +1241,7 @@ X-Request-Id: 03140e22-0a82-46f7-9ef1-ef9d4557f411
 #### Endpoint
 
 ```plaintext
-DELETE /contexts/59ddfeac-b9eb-44b1-bc67-548cf8b95210
+DELETE /contexts/23cdf1fc-eb13-447d-9dc3-0efb54ffb428
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1258,7 +1258,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: aaa1fa5c-cae4-4529-8c19-d88e4f5201c4
+X-Request-Id: 1710fe62-affe-40b5-a02c-3d85f0397851
 204 No Content
 ```
 
@@ -1292,7 +1292,7 @@ Adds a new tag to the resource
 #### Endpoint
 
 ```plaintext
-POST /object_occurrences/c9efc62a-fc38-4eb8-bc2e-01e21df24559/relationships/tags
+POST /object_occurrences/e9a1454e-b60e-4b42-ba77-be5fed3b98fd/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1325,7 +1325,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: dc0e0940-9444-4135-9b91-3b41c66fcee0
+X-Request-Id: 8c712d8a-e18a-4b4a-b370-781015411d12
 201 Created
 ```
 
@@ -1333,7 +1333,7 @@ X-Request-Id: dc0e0940-9444-4135-9b91-3b41c66fcee0
 ```json
 {
   "data": {
-    "id": "bad2b97b-240a-4a0d-a9a6-2c62c0c2a789",
+    "id": "74ecc580-2e3b-4ccf-9e18-be370a16ce1d",
     "type": "tag",
     "attributes": {
       "value": "new tag value"
@@ -1342,7 +1342,7 @@ X-Request-Id: dc0e0940-9444-4135-9b91-3b41c66fcee0
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/c9efc62a-fc38-4eb8-bc2e-01e21df24559/relationships/tags"
+    "self": "http://example.org/object_occurrences/e9a1454e-b60e-4b42-ba77-be5fed3b98fd/relationships/tags"
   }
 }
 ```
@@ -1368,7 +1368,7 @@ Adds an existing tag to the resource
 #### Endpoint
 
 ```plaintext
-POST /object_occurrences/34852793-c5c5-40ee-a394-261126571d45/relationships/tags
+POST /object_occurrences/9642dd73-d852-4afc-86eb-2e6c1158fc50/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1383,7 +1383,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 {
   "data": {
     "type": "tags",
-    "id": "ba33b878-72de-4218-80ae-498c4b5ac068"
+    "id": "cac220f6-51a7-48cb-8f90-9d26a36c6f86"
   }
 }
 ```
@@ -1399,7 +1399,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 07876fd4-3906-462b-954c-81fe0dceae5c
+X-Request-Id: ecc8deab-34f6-4615-b56b-2f398c0b9385
 201 Created
 ```
 
@@ -1407,7 +1407,7 @@ X-Request-Id: 07876fd4-3906-462b-954c-81fe0dceae5c
 ```json
 {
   "data": {
-    "id": "ba33b878-72de-4218-80ae-498c4b5ac068",
+    "id": "cac220f6-51a7-48cb-8f90-9d26a36c6f86",
     "type": "tag",
     "attributes": {
       "value": "tag value 1"
@@ -1416,7 +1416,7 @@ X-Request-Id: 07876fd4-3906-462b-954c-81fe0dceae5c
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/34852793-c5c5-40ee-a394-261126571d45/relationships/tags"
+    "self": "http://example.org/object_occurrences/9642dd73-d852-4afc-86eb-2e6c1158fc50/relationships/tags"
   }
 }
 ```
@@ -1440,7 +1440,7 @@ X-Request-Id: 07876fd4-3906-462b-954c-81fe0dceae5c
 #### Endpoint
 
 ```plaintext
-DELETE /object_occurrences/a820d5dc-9581-4fc1-a8eb-6d8e58a406f0/relationships/tags/0f655d81-006c-40dd-9895-ce465b84eb07
+DELETE /object_occurrences/555c4a69-e586-4708-936a-dba56553b715/relationships/tags/2262a9cb-c3f6-4b28-ad3f-0b9ba2eb7735
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1457,7 +1457,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 95dae39d-692d-4f36-b582-29dd71c7fc81
+X-Request-Id: e48684c2-00b4-4b2c-a6e3-9763a300feeb
 204 No Content
 ```
 
@@ -1474,7 +1474,7 @@ Adds a new owner to the resource
 #### Endpoint
 
 ```plaintext
-POST /object_occurrences/edc46da9-7298-4b8b-b526-0ba513851f34/relationships/owners
+POST /object_occurrences/bb85a130-9f3d-4ce8-ba13-82fa6dcf26ea/relationships/owners
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1510,7 +1510,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 7f81f0fa-7ec1-45e6-af09-cf6ec96250c4
+X-Request-Id: 3bc67e6e-6e90-4438-877c-025416342a15
 201 Created
 ```
 
@@ -1518,7 +1518,7 @@ X-Request-Id: 7f81f0fa-7ec1-45e6-af09-cf6ec96250c4
 ```json
 {
   "data": {
-    "id": "59d57616-9dc5-494f-a5f3-0f440c1dcf80",
+    "id": "bfee2dd3-271d-4fef-ac22-9ace6e24eae3",
     "type": "owner",
     "attributes": {
       "company": null,
@@ -1527,7 +1527,7 @@ X-Request-Id: 7f81f0fa-7ec1-45e6-af09-cf6ec96250c4
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/edc46da9-7298-4b8b-b526-0ba513851f34/relationships/owners"
+    "self": "http://example.org/object_occurrences/bb85a130-9f3d-4ce8-ba13-82fa6dcf26ea/relationships/owners"
   }
 }
 ```
@@ -1558,7 +1558,7 @@ resource. This is completely depending on the business interpretation of the cli
 #### Endpoint
 
 ```plaintext
-POST /object_occurrences/52a039d0-6f8d-4901-9265-f88ab0cdc9bf/relationships/owners
+POST /object_occurrences/2abd92e8-f742-4f0e-951c-bfab4dcc816b/relationships/owners
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1595,7 +1595,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 2ac76066-c65e-4418-b312-dbc00e00a74b
+X-Request-Id: b079d737-e4c5-43e6-9bf1-ee01da2df78a
 201 Created
 ```
 
@@ -1603,7 +1603,7 @@ X-Request-Id: 2ac76066-c65e-4418-b312-dbc00e00a74b
 ```json
 {
   "data": {
-    "id": "f154413d-9bcc-478e-8c1b-70a7e1961b0d",
+    "id": "e867cd21-2e7b-4907-8922-17bc8c83fd07",
     "type": "owner",
     "attributes": {
       "company": null,
@@ -1612,7 +1612,7 @@ X-Request-Id: 2ac76066-c65e-4418-b312-dbc00e00a74b
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/52a039d0-6f8d-4901-9265-f88ab0cdc9bf/relationships/owners"
+    "self": "http://example.org/object_occurrences/2abd92e8-f742-4f0e-951c-bfab4dcc816b/relationships/owners"
   }
 }
 ```
@@ -1640,7 +1640,7 @@ Adds an existing owner to the resource
 #### Endpoint
 
 ```plaintext
-POST /object_occurrences/d2287216-4dc9-45cf-b145-818245532157/relationships/owners
+POST /object_occurrences/273c7421-979e-42a7-871d-977602199259/relationships/owners
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1655,7 +1655,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 {
   "data": {
     "type": "owner",
-    "id": "40ddc8af-062c-4171-8dbe-c7d92763669a"
+    "id": "cda57720-9d12-4770-b7f2-46477bc5f15c"
   }
 }
 ```
@@ -1671,7 +1671,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 404761d9-3fea-4928-857b-ecf4dd414f5c
+X-Request-Id: 9cbd0fec-c57a-4571-9a24-5ccc35d2086d
 201 Created
 ```
 
@@ -1679,7 +1679,7 @@ X-Request-Id: 404761d9-3fea-4928-857b-ecf4dd414f5c
 ```json
 {
   "data": {
-    "id": "40ddc8af-062c-4171-8dbe-c7d92763669a",
+    "id": "cda57720-9d12-4770-b7f2-46477bc5f15c",
     "type": "owner",
     "attributes": {
       "company": null,
@@ -1688,7 +1688,7 @@ X-Request-Id: 404761d9-3fea-4928-857b-ecf4dd414f5c
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/d2287216-4dc9-45cf-b145-818245532157/relationships/owners"
+    "self": "http://example.org/object_occurrences/273c7421-979e-42a7-871d-977602199259/relationships/owners"
   }
 }
 ```
@@ -1714,7 +1714,7 @@ X-Request-Id: 404761d9-3fea-4928-857b-ecf4dd414f5c
 #### Endpoint
 
 ```plaintext
-DELETE /object_occurrences/02bfa301-e110-41a6-81c4-2cf3b68d42a8/relationships/owners/59959740-bebf-4e9e-8b08-0e2ff4ee01a9
+DELETE /object_occurrences/009c0c39-d79e-42e2-be96-e82d1711ec3f/relationships/owners/327a6391-63a8-419c-852b-13c0c5782e86
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -1731,7 +1731,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 78079919-4419-460c-8e6a-2572114f144c
+X-Request-Id: 56306fe5-a541-4a44-8a11-7859170210b6
 204 No Content
 ```
 
@@ -1763,6 +1763,8 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 | sort  | available sort fields: classification_code, name, number, type |
 | query  | search query |
 | filter[context_id_eq]  | filter by context id |
+| filter[progress_steps_gte]  | filtering by at least one checked step that is ≥ provided value |
+| filter[progress_steps_lte]  | filtering by at least one not checked step that is ≤ provided value |
 | filter[syntax_element_id_in]  | filter by syntax elements ids |
 
 
@@ -1771,7 +1773,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 148991f2-9957-481e-87a5-88d235cf9d6f
+X-Request-Id: d666bcb4-887c-449e-bd32-900072ad5e5b
 200 OK
 ```
 
@@ -1780,368 +1782,7 @@ X-Request-Id: 148991f2-9957-481e-87a5-88d235cf9d6f
 {
   "data": [
     {
-      "id": "e25f525e-39a7-4015-8faa-85c63ec2b88b",
-      "type": "object_occurrence",
-      "attributes": {
-        "classification_code": "A",
-        "description": null,
-        "name": "OOC 94ae679eb339",
-        "position": 1,
-        "prefix": "=",
-        "reference_designation": null,
-        "type": "regular",
-        "hex_color": null,
-        "number": "1",
-        "validation_errors": [
-
-        ]
-      },
-      "relationships": {
-        "tags": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/tags?filter[target_id_eq]=e25f525e-39a7-4015-8faa-85c63ec2b88b",
-            "self": "/object_occurrences/e25f525e-39a7-4015-8faa-85c63ec2b88b/relationships/tags"
-          }
-        },
-        "owners": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/owners?filter[target_id_eq]=e25f525e-39a7-4015-8faa-85c63ec2b88b&filter[target_type_eq]=object_occurrence",
-            "self": "/object_occurrences/e25f525e-39a7-4015-8faa-85c63ec2b88b/relationships/owners"
-          }
-        },
-        "context": {
-          "links": {
-            "related": "/contexts/dbc1f500-a46b-4bc9-b7ee-0d65eff4157f"
-          }
-        },
-        "components": {
-          "data": [
-            {
-              "id": "443800f0-29a3-4051-aa6f-b4455f3c3723",
-              "type": "object_occurrence"
-            }
-          ],
-          "links": {
-            "self": "/object_occurrences/e25f525e-39a7-4015-8faa-85c63ec2b88b/relationships/components"
-          }
-        },
-        "allowed_children_syntax_nodes": {
-          "links": {
-            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=e25f525e-39a7-4015-8faa-85c63ec2b88b"
-          }
-        },
-        "allowed_children_syntax_elements": {
-          "links": {
-            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=e25f525e-39a7-4015-8faa-85c63ec2b88b"
-          }
-        },
-        "allowed_children_classification_tables": {
-          "links": {
-            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=e25f525e-39a7-4015-8faa-85c63ec2b88b"
-          }
-        }
-      }
-    },
-    {
-      "id": "443800f0-29a3-4051-aa6f-b4455f3c3723",
-      "type": "object_occurrence",
-      "attributes": {
-        "classification_code": "A",
-        "description": null,
-        "name": "OOC 1",
-        "position": 1,
-        "prefix": "=",
-        "reference_designation": null,
-        "type": "regular",
-        "hex_color": null,
-        "number": "1",
-        "validation_errors": [
-
-        ]
-      },
-      "relationships": {
-        "tags": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/tags?filter[target_id_eq]=443800f0-29a3-4051-aa6f-b4455f3c3723",
-            "self": "/object_occurrences/443800f0-29a3-4051-aa6f-b4455f3c3723/relationships/tags"
-          }
-        },
-        "owners": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/owners?filter[target_id_eq]=443800f0-29a3-4051-aa6f-b4455f3c3723&filter[target_type_eq]=object_occurrence",
-            "self": "/object_occurrences/443800f0-29a3-4051-aa6f-b4455f3c3723/relationships/owners"
-          }
-        },
-        "context": {
-          "links": {
-            "related": "/contexts/dbc1f500-a46b-4bc9-b7ee-0d65eff4157f"
-          }
-        },
-        "part_of": {
-          "links": {
-            "related": "/object_occurrences/e25f525e-39a7-4015-8faa-85c63ec2b88b",
-            "self": "/object_occurrences/443800f0-29a3-4051-aa6f-b4455f3c3723/relationships/part_of"
-          }
-        },
-        "components": {
-          "data": [
-            {
-              "id": "f5252603-501b-4b78-806e-0bf0b15877a5",
-              "type": "object_occurrence"
-            },
-            {
-              "id": "b179a00e-9e3d-44d6-aa16-5ac760534500",
-              "type": "object_occurrence"
-            }
-          ],
-          "links": {
-            "self": "/object_occurrences/443800f0-29a3-4051-aa6f-b4455f3c3723/relationships/components"
-          }
-        },
-        "allowed_children_syntax_nodes": {
-          "links": {
-            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=443800f0-29a3-4051-aa6f-b4455f3c3723"
-          }
-        },
-        "allowed_children_syntax_elements": {
-          "links": {
-            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=443800f0-29a3-4051-aa6f-b4455f3c3723"
-          }
-        },
-        "allowed_children_classification_tables": {
-          "links": {
-            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=443800f0-29a3-4051-aa6f-b4455f3c3723"
-          }
-        }
-      }
-    },
-    {
-      "id": "3417659c-7544-4502-a7f7-a2757497f304",
-      "type": "object_occurrence",
-      "attributes": {
-        "classification_code": "A",
-        "description": null,
-        "name": "OOC f8d4cea1ea92",
-        "position": 1,
-        "prefix": "=",
-        "reference_designation": null,
-        "type": "regular",
-        "hex_color": null,
-        "number": "1",
-        "validation_errors": [
-
-        ]
-      },
-      "relationships": {
-        "tags": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/tags?filter[target_id_eq]=3417659c-7544-4502-a7f7-a2757497f304",
-            "self": "/object_occurrences/3417659c-7544-4502-a7f7-a2757497f304/relationships/tags"
-          }
-        },
-        "owners": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/owners?filter[target_id_eq]=3417659c-7544-4502-a7f7-a2757497f304&filter[target_type_eq]=object_occurrence",
-            "self": "/object_occurrences/3417659c-7544-4502-a7f7-a2757497f304/relationships/owners"
-          }
-        },
-        "context": {
-          "links": {
-            "related": "/contexts/be94eeda-1637-4b35-90c1-71e001f562e7"
-          }
-        },
-        "components": {
-          "data": [
-            {
-              "id": "3c289754-c84a-438a-ba2f-c728eb466bbf",
-              "type": "object_occurrence"
-            }
-          ],
-          "links": {
-            "self": "/object_occurrences/3417659c-7544-4502-a7f7-a2757497f304/relationships/components"
-          }
-        },
-        "allowed_children_syntax_nodes": {
-          "links": {
-            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=3417659c-7544-4502-a7f7-a2757497f304"
-          }
-        },
-        "allowed_children_syntax_elements": {
-          "links": {
-            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=3417659c-7544-4502-a7f7-a2757497f304"
-          }
-        },
-        "allowed_children_classification_tables": {
-          "links": {
-            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=3417659c-7544-4502-a7f7-a2757497f304"
-          }
-        }
-      }
-    },
-    {
-      "id": "f5252603-501b-4b78-806e-0bf0b15877a5",
-      "type": "object_occurrence",
-      "attributes": {
-        "classification_code": "A",
-        "description": null,
-        "name": "OOC 2a",
-        "position": 1,
-        "prefix": "=",
-        "reference_designation": null,
-        "type": "regular",
-        "hex_color": null,
-        "number": "1",
-        "validation_errors": [
-
-        ]
-      },
-      "relationships": {
-        "tags": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/tags?filter[target_id_eq]=f5252603-501b-4b78-806e-0bf0b15877a5",
-            "self": "/object_occurrences/f5252603-501b-4b78-806e-0bf0b15877a5/relationships/tags"
-          }
-        },
-        "owners": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/owners?filter[target_id_eq]=f5252603-501b-4b78-806e-0bf0b15877a5&filter[target_type_eq]=object_occurrence",
-            "self": "/object_occurrences/f5252603-501b-4b78-806e-0bf0b15877a5/relationships/owners"
-          }
-        },
-        "context": {
-          "links": {
-            "related": "/contexts/dbc1f500-a46b-4bc9-b7ee-0d65eff4157f"
-          }
-        },
-        "part_of": {
-          "links": {
-            "related": "/object_occurrences/443800f0-29a3-4051-aa6f-b4455f3c3723",
-            "self": "/object_occurrences/f5252603-501b-4b78-806e-0bf0b15877a5/relationships/part_of"
-          }
-        },
-        "components": {
-          "data": [
-
-          ],
-          "links": {
-            "self": "/object_occurrences/f5252603-501b-4b78-806e-0bf0b15877a5/relationships/components"
-          }
-        },
-        "allowed_children_syntax_nodes": {
-          "links": {
-            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=f5252603-501b-4b78-806e-0bf0b15877a5"
-          }
-        },
-        "allowed_children_syntax_elements": {
-          "links": {
-            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=f5252603-501b-4b78-806e-0bf0b15877a5"
-          }
-        },
-        "allowed_children_classification_tables": {
-          "links": {
-            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=f5252603-501b-4b78-806e-0bf0b15877a5"
-          }
-        }
-      }
-    },
-    {
-      "id": "b179a00e-9e3d-44d6-aa16-5ac760534500",
-      "type": "object_occurrence",
-      "attributes": {
-        "classification_code": "A",
-        "description": null,
-        "name": "OOC 2",
-        "position": 1,
-        "prefix": "=",
-        "reference_designation": null,
-        "type": "regular",
-        "hex_color": null,
-        "number": "1",
-        "validation_errors": [
-
-        ]
-      },
-      "relationships": {
-        "tags": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/tags?filter[target_id_eq]=b179a00e-9e3d-44d6-aa16-5ac760534500",
-            "self": "/object_occurrences/b179a00e-9e3d-44d6-aa16-5ac760534500/relationships/tags"
-          }
-        },
-        "owners": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/owners?filter[target_id_eq]=b179a00e-9e3d-44d6-aa16-5ac760534500&filter[target_type_eq]=object_occurrence",
-            "self": "/object_occurrences/b179a00e-9e3d-44d6-aa16-5ac760534500/relationships/owners"
-          }
-        },
-        "context": {
-          "links": {
-            "related": "/contexts/dbc1f500-a46b-4bc9-b7ee-0d65eff4157f"
-          }
-        },
-        "part_of": {
-          "links": {
-            "related": "/object_occurrences/443800f0-29a3-4051-aa6f-b4455f3c3723",
-            "self": "/object_occurrences/b179a00e-9e3d-44d6-aa16-5ac760534500/relationships/part_of"
-          }
-        },
-        "components": {
-          "data": [
-
-          ],
-          "links": {
-            "self": "/object_occurrences/b179a00e-9e3d-44d6-aa16-5ac760534500/relationships/components"
-          }
-        },
-        "allowed_children_syntax_nodes": {
-          "links": {
-            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=b179a00e-9e3d-44d6-aa16-5ac760534500"
-          }
-        },
-        "allowed_children_syntax_elements": {
-          "links": {
-            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=b179a00e-9e3d-44d6-aa16-5ac760534500"
-          }
-        },
-        "allowed_children_classification_tables": {
-          "links": {
-            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=b179a00e-9e3d-44d6-aa16-5ac760534500"
-          }
-        }
-      }
-    },
-    {
-      "id": "3c289754-c84a-438a-ba2f-c728eb466bbf",
+      "id": "3e109c24-159b-4b09-8941-fe8b2d15185a",
       "type": "object_occurrence",
       "attributes": {
         "classification_code": "A",
@@ -2163,8 +1804,8 @@ X-Request-Id: 148991f2-9957-481e-87a5-88d235cf9d6f
 
           ],
           "links": {
-            "related": "/tags?filter[target_id_eq]=3c289754-c84a-438a-ba2f-c728eb466bbf",
-            "self": "/object_occurrences/3c289754-c84a-438a-ba2f-c728eb466bbf/relationships/tags"
+            "related": "/tags?filter[target_id_eq]=3e109c24-159b-4b09-8941-fe8b2d15185a",
+            "self": "/object_occurrences/3e109c24-159b-4b09-8941-fe8b2d15185a/relationships/tags"
           }
         },
         "owners": {
@@ -2172,19 +1813,19 @@ X-Request-Id: 148991f2-9957-481e-87a5-88d235cf9d6f
 
           ],
           "links": {
-            "related": "/owners?filter[target_id_eq]=3c289754-c84a-438a-ba2f-c728eb466bbf&filter[target_type_eq]=object_occurrence",
-            "self": "/object_occurrences/3c289754-c84a-438a-ba2f-c728eb466bbf/relationships/owners"
+            "related": "/owners?filter[target_id_eq]=3e109c24-159b-4b09-8941-fe8b2d15185a&filter[target_type_eq]=object_occurrence",
+            "self": "/object_occurrences/3e109c24-159b-4b09-8941-fe8b2d15185a/relationships/owners"
           }
         },
         "context": {
           "links": {
-            "related": "/contexts/be94eeda-1637-4b35-90c1-71e001f562e7"
+            "related": "/contexts/7e7853ef-d695-4359-9733-7b860e261138"
           }
         },
         "part_of": {
           "links": {
-            "related": "/object_occurrences/3417659c-7544-4502-a7f7-a2757497f304",
-            "self": "/object_occurrences/3c289754-c84a-438a-ba2f-c728eb466bbf/relationships/part_of"
+            "related": "/object_occurrences/12e3dffe-5a7a-4bac-b235-e84a81d4167a",
+            "self": "/object_occurrences/3e109c24-159b-4b09-8941-fe8b2d15185a/relationships/part_of"
           }
         },
         "components": {
@@ -2192,22 +1833,383 @@ X-Request-Id: 148991f2-9957-481e-87a5-88d235cf9d6f
 
           ],
           "links": {
-            "self": "/object_occurrences/3c289754-c84a-438a-ba2f-c728eb466bbf/relationships/components"
+            "self": "/object_occurrences/3e109c24-159b-4b09-8941-fe8b2d15185a/relationships/components"
           }
         },
         "allowed_children_syntax_nodes": {
           "links": {
-            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=3c289754-c84a-438a-ba2f-c728eb466bbf"
+            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=3e109c24-159b-4b09-8941-fe8b2d15185a"
           }
         },
         "allowed_children_syntax_elements": {
           "links": {
-            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=3c289754-c84a-438a-ba2f-c728eb466bbf"
+            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=3e109c24-159b-4b09-8941-fe8b2d15185a"
           }
         },
         "allowed_children_classification_tables": {
           "links": {
-            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=3c289754-c84a-438a-ba2f-c728eb466bbf"
+            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=3e109c24-159b-4b09-8941-fe8b2d15185a"
+          }
+        }
+      }
+    },
+    {
+      "id": "1b05a2a2-3a07-492f-a50e-b07fc9507160",
+      "type": "object_occurrence",
+      "attributes": {
+        "classification_code": "A",
+        "description": null,
+        "name": "OOC 2a",
+        "position": 1,
+        "prefix": "=",
+        "reference_designation": null,
+        "type": "regular",
+        "hex_color": null,
+        "number": "1",
+        "validation_errors": [
+
+        ]
+      },
+      "relationships": {
+        "tags": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/tags?filter[target_id_eq]=1b05a2a2-3a07-492f-a50e-b07fc9507160",
+            "self": "/object_occurrences/1b05a2a2-3a07-492f-a50e-b07fc9507160/relationships/tags"
+          }
+        },
+        "owners": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/owners?filter[target_id_eq]=1b05a2a2-3a07-492f-a50e-b07fc9507160&filter[target_type_eq]=object_occurrence",
+            "self": "/object_occurrences/1b05a2a2-3a07-492f-a50e-b07fc9507160/relationships/owners"
+          }
+        },
+        "context": {
+          "links": {
+            "related": "/contexts/aa128585-c1f5-4abc-8d8c-36c6c0d278e5"
+          }
+        },
+        "part_of": {
+          "links": {
+            "related": "/object_occurrences/b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91",
+            "self": "/object_occurrences/1b05a2a2-3a07-492f-a50e-b07fc9507160/relationships/part_of"
+          }
+        },
+        "components": {
+          "data": [
+
+          ],
+          "links": {
+            "self": "/object_occurrences/1b05a2a2-3a07-492f-a50e-b07fc9507160/relationships/components"
+          }
+        },
+        "allowed_children_syntax_nodes": {
+          "links": {
+            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=1b05a2a2-3a07-492f-a50e-b07fc9507160"
+          }
+        },
+        "allowed_children_syntax_elements": {
+          "links": {
+            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=1b05a2a2-3a07-492f-a50e-b07fc9507160"
+          }
+        },
+        "allowed_children_classification_tables": {
+          "links": {
+            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=1b05a2a2-3a07-492f-a50e-b07fc9507160"
+          }
+        }
+      }
+    },
+    {
+      "id": "b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91",
+      "type": "object_occurrence",
+      "attributes": {
+        "classification_code": "A",
+        "description": null,
+        "name": "OOC 1",
+        "position": 1,
+        "prefix": "=",
+        "reference_designation": null,
+        "type": "regular",
+        "hex_color": null,
+        "number": "1",
+        "validation_errors": [
+
+        ]
+      },
+      "relationships": {
+        "tags": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/tags?filter[target_id_eq]=b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91",
+            "self": "/object_occurrences/b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91/relationships/tags"
+          }
+        },
+        "owners": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/owners?filter[target_id_eq]=b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91&filter[target_type_eq]=object_occurrence",
+            "self": "/object_occurrences/b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91/relationships/owners"
+          }
+        },
+        "context": {
+          "links": {
+            "related": "/contexts/aa128585-c1f5-4abc-8d8c-36c6c0d278e5"
+          }
+        },
+        "part_of": {
+          "links": {
+            "related": "/object_occurrences/e1edd631-7f46-465f-af98-9d106eb9389d",
+            "self": "/object_occurrences/b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91/relationships/part_of"
+          }
+        },
+        "components": {
+          "data": [
+            {
+              "id": "1b05a2a2-3a07-492f-a50e-b07fc9507160",
+              "type": "object_occurrence"
+            },
+            {
+              "id": "d844dfee-2a23-4c6d-87a4-ffc06643bcb7",
+              "type": "object_occurrence"
+            }
+          ],
+          "links": {
+            "self": "/object_occurrences/b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91/relationships/components"
+          }
+        },
+        "allowed_children_syntax_nodes": {
+          "links": {
+            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91"
+          }
+        },
+        "allowed_children_syntax_elements": {
+          "links": {
+            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91"
+          }
+        },
+        "allowed_children_classification_tables": {
+          "links": {
+            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91"
+          }
+        }
+      }
+    },
+    {
+      "id": "d844dfee-2a23-4c6d-87a4-ffc06643bcb7",
+      "type": "object_occurrence",
+      "attributes": {
+        "classification_code": "A",
+        "description": null,
+        "name": "OOC 2",
+        "position": 1,
+        "prefix": "=",
+        "reference_designation": null,
+        "type": "regular",
+        "hex_color": null,
+        "number": "1",
+        "validation_errors": [
+
+        ]
+      },
+      "relationships": {
+        "tags": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/tags?filter[target_id_eq]=d844dfee-2a23-4c6d-87a4-ffc06643bcb7",
+            "self": "/object_occurrences/d844dfee-2a23-4c6d-87a4-ffc06643bcb7/relationships/tags"
+          }
+        },
+        "owners": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/owners?filter[target_id_eq]=d844dfee-2a23-4c6d-87a4-ffc06643bcb7&filter[target_type_eq]=object_occurrence",
+            "self": "/object_occurrences/d844dfee-2a23-4c6d-87a4-ffc06643bcb7/relationships/owners"
+          }
+        },
+        "context": {
+          "links": {
+            "related": "/contexts/aa128585-c1f5-4abc-8d8c-36c6c0d278e5"
+          }
+        },
+        "part_of": {
+          "links": {
+            "related": "/object_occurrences/b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91",
+            "self": "/object_occurrences/d844dfee-2a23-4c6d-87a4-ffc06643bcb7/relationships/part_of"
+          }
+        },
+        "components": {
+          "data": [
+
+          ],
+          "links": {
+            "self": "/object_occurrences/d844dfee-2a23-4c6d-87a4-ffc06643bcb7/relationships/components"
+          }
+        },
+        "allowed_children_syntax_nodes": {
+          "links": {
+            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=d844dfee-2a23-4c6d-87a4-ffc06643bcb7"
+          }
+        },
+        "allowed_children_syntax_elements": {
+          "links": {
+            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=d844dfee-2a23-4c6d-87a4-ffc06643bcb7"
+          }
+        },
+        "allowed_children_classification_tables": {
+          "links": {
+            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=d844dfee-2a23-4c6d-87a4-ffc06643bcb7"
+          }
+        }
+      }
+    },
+    {
+      "id": "e1edd631-7f46-465f-af98-9d106eb9389d",
+      "type": "object_occurrence",
+      "attributes": {
+        "classification_code": "A",
+        "description": null,
+        "name": "OOC 27fe1b0ff07e",
+        "position": 1,
+        "prefix": "=",
+        "reference_designation": null,
+        "type": "regular",
+        "hex_color": null,
+        "number": "1",
+        "validation_errors": [
+
+        ]
+      },
+      "relationships": {
+        "tags": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/tags?filter[target_id_eq]=e1edd631-7f46-465f-af98-9d106eb9389d",
+            "self": "/object_occurrences/e1edd631-7f46-465f-af98-9d106eb9389d/relationships/tags"
+          }
+        },
+        "owners": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/owners?filter[target_id_eq]=e1edd631-7f46-465f-af98-9d106eb9389d&filter[target_type_eq]=object_occurrence",
+            "self": "/object_occurrences/e1edd631-7f46-465f-af98-9d106eb9389d/relationships/owners"
+          }
+        },
+        "context": {
+          "links": {
+            "related": "/contexts/aa128585-c1f5-4abc-8d8c-36c6c0d278e5"
+          }
+        },
+        "components": {
+          "data": [
+            {
+              "id": "b07abcea-aa2f-4a7f-a6b6-68fe1ecf1f91",
+              "type": "object_occurrence"
+            }
+          ],
+          "links": {
+            "self": "/object_occurrences/e1edd631-7f46-465f-af98-9d106eb9389d/relationships/components"
+          }
+        },
+        "allowed_children_syntax_nodes": {
+          "links": {
+            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=e1edd631-7f46-465f-af98-9d106eb9389d"
+          }
+        },
+        "allowed_children_syntax_elements": {
+          "links": {
+            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=e1edd631-7f46-465f-af98-9d106eb9389d"
+          }
+        },
+        "allowed_children_classification_tables": {
+          "links": {
+            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=e1edd631-7f46-465f-af98-9d106eb9389d"
+          }
+        }
+      }
+    },
+    {
+      "id": "12e3dffe-5a7a-4bac-b235-e84a81d4167a",
+      "type": "object_occurrence",
+      "attributes": {
+        "classification_code": "A",
+        "description": null,
+        "name": "OOC ecc44eccf57b",
+        "position": 1,
+        "prefix": "=",
+        "reference_designation": null,
+        "type": "regular",
+        "hex_color": null,
+        "number": "1",
+        "validation_errors": [
+
+        ]
+      },
+      "relationships": {
+        "tags": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/tags?filter[target_id_eq]=12e3dffe-5a7a-4bac-b235-e84a81d4167a",
+            "self": "/object_occurrences/12e3dffe-5a7a-4bac-b235-e84a81d4167a/relationships/tags"
+          }
+        },
+        "owners": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/owners?filter[target_id_eq]=12e3dffe-5a7a-4bac-b235-e84a81d4167a&filter[target_type_eq]=object_occurrence",
+            "self": "/object_occurrences/12e3dffe-5a7a-4bac-b235-e84a81d4167a/relationships/owners"
+          }
+        },
+        "context": {
+          "links": {
+            "related": "/contexts/7e7853ef-d695-4359-9733-7b860e261138"
+          }
+        },
+        "components": {
+          "data": [
+            {
+              "id": "3e109c24-159b-4b09-8941-fe8b2d15185a",
+              "type": "object_occurrence"
+            }
+          ],
+          "links": {
+            "self": "/object_occurrences/12e3dffe-5a7a-4bac-b235-e84a81d4167a/relationships/components"
+          }
+        },
+        "allowed_children_syntax_nodes": {
+          "links": {
+            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=12e3dffe-5a7a-4bac-b235-e84a81d4167a"
+          }
+        },
+        "allowed_children_syntax_elements": {
+          "links": {
+            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=12e3dffe-5a7a-4bac-b235-e84a81d4167a"
+          }
+        },
+        "allowed_children_classification_tables": {
+          "links": {
+            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=12e3dffe-5a7a-4bac-b235-e84a81d4167a"
           }
         }
       }
@@ -2240,7 +2242,7 @@ To include additional, nested object occurrences, supply the <code>depth</code> 
 #### Endpoint
 
 ```plaintext
-GET /object_occurrences/ef8daa5c-229a-4513-b6ed-d55c021fd249
+GET /object_occurrences/21a2fa8e-d8b0-4f6f-a127-47bccde85f0d
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2263,7 +2265,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 2439bcf3-0154-4701-b7ed-40130adfa642
+X-Request-Id: d7818b32-e327-429a-aae1-0e53b9dbe91d
 200 OK
 ```
 
@@ -2271,7 +2273,7 @@ X-Request-Id: 2439bcf3-0154-4701-b7ed-40130adfa642
 ```json
 {
   "data": {
-    "id": "ef8daa5c-229a-4513-b6ed-d55c021fd249",
+    "id": "21a2fa8e-d8b0-4f6f-a127-47bccde85f0d",
     "type": "object_occurrence",
     "attributes": {
       "classification_code": "A",
@@ -2293,8 +2295,8 @@ X-Request-Id: 2439bcf3-0154-4701-b7ed-40130adfa642
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=ef8daa5c-229a-4513-b6ed-d55c021fd249",
-          "self": "/object_occurrences/ef8daa5c-229a-4513-b6ed-d55c021fd249/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=21a2fa8e-d8b0-4f6f-a127-47bccde85f0d",
+          "self": "/object_occurrences/21a2fa8e-d8b0-4f6f-a127-47bccde85f0d/relationships/tags"
         }
       },
       "owners": {
@@ -2302,55 +2304,55 @@ X-Request-Id: 2439bcf3-0154-4701-b7ed-40130adfa642
 
         ],
         "links": {
-          "related": "/owners?filter[target_id_eq]=ef8daa5c-229a-4513-b6ed-d55c021fd249&filter[target_type_eq]=object_occurrence",
-          "self": "/object_occurrences/ef8daa5c-229a-4513-b6ed-d55c021fd249/relationships/owners"
+          "related": "/owners?filter[target_id_eq]=21a2fa8e-d8b0-4f6f-a127-47bccde85f0d&filter[target_type_eq]=object_occurrence",
+          "self": "/object_occurrences/21a2fa8e-d8b0-4f6f-a127-47bccde85f0d/relationships/owners"
         }
       },
       "context": {
         "links": {
-          "related": "/contexts/0cd758c6-5716-487d-9243-f802669cb5f0"
+          "related": "/contexts/7f39987e-b03c-431a-959f-11fb1bd78694"
         }
       },
       "part_of": {
         "links": {
-          "related": "/object_occurrences/5887165c-fc6f-4c87-897a-1fbbacb5c57a",
-          "self": "/object_occurrences/ef8daa5c-229a-4513-b6ed-d55c021fd249/relationships/part_of"
+          "related": "/object_occurrences/bed01ea1-a580-4757-a1b1-37c923e7a01c",
+          "self": "/object_occurrences/21a2fa8e-d8b0-4f6f-a127-47bccde85f0d/relationships/part_of"
         }
       },
       "components": {
         "data": [
           {
-            "id": "d332cbd2-7e07-41b7-8f18-a18876f55a85",
+            "id": "5eb0855f-0d7d-431e-b31f-611004c4ab33",
             "type": "object_occurrence"
           },
           {
-            "id": "a60432f5-92d1-4e5a-80c5-3fdedef88466",
+            "id": "ab14318b-2e27-4204-b3b8-5437d92580cf",
             "type": "object_occurrence"
           }
         ],
         "links": {
-          "self": "/object_occurrences/ef8daa5c-229a-4513-b6ed-d55c021fd249/relationships/components"
+          "self": "/object_occurrences/21a2fa8e-d8b0-4f6f-a127-47bccde85f0d/relationships/components"
         }
       },
       "allowed_children_syntax_nodes": {
         "links": {
-          "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=ef8daa5c-229a-4513-b6ed-d55c021fd249"
+          "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=21a2fa8e-d8b0-4f6f-a127-47bccde85f0d"
         }
       },
       "allowed_children_syntax_elements": {
         "links": {
-          "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=ef8daa5c-229a-4513-b6ed-d55c021fd249"
+          "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=21a2fa8e-d8b0-4f6f-a127-47bccde85f0d"
         }
       },
       "allowed_children_classification_tables": {
         "links": {
-          "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=ef8daa5c-229a-4513-b6ed-d55c021fd249"
+          "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=21a2fa8e-d8b0-4f6f-a127-47bccde85f0d"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/ef8daa5c-229a-4513-b6ed-d55c021fd249"
+    "self": "http://example.org/object_occurrences/21a2fa8e-d8b0-4f6f-a127-47bccde85f0d"
   },
   "included": [
 
@@ -2399,7 +2401,7 @@ Create a single Object Occurrence.
 #### Endpoint
 
 ```plaintext
-POST /object_occurrences/7d01fb9d-43e0-4d5e-935a-ebbfcbb50127/relationships/components
+POST /object_occurrences/bfd30d83-d2a6-432b-ab51-381f8b439401/relationships/components
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2442,7 +2444,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 3194fb5b-e830-4f2b-b50b-7cb62c8d8dad
+X-Request-Id: 20580020-8a8c-4c7d-b2a0-7a2208527d69
 201 Created
 ```
 
@@ -2450,7 +2452,7 @@ X-Request-Id: 3194fb5b-e830-4f2b-b50b-7cb62c8d8dad
 ```json
 {
   "data": {
-    "id": "fea0716b-4362-44b1-af63-34955ea37083",
+    "id": "1445a78e-1bc2-4ebd-b2d9-e3fd2f1177b5",
     "type": "object_occurrence",
     "attributes": {
       "classification_code": "XYZ",
@@ -2472,8 +2474,8 @@ X-Request-Id: 3194fb5b-e830-4f2b-b50b-7cb62c8d8dad
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=fea0716b-4362-44b1-af63-34955ea37083",
-          "self": "/object_occurrences/fea0716b-4362-44b1-af63-34955ea37083/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=1445a78e-1bc2-4ebd-b2d9-e3fd2f1177b5",
+          "self": "/object_occurrences/1445a78e-1bc2-4ebd-b2d9-e3fd2f1177b5/relationships/tags"
         }
       },
       "owners": {
@@ -2481,19 +2483,19 @@ X-Request-Id: 3194fb5b-e830-4f2b-b50b-7cb62c8d8dad
 
         ],
         "links": {
-          "related": "/owners?filter[target_id_eq]=fea0716b-4362-44b1-af63-34955ea37083&filter[target_type_eq]=object_occurrence",
-          "self": "/object_occurrences/fea0716b-4362-44b1-af63-34955ea37083/relationships/owners"
+          "related": "/owners?filter[target_id_eq]=1445a78e-1bc2-4ebd-b2d9-e3fd2f1177b5&filter[target_type_eq]=object_occurrence",
+          "self": "/object_occurrences/1445a78e-1bc2-4ebd-b2d9-e3fd2f1177b5/relationships/owners"
         }
       },
       "context": {
         "links": {
-          "related": "/contexts/f84e6e6d-e7db-4702-adb9-a83a0ca6b019"
+          "related": "/contexts/e8bc5482-a927-48b9-a7e8-acca23b4d14f"
         }
       },
       "part_of": {
         "links": {
-          "related": "/object_occurrences/7d01fb9d-43e0-4d5e-935a-ebbfcbb50127",
-          "self": "/object_occurrences/fea0716b-4362-44b1-af63-34955ea37083/relationships/part_of"
+          "related": "/object_occurrences/bfd30d83-d2a6-432b-ab51-381f8b439401",
+          "self": "/object_occurrences/1445a78e-1bc2-4ebd-b2d9-e3fd2f1177b5/relationships/part_of"
         }
       },
       "components": {
@@ -2501,28 +2503,28 @@ X-Request-Id: 3194fb5b-e830-4f2b-b50b-7cb62c8d8dad
 
         ],
         "links": {
-          "self": "/object_occurrences/fea0716b-4362-44b1-af63-34955ea37083/relationships/components"
+          "self": "/object_occurrences/1445a78e-1bc2-4ebd-b2d9-e3fd2f1177b5/relationships/components"
         }
       },
       "allowed_children_syntax_nodes": {
         "links": {
-          "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=fea0716b-4362-44b1-af63-34955ea37083"
+          "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=1445a78e-1bc2-4ebd-b2d9-e3fd2f1177b5"
         }
       },
       "allowed_children_syntax_elements": {
         "links": {
-          "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=fea0716b-4362-44b1-af63-34955ea37083"
+          "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=1445a78e-1bc2-4ebd-b2d9-e3fd2f1177b5"
         }
       },
       "allowed_children_classification_tables": {
         "links": {
-          "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=fea0716b-4362-44b1-af63-34955ea37083"
+          "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=1445a78e-1bc2-4ebd-b2d9-e3fd2f1177b5"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/7d01fb9d-43e0-4d5e-935a-ebbfcbb50127/relationships/components"
+    "self": "http://example.org/object_occurrences/bfd30d83-d2a6-432b-ab51-381f8b439401/relationships/components"
   },
   "included": [
 
@@ -2569,7 +2571,7 @@ such as GPS or the power grid.
 #### Endpoint
 
 ```plaintext
-POST /object_occurrences/b197d617-7eb9-4aeb-82f0-dca7af737fec/relationships/components
+POST /object_occurrences/dd31cfa2-b8f0-40a9-b0de-d6b463dfde72/relationships/components
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2606,7 +2608,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 419441d7-b33c-4a63-bb1c-56b23bd0e77e
+X-Request-Id: cf1b7d3f-3f8d-45d1-acd6-5c7756f6f071
 201 Created
 ```
 
@@ -2614,7 +2616,7 @@ X-Request-Id: 419441d7-b33c-4a63-bb1c-56b23bd0e77e
 ```json
 {
   "data": {
-    "id": "1e68c61f-d3b1-4784-b40e-d207ef70ab99",
+    "id": "71ff2d89-931c-4585-ac81-87d87c57fc6f",
     "type": "object_occurrence",
     "attributes": {
       "classification_code": null,
@@ -2636,8 +2638,8 @@ X-Request-Id: 419441d7-b33c-4a63-bb1c-56b23bd0e77e
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=1e68c61f-d3b1-4784-b40e-d207ef70ab99",
-          "self": "/object_occurrences/1e68c61f-d3b1-4784-b40e-d207ef70ab99/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=71ff2d89-931c-4585-ac81-87d87c57fc6f",
+          "self": "/object_occurrences/71ff2d89-931c-4585-ac81-87d87c57fc6f/relationships/tags"
         }
       },
       "owners": {
@@ -2645,19 +2647,19 @@ X-Request-Id: 419441d7-b33c-4a63-bb1c-56b23bd0e77e
 
         ],
         "links": {
-          "related": "/owners?filter[target_id_eq]=1e68c61f-d3b1-4784-b40e-d207ef70ab99&filter[target_type_eq]=object_occurrence",
-          "self": "/object_occurrences/1e68c61f-d3b1-4784-b40e-d207ef70ab99/relationships/owners"
+          "related": "/owners?filter[target_id_eq]=71ff2d89-931c-4585-ac81-87d87c57fc6f&filter[target_type_eq]=object_occurrence",
+          "self": "/object_occurrences/71ff2d89-931c-4585-ac81-87d87c57fc6f/relationships/owners"
         }
       },
       "context": {
         "links": {
-          "related": "/contexts/656b44a1-dfee-420e-8a37-1aeecf1bf63f"
+          "related": "/contexts/8fdceb66-3b4d-4675-ba57-70c7253874b8"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/b197d617-7eb9-4aeb-82f0-dca7af737fec/relationships/components"
+    "self": "http://example.org/object_occurrences/dd31cfa2-b8f0-40a9-b0de-d6b463dfde72/relationships/components"
   },
   "included": [
 
@@ -2688,7 +2690,7 @@ X-Request-Id: 419441d7-b33c-4a63-bb1c-56b23bd0e77e
 #### Endpoint
 
 ```plaintext
-PATCH /object_occurrences/b3c6448b-3285-42f9-95bd-fdf3968030ad
+PATCH /object_occurrences/a4386ed4-bd14-4941-bbfd-3d95691da607
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2702,7 +2704,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "b3c6448b-3285-42f9-95bd-fdf3968030ad",
+    "id": "a4386ed4-bd14-4941-bbfd-3d95691da607",
     "type": "object_occurrence",
     "attributes": {
       "description": "New description",
@@ -2717,7 +2719,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "part_of": {
         "data": {
           "type": "object_occurrence",
-          "id": "6b67f7df-6395-4e6c-abfe-3e3be338c37e"
+          "id": "8b8f7f4a-050e-44cd-bcdc-b723474c50ad"
         }
       }
     }
@@ -2743,7 +2745,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 3b405282-f59c-4427-a0b3-ad2de67851ca
+X-Request-Id: 6ad4ab6e-cab2-4b8d-8718-d0a0b7ef2625
 200 OK
 ```
 
@@ -2751,7 +2753,7 @@ X-Request-Id: 3b405282-f59c-4427-a0b3-ad2de67851ca
 ```json
 {
   "data": {
-    "id": "b3c6448b-3285-42f9-95bd-fdf3968030ad",
+    "id": "a4386ed4-bd14-4941-bbfd-3d95691da607",
     "type": "object_occurrence",
     "attributes": {
       "classification_code": "A",
@@ -2761,7 +2763,7 @@ X-Request-Id: 3b405282-f59c-4427-a0b3-ad2de67851ca
       "prefix": "%",
       "reference_designation": null,
       "type": "regular",
-      "hex_color": "#ffa500",
+      "hex_color": "ffa500",
       "number": "8",
       "validation_errors": [
 
@@ -2773,8 +2775,8 @@ X-Request-Id: 3b405282-f59c-4427-a0b3-ad2de67851ca
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=b3c6448b-3285-42f9-95bd-fdf3968030ad",
-          "self": "/object_occurrences/b3c6448b-3285-42f9-95bd-fdf3968030ad/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=a4386ed4-bd14-4941-bbfd-3d95691da607",
+          "self": "/object_occurrences/a4386ed4-bd14-4941-bbfd-3d95691da607/relationships/tags"
         }
       },
       "owners": {
@@ -2782,19 +2784,19 @@ X-Request-Id: 3b405282-f59c-4427-a0b3-ad2de67851ca
 
         ],
         "links": {
-          "related": "/owners?filter[target_id_eq]=b3c6448b-3285-42f9-95bd-fdf3968030ad&filter[target_type_eq]=object_occurrence",
-          "self": "/object_occurrences/b3c6448b-3285-42f9-95bd-fdf3968030ad/relationships/owners"
+          "related": "/owners?filter[target_id_eq]=a4386ed4-bd14-4941-bbfd-3d95691da607&filter[target_type_eq]=object_occurrence",
+          "self": "/object_occurrences/a4386ed4-bd14-4941-bbfd-3d95691da607/relationships/owners"
         }
       },
       "context": {
         "links": {
-          "related": "/contexts/de67e24d-0e6d-4302-a513-9da9db20e733"
+          "related": "/contexts/6547ec56-e4fa-4c7d-8ba3-964c1c555893"
         }
       },
       "part_of": {
         "links": {
-          "related": "/object_occurrences/6b67f7df-6395-4e6c-abfe-3e3be338c37e",
-          "self": "/object_occurrences/b3c6448b-3285-42f9-95bd-fdf3968030ad/relationships/part_of"
+          "related": "/object_occurrences/8b8f7f4a-050e-44cd-bcdc-b723474c50ad",
+          "self": "/object_occurrences/a4386ed4-bd14-4941-bbfd-3d95691da607/relationships/part_of"
         }
       },
       "components": {
@@ -2802,28 +2804,28 @@ X-Request-Id: 3b405282-f59c-4427-a0b3-ad2de67851ca
 
         ],
         "links": {
-          "self": "/object_occurrences/b3c6448b-3285-42f9-95bd-fdf3968030ad/relationships/components"
+          "self": "/object_occurrences/a4386ed4-bd14-4941-bbfd-3d95691da607/relationships/components"
         }
       },
       "allowed_children_syntax_nodes": {
         "links": {
-          "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=b3c6448b-3285-42f9-95bd-fdf3968030ad"
+          "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=a4386ed4-bd14-4941-bbfd-3d95691da607"
         }
       },
       "allowed_children_syntax_elements": {
         "links": {
-          "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=b3c6448b-3285-42f9-95bd-fdf3968030ad"
+          "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=a4386ed4-bd14-4941-bbfd-3d95691da607"
         }
       },
       "allowed_children_classification_tables": {
         "links": {
-          "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=b3c6448b-3285-42f9-95bd-fdf3968030ad"
+          "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=a4386ed4-bd14-4941-bbfd-3d95691da607"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/b3c6448b-3285-42f9-95bd-fdf3968030ad"
+    "self": "http://example.org/object_occurrences/a4386ed4-bd14-4941-bbfd-3d95691da607"
   },
   "included": [
 
@@ -2889,7 +2891,7 @@ C (id 3)
 #### Endpoint
 
 ```plaintext
-POST /object_occurrences/654ad851-51a0-4aed-8587-499e899e4829/copy
+POST /object_occurrences/9c601eb8-57e9-4f0e-9d79-81bcdae39334/copy
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2903,7 +2905,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "5c21fa45-6710-4c3b-9c9d-32a576f731b9",
+    "id": "44444ed9-c6f4-4559-9387-cd7807f2f5d4",
     "type": "object_occurrence"
   }
 }
@@ -2919,15 +2921,15 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ### Response
 
 ```plaintext
-Location: http://example.org/polling/566af1b861c5c25980c342d5
+Location: http://example.org/polling/b4fccfce5c95226aadb2297e
 Content-Type: text/html; charset=utf-8
-X-Request-Id: 69e75fce-dd78-4a28-8c08-5af3a8a47844
+X-Request-Id: 9ac9511a-2ae4-42c7-bf40-a565e9b208cd
 202 Accepted
 ```
 
 
 ```json
-<html><body>You are being <a href="http://example.org/polling/566af1b861c5c25980c342d5">redirected</a>.</body></html>
+<html><body>You are being <a href="http://example.org/polling/b4fccfce5c95226aadb2297e">redirected</a>.</body></html>
 ```
 
 
@@ -2964,7 +2966,7 @@ X-Request-Id: 69e75fce-dd78-4a28-8c08-5af3a8a47844
 #### Endpoint
 
 ```plaintext
-DELETE /object_occurrences/1c9207fb-a3c4-43de-b9bf-de63ac142f30
+DELETE /object_occurrences/38f4d236-c106-4e55-a5b9-ca64f085404e
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -2981,7 +2983,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 3cbffde9-b350-4a91-b9fc-896b3fd661bc
+X-Request-Id: a949b933-8a50-4db8-ba26-a00d2bbf9383
 204 No Content
 ```
 
@@ -2996,7 +2998,7 @@ X-Request-Id: 3cbffde9-b350-4a91-b9fc-896b3fd661bc
 #### Endpoint
 
 ```plaintext
-PATCH /object_occurrences/983b91a2-09f6-4355-bdd3-ab784ccf2d79/relationships/part_of
+PATCH /object_occurrences/a0b2e61a-8a60-49cf-92e5-ea951d504381/relationships/part_of
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3010,7 +3012,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "bf7c1761-6ba1-4651-ba9a-210dd463c8dc",
+    "id": "f1cdd3de-6c54-4b2e-8235-ee542595d40e",
     "type": "object_occurrence"
   }
 }
@@ -3027,7 +3029,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: cc4b5519-d2aa-436d-9349-cacbdad77f55
+X-Request-Id: e787eb31-aed1-43ea-b9dc-8e612d4065f9
 200 OK
 ```
 
@@ -3035,7 +3037,7 @@ X-Request-Id: cc4b5519-d2aa-436d-9349-cacbdad77f55
 ```json
 {
   "data": {
-    "id": "983b91a2-09f6-4355-bdd3-ab784ccf2d79",
+    "id": "a0b2e61a-8a60-49cf-92e5-ea951d504381",
     "type": "object_occurrence",
     "attributes": {
       "classification_code": "A",
@@ -3057,8 +3059,8 @@ X-Request-Id: cc4b5519-d2aa-436d-9349-cacbdad77f55
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=983b91a2-09f6-4355-bdd3-ab784ccf2d79",
-          "self": "/object_occurrences/983b91a2-09f6-4355-bdd3-ab784ccf2d79/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=a0b2e61a-8a60-49cf-92e5-ea951d504381",
+          "self": "/object_occurrences/a0b2e61a-8a60-49cf-92e5-ea951d504381/relationships/tags"
         }
       },
       "owners": {
@@ -3066,19 +3068,19 @@ X-Request-Id: cc4b5519-d2aa-436d-9349-cacbdad77f55
 
         ],
         "links": {
-          "related": "/owners?filter[target_id_eq]=983b91a2-09f6-4355-bdd3-ab784ccf2d79&filter[target_type_eq]=object_occurrence",
-          "self": "/object_occurrences/983b91a2-09f6-4355-bdd3-ab784ccf2d79/relationships/owners"
+          "related": "/owners?filter[target_id_eq]=a0b2e61a-8a60-49cf-92e5-ea951d504381&filter[target_type_eq]=object_occurrence",
+          "self": "/object_occurrences/a0b2e61a-8a60-49cf-92e5-ea951d504381/relationships/owners"
         }
       },
       "context": {
         "links": {
-          "related": "/contexts/048ae9a0-8936-407e-94e1-caa921d8efc2"
+          "related": "/contexts/bf01122f-28a2-4bc1-ae1f-6681c664d58e"
         }
       },
       "part_of": {
         "links": {
-          "related": "/object_occurrences/bf7c1761-6ba1-4651-ba9a-210dd463c8dc",
-          "self": "/object_occurrences/983b91a2-09f6-4355-bdd3-ab784ccf2d79/relationships/part_of"
+          "related": "/object_occurrences/f1cdd3de-6c54-4b2e-8235-ee542595d40e",
+          "self": "/object_occurrences/a0b2e61a-8a60-49cf-92e5-ea951d504381/relationships/part_of"
         }
       },
       "components": {
@@ -3086,28 +3088,28 @@ X-Request-Id: cc4b5519-d2aa-436d-9349-cacbdad77f55
 
         ],
         "links": {
-          "self": "/object_occurrences/983b91a2-09f6-4355-bdd3-ab784ccf2d79/relationships/components"
+          "self": "/object_occurrences/a0b2e61a-8a60-49cf-92e5-ea951d504381/relationships/components"
         }
       },
       "allowed_children_syntax_nodes": {
         "links": {
-          "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=983b91a2-09f6-4355-bdd3-ab784ccf2d79"
+          "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=a0b2e61a-8a60-49cf-92e5-ea951d504381"
         }
       },
       "allowed_children_syntax_elements": {
         "links": {
-          "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=983b91a2-09f6-4355-bdd3-ab784ccf2d79"
+          "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=a0b2e61a-8a60-49cf-92e5-ea951d504381"
         }
       },
       "allowed_children_classification_tables": {
         "links": {
-          "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=983b91a2-09f6-4355-bdd3-ab784ccf2d79"
+          "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=a0b2e61a-8a60-49cf-92e5-ea951d504381"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/983b91a2-09f6-4355-bdd3-ab784ccf2d79/relationships/part_of"
+    "self": "http://example.org/object_occurrences/a0b2e61a-8a60-49cf-92e5-ea951d504381/relationships/part_of"
   },
   "included": [
 
@@ -3159,7 +3161,7 @@ Adds a new tag to the resource
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/923e9dc7-2c0d-4027-8e2c-bc722aa0b9b3/relationships/tags
+POST /classification_tables/04f03373-ce83-423e-9a0b-cda6fd933786/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3192,7 +3194,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: bcbb6ba6-5703-49de-a9b2-8acd3b476067
+X-Request-Id: 4a0d28e7-2fdc-467f-b1d6-2e95dc429f48
 201 Created
 ```
 
@@ -3200,7 +3202,7 @@ X-Request-Id: bcbb6ba6-5703-49de-a9b2-8acd3b476067
 ```json
 {
   "data": {
-    "id": "d875aa38-a2aa-4f94-81c7-1613aa5a89ed",
+    "id": "938d7499-d4ba-4c60-97e2-0b020dfdced9",
     "type": "tag",
     "attributes": {
       "value": "new tag value"
@@ -3209,7 +3211,7 @@ X-Request-Id: bcbb6ba6-5703-49de-a9b2-8acd3b476067
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/923e9dc7-2c0d-4027-8e2c-bc722aa0b9b3/relationships/tags"
+    "self": "http://example.org/classification_tables/04f03373-ce83-423e-9a0b-cda6fd933786/relationships/tags"
   }
 }
 ```
@@ -3241,7 +3243,7 @@ Adds an existing tag to the resource
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/adb7b1a7-d47a-4633-9abc-c07729cc37ac/relationships/tags
+POST /classification_tables/3836a730-b17a-4dee-a28e-d9854c9e91d9/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3256,7 +3258,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 {
   "data": {
     "type": "tags",
-    "id": "b51789fa-f1d0-4e39-b809-41ed0e78690d"
+    "id": "e145bea5-501b-41ec-9429-a8ba067c17d5"
   }
 }
 ```
@@ -3272,7 +3274,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: c6370dd8-cba6-4057-887c-9090b9412809
+X-Request-Id: e34a219e-cff1-4a19-9867-3d2ed2a59c4d
 201 Created
 ```
 
@@ -3280,7 +3282,7 @@ X-Request-Id: c6370dd8-cba6-4057-887c-9090b9412809
 ```json
 {
   "data": {
-    "id": "b51789fa-f1d0-4e39-b809-41ed0e78690d",
+    "id": "e145bea5-501b-41ec-9429-a8ba067c17d5",
     "type": "tag",
     "attributes": {
       "value": "tag value 3"
@@ -3289,7 +3291,7 @@ X-Request-Id: c6370dd8-cba6-4057-887c-9090b9412809
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/adb7b1a7-d47a-4633-9abc-c07729cc37ac/relationships/tags"
+    "self": "http://example.org/classification_tables/3836a730-b17a-4dee-a28e-d9854c9e91d9/relationships/tags"
   }
 }
 ```
@@ -3319,7 +3321,7 @@ X-Request-Id: c6370dd8-cba6-4057-887c-9090b9412809
 #### Endpoint
 
 ```plaintext
-DELETE /classification_tables/e46accb0-ad89-437a-a508-6e7b6c6ccf7b/relationships/tags/498c614f-b5ec-4494-944c-f3e2eea987f5
+DELETE /classification_tables/9f34ab9e-5c1f-4e55-9b7d-a8c4ff9d95e2/relationships/tags/843998ef-93c8-48e8-bebe-aecdaec96e75
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3336,7 +3338,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 5bfe623d-afca-4d5b-a40a-aa25d34b86bd
+X-Request-Id: 56b38e30-1211-4f04-9505-c8818eb11481
 204 No Content
 ```
 
@@ -3391,7 +3393,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: c7a388cc-2314-42be-a731-86f33fca32be
+X-Request-Id: ee450d7e-ab82-4027-bbe1-b04a24ee54d3
 200 OK
 ```
 
@@ -3400,7 +3402,7 @@ X-Request-Id: c7a388cc-2314-42be-a731-86f33fca32be
 {
   "data": [
     {
-      "id": "ade81fd5-488c-41e9-b2e8-e10fa479019d",
+      "id": "6254675f-3b54-463d-b475-c67450cc9346",
       "type": "classification_table",
       "attributes": {
         "archived": false,
@@ -3418,8 +3420,8 @@ X-Request-Id: c7a388cc-2314-42be-a731-86f33fca32be
 
           ],
           "links": {
-            "related": "/tags?filter[target_id_eq]=ade81fd5-488c-41e9-b2e8-e10fa479019d",
-            "self": "/classification_tables/ade81fd5-488c-41e9-b2e8-e10fa479019d/relationships/tags"
+            "related": "/tags?filter[target_id_eq]=6254675f-3b54-463d-b475-c67450cc9346",
+            "self": "/classification_tables/6254675f-3b54-463d-b475-c67450cc9346/relationships/tags"
           }
         },
         "account": {
@@ -3429,8 +3431,8 @@ X-Request-Id: c7a388cc-2314-42be-a731-86f33fca32be
         },
         "classification_entries": {
           "links": {
-            "related": "/classification_entries?filter[classification_table_id_eq]=ade81fd5-488c-41e9-b2e8-e10fa479019d",
-            "self": "/classification_tables/ade81fd5-488c-41e9-b2e8-e10fa479019d/relationships/classification_entries",
+            "related": "/classification_entries?filter[classification_table_id_eq]=6254675f-3b54-463d-b475-c67450cc9346",
+            "self": "/classification_tables/6254675f-3b54-463d-b475-c67450cc9346/relationships/classification_entries",
             "meta": {
               "count": 1
             }
@@ -3439,7 +3441,7 @@ X-Request-Id: c7a388cc-2314-42be-a731-86f33fca32be
       }
     },
     {
-      "id": "8c7566ef-f2ef-4978-b13d-5b040aedf203",
+      "id": "41d7a011-8c5a-4479-b436-92f12640d398",
       "type": "classification_table",
       "attributes": {
         "archived": false,
@@ -3457,8 +3459,8 @@ X-Request-Id: c7a388cc-2314-42be-a731-86f33fca32be
 
           ],
           "links": {
-            "related": "/tags?filter[target_id_eq]=8c7566ef-f2ef-4978-b13d-5b040aedf203",
-            "self": "/classification_tables/8c7566ef-f2ef-4978-b13d-5b040aedf203/relationships/tags"
+            "related": "/tags?filter[target_id_eq]=41d7a011-8c5a-4479-b436-92f12640d398",
+            "self": "/classification_tables/41d7a011-8c5a-4479-b436-92f12640d398/relationships/tags"
           }
         },
         "account": {
@@ -3468,8 +3470,8 @@ X-Request-Id: c7a388cc-2314-42be-a731-86f33fca32be
         },
         "classification_entries": {
           "links": {
-            "related": "/classification_entries?filter[classification_table_id_eq]=8c7566ef-f2ef-4978-b13d-5b040aedf203",
-            "self": "/classification_tables/8c7566ef-f2ef-4978-b13d-5b040aedf203/relationships/classification_entries",
+            "related": "/classification_entries?filter[classification_table_id_eq]=41d7a011-8c5a-4479-b436-92f12640d398",
+            "self": "/classification_tables/41d7a011-8c5a-4479-b436-92f12640d398/relationships/classification_entries",
             "meta": {
               "count": 1
             }
@@ -3513,7 +3515,7 @@ X-Request-Id: c7a388cc-2314-42be-a731-86f33fca32be
 #### Endpoint
 
 ```plaintext
-GET /classification_tables/99299f42-3c78-4f0c-90d0-8d4aac31aa20
+GET /classification_tables/baad66a5-7a58-41af-9bca-bd23f96e03ad
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3531,7 +3533,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: c9f59e08-d56b-4b42-b0ee-17e70aeb8ac2
+X-Request-Id: ccd3c0aa-86c3-44b8-9396-93b2b52eaedf
 200 OK
 ```
 
@@ -3539,7 +3541,7 @@ X-Request-Id: c9f59e08-d56b-4b42-b0ee-17e70aeb8ac2
 ```json
 {
   "data": {
-    "id": "99299f42-3c78-4f0c-90d0-8d4aac31aa20",
+    "id": "baad66a5-7a58-41af-9bca-bd23f96e03ad",
     "type": "classification_table",
     "attributes": {
       "archived": false,
@@ -3557,8 +3559,8 @@ X-Request-Id: c9f59e08-d56b-4b42-b0ee-17e70aeb8ac2
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=99299f42-3c78-4f0c-90d0-8d4aac31aa20",
-          "self": "/classification_tables/99299f42-3c78-4f0c-90d0-8d4aac31aa20/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=baad66a5-7a58-41af-9bca-bd23f96e03ad",
+          "self": "/classification_tables/baad66a5-7a58-41af-9bca-bd23f96e03ad/relationships/tags"
         }
       },
       "account": {
@@ -3568,8 +3570,8 @@ X-Request-Id: c9f59e08-d56b-4b42-b0ee-17e70aeb8ac2
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=99299f42-3c78-4f0c-90d0-8d4aac31aa20",
-          "self": "/classification_tables/99299f42-3c78-4f0c-90d0-8d4aac31aa20/relationships/classification_entries",
+          "related": "/classification_entries?filter[classification_table_id_eq]=baad66a5-7a58-41af-9bca-bd23f96e03ad",
+          "self": "/classification_tables/baad66a5-7a58-41af-9bca-bd23f96e03ad/relationships/classification_entries",
           "meta": {
             "count": 1
           }
@@ -3578,7 +3580,7 @@ X-Request-Id: c9f59e08-d56b-4b42-b0ee-17e70aeb8ac2
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/99299f42-3c78-4f0c-90d0-8d4aac31aa20"
+    "self": "http://example.org/classification_tables/baad66a5-7a58-41af-9bca-bd23f96e03ad"
   },
   "included": [
 
@@ -3608,7 +3610,7 @@ X-Request-Id: c9f59e08-d56b-4b42-b0ee-17e70aeb8ac2
 #### Endpoint
 
 ```plaintext
-PATCH /classification_tables/95c4cd20-3338-4fb3-bc31-510328435755
+PATCH /classification_tables/59add2c1-2e37-4e5d-bbce-e175de6a3c1e
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3622,7 +3624,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "95c4cd20-3338-4fb3-bc31-510328435755",
+    "id": "59add2c1-2e37-4e5d-bbce-e175de6a3c1e",
     "type": "classification_table",
     "attributes": {
       "name": "New classification table name"
@@ -3642,7 +3644,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 19fc6520-5599-4c7a-a888-e4a337dbe659
+X-Request-Id: 26cd46cd-ae10-4f7d-9b2e-c1e2619f3be4
 200 OK
 ```
 
@@ -3650,7 +3652,7 @@ X-Request-Id: 19fc6520-5599-4c7a-a888-e4a337dbe659
 ```json
 {
   "data": {
-    "id": "95c4cd20-3338-4fb3-bc31-510328435755",
+    "id": "59add2c1-2e37-4e5d-bbce-e175de6a3c1e",
     "type": "classification_table",
     "attributes": {
       "archived": false,
@@ -3668,8 +3670,8 @@ X-Request-Id: 19fc6520-5599-4c7a-a888-e4a337dbe659
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=95c4cd20-3338-4fb3-bc31-510328435755",
-          "self": "/classification_tables/95c4cd20-3338-4fb3-bc31-510328435755/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=59add2c1-2e37-4e5d-bbce-e175de6a3c1e",
+          "self": "/classification_tables/59add2c1-2e37-4e5d-bbce-e175de6a3c1e/relationships/tags"
         }
       },
       "account": {
@@ -3679,8 +3681,8 @@ X-Request-Id: 19fc6520-5599-4c7a-a888-e4a337dbe659
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=95c4cd20-3338-4fb3-bc31-510328435755",
-          "self": "/classification_tables/95c4cd20-3338-4fb3-bc31-510328435755/relationships/classification_entries",
+          "related": "/classification_entries?filter[classification_table_id_eq]=59add2c1-2e37-4e5d-bbce-e175de6a3c1e",
+          "self": "/classification_tables/59add2c1-2e37-4e5d-bbce-e175de6a3c1e/relationships/classification_entries",
           "meta": {
             "count": 1
           }
@@ -3689,7 +3691,7 @@ X-Request-Id: 19fc6520-5599-4c7a-a888-e4a337dbe659
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/95c4cd20-3338-4fb3-bc31-510328435755"
+    "self": "http://example.org/classification_tables/59add2c1-2e37-4e5d-bbce-e175de6a3c1e"
   },
   "included": [
 
@@ -3719,7 +3721,7 @@ X-Request-Id: 19fc6520-5599-4c7a-a888-e4a337dbe659
 #### Endpoint
 
 ```plaintext
-DELETE /classification_tables/97ad8d08-b94a-483e-8d82-bd847dd60f4a
+DELETE /classification_tables/2daa4606-d5e4-4fc9-b6b1-74d6c6da7276
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3736,7 +3738,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 5c93faf1-613c-494a-bb0a-9203d75d6426
+X-Request-Id: d1c1470c-ad8d-41e6-920a-b12741b242c1
 204 No Content
 ```
 
@@ -3763,7 +3765,7 @@ X-Request-Id: 5c93faf1-613c-494a-bb0a-9203d75d6426
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/8b1648cd-18ad-40e6-8946-f7c169d74cca/publish
+POST /classification_tables/e5d7fe01-8dca-4e65-9b16-c3081eef003f/publish
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3781,7 +3783,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: b34fce95-63b6-4969-9adb-f9373a2cfd45
+X-Request-Id: 01116224-385c-442b-a2ec-85fe6c40162c
 200 OK
 ```
 
@@ -3789,7 +3791,7 @@ X-Request-Id: b34fce95-63b6-4969-9adb-f9373a2cfd45
 ```json
 {
   "data": {
-    "id": "8b1648cd-18ad-40e6-8946-f7c169d74cca",
+    "id": "e5d7fe01-8dca-4e65-9b16-c3081eef003f",
     "type": "classification_table",
     "attributes": {
       "archived": false,
@@ -3797,7 +3799,7 @@ X-Request-Id: b34fce95-63b6-4969-9adb-f9373a2cfd45
       "description": null,
       "name": "CT 1",
       "published": true,
-      "published_at": "2020-04-05T09:38:04.912Z",
+      "published_at": "2020-04-16T19:35:31.842Z",
       "type": "core",
       "max_classification_entries_depth": 3
     },
@@ -3807,8 +3809,8 @@ X-Request-Id: b34fce95-63b6-4969-9adb-f9373a2cfd45
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=8b1648cd-18ad-40e6-8946-f7c169d74cca",
-          "self": "/classification_tables/8b1648cd-18ad-40e6-8946-f7c169d74cca/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=e5d7fe01-8dca-4e65-9b16-c3081eef003f",
+          "self": "/classification_tables/e5d7fe01-8dca-4e65-9b16-c3081eef003f/relationships/tags"
         }
       },
       "account": {
@@ -3818,8 +3820,8 @@ X-Request-Id: b34fce95-63b6-4969-9adb-f9373a2cfd45
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=8b1648cd-18ad-40e6-8946-f7c169d74cca",
-          "self": "/classification_tables/8b1648cd-18ad-40e6-8946-f7c169d74cca/relationships/classification_entries",
+          "related": "/classification_entries?filter[classification_table_id_eq]=e5d7fe01-8dca-4e65-9b16-c3081eef003f",
+          "self": "/classification_tables/e5d7fe01-8dca-4e65-9b16-c3081eef003f/relationships/classification_entries",
           "meta": {
             "count": 1
           }
@@ -3828,7 +3830,7 @@ X-Request-Id: b34fce95-63b6-4969-9adb-f9373a2cfd45
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/8b1648cd-18ad-40e6-8946-f7c169d74cca/publish"
+    "self": "http://example.org/classification_tables/e5d7fe01-8dca-4e65-9b16-c3081eef003f/publish"
   },
   "included": [
 
@@ -3858,7 +3860,7 @@ X-Request-Id: b34fce95-63b6-4969-9adb-f9373a2cfd45
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/d3cc865a-0416-434d-95cf-7d6516407d5d/archive
+POST /classification_tables/5cfb4c92-4b49-4a72-8b79-a0dc579bbb82/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -3876,7 +3878,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: e78881ec-5b67-4cf5-9018-547a543c6bc6
+X-Request-Id: afc3811b-c73e-46a5-88b8-c98257fb2e0c
 200 OK
 ```
 
@@ -3884,11 +3886,11 @@ X-Request-Id: e78881ec-5b67-4cf5-9018-547a543c6bc6
 ```json
 {
   "data": {
-    "id": "d3cc865a-0416-434d-95cf-7d6516407d5d",
+    "id": "5cfb4c92-4b49-4a72-8b79-a0dc579bbb82",
     "type": "classification_table",
     "attributes": {
       "archived": true,
-      "archived_at": "2020-04-05T09:38:05.616Z",
+      "archived_at": "2020-04-16T19:35:32.573Z",
       "description": null,
       "name": "CT 1",
       "published": false,
@@ -3902,8 +3904,8 @@ X-Request-Id: e78881ec-5b67-4cf5-9018-547a543c6bc6
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=d3cc865a-0416-434d-95cf-7d6516407d5d",
-          "self": "/classification_tables/d3cc865a-0416-434d-95cf-7d6516407d5d/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=5cfb4c92-4b49-4a72-8b79-a0dc579bbb82",
+          "self": "/classification_tables/5cfb4c92-4b49-4a72-8b79-a0dc579bbb82/relationships/tags"
         }
       },
       "account": {
@@ -3913,8 +3915,8 @@ X-Request-Id: e78881ec-5b67-4cf5-9018-547a543c6bc6
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=d3cc865a-0416-434d-95cf-7d6516407d5d",
-          "self": "/classification_tables/d3cc865a-0416-434d-95cf-7d6516407d5d/relationships/classification_entries",
+          "related": "/classification_entries?filter[classification_table_id_eq]=5cfb4c92-4b49-4a72-8b79-a0dc579bbb82",
+          "self": "/classification_tables/5cfb4c92-4b49-4a72-8b79-a0dc579bbb82/relationships/classification_entries",
           "meta": {
             "count": 1
           }
@@ -3923,7 +3925,7 @@ X-Request-Id: e78881ec-5b67-4cf5-9018-547a543c6bc6
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/d3cc865a-0416-434d-95cf-7d6516407d5d/archive"
+    "self": "http://example.org/classification_tables/5cfb4c92-4b49-4a72-8b79-a0dc579bbb82/archive"
   },
   "included": [
 
@@ -3983,7 +3985,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: ea7af9d3-ca38-46fc-ae1e-4046884c9b96
+X-Request-Id: 796c4ef5-2d9e-438e-8c0e-ee06f1dd23ea
 201 Created
 ```
 
@@ -3991,7 +3993,7 @@ X-Request-Id: ea7af9d3-ca38-46fc-ae1e-4046884c9b96
 ```json
 {
   "data": {
-    "id": "bf556769-e91d-4f43-86da-338e81d6d144",
+    "id": "b9d5dbeb-bad4-426e-8217-c4a80ba6462e",
     "type": "classification_table",
     "attributes": {
       "archived": false,
@@ -4009,8 +4011,8 @@ X-Request-Id: ea7af9d3-ca38-46fc-ae1e-4046884c9b96
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=bf556769-e91d-4f43-86da-338e81d6d144",
-          "self": "/classification_tables/bf556769-e91d-4f43-86da-338e81d6d144/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=b9d5dbeb-bad4-426e-8217-c4a80ba6462e",
+          "self": "/classification_tables/b9d5dbeb-bad4-426e-8217-c4a80ba6462e/relationships/tags"
         }
       },
       "account": {
@@ -4020,8 +4022,8 @@ X-Request-Id: ea7af9d3-ca38-46fc-ae1e-4046884c9b96
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_table_id_eq]=bf556769-e91d-4f43-86da-338e81d6d144",
-          "self": "/classification_tables/bf556769-e91d-4f43-86da-338e81d6d144/relationships/classification_entries",
+          "related": "/classification_entries?filter[classification_table_id_eq]=b9d5dbeb-bad4-426e-8217-c4a80ba6462e",
+          "self": "/classification_tables/b9d5dbeb-bad4-426e-8217-c4a80ba6462e/relationships/classification_entries",
           "meta": {
             "count": 0
           }
@@ -4067,7 +4069,7 @@ Adds a new tag to the resource
 #### Endpoint
 
 ```plaintext
-POST /classification_entries/9ca43fbc-bf0b-4b7f-9c5e-088cfef0d179/relationships/tags
+POST /classification_entries/ed59aafa-d4c2-487d-966e-5f5480e3c141/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4100,7 +4102,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: a604e06c-b07a-46a3-ad39-22b56442e4dc
+X-Request-Id: 758eb226-f7f2-4d05-8bd8-d6304d5775c9
 201 Created
 ```
 
@@ -4108,7 +4110,7 @@ X-Request-Id: a604e06c-b07a-46a3-ad39-22b56442e4dc
 ```json
 {
   "data": {
-    "id": "0404adb7-c12c-46eb-9fb7-82c3adb95f14",
+    "id": "d7729f0e-03d5-443a-bff3-d0049d1fe3bd",
     "type": "tag",
     "attributes": {
       "value": "new tag value"
@@ -4117,7 +4119,7 @@ X-Request-Id: a604e06c-b07a-46a3-ad39-22b56442e4dc
     }
   },
   "links": {
-    "self": "http://example.org/classification_entries/9ca43fbc-bf0b-4b7f-9c5e-088cfef0d179/relationships/tags"
+    "self": "http://example.org/classification_entries/ed59aafa-d4c2-487d-966e-5f5480e3c141/relationships/tags"
   }
 }
 ```
@@ -4147,7 +4149,7 @@ Adds an existing tag to the resource
 #### Endpoint
 
 ```plaintext
-POST /classification_entries/072b2bd4-ca49-45fc-b82d-ff31fb63f270/relationships/tags
+POST /classification_entries/e1702c9f-3555-4087-9342-d20606805f46/relationships/tags
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4162,7 +4164,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 {
   "data": {
     "type": "tags",
-    "id": "f27be3e9-7101-4683-a925-018ffb6328eb"
+    "id": "8ab4c691-a71e-48d8-ba75-88f3886e3e43"
   }
 }
 ```
@@ -4178,7 +4180,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: eb98e095-1002-49f0-82fc-a663be40b653
+X-Request-Id: 3013deae-363e-4dc5-aa05-2a9a8e038d11
 201 Created
 ```
 
@@ -4186,7 +4188,7 @@ X-Request-Id: eb98e095-1002-49f0-82fc-a663be40b653
 ```json
 {
   "data": {
-    "id": "f27be3e9-7101-4683-a925-018ffb6328eb",
+    "id": "8ab4c691-a71e-48d8-ba75-88f3886e3e43",
     "type": "tag",
     "attributes": {
       "value": "tag value 5"
@@ -4195,7 +4197,7 @@ X-Request-Id: eb98e095-1002-49f0-82fc-a663be40b653
     }
   },
   "links": {
-    "self": "http://example.org/classification_entries/072b2bd4-ca49-45fc-b82d-ff31fb63f270/relationships/tags"
+    "self": "http://example.org/classification_entries/e1702c9f-3555-4087-9342-d20606805f46/relationships/tags"
   }
 }
 ```
@@ -4223,7 +4225,7 @@ X-Request-Id: eb98e095-1002-49f0-82fc-a663be40b653
 #### Endpoint
 
 ```plaintext
-DELETE /classification_entries/ec414c95-0269-494b-85dc-3ec1d1113593/relationships/tags/438b2b9b-0891-4e1a-bd39-7bdbd231e492
+DELETE /classification_entries/6befbde3-b046-44c3-8c87-718f72a2de50/relationships/tags/8c32620b-82fe-4b2a-970e-919d3f3aed3f
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4240,7 +4242,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 1c32ef3d-201b-462c-bee5-619c529b9f32
+X-Request-Id: 8a66fcb2-fe14-4698-a10c-1a33ca2ecd31
 204 No Content
 ```
 
@@ -4282,6 +4284,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 | query  | search query |
 | filter[classification_entry_id_eq]  | filter by classification_entry_id |
 | filter[classification_table_id_eq]  | filter by classification_table_id |
+| filter[classification_table_id_in]  | filter by classification_table_id (multiple) |
 | filter[classification_entry_id_blank]  | filter by blank classification_entry_id |
 
 
@@ -4290,7 +4293,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: c4c2e3b7-b592-4f5d-8203-da5e4ff9e1bf
+X-Request-Id: bafad130-2bf3-4fe0-9016-83852ec8b385
 200 OK
 ```
 
@@ -4299,7 +4302,7 @@ X-Request-Id: c4c2e3b7-b592-4f5d-8203-da5e4ff9e1bf
 {
   "data": [
     {
-      "id": "a8f1b7a1-6d53-40f0-8f4a-eeb3908619e2",
+      "id": "4cacd951-77a5-46c6-8311-33788590e101",
       "type": "classification_entry",
       "attributes": {
         "code": "A",
@@ -4313,14 +4316,14 @@ X-Request-Id: c4c2e3b7-b592-4f5d-8203-da5e4ff9e1bf
 
           ],
           "links": {
-            "related": "/tags?filter[target_id_eq]=a8f1b7a1-6d53-40f0-8f4a-eeb3908619e2",
-            "self": "/classification_entries/a8f1b7a1-6d53-40f0-8f4a-eeb3908619e2/relationships/tags"
+            "related": "/tags?filter[target_id_eq]=4cacd951-77a5-46c6-8311-33788590e101",
+            "self": "/classification_entries/4cacd951-77a5-46c6-8311-33788590e101/relationships/tags"
           }
         },
         "classification_entries": {
           "links": {
-            "related": "/classification_entries?filter[classification_entry_id_eq]=a8f1b7a1-6d53-40f0-8f4a-eeb3908619e2",
-            "self": "/classification_entries/a8f1b7a1-6d53-40f0-8f4a-eeb3908619e2/relationships/classification_entries",
+            "related": "/classification_entries?filter[classification_entry_id_eq]=4cacd951-77a5-46c6-8311-33788590e101",
+            "self": "/classification_entries/4cacd951-77a5-46c6-8311-33788590e101/relationships/classification_entries",
             "meta": {
               "count": 1
             }
@@ -4329,7 +4332,7 @@ X-Request-Id: c4c2e3b7-b592-4f5d-8203-da5e4ff9e1bf
       }
     },
     {
-      "id": "0636da9f-53ac-4443-b6ee-450d375e6f70",
+      "id": "2ca2b98f-6c66-44e9-a0fd-64e19496275f",
       "type": "classification_entry",
       "attributes": {
         "code": "AA",
@@ -4343,23 +4346,23 @@ X-Request-Id: c4c2e3b7-b592-4f5d-8203-da5e4ff9e1bf
 
           ],
           "links": {
-            "related": "/tags?filter[target_id_eq]=0636da9f-53ac-4443-b6ee-450d375e6f70",
-            "self": "/classification_entries/0636da9f-53ac-4443-b6ee-450d375e6f70/relationships/tags"
+            "related": "/tags?filter[target_id_eq]=2ca2b98f-6c66-44e9-a0fd-64e19496275f",
+            "self": "/classification_entries/2ca2b98f-6c66-44e9-a0fd-64e19496275f/relationships/tags"
           }
         },
         "classification_entry": {
           "data": {
-            "id": "a8f1b7a1-6d53-40f0-8f4a-eeb3908619e2",
+            "id": "4cacd951-77a5-46c6-8311-33788590e101",
             "type": "classification_entry"
           },
           "links": {
-            "self": "/classification_entries/0636da9f-53ac-4443-b6ee-450d375e6f70"
+            "self": "/classification_entries/2ca2b98f-6c66-44e9-a0fd-64e19496275f"
           }
         },
         "classification_entries": {
           "links": {
-            "related": "/classification_entries?filter[classification_entry_id_eq]=0636da9f-53ac-4443-b6ee-450d375e6f70",
-            "self": "/classification_entries/0636da9f-53ac-4443-b6ee-450d375e6f70/relationships/classification_entries",
+            "related": "/classification_entries?filter[classification_entry_id_eq]=2ca2b98f-6c66-44e9-a0fd-64e19496275f",
+            "self": "/classification_entries/2ca2b98f-6c66-44e9-a0fd-64e19496275f/relationships/classification_entries",
             "meta": {
               "count": 0
             }
@@ -4368,7 +4371,7 @@ X-Request-Id: c4c2e3b7-b592-4f5d-8203-da5e4ff9e1bf
       }
     },
     {
-      "id": "3d16d31e-9768-43f8-94fb-44991b3f58f4",
+      "id": "503f9825-8063-4a49-a809-1a9f2bfce256",
       "type": "classification_entry",
       "attributes": {
         "code": "B",
@@ -4382,14 +4385,14 @@ X-Request-Id: c4c2e3b7-b592-4f5d-8203-da5e4ff9e1bf
 
           ],
           "links": {
-            "related": "/tags?filter[target_id_eq]=3d16d31e-9768-43f8-94fb-44991b3f58f4",
-            "self": "/classification_entries/3d16d31e-9768-43f8-94fb-44991b3f58f4/relationships/tags"
+            "related": "/tags?filter[target_id_eq]=503f9825-8063-4a49-a809-1a9f2bfce256",
+            "self": "/classification_entries/503f9825-8063-4a49-a809-1a9f2bfce256/relationships/tags"
           }
         },
         "classification_entries": {
           "links": {
-            "related": "/classification_entries?filter[classification_entry_id_eq]=3d16d31e-9768-43f8-94fb-44991b3f58f4",
-            "self": "/classification_entries/3d16d31e-9768-43f8-94fb-44991b3f58f4/relationships/classification_entries",
+            "related": "/classification_entries?filter[classification_entry_id_eq]=503f9825-8063-4a49-a809-1a9f2bfce256",
+            "self": "/classification_entries/503f9825-8063-4a49-a809-1a9f2bfce256/relationships/classification_entries",
             "meta": {
               "count": 0
             }
@@ -4431,7 +4434,7 @@ X-Request-Id: c4c2e3b7-b592-4f5d-8203-da5e4ff9e1bf
 #### Endpoint
 
 ```plaintext
-GET /classification_entries/7049a161-49d6-4087-8a38-66621906bf27
+GET /classification_entries/52d9ca72-6a1b-4d10-a3ff-1bdcc8214506
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4449,7 +4452,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: bd35eae5-4f3b-4c3b-8118-3b3070141622
+X-Request-Id: 1b8f068e-17f5-4e26-bb70-dad46dd9b6ba
 200 OK
 ```
 
@@ -4457,7 +4460,7 @@ X-Request-Id: bd35eae5-4f3b-4c3b-8118-3b3070141622
 ```json
 {
   "data": {
-    "id": "7049a161-49d6-4087-8a38-66621906bf27",
+    "id": "52d9ca72-6a1b-4d10-a3ff-1bdcc8214506",
     "type": "classification_entry",
     "attributes": {
       "code": "A",
@@ -4471,14 +4474,14 @@ X-Request-Id: bd35eae5-4f3b-4c3b-8118-3b3070141622
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=7049a161-49d6-4087-8a38-66621906bf27",
-          "self": "/classification_entries/7049a161-49d6-4087-8a38-66621906bf27/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=52d9ca72-6a1b-4d10-a3ff-1bdcc8214506",
+          "self": "/classification_entries/52d9ca72-6a1b-4d10-a3ff-1bdcc8214506/relationships/tags"
         }
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_entry_id_eq]=7049a161-49d6-4087-8a38-66621906bf27",
-          "self": "/classification_entries/7049a161-49d6-4087-8a38-66621906bf27/relationships/classification_entries",
+          "related": "/classification_entries?filter[classification_entry_id_eq]=52d9ca72-6a1b-4d10-a3ff-1bdcc8214506",
+          "self": "/classification_entries/52d9ca72-6a1b-4d10-a3ff-1bdcc8214506/relationships/classification_entries",
           "meta": {
             "count": 1
           }
@@ -4487,7 +4490,7 @@ X-Request-Id: bd35eae5-4f3b-4c3b-8118-3b3070141622
     }
   },
   "links": {
-    "self": "http://example.org/classification_entries/7049a161-49d6-4087-8a38-66621906bf27"
+    "self": "http://example.org/classification_entries/52d9ca72-6a1b-4d10-a3ff-1bdcc8214506"
   },
   "included": [
 
@@ -4515,7 +4518,7 @@ X-Request-Id: bd35eae5-4f3b-4c3b-8118-3b3070141622
 #### Endpoint
 
 ```plaintext
-PATCH /classification_entries/01bfe8d9-8b8e-478a-833c-1d4ab269b2fc
+PATCH /classification_entries/1cf6bc78-3022-42ae-9955-3919ce35a3e9
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4529,7 +4532,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "01bfe8d9-8b8e-478a-833c-1d4ab269b2fc",
+    "id": "1cf6bc78-3022-42ae-9955-3919ce35a3e9",
     "type": "classification_entry",
     "attributes": {
       "name": "New classification entry name"
@@ -4549,7 +4552,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 92bd9542-e140-4fc1-a02a-397d6fc573e8
+X-Request-Id: 2b33c345-8c09-4df0-b434-aceda5c1d920
 200 OK
 ```
 
@@ -4557,7 +4560,7 @@ X-Request-Id: 92bd9542-e140-4fc1-a02a-397d6fc573e8
 ```json
 {
   "data": {
-    "id": "01bfe8d9-8b8e-478a-833c-1d4ab269b2fc",
+    "id": "1cf6bc78-3022-42ae-9955-3919ce35a3e9",
     "type": "classification_entry",
     "attributes": {
       "code": "AA",
@@ -4571,23 +4574,23 @@ X-Request-Id: 92bd9542-e140-4fc1-a02a-397d6fc573e8
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=01bfe8d9-8b8e-478a-833c-1d4ab269b2fc",
-          "self": "/classification_entries/01bfe8d9-8b8e-478a-833c-1d4ab269b2fc/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=1cf6bc78-3022-42ae-9955-3919ce35a3e9",
+          "self": "/classification_entries/1cf6bc78-3022-42ae-9955-3919ce35a3e9/relationships/tags"
         }
       },
       "classification_entry": {
         "data": {
-          "id": "ef7947df-631e-4493-a6c5-23b5f6091495",
+          "id": "fdd9d9e8-6f66-4ffe-8647-915447420dc2",
           "type": "classification_entry"
         },
         "links": {
-          "self": "/classification_entries/01bfe8d9-8b8e-478a-833c-1d4ab269b2fc"
+          "self": "/classification_entries/1cf6bc78-3022-42ae-9955-3919ce35a3e9"
         }
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_entry_id_eq]=01bfe8d9-8b8e-478a-833c-1d4ab269b2fc",
-          "self": "/classification_entries/01bfe8d9-8b8e-478a-833c-1d4ab269b2fc/relationships/classification_entries",
+          "related": "/classification_entries?filter[classification_entry_id_eq]=1cf6bc78-3022-42ae-9955-3919ce35a3e9",
+          "self": "/classification_entries/1cf6bc78-3022-42ae-9955-3919ce35a3e9/relationships/classification_entries",
           "meta": {
             "count": 0
           }
@@ -4596,7 +4599,7 @@ X-Request-Id: 92bd9542-e140-4fc1-a02a-397d6fc573e8
     }
   },
   "links": {
-    "self": "http://example.org/classification_entries/01bfe8d9-8b8e-478a-833c-1d4ab269b2fc"
+    "self": "http://example.org/classification_entries/1cf6bc78-3022-42ae-9955-3919ce35a3e9"
   },
   "included": [
 
@@ -4624,7 +4627,7 @@ X-Request-Id: 92bd9542-e140-4fc1-a02a-397d6fc573e8
 #### Endpoint
 
 ```plaintext
-DELETE /classification_entries/f4495cef-0323-47b1-865e-04a5135701b1
+DELETE /classification_entries/c0c15e6a-2d47-40b7-83e1-cc104ad1514c
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4641,7 +4644,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 9e039cb0-06c9-4273-87fd-f30042e818aa
+X-Request-Id: d277c2e8-55da-400c-9c9e-7c7716604b4f
 204 No Content
 ```
 
@@ -4666,7 +4669,7 @@ X-Request-Id: 9e039cb0-06c9-4273-87fd-f30042e818aa
 #### Endpoint
 
 ```plaintext
-POST /classification_tables/4f1f285a-1a44-490d-b69f-cf8339a02ee3/relationships/classification_entries
+POST /classification_tables/6ad49a74-2207-403e-8aef-481e1a1ff677/relationships/classification_entries
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4697,7 +4700,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 9ab97814-ac91-4820-86c0-714a9c51c14c
+X-Request-Id: 0964cb3a-2f46-490c-a0e8-ae74f98c0b53
 201 Created
 ```
 
@@ -4705,7 +4708,7 @@ X-Request-Id: 9ab97814-ac91-4820-86c0-714a9c51c14c
 ```json
 {
   "data": {
-    "id": "29cb98d0-50e8-4fd3-b8f4-b2171a5c2325",
+    "id": "75375a39-a443-41e3-bfa4-04ea3ca6ed2e",
     "type": "classification_entry",
     "attributes": {
       "code": "C",
@@ -4719,14 +4722,14 @@ X-Request-Id: 9ab97814-ac91-4820-86c0-714a9c51c14c
 
         ],
         "links": {
-          "related": "/tags?filter[target_id_eq]=29cb98d0-50e8-4fd3-b8f4-b2171a5c2325",
-          "self": "/classification_entries/29cb98d0-50e8-4fd3-b8f4-b2171a5c2325/relationships/tags"
+          "related": "/tags?filter[target_id_eq]=75375a39-a443-41e3-bfa4-04ea3ca6ed2e",
+          "self": "/classification_entries/75375a39-a443-41e3-bfa4-04ea3ca6ed2e/relationships/tags"
         }
       },
       "classification_entries": {
         "links": {
-          "related": "/classification_entries?filter[classification_entry_id_eq]=29cb98d0-50e8-4fd3-b8f4-b2171a5c2325",
-          "self": "/classification_entries/29cb98d0-50e8-4fd3-b8f4-b2171a5c2325/relationships/classification_entries",
+          "related": "/classification_entries?filter[classification_entry_id_eq]=75375a39-a443-41e3-bfa4-04ea3ca6ed2e",
+          "self": "/classification_entries/75375a39-a443-41e3-bfa4-04ea3ca6ed2e/relationships/classification_entries",
           "meta": {
             "count": 0
           }
@@ -4735,7 +4738,7 @@ X-Request-Id: 9ab97814-ac91-4820-86c0-714a9c51c14c
     }
   },
   "links": {
-    "self": "http://example.org/classification_tables/4f1f285a-1a44-490d-b69f-cf8339a02ee3/relationships/classification_entries"
+    "self": "http://example.org/classification_tables/6ad49a74-2207-403e-8aef-481e1a1ff677/relationships/classification_entries"
   },
   "included": [
 
@@ -4798,7 +4801,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: f2685f92-654e-4627-8052-6eb84b210b64
+X-Request-Id: 55a7fd1c-22a1-4f5a-8402-bf87a25edab7
 200 OK
 ```
 
@@ -4807,14 +4810,14 @@ X-Request-Id: f2685f92-654e-4627-8052-6eb84b210b64
 {
   "data": [
     {
-      "id": "3ecf9bad-f109-45ce-a5a8-7a38dba648a5",
+      "id": "99932e35-ba0e-4fb8-8c9d-6ec84dd77a38",
       "type": "syntax",
       "attributes": {
-        "account_id": "d5561af6-0a89-4acc-8ccb-a667e79f2c4f",
+        "account_id": "8442706f-e51b-4122-a9ed-9589a98e49f3",
         "archived": false,
         "archived_at": null,
         "description": "Description",
-        "name": "Syntax 255246f5093e",
+        "name": "Syntax bbff113735b5",
         "published": false,
         "published_at": null
       },
@@ -4826,14 +4829,14 @@ X-Request-Id: f2685f92-654e-4627-8052-6eb84b210b64
         },
         "syntax_elements": {
           "links": {
-            "related": "/syntax_elements?filter[syntax_id_eq]=3ecf9bad-f109-45ce-a5a8-7a38dba648a5",
-            "self": "/syntaxes/3ecf9bad-f109-45ce-a5a8-7a38dba648a5/relationships/syntax_elements"
+            "related": "/syntax_elements?filter[syntax_id_eq]=99932e35-ba0e-4fb8-8c9d-6ec84dd77a38",
+            "self": "/syntaxes/99932e35-ba0e-4fb8-8c9d-6ec84dd77a38/relationships/syntax_elements"
           }
         },
         "root_syntax_node": {
           "links": {
-            "related": "/syntax_nodes/022f3a8e-1c3c-471c-90ff-1108a784fb4b",
-            "self": "/syntax_nodes/022f3a8e-1c3c-471c-90ff-1108a784fb4b/relationships/components"
+            "related": "/syntax_nodes/0e59c67d-4eba-4583-9049-241f1bf19bab",
+            "self": "/syntax_nodes/0e59c67d-4eba-4583-9049-241f1bf19bab/relationships/components"
           }
         }
       }
@@ -4870,7 +4873,7 @@ X-Request-Id: f2685f92-654e-4627-8052-6eb84b210b64
 #### Endpoint
 
 ```plaintext
-GET /syntaxes/777909b3-953b-4efe-b9fd-76c695339f89
+GET /syntaxes/56cd7032-4a11-49f8-81e5-4dc47d623c6c
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -4888,7 +4891,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: b25e3d72-ddf5-4236-aa05-033f5bfc4714
+X-Request-Id: 1176b70e-40d3-4344-95df-efcc4ac0d0e8
 200 OK
 ```
 
@@ -4896,14 +4899,14 @@ X-Request-Id: b25e3d72-ddf5-4236-aa05-033f5bfc4714
 ```json
 {
   "data": {
-    "id": "777909b3-953b-4efe-b9fd-76c695339f89",
+    "id": "56cd7032-4a11-49f8-81e5-4dc47d623c6c",
     "type": "syntax",
     "attributes": {
-      "account_id": "e8a50868-8d94-4bbe-beb1-144126b80bcb",
+      "account_id": "9ebd4e7e-822d-4b2e-9d4f-3a722df524b0",
       "archived": false,
       "archived_at": null,
       "description": "Description",
-      "name": "Syntax 0775497177be",
+      "name": "Syntax 44e8b11cce8b",
       "published": false,
       "published_at": null
     },
@@ -4915,20 +4918,20 @@ X-Request-Id: b25e3d72-ddf5-4236-aa05-033f5bfc4714
       },
       "syntax_elements": {
         "links": {
-          "related": "/syntax_elements?filter[syntax_id_eq]=777909b3-953b-4efe-b9fd-76c695339f89",
-          "self": "/syntaxes/777909b3-953b-4efe-b9fd-76c695339f89/relationships/syntax_elements"
+          "related": "/syntax_elements?filter[syntax_id_eq]=56cd7032-4a11-49f8-81e5-4dc47d623c6c",
+          "self": "/syntaxes/56cd7032-4a11-49f8-81e5-4dc47d623c6c/relationships/syntax_elements"
         }
       },
       "root_syntax_node": {
         "links": {
-          "related": "/syntax_nodes/31965930-9f1c-4f0c-bf10-5188a9fe2647",
-          "self": "/syntax_nodes/31965930-9f1c-4f0c-bf10-5188a9fe2647/relationships/components"
+          "related": "/syntax_nodes/6ea3c2ae-416e-4d9c-8eb3-6dcc6c6a6116",
+          "self": "/syntax_nodes/6ea3c2ae-416e-4d9c-8eb3-6dcc6c6a6116/relationships/components"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/777909b3-953b-4efe-b9fd-76c695339f89"
+    "self": "http://example.org/syntaxes/56cd7032-4a11-49f8-81e5-4dc47d623c6c"
   }
 }
 ```
@@ -4984,7 +4987,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: ee89effb-c837-47c8-96ee-da73637daa30
+X-Request-Id: 3cb914e9-1bca-4d88-991f-bbb8bad91903
 201 Created
 ```
 
@@ -4992,10 +4995,10 @@ X-Request-Id: ee89effb-c837-47c8-96ee-da73637daa30
 ```json
 {
   "data": {
-    "id": "809cc7c2-67dd-4a24-aca9-3cb3a33987c6",
+    "id": "297da8bd-f20d-4fd3-8963-b041b0575198",
     "type": "syntax",
     "attributes": {
-      "account_id": "7d954a4e-0ebe-4649-b971-ff9b7d8d3458",
+      "account_id": "3b2c5a6c-b101-4958-a70e-cdbc6a8b3883",
       "archived": false,
       "archived_at": null,
       "description": "Description",
@@ -5011,14 +5014,14 @@ X-Request-Id: ee89effb-c837-47c8-96ee-da73637daa30
       },
       "syntax_elements": {
         "links": {
-          "related": "/syntax_elements?filter[syntax_id_eq]=809cc7c2-67dd-4a24-aca9-3cb3a33987c6",
-          "self": "/syntaxes/809cc7c2-67dd-4a24-aca9-3cb3a33987c6/relationships/syntax_elements"
+          "related": "/syntax_elements?filter[syntax_id_eq]=297da8bd-f20d-4fd3-8963-b041b0575198",
+          "self": "/syntaxes/297da8bd-f20d-4fd3-8963-b041b0575198/relationships/syntax_elements"
         }
       },
       "root_syntax_node": {
         "links": {
-          "related": "/syntax_nodes/33f4d996-bce8-4820-8dc7-a4fd1a41294c",
-          "self": "/syntax_nodes/33f4d996-bce8-4820-8dc7-a4fd1a41294c/relationships/components"
+          "related": "/syntax_nodes/ef542b0f-a32c-4ea5-90fc-16329d7814e2",
+          "self": "/syntax_nodes/ef542b0f-a32c-4ea5-90fc-16329d7814e2/relationships/components"
         }
       }
     }
@@ -5050,7 +5053,7 @@ X-Request-Id: ee89effb-c837-47c8-96ee-da73637daa30
 #### Endpoint
 
 ```plaintext
-PATCH /syntaxes/e0611fab-7cc5-4afb-8460-e1f3caa2f111
+PATCH /syntaxes/7f272885-7b73-4263-b02b-9f6a223e66ff
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -5064,7 +5067,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "e0611fab-7cc5-4afb-8460-e1f3caa2f111",
+    "id": "7f272885-7b73-4263-b02b-9f6a223e66ff",
     "type": "syntax",
     "attributes": {
       "name": "New name"
@@ -5084,7 +5087,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 2f6eae67-53d5-425c-b528-25bfa7b79087
+X-Request-Id: 4e32622e-3a66-4c56-b514-46f59e997ff3
 200 OK
 ```
 
@@ -5092,10 +5095,10 @@ X-Request-Id: 2f6eae67-53d5-425c-b528-25bfa7b79087
 ```json
 {
   "data": {
-    "id": "e0611fab-7cc5-4afb-8460-e1f3caa2f111",
+    "id": "7f272885-7b73-4263-b02b-9f6a223e66ff",
     "type": "syntax",
     "attributes": {
-      "account_id": "814ee2ca-b2cb-4f22-ac12-597b29f074b0",
+      "account_id": "69bf7387-b0bd-4a90-8d7d-de404f028c4e",
       "archived": false,
       "archived_at": null,
       "description": "Description",
@@ -5111,20 +5114,20 @@ X-Request-Id: 2f6eae67-53d5-425c-b528-25bfa7b79087
       },
       "syntax_elements": {
         "links": {
-          "related": "/syntax_elements?filter[syntax_id_eq]=e0611fab-7cc5-4afb-8460-e1f3caa2f111",
-          "self": "/syntaxes/e0611fab-7cc5-4afb-8460-e1f3caa2f111/relationships/syntax_elements"
+          "related": "/syntax_elements?filter[syntax_id_eq]=7f272885-7b73-4263-b02b-9f6a223e66ff",
+          "self": "/syntaxes/7f272885-7b73-4263-b02b-9f6a223e66ff/relationships/syntax_elements"
         }
       },
       "root_syntax_node": {
         "links": {
-          "related": "/syntax_nodes/a7ab038a-e60d-4ba9-933f-355407c31cdf",
-          "self": "/syntax_nodes/a7ab038a-e60d-4ba9-933f-355407c31cdf/relationships/components"
+          "related": "/syntax_nodes/e3fbba38-801b-4cc9-ae9b-d6ccecee6568",
+          "self": "/syntax_nodes/e3fbba38-801b-4cc9-ae9b-d6ccecee6568/relationships/components"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/e0611fab-7cc5-4afb-8460-e1f3caa2f111"
+    "self": "http://example.org/syntaxes/7f272885-7b73-4263-b02b-9f6a223e66ff"
   }
 }
 ```
@@ -5150,7 +5153,7 @@ X-Request-Id: 2f6eae67-53d5-425c-b528-25bfa7b79087
 #### Endpoint
 
 ```plaintext
-DELETE /syntaxes/fc7f7074-be24-4868-ba0d-4375419706ee
+DELETE /syntaxes/7e01c827-b027-4c8d-b991-83c052b697e8
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -5167,7 +5170,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 49a11a58-ea61-48a8-88df-9e16696cc4e1
+X-Request-Id: 819d9de4-a92d-4c9e-b41d-979446be8956
 204 No Content
 ```
 
@@ -5193,7 +5196,7 @@ X-Request-Id: 49a11a58-ea61-48a8-88df-9e16696cc4e1
 #### Endpoint
 
 ```plaintext
-POST /syntaxes/75ad2e70-8d83-4582-9a45-6c58dbda295d/publish
+POST /syntaxes/de023cc5-7cc2-46d3-929e-3c2441e062a9/publish
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -5211,7 +5214,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 142af2a3-7d03-45bc-a61a-6f94205d02a4
+X-Request-Id: ea25d5d8-c28d-4c8b-bb9e-9be9ace878a2
 200 OK
 ```
 
@@ -5219,16 +5222,16 @@ X-Request-Id: 142af2a3-7d03-45bc-a61a-6f94205d02a4
 ```json
 {
   "data": {
-    "id": "75ad2e70-8d83-4582-9a45-6c58dbda295d",
+    "id": "de023cc5-7cc2-46d3-929e-3c2441e062a9",
     "type": "syntax",
     "attributes": {
-      "account_id": "0bae36e8-63da-4491-b73c-7675b5dab5c2",
+      "account_id": "8867ab99-1a9a-4be6-aa32-8b5c628fa2df",
       "archived": false,
       "archived_at": null,
       "description": "Description",
-      "name": "Syntax 1e587771a8cf",
+      "name": "Syntax d58ddf365f49",
       "published": true,
-      "published_at": "2020-04-05T09:38:16.715Z"
+      "published_at": "2020-04-16T19:35:43.232Z"
     },
     "relationships": {
       "account": {
@@ -5238,20 +5241,20 @@ X-Request-Id: 142af2a3-7d03-45bc-a61a-6f94205d02a4
       },
       "syntax_elements": {
         "links": {
-          "related": "/syntax_elements?filter[syntax_id_eq]=75ad2e70-8d83-4582-9a45-6c58dbda295d",
-          "self": "/syntaxes/75ad2e70-8d83-4582-9a45-6c58dbda295d/relationships/syntax_elements"
+          "related": "/syntax_elements?filter[syntax_id_eq]=de023cc5-7cc2-46d3-929e-3c2441e062a9",
+          "self": "/syntaxes/de023cc5-7cc2-46d3-929e-3c2441e062a9/relationships/syntax_elements"
         }
       },
       "root_syntax_node": {
         "links": {
-          "related": "/syntax_nodes/47ed68ef-5cfe-4d3c-8c30-815e767cde70",
-          "self": "/syntax_nodes/47ed68ef-5cfe-4d3c-8c30-815e767cde70/relationships/components"
+          "related": "/syntax_nodes/fb2024f4-6917-4859-8f36-6056628e09da",
+          "self": "/syntax_nodes/fb2024f4-6917-4859-8f36-6056628e09da/relationships/components"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/75ad2e70-8d83-4582-9a45-6c58dbda295d/publish"
+    "self": "http://example.org/syntaxes/de023cc5-7cc2-46d3-929e-3c2441e062a9/publish"
   }
 }
 ```
@@ -5277,7 +5280,7 @@ X-Request-Id: 142af2a3-7d03-45bc-a61a-6f94205d02a4
 #### Endpoint
 
 ```plaintext
-POST /syntaxes/3a7371d0-549a-4072-be1d-80cd639f1a5d/archive
+POST /syntaxes/0c7e44b0-a2e2-490f-9296-5e0af6448559/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -5295,7 +5298,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: a75de375-b03e-4436-9d48-3de5c597f4bb
+X-Request-Id: a3b4802e-b972-45bf-abb1-82603a5d2054
 200 OK
 ```
 
@@ -5303,14 +5306,14 @@ X-Request-Id: a75de375-b03e-4436-9d48-3de5c597f4bb
 ```json
 {
   "data": {
-    "id": "3a7371d0-549a-4072-be1d-80cd639f1a5d",
+    "id": "0c7e44b0-a2e2-490f-9296-5e0af6448559",
     "type": "syntax",
     "attributes": {
-      "account_id": "acfe90bb-6ef5-4513-a01b-60aa8c4c20cd",
+      "account_id": "a435a14f-7893-49fb-ab04-b9db5afb3c39",
       "archived": true,
-      "archived_at": "2020-04-05T09:38:17.400Z",
+      "archived_at": "2020-04-16T19:35:43.949Z",
       "description": "Description",
-      "name": "Syntax 28fcbbe02f48",
+      "name": "Syntax cba18bb9ceab",
       "published": false,
       "published_at": null
     },
@@ -5322,20 +5325,20 @@ X-Request-Id: a75de375-b03e-4436-9d48-3de5c597f4bb
       },
       "syntax_elements": {
         "links": {
-          "related": "/syntax_elements?filter[syntax_id_eq]=3a7371d0-549a-4072-be1d-80cd639f1a5d",
-          "self": "/syntaxes/3a7371d0-549a-4072-be1d-80cd639f1a5d/relationships/syntax_elements"
+          "related": "/syntax_elements?filter[syntax_id_eq]=0c7e44b0-a2e2-490f-9296-5e0af6448559",
+          "self": "/syntaxes/0c7e44b0-a2e2-490f-9296-5e0af6448559/relationships/syntax_elements"
         }
       },
       "root_syntax_node": {
         "links": {
-          "related": "/syntax_nodes/252aa3ec-d7b1-4714-b201-dbbc14bc3e8b",
-          "self": "/syntax_nodes/252aa3ec-d7b1-4714-b201-dbbc14bc3e8b/relationships/components"
+          "related": "/syntax_nodes/c09422fd-f213-43be-a7e3-ead2b96d6d1b",
+          "self": "/syntax_nodes/c09422fd-f213-43be-a7e3-ead2b96d6d1b/relationships/components"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/3a7371d0-549a-4072-be1d-80cd639f1a5d/archive"
+    "self": "http://example.org/syntaxes/0c7e44b0-a2e2-490f-9296-5e0af6448559/archive"
   }
 }
 ```
@@ -5391,7 +5394,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: f4ac85fc-a4c0-433b-90b1-ce99bb208c07
+X-Request-Id: e2e83eef-8537-4dea-9f8e-73499ec2beeb
 200 OK
 ```
 
@@ -5400,25 +5403,29 @@ X-Request-Id: f4ac85fc-a4c0-433b-90b1-ce99bb208c07
 {
   "data": [
     {
-      "id": "f53c4dd4-8aa9-404c-b2fa-d4047c93166b",
+      "id": "712b8cdf-844c-49ec-bcbb-ed3e50f9a64f",
       "type": "syntax_element",
       "attributes": {
         "aspect": "=",
         "max_number": 9,
         "min_number": 1,
-        "name": "Syntax element 6584bef8aa5b",
-        "hex_color": "#988a7a"
+        "name": "Syntax element 18",
+        "hex_color": "db42ff"
       },
       "relationships": {
         "syntax": {
           "links": {
-            "related": "/syntaxes/1895f330-6d1c-4bb1-89ab-a77d828f7a62"
+            "related": "/syntaxes/519b9bee-a77c-4ad3-9393-27c30c85042b"
           }
         },
         "classification_table": {
+          "data": {
+            "id": "6cc2d3d8-88fc-455e-8212-a35955ba32c7",
+            "type": "classification_table"
+          },
           "links": {
-            "related": "/classification_tables/4d545842-2158-4491-a577-e2eafe0b51c4",
-            "self": "/syntax_elements/f53c4dd4-8aa9-404c-b2fa-d4047c93166b/relationships/classification_table"
+            "related": "/classification_tables/6cc2d3d8-88fc-455e-8212-a35955ba32c7",
+            "self": "/syntax_elements/712b8cdf-844c-49ec-bcbb-ed3e50f9a64f/relationships/classification_table"
           }
         }
       }
@@ -5457,7 +5464,7 @@ X-Request-Id: f4ac85fc-a4c0-433b-90b1-ce99bb208c07
 #### Endpoint
 
 ```plaintext
-GET /syntax_elements/4cd6e0cb-9b54-4927-8f67-4428522ccef9
+GET /syntax_elements/efd93cd1-8fca-4688-8844-9c9b1249fd88
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -5475,7 +5482,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 78564178-0047-485c-bafc-f4d83e9bfd56
+X-Request-Id: 3b220952-6e24-4f97-853d-5a5b9993b60e
 200 OK
 ```
 
@@ -5483,31 +5490,35 @@ X-Request-Id: 78564178-0047-485c-bafc-f4d83e9bfd56
 ```json
 {
   "data": {
-    "id": "4cd6e0cb-9b54-4927-8f67-4428522ccef9",
+    "id": "efd93cd1-8fca-4688-8844-9c9b1249fd88",
     "type": "syntax_element",
     "attributes": {
       "aspect": "=",
       "max_number": 9,
       "min_number": 1,
-      "name": "Syntax element d8a85c6bed12",
-      "hex_color": "#b6445c"
+      "name": "Syntax element 19",
+      "hex_color": "4b57db"
     },
     "relationships": {
       "syntax": {
         "links": {
-          "related": "/syntaxes/688de2a0-99be-4c71-9b4b-7d6e4cf41c30"
+          "related": "/syntaxes/61762eca-d475-4808-9caf-ebf94b5ab203"
         }
       },
       "classification_table": {
+        "data": {
+          "id": "d4a21cb4-dd29-4339-9590-29792d7dd9c1",
+          "type": "classification_table"
+        },
         "links": {
-          "related": "/classification_tables/817d4bf2-2852-420e-abcd-b7e230e4e7cf",
-          "self": "/syntax_elements/4cd6e0cb-9b54-4927-8f67-4428522ccef9/relationships/classification_table"
+          "related": "/classification_tables/d4a21cb4-dd29-4339-9590-29792d7dd9c1",
+          "self": "/syntax_elements/efd93cd1-8fca-4688-8844-9c9b1249fd88/relationships/classification_table"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntax_elements/4cd6e0cb-9b54-4927-8f67-4428522ccef9"
+    "self": "http://example.org/syntax_elements/efd93cd1-8fca-4688-8844-9c9b1249fd88"
   }
 }
 ```
@@ -5535,7 +5546,7 @@ X-Request-Id: 78564178-0047-485c-bafc-f4d83e9bfd56
 #### Endpoint
 
 ```plaintext
-POST /syntaxes/ba65833e-aade-4fa4-ae74-95d3e7f243f0/relationships/syntax_elements
+POST /syntaxes/9ec57606-d823-4ad2-94c6-c55ee428680c/relationships/syntax_elements
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -5561,7 +5572,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "classification_table": {
         "data": {
           "type": "classification_table",
-          "id": "00e091e6-e539-4ddc-ae59-e06c57e4c9b7"
+          "id": "77fcd5d1-3132-4a51-8a58-6c6e7996d148"
         }
       }
     }
@@ -5576,7 +5587,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 5ffe328c-8023-401e-ac58-756011e555a8
+X-Request-Id: 982c8582-dadb-4eae-b6cd-66bded92da36
 201 Created
 ```
 
@@ -5584,31 +5595,35 @@ X-Request-Id: 5ffe328c-8023-401e-ac58-756011e555a8
 ```json
 {
   "data": {
-    "id": "dcdc0fe4-ef87-4f2d-8b5f-49693f951429",
+    "id": "e1628c64-c8ab-49c4-801e-656736afbcc9",
     "type": "syntax_element",
     "attributes": {
       "aspect": "#",
       "max_number": 5,
       "min_number": 1,
       "name": "Element",
-      "hex_color": "#001122"
+      "hex_color": "001122"
     },
     "relationships": {
       "syntax": {
         "links": {
-          "related": "/syntaxes/ba65833e-aade-4fa4-ae74-95d3e7f243f0"
+          "related": "/syntaxes/9ec57606-d823-4ad2-94c6-c55ee428680c"
         }
       },
       "classification_table": {
+        "data": {
+          "id": "77fcd5d1-3132-4a51-8a58-6c6e7996d148",
+          "type": "classification_table"
+        },
         "links": {
-          "related": "/classification_tables/00e091e6-e539-4ddc-ae59-e06c57e4c9b7",
-          "self": "/syntax_elements/dcdc0fe4-ef87-4f2d-8b5f-49693f951429/relationships/classification_table"
+          "related": "/classification_tables/77fcd5d1-3132-4a51-8a58-6c6e7996d148",
+          "self": "/syntax_elements/e1628c64-c8ab-49c4-801e-656736afbcc9/relationships/classification_table"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntaxes/ba65833e-aade-4fa4-ae74-95d3e7f243f0/relationships/syntax_elements"
+    "self": "http://example.org/syntaxes/9ec57606-d823-4ad2-94c6-c55ee428680c/relationships/syntax_elements"
   }
 }
 ```
@@ -5636,7 +5651,7 @@ X-Request-Id: 5ffe328c-8023-401e-ac58-756011e555a8
 #### Endpoint
 
 ```plaintext
-PATCH /syntax_elements/7642ec9f-8eb7-4aab-bd37-3cd626a4a3f1
+PATCH /syntax_elements/5966d9cc-5d0a-4c37-a667-399d43d199fc
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -5650,7 +5665,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "7642ec9f-8eb7-4aab-bd37-3cd626a4a3f1",
+    "id": "5966d9cc-5d0a-4c37-a667-399d43d199fc",
     "type": "syntax_element",
     "attributes": {
       "name": "New element"
@@ -5659,7 +5674,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "classification_table": {
         "data": {
           "type": "classification_table",
-          "id": "21e51ec6-e0fb-49c6-8ca7-9b9065b7ef1b"
+          "id": "738b4d81-b761-40c8-9f5b-9087d648495e"
         }
       }
     }
@@ -5678,7 +5693,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: e432fb9a-addd-4175-9f38-019a102e23a9
+X-Request-Id: 59acafc7-6c86-4f5b-a568-56db29ddccb4
 200 OK
 ```
 
@@ -5686,31 +5701,35 @@ X-Request-Id: e432fb9a-addd-4175-9f38-019a102e23a9
 ```json
 {
   "data": {
-    "id": "7642ec9f-8eb7-4aab-bd37-3cd626a4a3f1",
+    "id": "5966d9cc-5d0a-4c37-a667-399d43d199fc",
     "type": "syntax_element",
     "attributes": {
       "aspect": "=",
       "max_number": 9,
       "min_number": 1,
       "name": "New element",
-      "hex_color": "#43c8c5"
+      "hex_color": "63ec6c"
     },
     "relationships": {
       "syntax": {
         "links": {
-          "related": "/syntaxes/556bac52-e1f8-4d66-9a42-2bedd7893bab"
+          "related": "/syntaxes/8c7f4ddb-5441-455d-be2a-b71b38e73700"
         }
       },
       "classification_table": {
+        "data": {
+          "id": "738b4d81-b761-40c8-9f5b-9087d648495e",
+          "type": "classification_table"
+        },
         "links": {
-          "related": "/classification_tables/21e51ec6-e0fb-49c6-8ca7-9b9065b7ef1b",
-          "self": "/syntax_elements/7642ec9f-8eb7-4aab-bd37-3cd626a4a3f1/relationships/classification_table"
+          "related": "/classification_tables/738b4d81-b761-40c8-9f5b-9087d648495e",
+          "self": "/syntax_elements/5966d9cc-5d0a-4c37-a667-399d43d199fc/relationships/classification_table"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntax_elements/7642ec9f-8eb7-4aab-bd37-3cd626a4a3f1"
+    "self": "http://example.org/syntax_elements/5966d9cc-5d0a-4c37-a667-399d43d199fc"
   }
 }
 ```
@@ -5738,7 +5757,7 @@ X-Request-Id: e432fb9a-addd-4175-9f38-019a102e23a9
 #### Endpoint
 
 ```plaintext
-DELETE /syntax_elements/e1cec0fe-e787-4f42-bb64-e1c2df841009
+DELETE /syntax_elements/fdef1ad5-0a5f-4617-aca4-0b0e5ceed42c
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -5755,7 +5774,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 494d67f6-0c35-4454-a23e-ad1f88560129
+X-Request-Id: 85d95fd1-50e4-43d6-9c12-53bde1901736
 204 No Content
 ```
 
@@ -5783,7 +5802,7 @@ X-Request-Id: 494d67f6-0c35-4454-a23e-ad1f88560129
 #### Endpoint
 
 ```plaintext
-PATCH /syntax_elements/6a7ef571-998c-4691-8329-8753544300f7/relationships/classification_table
+PATCH /syntax_elements/dd54ba2b-5a5a-492e-b620-8d14863e6111/relationships/classification_table
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -5797,7 +5816,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "8c98b56e-6951-4ae0-bc9b-58e99659f0a8",
+    "id": "c284c1b5-1209-4438-a6fd-66724319a362",
     "type": "classification_table"
   }
 }
@@ -5810,7 +5829,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 8544b473-17c9-4055-8fcc-5327acc5b0d2
+X-Request-Id: f5395db7-508f-4a0f-abd2-8430a03ebdca
 200 OK
 ```
 
@@ -5818,31 +5837,35 @@ X-Request-Id: 8544b473-17c9-4055-8fcc-5327acc5b0d2
 ```json
 {
   "data": {
-    "id": "6a7ef571-998c-4691-8329-8753544300f7",
+    "id": "dd54ba2b-5a5a-492e-b620-8d14863e6111",
     "type": "syntax_element",
     "attributes": {
       "aspect": "=",
       "max_number": 9,
       "min_number": 1,
-      "name": "Syntax element 33d962d93e3e",
-      "hex_color": "#f52a56"
+      "name": "Syntax element 23",
+      "hex_color": "25b339"
     },
     "relationships": {
       "syntax": {
         "links": {
-          "related": "/syntaxes/d92f6eba-cb35-4298-b939-be788e7346b6"
+          "related": "/syntaxes/49a9edba-0da4-40ba-8308-b56d4b373068"
         }
       },
       "classification_table": {
+        "data": {
+          "id": "c284c1b5-1209-4438-a6fd-66724319a362",
+          "type": "classification_table"
+        },
         "links": {
-          "related": "/classification_tables/8c98b56e-6951-4ae0-bc9b-58e99659f0a8",
-          "self": "/syntax_elements/6a7ef571-998c-4691-8329-8753544300f7/relationships/classification_table"
+          "related": "/classification_tables/c284c1b5-1209-4438-a6fd-66724319a362",
+          "self": "/syntax_elements/dd54ba2b-5a5a-492e-b620-8d14863e6111/relationships/classification_table"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntax_elements/6a7ef571-998c-4691-8329-8753544300f7/relationships/classification_table"
+    "self": "http://example.org/syntax_elements/dd54ba2b-5a5a-492e-b620-8d14863e6111/relationships/classification_table"
   }
 }
 ```
@@ -5870,7 +5893,7 @@ X-Request-Id: 8544b473-17c9-4055-8fcc-5327acc5b0d2
 #### Endpoint
 
 ```plaintext
-DELETE /syntax_elements/e991bc00-f67c-4239-8bef-22959eb12841/relationships/classification_table
+DELETE /syntax_elements/94dadb3f-a919-4625-a50a-7b617429ffb0/relationships/classification_table
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -5887,7 +5910,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 3657750f-3f0a-488e-8ef5-dfc636ce9a4d
+X-Request-Id: 7a1b9a93-8c70-4ccb-8a98-f5430ca330ec
 204 No Content
 ```
 
@@ -5942,7 +5965,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: d2d6a2ac-971a-428d-8ca5-61e251c920c7
+X-Request-Id: 75fa5e00-3801-4bea-8afe-119fb5dd6aad
 200 OK
 ```
 
@@ -5951,7 +5974,35 @@ X-Request-Id: d2d6a2ac-971a-428d-8ca5-61e251c920c7
 {
   "data": [
     {
-      "id": "73c48a94-409f-4009-a9b9-a0fc987cf22c",
+      "id": "dcf2a385-afa9-4552-9a11-36f61a28d3da",
+      "type": "syntax_node",
+      "attributes": {
+        "max_depth": 9,
+        "min_depth": 1,
+        "position": 1
+      },
+      "relationships": {
+        "components": {
+          "data": [
+            {
+              "id": "02f6ef5c-c614-4ed4-a7b8-42a48e729936",
+              "type": "syntax_node"
+            }
+          ],
+          "links": {
+            "self": "/syntax_nodes/dcf2a385-afa9-4552-9a11-36f61a28d3da/relationships/components"
+          }
+        },
+        "syntax_node": {
+          "links": {
+            "self": "/syntax_nodes/dcf2a385-afa9-4552-9a11-36f61a28d3da/relationships/parent",
+            "related": "/syntax_nodes/dcf2a385-afa9-4552-9a11-36f61a28d3da"
+          }
+        }
+      }
+    },
+    {
+      "id": "1c11dd00-096c-4631-8d19-355efdd2d44a",
       "type": "syntax_node",
       "attributes": {
         "max_depth": 9,
@@ -5961,7 +6012,7 @@ X-Request-Id: d2d6a2ac-971a-428d-8ca5-61e251c920c7
       "relationships": {
         "syntax_element": {
           "links": {
-            "related": "/syntax_elements/cdd9f4fc-bad9-497a-849d-113332c7248f"
+            "related": "/syntax_elements/36d527c3-6139-414a-9bf9-94dc0ec9a9ef"
           }
         },
         "components": {
@@ -5969,19 +6020,19 @@ X-Request-Id: d2d6a2ac-971a-428d-8ca5-61e251c920c7
 
           ],
           "links": {
-            "self": "/syntax_nodes/73c48a94-409f-4009-a9b9-a0fc987cf22c/relationships/components"
+            "self": "/syntax_nodes/1c11dd00-096c-4631-8d19-355efdd2d44a/relationships/components"
           }
         },
         "syntax_node": {
           "links": {
-            "self": "/syntax_nodes/73c48a94-409f-4009-a9b9-a0fc987cf22c/relationships/parent",
-            "related": "/syntax_nodes/73c48a94-409f-4009-a9b9-a0fc987cf22c"
+            "self": "/syntax_nodes/1c11dd00-096c-4631-8d19-355efdd2d44a/relationships/parent",
+            "related": "/syntax_nodes/1c11dd00-096c-4631-8d19-355efdd2d44a"
           }
         }
       }
     },
     {
-      "id": "814f07a8-89a2-476d-bf57-740945bda3cc",
+      "id": "7ba69dac-7bb0-4ad8-b2a0-e521ac3b527d",
       "type": "syntax_node",
       "attributes": {
         "max_depth": 9,
@@ -5991,119 +6042,91 @@ X-Request-Id: d2d6a2ac-971a-428d-8ca5-61e251c920c7
       "relationships": {
         "syntax_element": {
           "links": {
-            "related": "/syntax_elements/cdd9f4fc-bad9-497a-849d-113332c7248f"
+            "related": "/syntax_elements/36d527c3-6139-414a-9bf9-94dc0ec9a9ef"
+          }
+        },
+        "components": {
+          "data": [
+
+          ],
+          "links": {
+            "self": "/syntax_nodes/7ba69dac-7bb0-4ad8-b2a0-e521ac3b527d/relationships/components"
+          }
+        },
+        "syntax_node": {
+          "links": {
+            "self": "/syntax_nodes/7ba69dac-7bb0-4ad8-b2a0-e521ac3b527d/relationships/parent",
+            "related": "/syntax_nodes/7ba69dac-7bb0-4ad8-b2a0-e521ac3b527d"
+          }
+        }
+      }
+    },
+    {
+      "id": "3d92aca3-6c10-42b2-b1b4-dbe1838a7d73",
+      "type": "syntax_node",
+      "attributes": {
+        "max_depth": 9,
+        "min_depth": 1,
+        "position": 1
+      },
+      "relationships": {
+        "syntax_element": {
+          "links": {
+            "related": "/syntax_elements/36d527c3-6139-414a-9bf9-94dc0ec9a9ef"
           }
         },
         "components": {
           "data": [
             {
-              "id": "580aa911-e362-49ce-96e7-6fc155291225",
+              "id": "1c11dd00-096c-4631-8d19-355efdd2d44a",
+              "type": "syntax_node"
+            }
+          ],
+          "links": {
+            "self": "/syntax_nodes/3d92aca3-6c10-42b2-b1b4-dbe1838a7d73/relationships/components"
+          }
+        },
+        "syntax_node": {
+          "links": {
+            "self": "/syntax_nodes/3d92aca3-6c10-42b2-b1b4-dbe1838a7d73/relationships/parent",
+            "related": "/syntax_nodes/3d92aca3-6c10-42b2-b1b4-dbe1838a7d73"
+          }
+        }
+      }
+    },
+    {
+      "id": "02f6ef5c-c614-4ed4-a7b8-42a48e729936",
+      "type": "syntax_node",
+      "attributes": {
+        "max_depth": 9,
+        "min_depth": 1,
+        "position": 1
+      },
+      "relationships": {
+        "syntax_element": {
+          "links": {
+            "related": "/syntax_elements/36d527c3-6139-414a-9bf9-94dc0ec9a9ef"
+          }
+        },
+        "components": {
+          "data": [
+            {
+              "id": "3d92aca3-6c10-42b2-b1b4-dbe1838a7d73",
               "type": "syntax_node"
             },
             {
-              "id": "6567a2de-f785-47b2-8478-d15cb64619ac",
+              "id": "7ba69dac-7bb0-4ad8-b2a0-e521ac3b527d",
               "type": "syntax_node"
             }
           ],
           "links": {
-            "self": "/syntax_nodes/814f07a8-89a2-476d-bf57-740945bda3cc/relationships/components"
+            "self": "/syntax_nodes/02f6ef5c-c614-4ed4-a7b8-42a48e729936/relationships/components"
           }
         },
         "syntax_node": {
           "links": {
-            "self": "/syntax_nodes/814f07a8-89a2-476d-bf57-740945bda3cc/relationships/parent",
-            "related": "/syntax_nodes/814f07a8-89a2-476d-bf57-740945bda3cc"
-          }
-        }
-      }
-    },
-    {
-      "id": "6567a2de-f785-47b2-8478-d15cb64619ac",
-      "type": "syntax_node",
-      "attributes": {
-        "max_depth": 9,
-        "min_depth": 1,
-        "position": 1
-      },
-      "relationships": {
-        "syntax_element": {
-          "links": {
-            "related": "/syntax_elements/cdd9f4fc-bad9-497a-849d-113332c7248f"
-          }
-        },
-        "components": {
-          "data": [
-
-          ],
-          "links": {
-            "self": "/syntax_nodes/6567a2de-f785-47b2-8478-d15cb64619ac/relationships/components"
-          }
-        },
-        "syntax_node": {
-          "links": {
-            "self": "/syntax_nodes/6567a2de-f785-47b2-8478-d15cb64619ac/relationships/parent",
-            "related": "/syntax_nodes/6567a2de-f785-47b2-8478-d15cb64619ac"
-          }
-        }
-      }
-    },
-    {
-      "id": "580aa911-e362-49ce-96e7-6fc155291225",
-      "type": "syntax_node",
-      "attributes": {
-        "max_depth": 9,
-        "min_depth": 1,
-        "position": 1
-      },
-      "relationships": {
-        "syntax_element": {
-          "links": {
-            "related": "/syntax_elements/cdd9f4fc-bad9-497a-849d-113332c7248f"
-          }
-        },
-        "components": {
-          "data": [
-            {
-              "id": "73c48a94-409f-4009-a9b9-a0fc987cf22c",
-              "type": "syntax_node"
-            }
-          ],
-          "links": {
-            "self": "/syntax_nodes/580aa911-e362-49ce-96e7-6fc155291225/relationships/components"
-          }
-        },
-        "syntax_node": {
-          "links": {
-            "self": "/syntax_nodes/580aa911-e362-49ce-96e7-6fc155291225/relationships/parent",
-            "related": "/syntax_nodes/580aa911-e362-49ce-96e7-6fc155291225"
-          }
-        }
-      }
-    },
-    {
-      "id": "92f6d876-39a3-4712-9c99-6c515b111eaf",
-      "type": "syntax_node",
-      "attributes": {
-        "max_depth": 9,
-        "min_depth": 1,
-        "position": 1
-      },
-      "relationships": {
-        "components": {
-          "data": [
-            {
-              "id": "814f07a8-89a2-476d-bf57-740945bda3cc",
-              "type": "syntax_node"
-            }
-          ],
-          "links": {
-            "self": "/syntax_nodes/92f6d876-39a3-4712-9c99-6c515b111eaf/relationships/components"
-          }
-        },
-        "syntax_node": {
-          "links": {
-            "self": "/syntax_nodes/92f6d876-39a3-4712-9c99-6c515b111eaf/relationships/parent",
-            "related": "/syntax_nodes/92f6d876-39a3-4712-9c99-6c515b111eaf"
+            "self": "/syntax_nodes/02f6ef5c-c614-4ed4-a7b8-42a48e729936/relationships/parent",
+            "related": "/syntax_nodes/02f6ef5c-c614-4ed4-a7b8-42a48e729936"
           }
         }
       }
@@ -6139,7 +6162,7 @@ X-Request-Id: d2d6a2ac-971a-428d-8ca5-61e251c920c7
 #### Endpoint
 
 ```plaintext
-GET /syntax_nodes/606d6f2c-2c5c-439b-8e23-a52e5e234831?depth=2
+GET /syntax_nodes/fdced59b-4886-4504-8d68-5a46edefdc46?depth=2
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -6165,7 +6188,7 @@ depth: 2
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 1d8282d2-206d-4cf0-b616-7b8d62c6f325
+X-Request-Id: a7ca6253-4222-47cc-82a4-5c7b7f9f7e02
 200 OK
 ```
 
@@ -6173,7 +6196,7 @@ X-Request-Id: 1d8282d2-206d-4cf0-b616-7b8d62c6f325
 ```json
 {
   "data": {
-    "id": "606d6f2c-2c5c-439b-8e23-a52e5e234831",
+    "id": "fdced59b-4886-4504-8d68-5a46edefdc46",
     "type": "syntax_node",
     "attributes": {
       "max_depth": 9,
@@ -6183,38 +6206,38 @@ X-Request-Id: 1d8282d2-206d-4cf0-b616-7b8d62c6f325
     "relationships": {
       "syntax_element": {
         "links": {
-          "related": "/syntax_elements/2aa4da21-0d0e-4daa-a7c0-f09533902907"
+          "related": "/syntax_elements/5b914952-a63e-419d-bd02-75ba9b1b3623"
         }
       },
       "components": {
         "data": [
           {
-            "id": "52c72896-0878-43d0-ab80-536cc9b09b15",
+            "id": "79281800-cc72-46a4-8a33-05218d81fbff",
             "type": "syntax_node"
           },
           {
-            "id": "41bb5235-4a9b-49c7-82d4-cdb882de5a6c",
+            "id": "da93af00-68d3-4df6-862b-9f2d4a80dd8a",
             "type": "syntax_node"
           }
         ],
         "links": {
-          "self": "/syntax_nodes/606d6f2c-2c5c-439b-8e23-a52e5e234831/relationships/components"
+          "self": "/syntax_nodes/fdced59b-4886-4504-8d68-5a46edefdc46/relationships/components"
         }
       },
       "syntax_node": {
         "links": {
-          "self": "/syntax_nodes/606d6f2c-2c5c-439b-8e23-a52e5e234831/relationships/parent",
-          "related": "/syntax_nodes/606d6f2c-2c5c-439b-8e23-a52e5e234831"
+          "self": "/syntax_nodes/fdced59b-4886-4504-8d68-5a46edefdc46/relationships/parent",
+          "related": "/syntax_nodes/fdced59b-4886-4504-8d68-5a46edefdc46"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntax_nodes/606d6f2c-2c5c-439b-8e23-a52e5e234831?depth=2"
+    "self": "http://example.org/syntax_nodes/fdced59b-4886-4504-8d68-5a46edefdc46?depth=2"
   },
   "included": [
     {
-      "id": "41bb5235-4a9b-49c7-82d4-cdb882de5a6c",
+      "id": "da93af00-68d3-4df6-862b-9f2d4a80dd8a",
       "type": "syntax_node",
       "attributes": {
         "max_depth": 9,
@@ -6224,7 +6247,7 @@ X-Request-Id: 1d8282d2-206d-4cf0-b616-7b8d62c6f325
       "relationships": {
         "syntax_element": {
           "links": {
-            "related": "/syntax_elements/2aa4da21-0d0e-4daa-a7c0-f09533902907"
+            "related": "/syntax_elements/5b914952-a63e-419d-bd02-75ba9b1b3623"
           }
         },
         "components": {
@@ -6232,19 +6255,19 @@ X-Request-Id: 1d8282d2-206d-4cf0-b616-7b8d62c6f325
 
           ],
           "links": {
-            "self": "/syntax_nodes/41bb5235-4a9b-49c7-82d4-cdb882de5a6c/relationships/components"
+            "self": "/syntax_nodes/da93af00-68d3-4df6-862b-9f2d4a80dd8a/relationships/components"
           }
         },
         "syntax_node": {
           "links": {
-            "self": "/syntax_nodes/41bb5235-4a9b-49c7-82d4-cdb882de5a6c/relationships/parent",
-            "related": "/syntax_nodes/41bb5235-4a9b-49c7-82d4-cdb882de5a6c"
+            "self": "/syntax_nodes/da93af00-68d3-4df6-862b-9f2d4a80dd8a/relationships/parent",
+            "related": "/syntax_nodes/da93af00-68d3-4df6-862b-9f2d4a80dd8a"
           }
         }
       }
     },
     {
-      "id": "52c72896-0878-43d0-ab80-536cc9b09b15",
+      "id": "79281800-cc72-46a4-8a33-05218d81fbff",
       "type": "syntax_node",
       "attributes": {
         "max_depth": 9,
@@ -6254,30 +6277,30 @@ X-Request-Id: 1d8282d2-206d-4cf0-b616-7b8d62c6f325
       "relationships": {
         "syntax_element": {
           "links": {
-            "related": "/syntax_elements/2aa4da21-0d0e-4daa-a7c0-f09533902907"
+            "related": "/syntax_elements/5b914952-a63e-419d-bd02-75ba9b1b3623"
           }
         },
         "components": {
           "data": [
             {
-              "id": "15047ed7-f2eb-4c53-b7ac-21b56dafa28c",
+              "id": "590d8feb-3ec7-4a93-89be-2f304e64618b",
               "type": "syntax_node"
             }
           ],
           "links": {
-            "self": "/syntax_nodes/52c72896-0878-43d0-ab80-536cc9b09b15/relationships/components"
+            "self": "/syntax_nodes/79281800-cc72-46a4-8a33-05218d81fbff/relationships/components"
           }
         },
         "syntax_node": {
           "links": {
-            "self": "/syntax_nodes/52c72896-0878-43d0-ab80-536cc9b09b15/relationships/parent",
-            "related": "/syntax_nodes/52c72896-0878-43d0-ab80-536cc9b09b15"
+            "self": "/syntax_nodes/79281800-cc72-46a4-8a33-05218d81fbff/relationships/parent",
+            "related": "/syntax_nodes/79281800-cc72-46a4-8a33-05218d81fbff"
           }
         }
       }
     },
     {
-      "id": "15047ed7-f2eb-4c53-b7ac-21b56dafa28c",
+      "id": "590d8feb-3ec7-4a93-89be-2f304e64618b",
       "type": "syntax_node",
       "attributes": {
         "max_depth": 9,
@@ -6287,7 +6310,7 @@ X-Request-Id: 1d8282d2-206d-4cf0-b616-7b8d62c6f325
       "relationships": {
         "syntax_element": {
           "links": {
-            "related": "/syntax_elements/2aa4da21-0d0e-4daa-a7c0-f09533902907"
+            "related": "/syntax_elements/5b914952-a63e-419d-bd02-75ba9b1b3623"
           }
         },
         "components": {
@@ -6295,13 +6318,13 @@ X-Request-Id: 1d8282d2-206d-4cf0-b616-7b8d62c6f325
 
           ],
           "links": {
-            "self": "/syntax_nodes/15047ed7-f2eb-4c53-b7ac-21b56dafa28c/relationships/components"
+            "self": "/syntax_nodes/590d8feb-3ec7-4a93-89be-2f304e64618b/relationships/components"
           }
         },
         "syntax_node": {
           "links": {
-            "self": "/syntax_nodes/15047ed7-f2eb-4c53-b7ac-21b56dafa28c/relationships/parent",
-            "related": "/syntax_nodes/15047ed7-f2eb-4c53-b7ac-21b56dafa28c"
+            "self": "/syntax_nodes/590d8feb-3ec7-4a93-89be-2f304e64618b/relationships/parent",
+            "related": "/syntax_nodes/590d8feb-3ec7-4a93-89be-2f304e64618b"
           }
         }
       }
@@ -6330,7 +6353,7 @@ X-Request-Id: 1d8282d2-206d-4cf0-b616-7b8d62c6f325
 #### Endpoint
 
 ```plaintext
-POST /syntax_nodes/c3dd0444-8e02-4b59-807a-42741df81fd7/relationships/components
+POST /syntax_nodes/f25bb58b-9288-4f73-b764-46f9af3102cb/relationships/components
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -6354,7 +6377,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "syntax_element": {
         "data": {
           "type": "syntax_element",
-          "id": "3e9cd6ce-af44-4602-ac86-57a21ffea28e"
+          "id": "dc165a59-31f8-4d97-9c43-399b0f577989"
         }
       }
     }
@@ -6369,7 +6392,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 0edd3eac-f86d-4f75-99f2-aa57498cc0b2
+X-Request-Id: a7a13112-1dbe-411b-b36e-2696c4b95e38
 201 Created
 ```
 
@@ -6377,7 +6400,7 @@ X-Request-Id: 0edd3eac-f86d-4f75-99f2-aa57498cc0b2
 ```json
 {
   "data": {
-    "id": "1cd3476d-f9b6-4ca3-9ba6-ec77dda73783",
+    "id": "83a73fdb-5e48-4394-a795-67c2ae7f8721",
     "type": "syntax_node",
     "attributes": {
       "max_depth": 5,
@@ -6387,7 +6410,7 @@ X-Request-Id: 0edd3eac-f86d-4f75-99f2-aa57498cc0b2
     "relationships": {
       "syntax_element": {
         "links": {
-          "related": "/syntax_elements/3e9cd6ce-af44-4602-ac86-57a21ffea28e"
+          "related": "/syntax_elements/dc165a59-31f8-4d97-9c43-399b0f577989"
         }
       },
       "components": {
@@ -6395,19 +6418,19 @@ X-Request-Id: 0edd3eac-f86d-4f75-99f2-aa57498cc0b2
 
         ],
         "links": {
-          "self": "/syntax_nodes/1cd3476d-f9b6-4ca3-9ba6-ec77dda73783/relationships/components"
+          "self": "/syntax_nodes/83a73fdb-5e48-4394-a795-67c2ae7f8721/relationships/components"
         }
       },
       "syntax_node": {
         "links": {
-          "self": "/syntax_nodes/1cd3476d-f9b6-4ca3-9ba6-ec77dda73783/relationships/parent",
-          "related": "/syntax_nodes/1cd3476d-f9b6-4ca3-9ba6-ec77dda73783"
+          "self": "/syntax_nodes/83a73fdb-5e48-4394-a795-67c2ae7f8721/relationships/parent",
+          "related": "/syntax_nodes/83a73fdb-5e48-4394-a795-67c2ae7f8721"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntax_nodes/c3dd0444-8e02-4b59-807a-42741df81fd7/relationships/components"
+    "self": "http://example.org/syntax_nodes/f25bb58b-9288-4f73-b764-46f9af3102cb/relationships/components"
   }
 }
 ```
@@ -6432,7 +6455,7 @@ X-Request-Id: 0edd3eac-f86d-4f75-99f2-aa57498cc0b2
 #### Endpoint
 
 ```plaintext
-PATCH /syntax_nodes/94115b2b-1e20-4b93-8725-b1b7f4912980/relationships/parent
+PATCH /syntax_nodes/54876da5-82db-40ea-a5c4-c08851e83fbc/relationships/parent
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -6447,7 +6470,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 {
   "data": {
     "type": "syntax_node",
-    "id": "9b16979f-4875-4e4f-9a4c-7dbc20984073"
+    "id": "7a175c4b-58f2-4d53-b353-8417e1df99bf"
   }
 }
 ```
@@ -6459,7 +6482,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 75c01fc1-5c08-4759-b967-5e9a0711e4db
+X-Request-Id: 5adc03f6-6c59-4d96-99ba-6b5165237a65
 200 OK
 ```
 
@@ -6467,7 +6490,7 @@ X-Request-Id: 75c01fc1-5c08-4759-b967-5e9a0711e4db
 ```json
 {
   "data": {
-    "id": "94115b2b-1e20-4b93-8725-b1b7f4912980",
+    "id": "54876da5-82db-40ea-a5c4-c08851e83fbc",
     "type": "syntax_node",
     "attributes": {
       "max_depth": 9,
@@ -6477,7 +6500,7 @@ X-Request-Id: 75c01fc1-5c08-4759-b967-5e9a0711e4db
     "relationships": {
       "syntax_element": {
         "links": {
-          "related": "/syntax_elements/dedee5b2-7170-44cc-b1a8-485305a1d2cc"
+          "related": "/syntax_elements/8682ddcf-08ad-43be-ba9d-4527ff086404"
         }
       },
       "components": {
@@ -6485,13 +6508,13 @@ X-Request-Id: 75c01fc1-5c08-4759-b967-5e9a0711e4db
 
         ],
         "links": {
-          "self": "/syntax_nodes/94115b2b-1e20-4b93-8725-b1b7f4912980/relationships/components"
+          "self": "/syntax_nodes/54876da5-82db-40ea-a5c4-c08851e83fbc/relationships/components"
         }
       },
       "syntax_node": {
         "links": {
-          "self": "/syntax_nodes/94115b2b-1e20-4b93-8725-b1b7f4912980/relationships/parent",
-          "related": "/syntax_nodes/94115b2b-1e20-4b93-8725-b1b7f4912980"
+          "self": "/syntax_nodes/54876da5-82db-40ea-a5c4-c08851e83fbc/relationships/parent",
+          "related": "/syntax_nodes/54876da5-82db-40ea-a5c4-c08851e83fbc"
         }
       }
     }
@@ -6519,7 +6542,7 @@ X-Request-Id: 75c01fc1-5c08-4759-b967-5e9a0711e4db
 #### Endpoint
 
 ```plaintext
-PATCH /syntax_nodes/deb6ce56-3fcc-4e8a-bffb-cadae1bc24cc
+PATCH /syntax_nodes/409e9c7f-2b21-4fc8-bf16-0f29477d3d10
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -6533,7 +6556,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "deb6ce56-3fcc-4e8a-bffb-cadae1bc24cc",
+    "id": "409e9c7f-2b21-4fc8-bf16-0f29477d3d10",
     "type": "syntax_node",
     "attributes": {
       "min_depth": 1,
@@ -6555,7 +6578,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: b38c8774-bb0c-48fa-8145-dcefd77d2b30
+X-Request-Id: bd7cc758-492a-4981-abd7-2e7a0446b988
 200 OK
 ```
 
@@ -6563,7 +6586,7 @@ X-Request-Id: b38c8774-bb0c-48fa-8145-dcefd77d2b30
 ```json
 {
   "data": {
-    "id": "deb6ce56-3fcc-4e8a-bffb-cadae1bc24cc",
+    "id": "409e9c7f-2b21-4fc8-bf16-0f29477d3d10",
     "type": "syntax_node",
     "attributes": {
       "max_depth": 2,
@@ -6573,7 +6596,7 @@ X-Request-Id: b38c8774-bb0c-48fa-8145-dcefd77d2b30
     "relationships": {
       "syntax_element": {
         "links": {
-          "related": "/syntax_elements/c7b6c3e8-52da-4ce9-9c84-961babf332fb"
+          "related": "/syntax_elements/da455b20-f470-45ca-87d1-3a073a49d501"
         }
       },
       "components": {
@@ -6581,19 +6604,19 @@ X-Request-Id: b38c8774-bb0c-48fa-8145-dcefd77d2b30
 
         ],
         "links": {
-          "self": "/syntax_nodes/deb6ce56-3fcc-4e8a-bffb-cadae1bc24cc/relationships/components"
+          "self": "/syntax_nodes/409e9c7f-2b21-4fc8-bf16-0f29477d3d10/relationships/components"
         }
       },
       "syntax_node": {
         "links": {
-          "self": "/syntax_nodes/deb6ce56-3fcc-4e8a-bffb-cadae1bc24cc/relationships/parent",
-          "related": "/syntax_nodes/deb6ce56-3fcc-4e8a-bffb-cadae1bc24cc"
+          "self": "/syntax_nodes/409e9c7f-2b21-4fc8-bf16-0f29477d3d10/relationships/parent",
+          "related": "/syntax_nodes/409e9c7f-2b21-4fc8-bf16-0f29477d3d10"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/syntax_nodes/deb6ce56-3fcc-4e8a-bffb-cadae1bc24cc"
+    "self": "http://example.org/syntax_nodes/409e9c7f-2b21-4fc8-bf16-0f29477d3d10"
   }
 }
 ```
@@ -6618,7 +6641,7 @@ X-Request-Id: b38c8774-bb0c-48fa-8145-dcefd77d2b30
 #### Endpoint
 
 ```plaintext
-DELETE /syntax_nodes/cc73d03f-717d-4efb-8e73-9a3d81f82305
+DELETE /syntax_nodes/e119fc2e-b5a9-4de0-9c2f-c092792b4277
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -6635,7 +6658,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: a58080a2-e3c6-436c-9e35-79b0c9ab3444
+X-Request-Id: 437ca0ad-8be4-4d0f-b452-9ab763cc6cae
 204 No Content
 ```
 
@@ -6689,7 +6712,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: bdf8da63-41ec-4384-90e1-825c98cec287
+X-Request-Id: bddd9c85-6429-41fa-99e2-e2947c9e88c0
 200 OK
 ```
 
@@ -6698,7 +6721,7 @@ X-Request-Id: bdf8da63-41ec-4384-90e1-825c98cec287
 {
   "data": [
     {
-      "id": "60fee5a4-c605-4ea9-a979-2b37509eb0bf",
+      "id": "5c7e3b89-1896-4a52-aa68-1a4b72dd4579",
       "type": "progress_model",
       "attributes": {
         "archived": false,
@@ -6706,20 +6729,20 @@ X-Request-Id: bdf8da63-41ec-4384-90e1-825c98cec287
         "name": "pm 1",
         "order": 1,
         "published": true,
-        "published_at": "2020-04-05T09:38:29.219Z",
+        "published_at": "2020-04-16T19:35:54.179Z",
         "type": "object_occurrence"
       },
       "relationships": {
         "progress_steps": {
           "links": {
-            "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=60fee5a4-c605-4ea9-a979-2b37509eb0bf",
-            "self": "/progress_models/60fee5a4-c605-4ea9-a979-2b37509eb0bf/relationships/progress_steps"
+            "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=5c7e3b89-1896-4a52-aa68-1a4b72dd4579",
+            "self": "/progress_models/5c7e3b89-1896-4a52-aa68-1a4b72dd4579/relationships/progress_steps"
           }
         }
       }
     },
     {
-      "id": "4ba34cc6-1f2e-40c5-84b9-457ee1fe8cdc",
+      "id": "b1975e81-5cf1-475a-8b33-c00716057ab8",
       "type": "progress_model",
       "attributes": {
         "archived": false,
@@ -6733,8 +6756,8 @@ X-Request-Id: bdf8da63-41ec-4384-90e1-825c98cec287
       "relationships": {
         "progress_steps": {
           "links": {
-            "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=4ba34cc6-1f2e-40c5-84b9-457ee1fe8cdc",
-            "self": "/progress_models/4ba34cc6-1f2e-40c5-84b9-457ee1fe8cdc/relationships/progress_steps"
+            "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=b1975e81-5cf1-475a-8b33-c00716057ab8",
+            "self": "/progress_models/b1975e81-5cf1-475a-8b33-c00716057ab8/relationships/progress_steps"
           }
         }
       }
@@ -6770,7 +6793,7 @@ X-Request-Id: bdf8da63-41ec-4384-90e1-825c98cec287
 #### Endpoint
 
 ```plaintext
-GET /progress_models/8a357d11-2304-46b2-8a77-f54f250be4ef
+GET /progress_models/5e0a0db7-a688-4332-bd03-3b41503a506a
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -6788,7 +6811,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 4bc2a778-8383-47df-b6e8-e9a0cf9e0c36
+X-Request-Id: 7e8754dc-aa6f-4c02-b0a5-b5022fd24e22
 200 OK
 ```
 
@@ -6796,7 +6819,7 @@ X-Request-Id: 4bc2a778-8383-47df-b6e8-e9a0cf9e0c36
 ```json
 {
   "data": {
-    "id": "8a357d11-2304-46b2-8a77-f54f250be4ef",
+    "id": "5e0a0db7-a688-4332-bd03-3b41503a506a",
     "type": "progress_model",
     "attributes": {
       "archived": false,
@@ -6804,20 +6827,20 @@ X-Request-Id: 4bc2a778-8383-47df-b6e8-e9a0cf9e0c36
       "name": "pm 1",
       "order": 3,
       "published": true,
-      "published_at": "2020-04-05T09:38:29.944Z",
+      "published_at": "2020-04-16T19:35:54.926Z",
       "type": "object_occurrence"
     },
     "relationships": {
       "progress_steps": {
         "links": {
-          "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=8a357d11-2304-46b2-8a77-f54f250be4ef",
-          "self": "/progress_models/8a357d11-2304-46b2-8a77-f54f250be4ef/relationships/progress_steps"
+          "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=5e0a0db7-a688-4332-bd03-3b41503a506a",
+          "self": "/progress_models/5e0a0db7-a688-4332-bd03-3b41503a506a/relationships/progress_steps"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/progress_models/8a357d11-2304-46b2-8a77-f54f250be4ef"
+    "self": "http://example.org/progress_models/5e0a0db7-a688-4332-bd03-3b41503a506a"
   }
 }
 ```
@@ -6842,7 +6865,7 @@ X-Request-Id: 4bc2a778-8383-47df-b6e8-e9a0cf9e0c36
 #### Endpoint
 
 ```plaintext
-PATCH /progress_models/bf471777-886a-4db9-87dc-53dcb39b7bc9
+PATCH /progress_models/1a9dc885-dcf9-4277-9189-b56932af476b
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -6856,7 +6879,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "bf471777-886a-4db9-87dc-53dcb39b7bc9",
+    "id": "1a9dc885-dcf9-4277-9189-b56932af476b",
     "type": "progress_model",
     "attributes": {
       "name": "New progress model name"
@@ -6876,7 +6899,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: ca428eca-538c-4d04-a5c5-91c4ae616d82
+X-Request-Id: 41ff2ced-a734-4738-bf9b-e67854a20fad
 200 OK
 ```
 
@@ -6884,7 +6907,7 @@ X-Request-Id: ca428eca-538c-4d04-a5c5-91c4ae616d82
 ```json
 {
   "data": {
-    "id": "bf471777-886a-4db9-87dc-53dcb39b7bc9",
+    "id": "1a9dc885-dcf9-4277-9189-b56932af476b",
     "type": "progress_model",
     "attributes": {
       "archived": false,
@@ -6898,14 +6921,14 @@ X-Request-Id: ca428eca-538c-4d04-a5c5-91c4ae616d82
     "relationships": {
       "progress_steps": {
         "links": {
-          "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=bf471777-886a-4db9-87dc-53dcb39b7bc9",
-          "self": "/progress_models/bf471777-886a-4db9-87dc-53dcb39b7bc9/relationships/progress_steps"
+          "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=1a9dc885-dcf9-4277-9189-b56932af476b",
+          "self": "/progress_models/1a9dc885-dcf9-4277-9189-b56932af476b/relationships/progress_steps"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/progress_models/bf471777-886a-4db9-87dc-53dcb39b7bc9"
+    "self": "http://example.org/progress_models/1a9dc885-dcf9-4277-9189-b56932af476b"
   }
 }
 ```
@@ -6930,7 +6953,7 @@ X-Request-Id: ca428eca-538c-4d04-a5c5-91c4ae616d82
 #### Endpoint
 
 ```plaintext
-DELETE /progress_models/5d727f02-ff4f-4ffe-94a3-f492b8a55131
+DELETE /progress_models/03cb18d1-e52b-4789-a86e-c6216f75c857
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -6947,7 +6970,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: 90251191-68ca-4eea-ac89-6a8454001da0
+X-Request-Id: 578a304c-e423-4bd7-b96a-383063cb055e
 204 No Content
 ```
 
@@ -6972,7 +6995,7 @@ X-Request-Id: 90251191-68ca-4eea-ac89-6a8454001da0
 #### Endpoint
 
 ```plaintext
-POST /progress_models/7afd03de-8a6b-4846-9b8e-12bd8e09b680/publish
+POST /progress_models/a446ffc7-7fb2-41ea-bd86-52c12113717e/publish
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -6990,7 +7013,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 7e812f37-2562-4db5-b551-662687053e30
+X-Request-Id: 6d6089b9-f01e-497e-a8eb-dfe3bb84ac41
 200 OK
 ```
 
@@ -6998,7 +7021,7 @@ X-Request-Id: 7e812f37-2562-4db5-b551-662687053e30
 ```json
 {
   "data": {
-    "id": "7afd03de-8a6b-4846-9b8e-12bd8e09b680",
+    "id": "a446ffc7-7fb2-41ea-bd86-52c12113717e",
     "type": "progress_model",
     "attributes": {
       "archived": false,
@@ -7006,20 +7029,20 @@ X-Request-Id: 7e812f37-2562-4db5-b551-662687053e30
       "name": "pm 2",
       "order": 10,
       "published": true,
-      "published_at": "2020-04-05T09:38:32.641Z",
+      "published_at": "2020-04-16T19:35:57.278Z",
       "type": "object_occurrence_relation"
     },
     "relationships": {
       "progress_steps": {
         "links": {
-          "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=7afd03de-8a6b-4846-9b8e-12bd8e09b680",
-          "self": "/progress_models/7afd03de-8a6b-4846-9b8e-12bd8e09b680/relationships/progress_steps"
+          "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=a446ffc7-7fb2-41ea-bd86-52c12113717e",
+          "self": "/progress_models/a446ffc7-7fb2-41ea-bd86-52c12113717e/relationships/progress_steps"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/progress_models/7afd03de-8a6b-4846-9b8e-12bd8e09b680/publish"
+    "self": "http://example.org/progress_models/a446ffc7-7fb2-41ea-bd86-52c12113717e/publish"
   }
 }
 ```
@@ -7044,7 +7067,7 @@ X-Request-Id: 7e812f37-2562-4db5-b551-662687053e30
 #### Endpoint
 
 ```plaintext
-POST /progress_models/fc1819c3-64e4-4000-adb2-09675585c59f/archive
+POST /progress_models/1cf07f51-0e33-4c1a-8fe5-6028f262869a/archive
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -7062,7 +7085,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: d852628c-8767-4a62-a733-1e77c4aa1690
+X-Request-Id: 74c9da60-38e7-492c-981e-a3510a11ca95
 200 OK
 ```
 
@@ -7070,11 +7093,11 @@ X-Request-Id: d852628c-8767-4a62-a733-1e77c4aa1690
 ```json
 {
   "data": {
-    "id": "fc1819c3-64e4-4000-adb2-09675585c59f",
+    "id": "1cf07f51-0e33-4c1a-8fe5-6028f262869a",
     "type": "progress_model",
     "attributes": {
       "archived": true,
-      "archived_at": "2020-04-05T09:38:33.212Z",
+      "archived_at": "2020-04-16T19:35:57.878Z",
       "name": "pm 2",
       "order": 12,
       "published": false,
@@ -7084,14 +7107,14 @@ X-Request-Id: d852628c-8767-4a62-a733-1e77c4aa1690
     "relationships": {
       "progress_steps": {
         "links": {
-          "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=fc1819c3-64e4-4000-adb2-09675585c59f",
-          "self": "/progress_models/fc1819c3-64e4-4000-adb2-09675585c59f/relationships/progress_steps"
+          "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=1cf07f51-0e33-4c1a-8fe5-6028f262869a",
+          "self": "/progress_models/1cf07f51-0e33-4c1a-8fe5-6028f262869a/relationships/progress_steps"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/progress_models/fc1819c3-64e4-4000-adb2-09675585c59f/archive"
+    "self": "http://example.org/progress_models/1cf07f51-0e33-4c1a-8fe5-6028f262869a/archive"
   }
 }
 ```
@@ -7147,7 +7170,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: c86e5876-4159-447e-9ff8-40bca37e9d75
+X-Request-Id: f4b2847e-c194-42d5-bcfe-7b56ffa990e3
 201 Created
 ```
 
@@ -7155,7 +7178,7 @@ X-Request-Id: c86e5876-4159-447e-9ff8-40bca37e9d75
 ```json
 {
   "data": {
-    "id": "c36b3415-fe3d-4e21-9dbb-b691697ca7ad",
+    "id": "33fbcce7-7cd4-4008-8aa1-47bcd0d165a8",
     "type": "progress_model",
     "attributes": {
       "archived": false,
@@ -7169,8 +7192,8 @@ X-Request-Id: c86e5876-4159-447e-9ff8-40bca37e9d75
     "relationships": {
       "progress_steps": {
         "links": {
-          "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=c36b3415-fe3d-4e21-9dbb-b691697ca7ad",
-          "self": "/progress_models/c36b3415-fe3d-4e21-9dbb-b691697ca7ad/relationships/progress_steps"
+          "related": "/progress_steps?filter%5Bprogress_model_id_eq%5D=33fbcce7-7cd4-4008-8aa1-47bcd0d165a8",
+          "self": "/progress_models/33fbcce7-7cd4-4008-8aa1-47bcd0d165a8/relationships/progress_steps"
         }
       }
     }
@@ -7230,7 +7253,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 4360fd82-acf9-4a38-84e6-ae518680a702
+X-Request-Id: 93730c3b-37fb-4c0c-8434-e926d9e5126e
 200 OK
 ```
 
@@ -7239,17 +7262,17 @@ X-Request-Id: 4360fd82-acf9-4a38-84e6-ae518680a702
 {
   "data": [
     {
-      "id": "2a08eaca-10b7-4336-b1e5-df26d88fb48b",
+      "id": "dfccaf4a-2fba-4ce2-918f-436a4718b5bf",
       "type": "progress_step",
       "attributes": {
         "name": "ps 1",
         "order": 1,
-        "hex_color": "#26eead"
+        "hex_color": "91db18"
       },
       "relationships": {
         "progress_model": {
           "links": {
-            "related": "/progress_models/da399ff3-41eb-4f79-bbb6-34c53595e579"
+            "related": "/progress_models/c334ed6c-206c-4409-bfda-25f44e868e5c"
           }
         }
       }
@@ -7283,7 +7306,7 @@ X-Request-Id: 4360fd82-acf9-4a38-84e6-ae518680a702
 #### Endpoint
 
 ```plaintext
-GET /progress_steps/49496539-f629-449a-a5fe-d43f1e72b378
+GET /progress_steps/be73c7a6-d11f-4cf4-a78b-0fa4412322be
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -7301,7 +7324,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: ea6dcd90-5d81-4a3a-8f7e-5e83a390f6aa
+X-Request-Id: 69cac2ac-bacb-439f-9540-ab008b3145f0
 200 OK
 ```
 
@@ -7309,23 +7332,23 @@ X-Request-Id: ea6dcd90-5d81-4a3a-8f7e-5e83a390f6aa
 ```json
 {
   "data": {
-    "id": "49496539-f629-449a-a5fe-d43f1e72b378",
+    "id": "be73c7a6-d11f-4cf4-a78b-0fa4412322be",
     "type": "progress_step",
     "attributes": {
       "name": "ps 1",
       "order": 2,
-      "hex_color": "#d05b8f"
+      "hex_color": "32eb90"
     },
     "relationships": {
       "progress_model": {
         "links": {
-          "related": "/progress_models/acb4c754-0b14-479d-8786-a454e5f85f5a"
+          "related": "/progress_models/334c46dc-416c-4e75-9d49-d87408ac843e"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/progress_steps/49496539-f629-449a-a5fe-d43f1e72b378"
+    "self": "http://example.org/progress_steps/be73c7a6-d11f-4cf4-a78b-0fa4412322be"
   }
 }
 ```
@@ -7348,7 +7371,7 @@ X-Request-Id: ea6dcd90-5d81-4a3a-8f7e-5e83a390f6aa
 #### Endpoint
 
 ```plaintext
-PATCH /progress_steps/5102faae-06e0-47eb-a075-e9d7b93409cc
+PATCH /progress_steps/da288944-5680-461d-a6a7-91a3a984155d
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -7362,7 +7385,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "id": "5102faae-06e0-47eb-a075-e9d7b93409cc",
+    "id": "da288944-5680-461d-a6a7-91a3a984155d",
     "type": "progress_step",
     "attributes": {
       "name": "New progress step name",
@@ -7383,7 +7406,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 27cbef63-07ac-463a-946d-8f8ca8e0df14
+X-Request-Id: 36c11c8b-1f26-458a-ad1e-8500b96075bf
 200 OK
 ```
 
@@ -7391,23 +7414,23 @@ X-Request-Id: 27cbef63-07ac-463a-946d-8f8ca8e0df14
 ```json
 {
   "data": {
-    "id": "5102faae-06e0-47eb-a075-e9d7b93409cc",
+    "id": "da288944-5680-461d-a6a7-91a3a984155d",
     "type": "progress_step",
     "attributes": {
       "name": "New progress step name",
       "order": 3,
-      "hex_color": "#444444"
+      "hex_color": "444444"
     },
     "relationships": {
       "progress_model": {
         "links": {
-          "related": "/progress_models/f955cd52-f04c-4472-b7b9-ab240c188e88"
+          "related": "/progress_models/544d11eb-d424-454a-b838-0bcea6883872"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/progress_steps/5102faae-06e0-47eb-a075-e9d7b93409cc"
+    "self": "http://example.org/progress_steps/da288944-5680-461d-a6a7-91a3a984155d"
   }
 }
 ```
@@ -7430,7 +7453,7 @@ X-Request-Id: 27cbef63-07ac-463a-946d-8f8ca8e0df14
 #### Endpoint
 
 ```plaintext
-DELETE /progress_steps/f65e8d66-6f56-4000-ab8f-81bf3d61dc9f
+DELETE /progress_steps/3797cc81-872c-49e0-9ba6-040b76a98903
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -7447,7 +7470,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: d1459701-5c83-499c-96fe-1ef869e19230
+X-Request-Id: 40fbc735-bdbc-4b61-aff7-e317ea6e86f9
 204 No Content
 ```
 
@@ -7470,7 +7493,7 @@ X-Request-Id: d1459701-5c83-499c-96fe-1ef869e19230
 #### Endpoint
 
 ```plaintext
-POST /progress_models/bf10c58a-0f07-4134-adfd-af8ffc21d9aa/relationships/progress_steps
+POST /progress_models/342570a9-5e4b-47a7-ab1f-93dcc47efe33/relationships/progress_steps
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -7500,7 +7523,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: febf40e3-2bb0-44e6-8d77-4b3d330ce790
+X-Request-Id: 5ba5afcc-fbfe-4ff2-8192-b03751b334eb
 201 Created
 ```
 
@@ -7508,7 +7531,7 @@ X-Request-Id: febf40e3-2bb0-44e6-8d77-4b3d330ce790
 ```json
 {
   "data": {
-    "id": "7fceb2d4-9ba2-4ff5-84eb-0c8c1dc9ae32",
+    "id": "e66e42e4-bb2c-47b2-8362-00563774db60",
     "type": "progress_step",
     "attributes": {
       "name": "New progress step name",
@@ -7518,13 +7541,13 @@ X-Request-Id: febf40e3-2bb0-44e6-8d77-4b3d330ce790
     "relationships": {
       "progress_model": {
         "links": {
-          "related": "/progress_models/bf10c58a-0f07-4134-adfd-af8ffc21d9aa"
+          "related": "/progress_models/342570a9-5e4b-47a7-ab1f-93dcc47efe33"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/progress_models/bf10c58a-0f07-4134-adfd-af8ffc21d9aa/relationships/progress_steps"
+    "self": "http://example.org/progress_models/342570a9-5e4b-47a7-ab1f-93dcc47efe33/relationships/progress_steps"
   }
 }
 ```
@@ -7575,7 +7598,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: c8ff5529-60b0-48e8-b120-0dd6f804ce61
+X-Request-Id: 8cca8583-79b5-422e-857d-25f2377a90aa
 200 OK
 ```
 
@@ -7584,17 +7607,17 @@ X-Request-Id: c8ff5529-60b0-48e8-b120-0dd6f804ce61
 {
   "data": [
     {
-      "id": "10fadd17-2e12-4d35-bfd5-bfbdc07fa369",
+      "id": "81eb39dd-1e46-4aba-8c3b-e845da285110",
       "type": "progress_step_checked",
       "relationships": {
         "progress_step": {
           "links": {
-            "related": "/progress_steps/528ba122-0b83-4569-9e6d-1191d20c5ed9"
+            "related": "/progress_steps/399514a9-cc12-4f68-9a32-57f9ff76be88"
           }
         },
         "target": {
           "links": {
-            "related": "/object_occurrences/d213c3da-00c7-4c8a-942f-8e7f3bc2f8d9"
+            "related": "/object_occurrences/554f41b8-f3be-4ff0-ae2f-8444fc8954d6"
           }
         }
       }
@@ -7628,7 +7651,7 @@ X-Request-Id: c8ff5529-60b0-48e8-b120-0dd6f804ce61
 #### Endpoint
 
 ```plaintext
-GET /progress/2456cfe2-f600-4d4a-9fcc-437bc27410c1
+GET /progress/176ea6af-a3ae-47e1-a696-2cf8fcebc091
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -7646,7 +7669,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 21f4c427-586f-451a-b9d8-abee777a897d
+X-Request-Id: ca3bde89-6d4d-4477-810e-3ed0a6a7f6c4
 200 OK
 ```
 
@@ -7654,23 +7677,23 @@ X-Request-Id: 21f4c427-586f-451a-b9d8-abee777a897d
 ```json
 {
   "data": {
-    "id": "2456cfe2-f600-4d4a-9fcc-437bc27410c1",
+    "id": "176ea6af-a3ae-47e1-a696-2cf8fcebc091",
     "type": "progress_step_checked",
     "relationships": {
       "progress_step": {
         "links": {
-          "related": "/progress_steps/f274025e-dcc1-4402-a7bd-09f19e5966b6"
+          "related": "/progress_steps/f1bab812-8630-487b-92cb-f4fbc9dc218d"
         }
       },
       "target": {
         "links": {
-          "related": "/object_occurrences/190b006e-7fe8-427d-925a-2ed2da092839"
+          "related": "/object_occurrences/5458be2c-6b77-44fd-b4a4-5592c0ac3077"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/progress/2456cfe2-f600-4d4a-9fcc-437bc27410c1"
+    "self": "http://example.org/progress/176ea6af-a3ae-47e1-a696-2cf8fcebc091"
   }
 }
 ```
@@ -7693,7 +7716,7 @@ X-Request-Id: 21f4c427-586f-451a-b9d8-abee777a897d
 #### Endpoint
 
 ```plaintext
-DELETE /progress/3825ccb8-e89d-4010-8156-c89398747848
+DELETE /progress/06a6b580-bfcf-4904-a274-8702a7fd5ed1
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -7710,7 +7733,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: e995a950-b7e1-402d-9ba2-cdd82df5dcdc
+X-Request-Id: 07630753-581c-4dd0-8eb0-7ea18a689590
 204 No Content
 ```
 
@@ -7752,13 +7775,13 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
       "progress_step": {
         "data": {
           "type": "progress_step",
-          "id": "c968124a-c016-4e25-bd26-7217b4b5ff49"
+          "id": "d45dad8d-1cf7-430f-86b5-a4b62156c6fd"
         }
       },
       "target": {
         "data": {
           "type": "object_occurrence",
-          "id": "269e516e-c8f4-46cc-83b8-231adfd79edf"
+          "id": "9ca7da0d-e5d8-4eeb-99b8-8d3f8b138085"
         }
       }
     }
@@ -7773,7 +7796,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 3a949536-f406-4de6-b94c-eeedfdb224e9
+X-Request-Id: 2d94c096-7ba4-4f26-871d-2e879bf79090
 201 Created
 ```
 
@@ -7781,17 +7804,17 @@ X-Request-Id: 3a949536-f406-4de6-b94c-eeedfdb224e9
 ```json
 {
   "data": {
-    "id": "dfe3029e-aa70-45de-8e03-612471cb5507",
+    "id": "21c3a292-733d-455c-814e-ce356df926dd",
     "type": "progress_step_checked",
     "relationships": {
       "progress_step": {
         "links": {
-          "related": "/progress_steps/c968124a-c016-4e25-bd26-7217b4b5ff49"
+          "related": "/progress_steps/d45dad8d-1cf7-430f-86b5-a4b62156c6fd"
         }
       },
       "target": {
         "links": {
-          "related": "/object_occurrences/269e516e-c8f4-46cc-83b8-231adfd79edf"
+          "related": "/object_occurrences/9ca7da0d-e5d8-4eeb-99b8-8d3f8b138085"
         }
       }
     }
@@ -7843,7 +7866,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: a85bfc91-af48-4721-a6b1-f61ed80eb0ad
+X-Request-Id: 8df56da7-da27-46f8-b7d3-e5b3fe87b340
 200 OK
 ```
 
@@ -7852,17 +7875,17 @@ X-Request-Id: a85bfc91-af48-4721-a6b1-f61ed80eb0ad
 {
   "data": [
     {
-      "id": "074b8e2f-b6ab-4fd5-b6e5-75b292a5fe15",
+      "id": "fa381de8-dba1-43a0-af04-1be92b31b2fe",
       "type": "project_setting",
       "attributes": {
         "context_revisions_to_keep": 5,
         "contexts_limit": 10,
-        "project_id": "5c1c4e05-387c-4932-b823-22d417a8a428"
+        "project_id": "9f3e5bec-2148-44e4-8e29-c433966a3e1c"
       },
       "relationships": {
         "project": {
           "links": {
-            "related": "/projects/5c1c4e05-387c-4932-b823-22d417a8a428"
+            "related": "/projects/9f3e5bec-2148-44e4-8e29-c433966a3e1c"
           }
         }
       }
@@ -7896,7 +7919,7 @@ X-Request-Id: a85bfc91-af48-4721-a6b1-f61ed80eb0ad
 #### Endpoint
 
 ```plaintext
-GET /projects/2267c3f6-a717-40b4-9518-489da2ced47a/relationships/project_setting
+GET /projects/bfb35247-9ecd-40bf-bbac-bb5b8562b75b/relationships/project_setting
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -7914,7 +7937,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: f0a2d5fb-4759-4af6-8c16-15c99d604f2d
+X-Request-Id: 1d2e878a-1580-470f-be6f-8494dda14b6e
 200 OK
 ```
 
@@ -7922,23 +7945,23 @@ X-Request-Id: f0a2d5fb-4759-4af6-8c16-15c99d604f2d
 ```json
 {
   "data": {
-    "id": "3da08fb9-c2c9-4d50-b337-9805787a5667",
+    "id": "1dde62bc-1d65-41bd-99ab-9a26efd2282b",
     "type": "project_setting",
     "attributes": {
       "context_revisions_to_keep": 5,
       "contexts_limit": 10,
-      "project_id": "2267c3f6-a717-40b4-9518-489da2ced47a"
+      "project_id": "bfb35247-9ecd-40bf-bbac-bb5b8562b75b"
     },
     "relationships": {
       "project": {
         "links": {
-          "related": "/projects/2267c3f6-a717-40b4-9518-489da2ced47a"
+          "related": "/projects/bfb35247-9ecd-40bf-bbac-bb5b8562b75b"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/2267c3f6-a717-40b4-9518-489da2ced47a/relationships/project_setting"
+    "self": "http://example.org/projects/bfb35247-9ecd-40bf-bbac-bb5b8562b75b/relationships/project_setting"
   }
 }
 ```
@@ -7961,7 +7984,7 @@ X-Request-Id: f0a2d5fb-4759-4af6-8c16-15c99d604f2d
 #### Endpoint
 
 ```plaintext
-PATCH /projects/a2d3eb26-0702-4da5-babc-73a765023ee2/relationships/project_setting
+PATCH /projects/492f666a-a5f0-4cfe-b269-1c4f50ad698d/relationships/project_setting
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -7975,7 +7998,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 ```json
 {
   "data": {
-    "project_id": "a2d3eb26-0702-4da5-babc-73a765023ee2",
+    "project_id": "492f666a-a5f0-4cfe-b269-1c4f50ad698d",
     "type": "project_settings",
     "attributes": {
       "contexts_limit": 2,
@@ -7997,7 +8020,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: cc74918d-9f9f-471e-81bf-8e8dfe07c5c6
+X-Request-Id: 4b77b091-4e9b-4364-b298-186f3626e624
 200 OK
 ```
 
@@ -8005,23 +8028,23 @@ X-Request-Id: cc74918d-9f9f-471e-81bf-8e8dfe07c5c6
 ```json
 {
   "data": {
-    "id": "fa02ba32-e8ed-403b-9bbb-f30f4ceec00d",
+    "id": "b42cdc89-fa4e-4c8e-bbad-271ca2aa4ebc",
     "type": "project_setting",
     "attributes": {
       "context_revisions_to_keep": 1,
       "contexts_limit": 2,
-      "project_id": "a2d3eb26-0702-4da5-babc-73a765023ee2"
+      "project_id": "492f666a-a5f0-4cfe-b269-1c4f50ad698d"
     },
     "relationships": {
       "project": {
         "links": {
-          "related": "/projects/a2d3eb26-0702-4da5-babc-73a765023ee2"
+          "related": "/projects/492f666a-a5f0-4cfe-b269-1c4f50ad698d"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/projects/a2d3eb26-0702-4da5-babc-73a765023ee2/relationships/project_setting"
+    "self": "http://example.org/projects/492f666a-a5f0-4cfe-b269-1c4f50ad698d/relationships/project_setting"
   }
 }
 ```
@@ -8069,7 +8092,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 31c07085-be74-48b6-ab81-fb322fe2d313
+X-Request-Id: 0202e3a4-e37a-466d-acbb-88a6f393c1c5
 200 OK
 ```
 
@@ -8078,7 +8101,7 @@ X-Request-Id: 31c07085-be74-48b6-ab81-fb322fe2d313
 {
   "data": [
     {
-      "id": "a6eb220c-1e96-4309-b6e4-d9ececfd0aca",
+      "id": "da23e1d6-b767-4571-b18b-70dc8b3a6835",
       "type": "system_element",
       "attributes": {
         "name": "C1-D1",
@@ -8087,32 +8110,32 @@ X-Request-Id: 31c07085-be74-48b6-ab81-fb322fe2d313
       "relationships": {
         "ambiguous_components": {
           "links": {
-            "self": "/object_occurrences/a6eb220c-1e96-4309-b6e4-d9ececfd0aca"
+            "self": "/object_occurrences/da23e1d6-b767-4571-b18b-70dc8b3a6835"
           }
         },
         "unambiguous_components": {
           "links": {
-            "self": "/object_occurrences/a6eb220c-1e96-4309-b6e4-d9ececfd0aca"
+            "self": "/object_occurrences/da23e1d6-b767-4571-b18b-70dc8b3a6835"
           }
         }
       }
     },
     {
-      "id": "3bc90e24-cb3d-4a57-a9b4-0419106e60f3",
+      "id": "9799feff-8b61-4c5c-87af-90823a5c795c",
       "type": "system_element",
       "attributes": {
-        "name": "OOC 979b5cd1364c-A1",
+        "name": "OOC c88fed427be4-A1",
         "description": null
       },
       "relationships": {
         "ambiguous_components": {
           "links": {
-            "self": "/object_occurrences/3bc90e24-cb3d-4a57-a9b4-0419106e60f3"
+            "self": "/object_occurrences/9799feff-8b61-4c5c-87af-90823a5c795c"
           }
         },
         "unambiguous_components": {
           "links": {
-            "self": "/object_occurrences/3bc90e24-cb3d-4a57-a9b4-0419106e60f3"
+            "self": "/object_occurrences/9799feff-8b61-4c5c-87af-90823a5c795c"
           }
         }
       }
@@ -8146,7 +8169,7 @@ X-Request-Id: 31c07085-be74-48b6-ab81-fb322fe2d313
 #### Endpoint
 
 ```plaintext
-GET /system_elements/f95ab017-5e25-435c-9d3e-a8487b1ac182
+GET /system_elements/947aa101-8862-4988-b693-d2720c92973f
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -8164,7 +8187,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 8ec2f722-15e8-48cf-86e1-15cc7e98a8ce
+X-Request-Id: 0346da7d-952a-49e8-9f1f-f4137682a67e
 200 OK
 ```
 
@@ -8172,27 +8195,27 @@ X-Request-Id: 8ec2f722-15e8-48cf-86e1-15cc7e98a8ce
 ```json
 {
   "data": {
-    "id": "f95ab017-5e25-435c-9d3e-a8487b1ac182",
+    "id": "947aa101-8862-4988-b693-d2720c92973f",
     "type": "system_element",
     "attributes": {
-      "name": "OOC 3618bf4078b9-A1",
+      "name": "OOC cd89413567b5-A1",
       "description": null
     },
     "relationships": {
       "ambiguous_components": {
         "links": {
-          "self": "/object_occurrences/f95ab017-5e25-435c-9d3e-a8487b1ac182"
+          "self": "/object_occurrences/947aa101-8862-4988-b693-d2720c92973f"
         }
       },
       "unambiguous_components": {
         "links": {
-          "self": "/object_occurrences/f95ab017-5e25-435c-9d3e-a8487b1ac182"
+          "self": "/object_occurrences/947aa101-8862-4988-b693-d2720c92973f"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/system_elements/f95ab017-5e25-435c-9d3e-a8487b1ac182"
+    "self": "http://example.org/system_elements/947aa101-8862-4988-b693-d2720c92973f"
   }
 }
 ```
@@ -8215,7 +8238,7 @@ X-Request-Id: 8ec2f722-15e8-48cf-86e1-15cc7e98a8ce
 #### Endpoint
 
 ```plaintext
-POST /object_occurrences/fd9d827c-8169-4f0d-a979-5546e84f1d2b/relationships/system_elements
+POST /object_occurrences/93e3ebf6-a96f-41f6-bd09-3834111881e7/relationships/system_elements
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -8232,7 +8255,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
     "type": "system_element",
     "attributes": {
       "ambiguous": true,
-      "target_id": "e466e10c-c0dd-4a8b-bd5d-e79af4222d3c"
+      "target_id": "d2ec37af-7d28-4697-aa85-bb560f9e4df9"
     }
   }
 }
@@ -8245,7 +8268,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: b38d5354-8e53-4073-b1b8-fd75cee2a5ee
+X-Request-Id: 95831ee8-7121-4456-ac05-5e2a8ce7aeb9
 201 Created
 ```
 
@@ -8253,27 +8276,27 @@ X-Request-Id: b38d5354-8e53-4073-b1b8-fd75cee2a5ee
 ```json
 {
   "data": {
-    "id": "2c7848e6-78dc-4f11-81ef-6bb44014cb8a",
+    "id": "64c3831e-0390-4356-9b6e-b064cfcb4243",
     "type": "system_element",
     "attributes": {
-      "name": "OOC 626cfea40ccb-A1",
+      "name": "OOC d59b7dc300e8-A1",
       "description": null
     },
     "relationships": {
       "ambiguous_components": {
         "links": {
-          "self": "/object_occurrences/2c7848e6-78dc-4f11-81ef-6bb44014cb8a"
+          "self": "/object_occurrences/64c3831e-0390-4356-9b6e-b064cfcb4243"
         }
       },
       "unambiguous_components": {
         "links": {
-          "self": "/object_occurrences/2c7848e6-78dc-4f11-81ef-6bb44014cb8a"
+          "self": "/object_occurrences/64c3831e-0390-4356-9b6e-b064cfcb4243"
         }
       }
     }
   },
   "links": {
-    "self": "http://example.org/object_occurrences/fd9d827c-8169-4f0d-a979-5546e84f1d2b/relationships/system_elements"
+    "self": "http://example.org/object_occurrences/93e3ebf6-a96f-41f6-bd09-3834111881e7/relationships/system_elements"
   }
 }
 ```
@@ -8296,7 +8319,7 @@ X-Request-Id: b38d5354-8e53-4073-b1b8-fd75cee2a5ee
 #### Endpoint
 
 ```plaintext
-DELETE /object_occurrences/43a8ff7e-83d9-49e4-8b88-a3f8b229d6ee/relationships/system_elements/eb32b4fe-0037-4620-a46c-6d2e2a556e1e
+DELETE /object_occurrences/9e0a8a09-b7ef-4e4c-ad67-353c67c0446b/relationships/system_elements/f6a3e661-e174-4907-8c09-b9cc0b4d7413
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -8313,7 +8336,7 @@ None known.
 ### Response
 
 ```plaintext
-X-Request-Id: e0914cb8-52ad-40e4-8e65-642c2748647a
+X-Request-Id: c8008535-c729-4c38-bc14-7beae30d5a12
 204 No Content
 ```
 
@@ -8326,676 +8349,6 @@ X-Request-Id: e0914cb8-52ad-40e4-8e65-642c2748647a
 |:-----------|:--------------------|
 | data[attributes][name] | System Element name |
 | data[attributes][description] | System Element description |
-
-
-# Object Occurrence Relations
-
-Object Occurrence Relations between Object Occurrences.
-
-
-## Add new owner
-
-Adds a new owner to the resource
-
-
-### Request
-
-#### Endpoint
-
-```plaintext
-POST /object_occurrence_relations/e1313a63-4a99-4b31-b0b9-b5711ba93b06/relationships/owners
-Content-Type: application/vnd.api+json
-Accept: application/vnd.api+json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
-```
-
-`POST /object_occurrence_relations/:id/relationships/owners`
-
-#### Parameters
-
-
-```json
-{
-  "data": {
-    "type": "owner",
-    "attributes": {
-      "name": "New owner name"
-    }
-  }
-}
-```
-
-
-| Name | Description |
-|:-----|:------------|
-| data[attributes][name] *required* | Owner name |
-| data[attributes][title]  | Owner title |
-| data[attributes][company]  | Owner company |
-| data[attributes][primary]  | Make the owner a primary owner (boolean) |
-
-
-
-### Response
-
-```plaintext
-Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 8d1c0b78-3691-4969-96ba-60e726a41986
-201 Created
-```
-
-
-```json
-{
-  "data": {
-    "id": "87bee107-24a8-43d1-b334-1a764e57bade",
-    "type": "owner",
-    "attributes": {
-      "company": null,
-      "name": "New owner name",
-      "title": null
-    }
-  },
-  "links": {
-    "self": "http://example.org/object_occurrence_relations/e1313a63-4a99-4b31-b0b9-b5711ba93b06/relationships/owners"
-  }
-}
-```
-
-
-
-#### Fields
-
-| Name       | Description         |
-|:-----------|:--------------------|
-| data[type] | Resource type |
-| data[id] | Resource ID |
-| data[attributes][name] | Owner name |
-| data[attributes][title] | Owner title |
-| data[attributes][company] | Owner company |
-
-
-## Add new, primary owner
-
-Adds a new primary owner to the resource.
-
-A primary owner can be the primary owner within a company, or generally on the
-resource. This is completely depending on the business interpretation of the client.
-
-
-### Request
-
-#### Endpoint
-
-```plaintext
-POST /object_occurrence_relations/cd2e86dc-263e-48ea-a823-bc5a7b67f79d/relationships/owners
-Content-Type: application/vnd.api+json
-Accept: application/vnd.api+json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
-```
-
-`POST /object_occurrence_relations/:id/relationships/owners`
-
-#### Parameters
-
-
-```json
-{
-  "data": {
-    "type": "owner",
-    "attributes": {
-      "name": "New owner name",
-      "primary": true
-    }
-  }
-}
-```
-
-
-| Name | Description |
-|:-----|:------------|
-| data[attributes][name] *required* | Owner name |
-| data[attributes][title]  | Owner title |
-| data[attributes][company]  | Owner company |
-| data[attributes][primary]  | Make the owner a primary owner (boolean) |
-
-
-
-### Response
-
-```plaintext
-Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: c73dc60a-f303-4d5b-8e2c-30e59bd13feb
-201 Created
-```
-
-
-```json
-{
-  "data": {
-    "id": "6d6ea299-c475-4e0b-816b-a07f60219f2c",
-    "type": "owner",
-    "attributes": {
-      "company": null,
-      "name": "New owner name",
-      "title": null
-    }
-  },
-  "links": {
-    "self": "http://example.org/object_occurrence_relations/cd2e86dc-263e-48ea-a823-bc5a7b67f79d/relationships/owners"
-  }
-}
-```
-
-
-
-#### Fields
-
-| Name       | Description         |
-|:-----------|:--------------------|
-| data[type] | Resource type |
-| data[id] | Resource ID |
-| data[attributes][name] | Owner name |
-| data[attributes][title] | Owner title |
-| data[attributes][company] | Owner company |
-
-
-## Add existing owner
-
-Adds an existing owner to the resource
-
-
-### Request
-
-#### Endpoint
-
-```plaintext
-POST /object_occurrence_relations/125561c9-ec69-4126-862d-3945d605c9ef/relationships/owners
-Content-Type: application/vnd.api+json
-Accept: application/vnd.api+json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
-```
-
-`POST /object_occurrence_relations/:id/relationships/owners`
-
-#### Parameters
-
-
-```json
-{
-  "data": {
-    "type": "owner",
-    "id": "8aa6a615-0658-407f-8fd0-08d3fac5190e"
-  }
-}
-```
-
-
-| Name | Description |
-|:-----|:------------|
-| data[id] *required* | Existing owner ID |
-
-
-
-### Response
-
-```plaintext
-Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 8fa157eb-2834-4fe7-915e-97b368a3e113
-201 Created
-```
-
-
-```json
-{
-  "data": {
-    "id": "8aa6a615-0658-407f-8fd0-08d3fac5190e",
-    "type": "owner",
-    "attributes": {
-      "company": null,
-      "name": "Owner 3",
-      "title": null
-    }
-  },
-  "links": {
-    "self": "http://example.org/object_occurrence_relations/125561c9-ec69-4126-862d-3945d605c9ef/relationships/owners"
-  }
-}
-```
-
-
-
-#### Fields
-
-| Name       | Description         |
-|:-----------|:--------------------|
-| data[type] | Resource type |
-| data[id] | Resource ID |
-| data[attributes][name] | owner name |
-| data[attributes][title] | owner title |
-| data[attributes][company] | owner company |
-
-
-## Remove existing owner
-
-
-### Request
-
-#### Endpoint
-
-```plaintext
-DELETE /object_occurrence_relations/af706dd9-25db-47b6-8591-c74c3496f82a/relationships/owners/1b26e4b4-56e1-44c0-b56a-54bffb216184
-Content-Type: application/vnd.api+json
-Accept: application/vnd.api+json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
-```
-
-`DELETE /object_occurrence_relations/:id/relationships/owners/:owner_id`
-
-#### Parameters
-
-
-None known.
-
-
-### Response
-
-```plaintext
-X-Request-Id: 5c1fa113-6487-4b8c-a73a-80e3fe4fb7fe
-204 No Content
-```
-
-
-
-
-## List
-
-
-### Request
-
-#### Endpoint
-
-```plaintext
-GET /object_occurrence_relations
-Content-Type: application/vnd.api+json
-Accept: application/vnd.api+json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
-```
-
-`GET /object_occurrence_relations`
-
-#### Parameters
-
-
-None known.
-
-
-### Response
-
-```plaintext
-Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 24f540b8-189e-4232-ae40-75609e1be454
-200 OK
-```
-
-
-```json
-{
-  "data": [
-    {
-      "id": "a5a2942f-a6bb-48e4-b143-d38bc6e18873",
-      "type": "object_occurrence_relation",
-      "attributes": {
-        "description": null,
-        "name": "OOR 78c9d1fec8e1",
-        "no_relations": false,
-        "number": 1,
-        "unknown_relations": false
-      },
-      "relationships": {
-        "tags": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/tags?filter[target_id_eq]=a5a2942f-a6bb-48e4-b143-d38bc6e18873",
-            "self": "/object_occurrence_relations/a5a2942f-a6bb-48e4-b143-d38bc6e18873/relationships/tags"
-          }
-        },
-        "progress_step_checked": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/progress?filter[target_id_eq]=a5a2942f-a6bb-48e4-b143-d38bc6e18873"
-          }
-        },
-        "classification_entry": {
-          "data": {
-            "id": "7f0f092e-a1fa-4cfc-8c6b-abc513bd375d",
-            "type": "classification_entry"
-          },
-          "links": {
-            "related": "/classification_entries/7f0f092e-a1fa-4cfc-8c6b-abc513bd375d",
-            "self": "/object_occurrence_relations/a5a2942f-a6bb-48e4-b143-d38bc6e18873/relationships/classification_entry"
-          }
-        },
-        "target": {
-          "data": {
-            "id": "3a3a23f0-031e-4d08-a0cd-2a57d477eb7e",
-            "type": "object_occurrence"
-          },
-          "links": {
-            "related": "/object_occurrences/3a3a23f0-031e-4d08-a0cd-2a57d477eb7e",
-            "self": "/object_occurrence_relations/a5a2942f-a6bb-48e4-b143-d38bc6e18873/relationships/target"
-          }
-        },
-        "source": {
-          "data": {
-            "id": "376eeea3-c427-4098-a35f-18158011b197",
-            "type": "object_occurrence"
-          },
-          "links": {
-            "related": "/object_occurrences/376eeea3-c427-4098-a35f-18158011b197",
-            "self": "/object_occurrence_relations/a5a2942f-a6bb-48e4-b143-d38bc6e18873/relationships/source"
-          }
-        }
-      }
-    }
-  ],
-  "included": [
-    {
-      "id": "7f0f092e-a1fa-4cfc-8c6b-abc513bd375d",
-      "type": "classification_entry",
-      "attributes": {
-        "code": "R",
-        "definition": "Alarm signal",
-        "name": "Alarm 844369ce5986",
-        "reciprocal_name": "Alarm reciprocal"
-      },
-      "relationships": {
-        "tags": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/tags?filter[target_id_eq]=7f0f092e-a1fa-4cfc-8c6b-abc513bd375d",
-            "self": "/classification_entries/7f0f092e-a1fa-4cfc-8c6b-abc513bd375d/relationships/tags"
-          }
-        },
-        "classification_entries": {
-          "links": {
-            "related": "/classification_entries?filter[classification_entry_id_eq]=7f0f092e-a1fa-4cfc-8c6b-abc513bd375d",
-            "self": "/classification_entries/7f0f092e-a1fa-4cfc-8c6b-abc513bd375d/relationships/classification_entries",
-            "meta": {
-              "count": 0
-            }
-          }
-        }
-      }
-    }
-  ],
-  "meta": {
-    "total_count": 1
-  },
-  "links": {
-    "self": "http://example.org/object_occurrence_relations",
-    "current": "http://example.org/object_occurrence_relations?include=tags,owners,classification_entry&page[number]=1&sort=name,number"
-  }
-}
-```
-
-
-
-## Filter by object_occurrence_source_ids_cont and object_occurrence_target_ids_cont
-
-
-### Request
-
-#### Endpoint
-
-```plaintext
-GET /object_occurrence_relations?filter[object_occurrence_source_ids_cont][]=2f36cb80-d50c-4ef6-8042-bad07732b000&amp;filter[object_occurrence_source_ids_cont][]=8199de95-6419-436e-b382-b47326dfe47b&amp;filter[object_occurrence_target_ids_cont][]=57a253e2-b183-41d7-b9e6-10cbf6f98f47
-Content-Type: application/vnd.api+json
-Accept: application/vnd.api+json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
-```
-
-`GET /object_occurrence_relations`
-
-#### Parameters
-
-
-```json
-filter: {&quot;object_occurrence_source_ids_cont&quot;=&gt;[&quot;2f36cb80-d50c-4ef6-8042-bad07732b000&quot;, &quot;8199de95-6419-436e-b382-b47326dfe47b&quot;], &quot;object_occurrence_target_ids_cont&quot;=&gt;[&quot;57a253e2-b183-41d7-b9e6-10cbf6f98f47&quot;]}
-```
-
-
-| Name | Description |
-|:-----|:------------|
-| filter[object_occurrence_source_ids_cont]  | Filter object occurrence source ids cont |
-| filter[object_occurrence_target_ids_cont]  | Filter object occurrence target ids cont |
-
-
-
-### Response
-
-```plaintext
-Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 22bb1a80-e3fd-4587-8198-159acc6a6164
-200 OK
-```
-
-
-```json
-{
-  "data": [
-    {
-      "id": "b447777b-2a50-4f6e-8ec6-b5c5e960294a",
-      "type": "object_occurrence_relation",
-      "attributes": {
-        "description": null,
-        "name": "OOR b6fe4369bacb",
-        "no_relations": false,
-        "number": 1,
-        "unknown_relations": false
-      },
-      "relationships": {
-        "tags": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/tags?filter[target_id_eq]=b447777b-2a50-4f6e-8ec6-b5c5e960294a",
-            "self": "/object_occurrence_relations/b447777b-2a50-4f6e-8ec6-b5c5e960294a/relationships/tags"
-          }
-        },
-        "progress_step_checked": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/progress?filter[target_id_eq]=b447777b-2a50-4f6e-8ec6-b5c5e960294a"
-          }
-        },
-        "classification_entry": {
-          "data": {
-            "id": "a85dfdc1-b1f6-440d-baba-c209cba68d9e",
-            "type": "classification_entry"
-          },
-          "links": {
-            "related": "/classification_entries/a85dfdc1-b1f6-440d-baba-c209cba68d9e",
-            "self": "/object_occurrence_relations/b447777b-2a50-4f6e-8ec6-b5c5e960294a/relationships/classification_entry"
-          }
-        },
-        "target": {
-          "data": {
-            "id": "57a253e2-b183-41d7-b9e6-10cbf6f98f47",
-            "type": "object_occurrence"
-          },
-          "links": {
-            "related": "/object_occurrences/57a253e2-b183-41d7-b9e6-10cbf6f98f47",
-            "self": "/object_occurrence_relations/b447777b-2a50-4f6e-8ec6-b5c5e960294a/relationships/target"
-          }
-        },
-        "source": {
-          "data": {
-            "id": "2f36cb80-d50c-4ef6-8042-bad07732b000",
-            "type": "object_occurrence"
-          },
-          "links": {
-            "related": "/object_occurrences/2f36cb80-d50c-4ef6-8042-bad07732b000",
-            "self": "/object_occurrence_relations/b447777b-2a50-4f6e-8ec6-b5c5e960294a/relationships/source"
-          }
-        }
-      }
-    }
-  ],
-  "included": [
-    {
-      "id": "a85dfdc1-b1f6-440d-baba-c209cba68d9e",
-      "type": "classification_entry",
-      "attributes": {
-        "code": "R",
-        "definition": "Alarm signal",
-        "name": "Alarm 70c31e146c94",
-        "reciprocal_name": "Alarm reciprocal"
-      },
-      "relationships": {
-        "tags": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/tags?filter[target_id_eq]=a85dfdc1-b1f6-440d-baba-c209cba68d9e",
-            "self": "/classification_entries/a85dfdc1-b1f6-440d-baba-c209cba68d9e/relationships/tags"
-          }
-        },
-        "classification_entries": {
-          "links": {
-            "related": "/classification_entries?filter[classification_entry_id_eq]=a85dfdc1-b1f6-440d-baba-c209cba68d9e",
-            "self": "/classification_entries/a85dfdc1-b1f6-440d-baba-c209cba68d9e/relationships/classification_entries",
-            "meta": {
-              "count": 0
-            }
-          }
-        }
-      }
-    }
-  ],
-  "meta": {
-    "total_count": 1
-  },
-  "links": {
-    "self": "http://example.org/object_occurrence_relations?filter[object_occurrence_source_ids_cont][]=2f36cb80-d50c-4ef6-8042-bad07732b000&filter[object_occurrence_source_ids_cont][]=8199de95-6419-436e-b382-b47326dfe47b&filter[object_occurrence_target_ids_cont][]=57a253e2-b183-41d7-b9e6-10cbf6f98f47",
-    "current": "http://example.org/object_occurrence_relations?filter[object_occurrence_source_ids_cont][]=2f36cb80-d50c-4ef6-8042-bad07732b000&filter[object_occurrence_source_ids_cont][]=8199de95-6419-436e-b382-b47326dfe47b&filter[object_occurrence_target_ids_cont][]=57a253e2-b183-41d7-b9e6-10cbf6f98f47&include=tags,owners,classification_entry&page[number]=1&sort=name,number"
-  }
-}
-```
-
-
-
-## Show
-
-
-### Request
-
-#### Endpoint
-
-```plaintext
-GET /object_occurrence_relations/883f1985-7335-43a1-9954-df3649484141
-Content-Type: application/vnd.api+json
-Accept: application/vnd.api+json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
-```
-
-`GET /object_occurrence_relations/:id`
-
-#### Parameters
-
-
-None known.
-
-
-### Response
-
-```plaintext
-Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 4abb656f-69c1-489e-bf72-dcbcbc837c18
-200 OK
-```
-
-
-```json
-{
-  "data": {
-    "id": "883f1985-7335-43a1-9954-df3649484141",
-    "type": "object_occurrence_relation",
-    "attributes": {
-      "description": null,
-      "name": "OOR b3e48ece7b4b",
-      "no_relations": false,
-      "number": 1,
-      "unknown_relations": false
-    },
-    "relationships": {
-      "tags": {
-        "data": [
-
-        ],
-        "links": {
-          "related": "/tags?filter[target_id_eq]=883f1985-7335-43a1-9954-df3649484141",
-          "self": "/object_occurrence_relations/883f1985-7335-43a1-9954-df3649484141/relationships/tags"
-        }
-      },
-      "progress_step_checked": {
-        "data": [
-
-        ],
-        "links": {
-          "related": "/progress?filter[target_id_eq]=883f1985-7335-43a1-9954-df3649484141"
-        }
-      },
-      "classification_entry": {
-        "data": {
-          "id": "3193052b-62ef-48c6-8cd1-eb4930cbb920",
-          "type": "classification_entry"
-        },
-        "links": {
-          "related": "/classification_entries/3193052b-62ef-48c6-8cd1-eb4930cbb920",
-          "self": "/object_occurrence_relations/883f1985-7335-43a1-9954-df3649484141/relationships/classification_entry"
-        }
-      },
-      "target": {
-        "data": {
-          "id": "806c8105-6978-4931-9db2-f7b4ea41d0d0",
-          "type": "object_occurrence"
-        },
-        "links": {
-          "related": "/object_occurrences/806c8105-6978-4931-9db2-f7b4ea41d0d0",
-          "self": "/object_occurrence_relations/883f1985-7335-43a1-9954-df3649484141/relationships/target"
-        }
-      },
-      "source": {
-        "data": {
-          "id": "704d981a-3661-49b7-9752-3f01a686946b",
-          "type": "object_occurrence"
-        },
-        "links": {
-          "related": "/object_occurrences/704d981a-3661-49b7-9752-3f01a686946b",
-          "self": "/object_occurrence_relations/883f1985-7335-43a1-9954-df3649484141/relationships/source"
-        }
-      }
-    }
-  },
-  "links": {
-    "self": "http://example.org/object_occurrence_relations/883f1985-7335-43a1-9954-df3649484141"
-  },
-  "included": [
-
-  ]
-}
-```
-
 
 
 # User settings
@@ -9029,7 +8382,7 @@ None known.
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 09fa1512-e9cf-4dd5-994a-41d1169c5654
+X-Request-Id: efb0d3f9-d6ff-47bc-a270-3226fb9edbcb
 200 OK
 ```
 
@@ -9037,16 +8390,16 @@ X-Request-Id: 09fa1512-e9cf-4dd5-994a-41d1169c5654
 ```json
 {
   "data": {
-    "id": "b20ff7b0-389f-45ae-bdcd-6641b67d3f14",
+    "id": "822b404d-fb33-4d03-93ae-552d750dce67",
     "type": "user_setting",
     "attributes": {
       "newsletter": false,
-      "user_id": "d81104e3-bc8a-4718-871b-6a9d3e7997ea"
+      "user_id": "6e5c81f5-da05-4bbb-9d22-cc78d455b225"
     },
     "relationships": {
       "user": {
         "links": {
-          "related": "/projects/d81104e3-bc8a-4718-871b-6a9d3e7997ea"
+          "related": "/projects/6e5c81f5-da05-4bbb-9d22-cc78d455b225"
         }
       }
     }
@@ -9104,7 +8457,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: f3a3d8f3-6c09-46e5-b478-ee8915a84aa4
+X-Request-Id: 46405f43-0df1-4cad-96e0-7bd8fe753f75
 200 OK
 ```
 
@@ -9112,16 +8465,16 @@ X-Request-Id: f3a3d8f3-6c09-46e5-b478-ee8915a84aa4
 ```json
 {
   "data": {
-    "id": "0c48087f-d78f-4302-8d69-1cca067cd240",
+    "id": "981aa114-7970-45d7-89b0-69067b46d5a6",
     "type": "user_setting",
     "attributes": {
       "newsletter": true,
-      "user_id": "9a0b9afc-e96d-4e88-bae9-6750a9cdff68"
+      "user_id": "54b20ec4-41b9-4927-aafc-f179dfb6cad4"
     },
     "relationships": {
       "user": {
         "links": {
-          "related": "/projects/9a0b9afc-e96d-4e88-bae9-6750a9cdff68"
+          "related": "/projects/54b20ec4-41b9-4927-aafc-f179dfb6cad4"
         }
       }
     }
@@ -9138,22 +8491,14 @@ X-Request-Id: f3a3d8f3-6c09-46e5-b478-ee8915a84aa4
 | data[attributes][newsletter] | Value which tell if user give consent for neewsletter. |
 
 
-# Chain analysis
+# Object Occurrence Relations
 
-Chain analysis returns the Object Occurrences that's related to the source Object Occurrence
-through Object Occurrence Relations n steps out.
-
-A SIMO grid could look like this:
-
-<pre>
-| OOC1 |      |      |       |
-|      | OOC2 | oor1 |       |
-| oor3 |      | OOC3 | oor2  |
-|      |      |      | OOC4  |
-</pre>
+Object Occurrence Relations between Object Occurrences.
 
 
-## Result
+## Add new owner
+
+Adds a new owner to the resource
 
 
 ### Request
@@ -9161,26 +8506,35 @@ A SIMO grid could look like this:
 #### Endpoint
 
 ```plaintext
-GET /chain_analysis/10c3a8a1-84b5-4848-9024-435e6f8786f5?steps=2
+POST /object_occurrence_relations/e6cec140-7bb9-40c2-84ac-5a41b2986a2f/relationships/owners
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
 ```
 
-`GET /chain_analysis/:id`
+`POST /object_occurrence_relations/:id/relationships/owners`
 
 #### Parameters
 
 
 ```json
-steps: 2
+{
+  "data": {
+    "type": "owner",
+    "attributes": {
+      "name": "New owner name"
+    }
+  }
+}
 ```
 
 
 | Name | Description |
 |:-----|:------------|
-| steps  | Steps to look out into the chain |
-| filter[classification_code]  | Only with Object Occurrence Relations classified by this classification code |
+| data[attributes][name] *required* | Owner name |
+| data[attributes][title]  | Owner title |
+| data[attributes][company]  | Owner company |
+| data[attributes][primary]  | Make the owner a primary owner (boolean) |
 
 
 
@@ -9188,237 +8542,24 @@ steps: 2
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 39338a42-e823-49c7-ae62-4a63823e29ae
-200 OK
+X-Request-Id: 7eba5f74-d1d0-46b6-9f64-0431ef4b363c
+201 Created
 ```
 
 
 ```json
 {
-  "data": [
-    {
-      "id": "261a46f2-ae40-4006-8654-3f3346ae6918",
-      "type": "object_occurrence",
-      "attributes": {
-        "classification_code": "A",
-        "description": null,
-        "name": "OOC3",
-        "position": 1,
-        "prefix": "=",
-        "reference_designation": null,
-        "type": "regular",
-        "hex_color": null,
-        "number": "1",
-        "validation_errors": [
-
-        ]
-      },
-      "relationships": {
-        "tags": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/tags?filter[target_id_eq]=261a46f2-ae40-4006-8654-3f3346ae6918",
-            "self": "/object_occurrences/261a46f2-ae40-4006-8654-3f3346ae6918/relationships/tags"
-          }
-        },
-        "owners": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/owners?filter[target_id_eq]=261a46f2-ae40-4006-8654-3f3346ae6918&filter[target_type_eq]=object_occurrence",
-            "self": "/object_occurrences/261a46f2-ae40-4006-8654-3f3346ae6918/relationships/owners"
-          }
-        },
-        "context": {
-          "links": {
-            "related": "/contexts/4adaef5a-7440-487b-8075-cc94cb28eaf7"
-          }
-        },
-        "part_of": {
-          "links": {
-            "related": "/object_occurrences/38ddcd83-4278-4ef1-bba0-a072163a3e63",
-            "self": "/object_occurrences/261a46f2-ae40-4006-8654-3f3346ae6918/relationships/part_of"
-          }
-        },
-        "components": {
-          "data": [
-
-          ],
-          "links": {
-            "self": "/object_occurrences/261a46f2-ae40-4006-8654-3f3346ae6918/relationships/components"
-          }
-        },
-        "allowed_children_syntax_nodes": {
-          "links": {
-            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=261a46f2-ae40-4006-8654-3f3346ae6918"
-          }
-        },
-        "allowed_children_syntax_elements": {
-          "links": {
-            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=261a46f2-ae40-4006-8654-3f3346ae6918"
-          }
-        },
-        "allowed_children_classification_tables": {
-          "links": {
-            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=261a46f2-ae40-4006-8654-3f3346ae6918"
-          }
-        }
-      }
-    },
-    {
-      "id": "825722de-5c63-460c-8541-f9369d55f87c",
-      "type": "object_occurrence",
-      "attributes": {
-        "classification_code": "A",
-        "description": null,
-        "name": "OOC1",
-        "position": 1,
-        "prefix": "=",
-        "reference_designation": null,
-        "type": "regular",
-        "hex_color": null,
-        "number": "1",
-        "validation_errors": [
-
-        ]
-      },
-      "relationships": {
-        "tags": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/tags?filter[target_id_eq]=825722de-5c63-460c-8541-f9369d55f87c",
-            "self": "/object_occurrences/825722de-5c63-460c-8541-f9369d55f87c/relationships/tags"
-          }
-        },
-        "owners": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/owners?filter[target_id_eq]=825722de-5c63-460c-8541-f9369d55f87c&filter[target_type_eq]=object_occurrence",
-            "self": "/object_occurrences/825722de-5c63-460c-8541-f9369d55f87c/relationships/owners"
-          }
-        },
-        "context": {
-          "links": {
-            "related": "/contexts/4adaef5a-7440-487b-8075-cc94cb28eaf7"
-          }
-        },
-        "part_of": {
-          "links": {
-            "related": "/object_occurrences/38ddcd83-4278-4ef1-bba0-a072163a3e63",
-            "self": "/object_occurrences/825722de-5c63-460c-8541-f9369d55f87c/relationships/part_of"
-          }
-        },
-        "components": {
-          "data": [
-
-          ],
-          "links": {
-            "self": "/object_occurrences/825722de-5c63-460c-8541-f9369d55f87c/relationships/components"
-          }
-        },
-        "allowed_children_syntax_nodes": {
-          "links": {
-            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=825722de-5c63-460c-8541-f9369d55f87c"
-          }
-        },
-        "allowed_children_syntax_elements": {
-          "links": {
-            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=825722de-5c63-460c-8541-f9369d55f87c"
-          }
-        },
-        "allowed_children_classification_tables": {
-          "links": {
-            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=825722de-5c63-460c-8541-f9369d55f87c"
-          }
-        }
-      }
-    },
-    {
-      "id": "b1051a84-5ec9-4f57-a1ec-85a83f8b5660",
-      "type": "object_occurrence",
-      "attributes": {
-        "classification_code": "A",
-        "description": null,
-        "name": "OOC4",
-        "position": 1,
-        "prefix": "=",
-        "reference_designation": null,
-        "type": "regular",
-        "hex_color": null,
-        "number": "1",
-        "validation_errors": [
-
-        ]
-      },
-      "relationships": {
-        "tags": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/tags?filter[target_id_eq]=b1051a84-5ec9-4f57-a1ec-85a83f8b5660",
-            "self": "/object_occurrences/b1051a84-5ec9-4f57-a1ec-85a83f8b5660/relationships/tags"
-          }
-        },
-        "owners": {
-          "data": [
-
-          ],
-          "links": {
-            "related": "/owners?filter[target_id_eq]=b1051a84-5ec9-4f57-a1ec-85a83f8b5660&filter[target_type_eq]=object_occurrence",
-            "self": "/object_occurrences/b1051a84-5ec9-4f57-a1ec-85a83f8b5660/relationships/owners"
-          }
-        },
-        "context": {
-          "links": {
-            "related": "/contexts/4adaef5a-7440-487b-8075-cc94cb28eaf7"
-          }
-        },
-        "part_of": {
-          "links": {
-            "related": "/object_occurrences/38ddcd83-4278-4ef1-bba0-a072163a3e63",
-            "self": "/object_occurrences/b1051a84-5ec9-4f57-a1ec-85a83f8b5660/relationships/part_of"
-          }
-        },
-        "components": {
-          "data": [
-
-          ],
-          "links": {
-            "self": "/object_occurrences/b1051a84-5ec9-4f57-a1ec-85a83f8b5660/relationships/components"
-          }
-        },
-        "allowed_children_syntax_nodes": {
-          "links": {
-            "related": "/syntax_nodes?filter%5Ballowed_for_object_occurrence_id_eq%5D=b1051a84-5ec9-4f57-a1ec-85a83f8b5660"
-          }
-        },
-        "allowed_children_syntax_elements": {
-          "links": {
-            "related": "/syntax_elements?filter%5Ballowed_for_object_occurrence_id_eq%5D=b1051a84-5ec9-4f57-a1ec-85a83f8b5660"
-          }
-        },
-        "allowed_children_classification_tables": {
-          "links": {
-            "related": "/classification_tables?filter%5Ballowed_for_object_occurrence_id_eq%5D=b1051a84-5ec9-4f57-a1ec-85a83f8b5660"
-          }
-        }
-      }
+  "data": {
+    "id": "9cf9dce1-bc87-402c-b21d-d57ac6fae7e8",
+    "type": "owner",
+    "attributes": {
+      "company": null,
+      "name": "New owner name",
+      "title": null
     }
-  ],
-  "meta": {
-    "total_count": 3
   },
   "links": {
-    "self": "http://example.org/chain_analysis/10c3a8a1-84b5-4848-9024-435e6f8786f5?steps=2",
-    "current": "http://example.org/chain_analysis/10c3a8a1-84b5-4848-9024-435e6f8786f5?page[number]=1&steps=2"
+    "self": "http://example.org/object_occurrence_relations/e6cec140-7bb9-40c2-84ac-5a41b2986a2f/relationships/owners"
   }
 }
 ```
@@ -9429,24 +8570,817 @@ X-Request-Id: 39338a42-e823-49c7-ae62-4a63823e29ae
 
 | Name       | Description         |
 |:-----------|:--------------------|
-| data[steps] | n steps to look out |
-| data[id] | Object Occurrence resource ID |
-| data[links] | JSON:API links data |
-| data[attributes][classification_code] | Reference designation classification code |
-| data[attributes][description] | Custom description of the Object Occurrence |
-| data[attributes][hex_color] | Custom color |
-| data[attributes][name] | Custom name for the OOC |
-| data[attributes][number] | Reference designation number |
-| data[attributes][position] | Custom sorting position within siblings |
-| data[attributes][prefix] | Reference designation aspect/prefix |
-| data[attributes][type] | Type of Object Occurrence |
-| data[relationships][tags] | Tags |
-| data[relationships][context] | Parenting Context Resource |
-| data[relationships][part_of] | Parenting Object Occurrence Resource |
-| data[relationships][components] | Nested Object Occurrence Resources |
-| data[relationships][allowed_children_syntax_nodes] | Allowed Syntax Node Resources when determining component Object Occurrence Resources |
-| data[relationships][allowed_children_syntax_elements] | Allowed Syntax Element Resources when determining component Object Occurrence Resources |
-| data[relationships][allowed_children_classification_tables] | Allowed Classification Table Resources when determining component Object Occurrence Resources |
+| data[type] | Resource type |
+| data[id] | Resource ID |
+| data[attributes][name] | Owner name |
+| data[attributes][title] | Owner title |
+| data[attributes][company] | Owner company |
+
+
+## Add new, primary owner
+
+Adds a new primary owner to the resource.
+
+A primary owner can be the primary owner within a company, or generally on the
+resource. This is completely depending on the business interpretation of the client.
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+POST /object_occurrence_relations/fc4b8d32-aaf1-43f2-bf76-8a3fecd64e70/relationships/owners
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`POST /object_occurrence_relations/:id/relationships/owners`
+
+#### Parameters
+
+
+```json
+{
+  "data": {
+    "type": "owner",
+    "attributes": {
+      "name": "New owner name",
+      "primary": true
+    }
+  }
+}
+```
+
+
+| Name | Description |
+|:-----|:------------|
+| data[attributes][name] *required* | Owner name |
+| data[attributes][title]  | Owner title |
+| data[attributes][company]  | Owner company |
+| data[attributes][primary]  | Make the owner a primary owner (boolean) |
+
+
+
+### Response
+
+```plaintext
+Content-Type: application/vnd.api+json; charset=utf-8
+X-Request-Id: 041b8769-cec6-4bdc-8703-7644423ae809
+201 Created
+```
+
+
+```json
+{
+  "data": {
+    "id": "a4456b0e-903c-4a5d-aa9e-daba5050b293",
+    "type": "owner",
+    "attributes": {
+      "company": null,
+      "name": "New owner name",
+      "title": null
+    }
+  },
+  "links": {
+    "self": "http://example.org/object_occurrence_relations/fc4b8d32-aaf1-43f2-bf76-8a3fecd64e70/relationships/owners"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[type] | Resource type |
+| data[id] | Resource ID |
+| data[attributes][name] | Owner name |
+| data[attributes][title] | Owner title |
+| data[attributes][company] | Owner company |
+
+
+## Add existing owner
+
+Adds an existing owner to the resource
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+POST /object_occurrence_relations/d02ba0b0-dd5b-4ae1-b4d6-34ad3efc5a51/relationships/owners
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`POST /object_occurrence_relations/:id/relationships/owners`
+
+#### Parameters
+
+
+```json
+{
+  "data": {
+    "type": "owner",
+    "id": "0de1e73e-a869-4fd6-9048-0db01d16082a"
+  }
+}
+```
+
+
+| Name | Description |
+|:-----|:------------|
+| data[id] *required* | Existing owner ID |
+
+
+
+### Response
+
+```plaintext
+Content-Type: application/vnd.api+json; charset=utf-8
+X-Request-Id: 5345d35c-0618-4a61-8921-ebc762d7dc83
+201 Created
+```
+
+
+```json
+{
+  "data": {
+    "id": "0de1e73e-a869-4fd6-9048-0db01d16082a",
+    "type": "owner",
+    "attributes": {
+      "company": null,
+      "name": "Owner 3",
+      "title": null
+    }
+  },
+  "links": {
+    "self": "http://example.org/object_occurrence_relations/d02ba0b0-dd5b-4ae1-b4d6-34ad3efc5a51/relationships/owners"
+  }
+}
+```
+
+
+
+#### Fields
+
+| Name       | Description         |
+|:-----------|:--------------------|
+| data[type] | Resource type |
+| data[id] | Resource ID |
+| data[attributes][name] | owner name |
+| data[attributes][title] | owner title |
+| data[attributes][company] | owner company |
+
+
+## Remove existing owner
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+DELETE /object_occurrence_relations/4d80d145-7d51-496b-9625-66c81abf5b93/relationships/owners/610e1dab-efea-4c51-b0c8-78f874f23891
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`DELETE /object_occurrence_relations/:id/relationships/owners/:owner_id`
+
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+X-Request-Id: b64fee57-3a57-4e16-aaae-33fec01e99de
+204 No Content
+```
+
+
+
+
+## List
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+GET /object_occurrence_relations
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`GET /object_occurrence_relations`
+
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+Content-Type: application/vnd.api+json; charset=utf-8
+X-Request-Id: 0dc0dc12-4716-4aa4-bbb9-336c548af3f8
+200 OK
+```
+
+
+```json
+{
+  "data": [
+    {
+      "id": "952ba149-2b3c-429a-b166-ac8345409d69",
+      "type": "object_occurrence_relation",
+      "attributes": {
+        "description": null,
+        "name": "OOR ae2375e3bf4b",
+        "no_relations": false,
+        "number": 1,
+        "unknown_relations": false
+      },
+      "relationships": {
+        "tags": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/tags?filter[target_id_eq]=952ba149-2b3c-429a-b166-ac8345409d69",
+            "self": "/object_occurrence_relations/952ba149-2b3c-429a-b166-ac8345409d69/relationships/tags"
+          }
+        },
+        "progress_step_checked": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/progress?filter[target_id_eq]=952ba149-2b3c-429a-b166-ac8345409d69"
+          }
+        },
+        "classification_entry": {
+          "data": {
+            "id": "a878606c-11b8-4c01-8dc8-33851c26a570",
+            "type": "classification_entry"
+          },
+          "links": {
+            "related": "/classification_entries/a878606c-11b8-4c01-8dc8-33851c26a570",
+            "self": "/object_occurrence_relations/952ba149-2b3c-429a-b166-ac8345409d69/relationships/classification_entry"
+          }
+        },
+        "target": {
+          "data": {
+            "id": "6eeb7d87-632f-42d7-86fd-cbd474066c42",
+            "type": "object_occurrence"
+          },
+          "links": {
+            "related": "/object_occurrences/6eeb7d87-632f-42d7-86fd-cbd474066c42",
+            "self": "/object_occurrence_relations/952ba149-2b3c-429a-b166-ac8345409d69/relationships/target"
+          }
+        },
+        "source": {
+          "data": {
+            "id": "6967ac7d-bbf5-42af-89fd-91cb2a8f4744",
+            "type": "object_occurrence"
+          },
+          "links": {
+            "related": "/object_occurrences/6967ac7d-bbf5-42af-89fd-91cb2a8f4744",
+            "self": "/object_occurrence_relations/952ba149-2b3c-429a-b166-ac8345409d69/relationships/source"
+          }
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "a878606c-11b8-4c01-8dc8-33851c26a570",
+      "type": "classification_entry",
+      "attributes": {
+        "code": "R",
+        "definition": "Alarm signal",
+        "name": "Alarm 7c09537a03e9",
+        "reciprocal_name": "Alarm reciprocal"
+      },
+      "relationships": {
+        "tags": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/tags?filter[target_id_eq]=a878606c-11b8-4c01-8dc8-33851c26a570",
+            "self": "/classification_entries/a878606c-11b8-4c01-8dc8-33851c26a570/relationships/tags"
+          }
+        },
+        "classification_entries": {
+          "links": {
+            "related": "/classification_entries?filter[classification_entry_id_eq]=a878606c-11b8-4c01-8dc8-33851c26a570",
+            "self": "/classification_entries/a878606c-11b8-4c01-8dc8-33851c26a570/relationships/classification_entries",
+            "meta": {
+              "count": 0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "total_count": 1
+  },
+  "links": {
+    "self": "http://example.org/object_occurrence_relations",
+    "current": "http://example.org/object_occurrence_relations?include=tags,owners,classification_entry&page[number]=1&sort=name,number"
+  }
+}
+```
+
+
+
+## Filter by object_occurrence_source_ids_cont and object_occurrence_target_ids_cont
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+GET /object_occurrence_relations?filter[object_occurrence_source_ids_cont][]=e5be61f7-cd8e-4448-850f-c383236fb094&amp;filter[object_occurrence_source_ids_cont][]=b432c290-378e-41ce-8d84-c371d6973d8b&amp;filter[object_occurrence_target_ids_cont][]=f9ec6220-b80d-4d63-a88c-6fcd3c5f4ad9
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`GET /object_occurrence_relations`
+
+#### Parameters
+
+
+```json
+filter: {&quot;object_occurrence_source_ids_cont&quot;=&gt;[&quot;e5be61f7-cd8e-4448-850f-c383236fb094&quot;, &quot;b432c290-378e-41ce-8d84-c371d6973d8b&quot;], &quot;object_occurrence_target_ids_cont&quot;=&gt;[&quot;f9ec6220-b80d-4d63-a88c-6fcd3c5f4ad9&quot;]}
+```
+
+
+| Name | Description |
+|:-----|:------------|
+| filter[object_occurrence_source_ids_cont]  | Filter object occurrence source ids cont |
+| filter[object_occurrence_target_ids_cont]  | Filter object occurrence target ids cont |
+
+
+
+### Response
+
+```plaintext
+Content-Type: application/vnd.api+json; charset=utf-8
+X-Request-Id: 61617ce4-fb4d-45e3-bc9c-c077244f59d8
+200 OK
+```
+
+
+```json
+{
+  "data": [
+    {
+      "id": "624bbaae-592c-4f40-a93b-32e947112ff2",
+      "type": "object_occurrence_relation",
+      "attributes": {
+        "description": null,
+        "name": "OOR f421f8375108",
+        "no_relations": false,
+        "number": 1,
+        "unknown_relations": false
+      },
+      "relationships": {
+        "tags": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/tags?filter[target_id_eq]=624bbaae-592c-4f40-a93b-32e947112ff2",
+            "self": "/object_occurrence_relations/624bbaae-592c-4f40-a93b-32e947112ff2/relationships/tags"
+          }
+        },
+        "progress_step_checked": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/progress?filter[target_id_eq]=624bbaae-592c-4f40-a93b-32e947112ff2"
+          }
+        },
+        "classification_entry": {
+          "data": {
+            "id": "57514541-33a9-4350-be2a-6218c0614ffc",
+            "type": "classification_entry"
+          },
+          "links": {
+            "related": "/classification_entries/57514541-33a9-4350-be2a-6218c0614ffc",
+            "self": "/object_occurrence_relations/624bbaae-592c-4f40-a93b-32e947112ff2/relationships/classification_entry"
+          }
+        },
+        "target": {
+          "data": {
+            "id": "f9ec6220-b80d-4d63-a88c-6fcd3c5f4ad9",
+            "type": "object_occurrence"
+          },
+          "links": {
+            "related": "/object_occurrences/f9ec6220-b80d-4d63-a88c-6fcd3c5f4ad9",
+            "self": "/object_occurrence_relations/624bbaae-592c-4f40-a93b-32e947112ff2/relationships/target"
+          }
+        },
+        "source": {
+          "data": {
+            "id": "e5be61f7-cd8e-4448-850f-c383236fb094",
+            "type": "object_occurrence"
+          },
+          "links": {
+            "related": "/object_occurrences/e5be61f7-cd8e-4448-850f-c383236fb094",
+            "self": "/object_occurrence_relations/624bbaae-592c-4f40-a93b-32e947112ff2/relationships/source"
+          }
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "57514541-33a9-4350-be2a-6218c0614ffc",
+      "type": "classification_entry",
+      "attributes": {
+        "code": "R",
+        "definition": "Alarm signal",
+        "name": "Alarm ccf9695a43fc",
+        "reciprocal_name": "Alarm reciprocal"
+      },
+      "relationships": {
+        "tags": {
+          "data": [
+
+          ],
+          "links": {
+            "related": "/tags?filter[target_id_eq]=57514541-33a9-4350-be2a-6218c0614ffc",
+            "self": "/classification_entries/57514541-33a9-4350-be2a-6218c0614ffc/relationships/tags"
+          }
+        },
+        "classification_entries": {
+          "links": {
+            "related": "/classification_entries?filter[classification_entry_id_eq]=57514541-33a9-4350-be2a-6218c0614ffc",
+            "self": "/classification_entries/57514541-33a9-4350-be2a-6218c0614ffc/relationships/classification_entries",
+            "meta": {
+              "count": 0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "total_count": 1
+  },
+  "links": {
+    "self": "http://example.org/object_occurrence_relations?filter[object_occurrence_source_ids_cont][]=e5be61f7-cd8e-4448-850f-c383236fb094&filter[object_occurrence_source_ids_cont][]=b432c290-378e-41ce-8d84-c371d6973d8b&filter[object_occurrence_target_ids_cont][]=f9ec6220-b80d-4d63-a88c-6fcd3c5f4ad9",
+    "current": "http://example.org/object_occurrence_relations?filter[object_occurrence_source_ids_cont][]=e5be61f7-cd8e-4448-850f-c383236fb094&filter[object_occurrence_source_ids_cont][]=b432c290-378e-41ce-8d84-c371d6973d8b&filter[object_occurrence_target_ids_cont][]=f9ec6220-b80d-4d63-a88c-6fcd3c5f4ad9&include=tags,owners,classification_entry&page[number]=1&sort=name,number"
+  }
+}
+```
+
+
+
+## Show
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+GET /object_occurrence_relations/170d6e24-a23c-49d2-b5e1-0137e8dea37d
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`GET /object_occurrence_relations/:id`
+
+#### Parameters
+
+
+None known.
+
+
+### Response
+
+```plaintext
+Content-Type: application/vnd.api+json; charset=utf-8
+X-Request-Id: 5245ed1b-970c-4562-ac1a-1e68467cfc09
+200 OK
+```
+
+
+```json
+{
+  "data": {
+    "id": "170d6e24-a23c-49d2-b5e1-0137e8dea37d",
+    "type": "object_occurrence_relation",
+    "attributes": {
+      "description": null,
+      "name": "OOR e2a01f6aa411",
+      "no_relations": false,
+      "number": 1,
+      "unknown_relations": false
+    },
+    "relationships": {
+      "tags": {
+        "data": [
+
+        ],
+        "links": {
+          "related": "/tags?filter[target_id_eq]=170d6e24-a23c-49d2-b5e1-0137e8dea37d",
+          "self": "/object_occurrence_relations/170d6e24-a23c-49d2-b5e1-0137e8dea37d/relationships/tags"
+        }
+      },
+      "progress_step_checked": {
+        "data": [
+
+        ],
+        "links": {
+          "related": "/progress?filter[target_id_eq]=170d6e24-a23c-49d2-b5e1-0137e8dea37d"
+        }
+      },
+      "classification_entry": {
+        "data": {
+          "id": "cd890923-0048-49b8-a214-fb35f0b74749",
+          "type": "classification_entry"
+        },
+        "links": {
+          "related": "/classification_entries/cd890923-0048-49b8-a214-fb35f0b74749",
+          "self": "/object_occurrence_relations/170d6e24-a23c-49d2-b5e1-0137e8dea37d/relationships/classification_entry"
+        }
+      },
+      "target": {
+        "data": {
+          "id": "12bd7973-f639-4ff9-8665-65581534fdf2",
+          "type": "object_occurrence"
+        },
+        "links": {
+          "related": "/object_occurrences/12bd7973-f639-4ff9-8665-65581534fdf2",
+          "self": "/object_occurrence_relations/170d6e24-a23c-49d2-b5e1-0137e8dea37d/relationships/target"
+        }
+      },
+      "source": {
+        "data": {
+          "id": "8d11b968-9c61-400b-8dd7-3d2262e9acfb",
+          "type": "object_occurrence"
+        },
+        "links": {
+          "related": "/object_occurrences/8d11b968-9c61-400b-8dd7-3d2262e9acfb",
+          "self": "/object_occurrence_relations/170d6e24-a23c-49d2-b5e1-0137e8dea37d/relationships/source"
+        }
+      }
+    }
+  },
+  "links": {
+    "self": "http://example.org/object_occurrence_relations/170d6e24-a23c-49d2-b5e1-0137e8dea37d"
+  },
+  "included": [
+
+  ]
+}
+```
+
+
+
+# Object Occurrences - Classification Entries Stats
+
+Aggregated view of Object Occurrencs groupped by Classification Entry
+
+
+## ClassificationEntries stats
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+GET /object_occurrences/classification_entries_stats
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`GET /object_occurrences/classification_entries_stats`
+
+#### Parameters
+
+
+
+| Name | Description |
+|:-----|:------------|
+| query  | search query |
+| filter[context_id_eq]  | filter by context id |
+
+
+
+### Response
+
+```plaintext
+Content-Type: application/vnd.api+json; charset=utf-8
+X-Request-Id: 08948254-0fbb-4f02-9486-f40e66024578
+200 OK
+```
+
+
+```json
+{
+  "data": [
+    {
+      "id": "5487f7bf318ca5794c662dca9192c62095941bc5a5a2c616f37464783475b823",
+      "type": "ooc_classification_entry_stat",
+      "attributes": {
+        "ooc_count": 2
+      },
+      "relationships": {
+        "classification_entry": {
+          "data": {
+            "id": "b0cfb424-cd28-4f55-b71d-cc3e0a0d4c84",
+            "type": "classification_entry"
+          },
+          "links": {
+            "related": "/classification_entries/b0cfb424-cd28-4f55-b71d-cc3e0a0d4c84"
+          }
+        }
+      }
+    },
+    {
+      "id": "993d8a5821a021430ea5489a9193a7d1f9780a73431be7cac7d9b5a699cbaf8a",
+      "type": "ooc_classification_entry_stat",
+      "attributes": {
+        "ooc_count": 1
+      },
+      "relationships": {
+        "classification_entry": {
+          "data": {
+            "id": "779e77bf-883e-4501-9084-a2b02fe2a24a",
+            "type": "classification_entry"
+          },
+          "links": {
+            "related": "/classification_entries/779e77bf-883e-4501-9084-a2b02fe2a24a"
+          }
+        }
+      }
+    },
+    {
+      "id": "c85c7e3a35f08578e252522e2fdc4251879556189e3ada58bb24a4c0d421b2da",
+      "type": "ooc_classification_entry_stat",
+      "attributes": {
+        "ooc_count": 1
+      },
+      "relationships": {
+        "classification_entry": {
+          "data": {
+            "id": "9e213476-c6a6-45df-b75d-c77b7dac665f",
+            "type": "classification_entry"
+          },
+          "links": {
+            "related": "/classification_entries/9e213476-c6a6-45df-b75d-c77b7dac665f"
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "total_count": 3
+  },
+  "links": {
+    "self": "http://example.org/object_occurrences/classification_entries_stats",
+    "current": "http://example.org/object_occurrences/classification_entries_stats?page[number]=1&sort=code"
+  }
+}
+```
+
+
+
+# Object Occurrence Relations - Classification Entries Stats
+
+Aggregated view of Object Occurrence Relations groupped by Classification Entry
+
+
+## ClassificationEntries stats
+
+
+### Request
+
+#### Endpoint
+
+```plaintext
+GET /object_occurrence_relations/classification_entries_stats
+Content-Type: application/vnd.api+json
+Accept: application/vnd.api+json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
+```
+
+`GET /object_occurrence_relations/classification_entries_stats`
+
+#### Parameters
+
+
+
+| Name | Description |
+|:-----|:------------|
+| query  | search query |
+| filter[context_id_eq]  | filter by context id |
+
+
+
+### Response
+
+```plaintext
+Content-Type: application/vnd.api+json; charset=utf-8
+X-Request-Id: 8c5a8ccb-760f-461d-9fcb-f9ef93898422
+200 OK
+```
+
+
+```json
+{
+  "data": [
+    {
+      "id": "c5d119e8cf46998803233f972fbfd523945e680b500038fe9e5979caf7c72af4",
+      "type": "oor_classification_entry_stat",
+      "attributes": {
+        "oor_count": 1
+      },
+      "relationships": {
+        "classification_entry": {
+          "data": {
+            "id": "197e6818-c909-4301-b264-18d4655f9c58",
+            "type": "classification_entry"
+          },
+          "links": {
+            "related": "/classification_entries/197e6818-c909-4301-b264-18d4655f9c58"
+          }
+        }
+      }
+    },
+    {
+      "id": "f1f7f9da041019bcb03eacb7f967905da2e92415b2ea5f8462090257ed92f2a7",
+      "type": "oor_classification_entry_stat",
+      "attributes": {
+        "oor_count": 1
+      },
+      "relationships": {
+        "classification_entry": {
+          "data": {
+            "id": "1c51a593-9ec5-4316-8042-b001e20e3ab1",
+            "type": "classification_entry"
+          },
+          "links": {
+            "related": "/classification_entries/1c51a593-9ec5-4316-8042-b001e20e3ab1"
+          }
+        }
+      }
+    },
+    {
+      "id": "524f99356698c8179bfccb0890517badff14f7adf72902199cff7a5127af03d8",
+      "type": "oor_classification_entry_stat",
+      "attributes": {
+        "oor_count": 2
+      },
+      "relationships": {
+        "classification_entry": {
+          "data": {
+            "id": "cd476804-b622-456b-9289-3ea6f18e1326",
+            "type": "classification_entry"
+          },
+          "links": {
+            "related": "/classification_entries/cd476804-b622-456b-9289-3ea6f18e1326"
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "total_count": 3
+  },
+  "links": {
+    "self": "http://example.org/object_occurrence_relations/classification_entries_stats",
+    "current": "http://example.org/object_occurrence_relations/classification_entries_stats?page[number]=1&sort=code"
+  }
+}
+```
+
 
 
 # Tags
@@ -9486,7 +9420,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 71628dd6-ffc8-444a-bfd1-abec3149d5ea
+X-Request-Id: f21f90bf-58bd-4dd2-8526-3095864a5092
 200 OK
 ```
 
@@ -9495,7 +9429,7 @@ X-Request-Id: 71628dd6-ffc8-444a-bfd1-abec3149d5ea
 {
   "data": [
     {
-      "id": "57be0ffa-cbcd-4036-84c5-8958116232fd",
+      "id": "76f4c299-baaf-4a07-af50-bade4c38679c",
       "type": "tag",
       "attributes": {
         "value": "tag value 7"
@@ -9504,7 +9438,7 @@ X-Request-Id: 71628dd6-ffc8-444a-bfd1-abec3149d5ea
       }
     },
     {
-      "id": "7ed03be3-c202-4182-82fd-78b7cdf76176",
+      "id": "f7cc28a7-bb46-4d21-8b5d-d648af61c531",
       "type": "tag",
       "attributes": {
         "value": "tag value 8"
@@ -9568,7 +9502,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: d1d8d72f-706e-439b-a2a5-cf7c0dd23595
+X-Request-Id: 89908a76-4993-4592-bfb3-c163ef8e30c3
 200 OK
 ```
 
@@ -9617,7 +9551,7 @@ Events is a way to track which changes and events has happened to resources.
 #### Endpoint
 
 ```plaintext
-GET /utils/path/from/object_occurrence/8d24bd56-545b-4d66-8cba-c2b841ecc5fc/to/object_occurrence/dac3b9ea-e370-49dc-97d8-fafcd1275308
+GET /utils/path/from/object_occurrence/323bdc5d-b00d-4447-ae5f-6c1ee04ff083/to/object_occurrence/6bf4b88a-fada-497f-a5fa-82778e9a6193
 Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo
@@ -9642,7 +9576,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: 43b35476-18a2-4509-8950-b70ca6be0739
+X-Request-Id: fb6c1155-1bae-4b57-9270-3ed9d6ca70f0
 200 OK
 ```
 
@@ -9650,31 +9584,31 @@ X-Request-Id: 43b35476-18a2-4509-8950-b70ca6be0739
 ```json
 [
   {
-    "id": "8d24bd56-545b-4d66-8cba-c2b841ecc5fc",
+    "id": "323bdc5d-b00d-4447-ae5f-6c1ee04ff083",
     "type": "object_occurrence"
   },
   {
-    "id": "74de1baf-177b-43a5-8b38-e1d4f81c8142",
+    "id": "ca4e593c-4c24-4551-b22c-230d3b0d4bbd",
     "type": "object_occurrence"
   },
   {
-    "id": "ad500ad9-8385-4427-8c85-dfac242f5b90",
+    "id": "8da0accc-1785-4472-8b35-132c7cf4c2a4",
     "type": "object_occurrence"
   },
   {
-    "id": "a88137c7-1a71-455a-b5ee-d896eadb3ecc",
+    "id": "65d9e3a8-2dd1-4aae-8a95-ab6159568214",
     "type": "object_occurrence"
   },
   {
-    "id": "0b4c8790-ee2b-4e73-81a5-763e970be997",
+    "id": "2d82ec99-241d-45c8-8d01-b13de7f5e60c",
     "type": "object_occurrence"
   },
   {
-    "id": "d1c629d2-bb7b-4acb-87e6-ee3094ef9224",
+    "id": "c411e366-4f79-4f88-9645-fcb3e3418401",
     "type": "object_occurrence"
   },
   {
-    "id": "dac3b9ea-e370-49dc-97d8-fafcd1275308",
+    "id": "6bf4b88a-fada-497f-a5fa-82778e9a6193",
     "type": "object_occurrence"
   }
 ]
@@ -9727,7 +9661,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9I
 
 ```plaintext
 Content-Type: application/vnd.api+json; charset=utf-8
-X-Request-Id: d947b7f2-a904-41b6-b329-b560697d567f
+X-Request-Id: 33f33e39-1351-433e-bb18-72b524d99a27
 200 OK
 ```
 
@@ -9736,7 +9670,7 @@ X-Request-Id: d947b7f2-a904-41b6-b329-b560697d567f
 {
   "data": [
     {
-      "id": "b56e039b-3ff8-4ecb-85b1-708a0aaf9e39",
+      "id": "3c3b2d88-7c33-4dd4-a8dd-540660809e5a",
       "type": "event",
       "attributes": {
         "event": "create"
@@ -9744,12 +9678,12 @@ X-Request-Id: d947b7f2-a904-41b6-b329-b560697d567f
       "relationships": {
         "user": {
           "links": {
-            "related": "/users/01792e74-b69e-4f41-80b7-a2553c9cbdab"
+            "related": "/users/67e268ee-a1c2-4403-afb0-3e00bebf9a18"
           }
         },
         "item": {
           "links": {
-            "related": "/contexts/4457bc69-15b8-485b-a10e-8ea0001305cf"
+            "related": "/contexts/ec75d3f3-6143-4f90-a889-90d0839d66a7"
           }
         }
       }
@@ -9803,7 +9737,7 @@ None known.
 
 ```plaintext
 Content-Type: text/plain; charset=utf-8
-X-Request-Id: 4350346d-6135-436d-a782-4fd81c3396dd
+X-Request-Id: d6b46422-740d-4c7c-8ced-d4348b9c7d4b
 200 OK
 ```
 
