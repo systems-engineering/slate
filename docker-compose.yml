@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  web:
+    container_name: sec-hub-documentation
+    build: .
+    ports:
+      - "127.0.0.1:4567:4567"
+    volumes:
+      - ./build:/app/build
